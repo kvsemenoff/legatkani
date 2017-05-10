@@ -1,0 +1,99 @@
+.tovar_img{
+	position: relative;
+	max-width: 275px;
+	transition:0.5s;
+	display: inline-block;
+	&:hover{
+		.tovar_img__hover{		
+			opacity: 1;
+			a{
+				display: inline-block;
+			}
+		}
+	}
+}
+.tovar_img__img{
+	img{
+		width: 100%;
+		height: auto;
+	}
+}
+.tovar_img__hover{
+	opacity:0;
+	cursor: pointer;
+	position: absolute;
+	top:6px;
+	left:7px;
+	bottom: 6px;
+	right: 7px;
+	max-width: 262px;
+	width: 100%;
+	height: 235px;
+	background-color: rgba(#fff, 0.7);
+	text-align: center;
+	background-image: url("../../img/heart.png");
+	background-repeat: no-repeat;
+	background-position: center bottom 37%; 
+	transition:0.4s;
+	a{
+		padding-top: 35%;
+		color: #525252;
+		font-family: "PlayfairDisplay";
+		font-size: 20px;
+		font-style: italic;
+		text-decoration: none;		
+		display: none;
+	}
+	&:after{
+		content: "";
+		position: absolute;
+		bottom:9px;
+		left:9px;
+		width: 72px;
+		height: 72px;
+		background: url("../../img/figur1.png") no-repeat center;
+	}
+	&:before{
+		content: "";
+		position: absolute;
+		bottom:9px;
+		right:9px;
+		width: 72px;
+		height: 72px;
+		background: url("../../img/figur2.png") no-repeat center;
+	}
+}
+.tovar_img__border{
+	margin: 6px;
+	border: 2px solid #fff;	
+	height: 219px;
+}
+
+.tovar_img__toplent{		
+	position: absolute;
+	top: 20px;
+	left: -5px;
+	width: 100%;
+	height: 22px;
+	padding: 10px 0px;
+	span{
+		color: white;
+		font-family: "OpenSans", sans-serif;
+		font-size: 14px;
+		font-weight: 400;
+		display: inline-block;
+		padding-left: 15px;
+		letter-spacing: 0.7px;
+	}
+}
+.tovar_img__toplent_new{
+	background: url("../../img/bgtovar.png") no-repeat left;
+}
+.tovar_img__toplent_sale{
+	background: url("../../img/bgtovar2.png") no-repeat left;
+}
+.tovar_img__toplent_expect{
+	background: url("../../img/bgtovar3.png") no-repeat left;
+}
+
+
