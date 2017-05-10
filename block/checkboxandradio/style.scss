@@ -1,7 +1,9 @@
 .checkbox {
-    display: none;
+	display: none;
 }
- 
+.checkbox__label{
+	cursor: pointer;
+}
 /* Задаем внешний вид для нашего кастомного чекбокса. Все обязательные свойства прокомментированы, остальные же свойства меняйте по вашему усмотрению */
 .checkbox-custom {
     position: relative;      /* Обязательно задаем, чтобы мы могли абсолютным образом позиционировать псевдоэлемент внютри нашего кастомного чекбокса */
@@ -10,30 +12,31 @@
     border: 0.48px solid #cfcfcf;
     background:none;
     border-radius: 10em;
-    margin-top: 13px;
+    margin-top: 0px;
     cursor: pointer;
 }
- 
+
 /* Кастомный чекбокс и лейбл центрируем по вертикали. Если вам это не требуется, то вы можете убрать свойство vertical-align: middle из данного правила, но свойство display: inline-block обязательно должно быть */
 .checkbox-custom,
 .label {
-    display: inline-block;
-    vertical-align: middle;
+	display: inline-block;
+	vertical-align: middle;
 }
- 
+
 /* Если реальный чекбокс у нас отмечен, то тогда добавляем данный признак и к нашему кастомному чекбоксу  */
 .checkbox:checked + .checkbox-custom::before {
     content: "";             /* Добавляем наш псевдоэлемент */
     display: block;          /* Делаем его блочным элементом */
     position: absolute;      /* Позиционируем его абсолютным образом */
- 
+    
     /* Задаем расстояние от верхней, правой, нижней и левой границы */
-    top: 4px;
+    width: 16px;
+    height: 16px;
+    top: 0px;
     right: 2px;
     bottom: 2px;
-    left: 2px;
-    background: url(../img/ab-galka.png) no-repeat;/* Добавляем фон. Если требуется, можете поставить сюда картинку в виде "галочки", которая будет символизировать, что чекбокс отмечен */
-    border-radius: 2px;
+    left: 0px;
+    background: url(../../img/cheked.png) no-repeat;/* Добавляем фон. Если требуется, можете поставить сюда картинку в виде "галочки", которая будет символизировать, что чекбокс отмечен */
 }
 
 // .checkbox, .radio{
