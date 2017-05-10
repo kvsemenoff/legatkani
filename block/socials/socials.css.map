@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AACC,iBAAE;EACD,UAAU,EAAE,IAAI;EAChB,OAAO,EAAE,YAAY;EACrB,YAAY,EAAE,GAAG",
+"sources": ["socials.scss"],
 "names": [],
 "file": "socials.css"
 }
