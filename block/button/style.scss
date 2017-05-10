@@ -1,7 +1,87 @@
-.button{
-	font-family: 'Open sans';
+.button__news{
 	display: inline-block;
+	border: 2px solid #7f2461;
 	text-decoration: none;
-	border-radius: 3px;
-	transition: 0.3s all ease;
+	padding: 11px 35px;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-o-transition: 0.5s;
+	transition: 0.5s;
+	&_txt{
+		color: #7f2461;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 12px;
+		font-weight: 600;
+		text-transform: uppercase;
+	}
+	&:hover{
+		border: 2px solid #7f2461;
+		background:#941F63;
+		.button__news_txt{
+			color:#fff;
+		}
+	}
+	&_buy{
+		&_txt{
+			font-family: 'Playfair Display', serif;
+			font-style: italic;
+			text-transform: unset;
+			font-size: 14px;
+		}
+	}
+}
+.button__basket{
+	padding: 9px 53px 12px 38px;
+	background:#941F63;
+	display: inline-block;
+	position: relative;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-o-transition: 0.5s;
+	transition: 0.5s;
+	&_txt{
+		display: inline-block;
+		background:url(../../img/korz.png) no-repeat left center;
+		height: 24px;
+		padding-left: 42px;
+		padding-top: 2px;
+		color:#fff;
+		font-family: 'Playfair Display', serif;
+		font-style: italic;
+	}
+	&:after{
+		position: absolute;
+		content:'';
+		background:url(../../img/shadow.png);
+		width: 201px;
+		height: 16px;
+		bottom:-16px;
+		left: 0;
+	}
+	&:hover{
+		background:#A8447F;
+	}
+	&_sub{
+		padding: 11px 50px;
+		&_txt{
+			background:none;
+			padding: 0;
+		}
+		&:after{
+			background:url(../../img/shadow2.png);
+			width: 181px;
+			height: 13px;
+			bottom: -13px;
+		}
+	}
+	&_buy2{
+		padding: 11px 50px;
+		&_txt{
+			background:none;
+			padding: 0;
+		}
+		&:after{
+			display: none;
+		}
+	}
 }
