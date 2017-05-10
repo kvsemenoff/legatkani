@@ -1,12 +1,17 @@
 <meta charset="UTF-8">
 <link rel="stylesheet" href="search.css">
 <link rel="stylesheet" href="/css/fonts.css">
+<link rel="stylesheet" href="/libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <div class="search">
 	<form action="#">
-		<div class="search-wrap">
-			<input type="text" placeholder="поиск">
+		<div class="search-wrap hidden-xs"> <!-- Десктоп -->
+			<input type="text" placeholder="Поиск по сайту...">
+			<input type="submit">
+		</div>
+		<div class="search-wrap hidden-sm hidden-md hidden-lg"> <!-- Мобайл -->
+			<input type="text" placeholder="Поиск...">
 			<input type="submit">
 		</div>
 	</form>

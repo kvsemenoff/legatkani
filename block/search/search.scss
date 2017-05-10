@@ -2,43 +2,68 @@
 	&-wrap{
 		text-transform: uppercase;
 		position: relative;
-		border-radius: 25px;
 		overflow: hidden;
-		// padding-right: 45px;
-		float: right;
 		width: 100%;
-		max-width: 140px;
-		background: #ededed;
-		@media only screen and (max-width : 1240px) {
+		background: #fff;
+		max-width: 150px;
+		@media only screen and (min-width : 768px) {
 			max-width: 220px;
 		}
-		@media only screen and (max-width : 700px) {
-			display: none;
-		}
 		input[type="text"]{
-			padding: 0 0 0 27px;
-			background: #ededed;
-			color: #919293;
-			font-size: 15px;
-			line-height: 45px;
-			height: 45px;
-			border: none;
-			font-family: "GothamPro", arial, sans-serif;
+			padding: 0 30px 0 24px;
+			background: #fff;
+			line-height: 30px;
+			height: 30px;
+			color: #979696;
+			font-family: "OpenSansLight", sans-serif;
+			font-size: 14px;
+			font-style: italic;
 			outline: none;
-			text-transform: lowercase;
 			width: 100%;
+			border: none;
+			@media only screen and (min-width : 768px) {
+				border: 0.2px solid #e1e0e0;
+			}
+			&::-webkit-input-placeholder {
+				color: #979696;
+				font-family: "OpenSansLight", sans-serif;
+				font-size: 14px;
+				font-style: italic;
+		}
+			&::-moz-placeholder          {
+				color: #979696;
+				font-family: "OpenSansLight", sans-serif;
+				font-size: 14px;
+				font-style: italic;
+			}/* Firefox 19+ */
+			&:-moz-placeholder           {
+				color: #979696;
+				font-family: "OpenSansLight", sans-serif;
+				font-size: 14px;
+				font-style: italic;
+			}/* Firefox 18- */
+			&:-ms-input-placeholder      {
+				color: #979696;
+				font-family: "OpenSansLight", sans-serif;
+				font-size: 14px;
+				font-style: italic;
+			}
 		}
 		input[type="submit"]{
 			outline: none;
 			border: none;
 			position: absolute;
-			right: 0;
-			top: 0;
-			width: 45px;
-			height: 45px;
+			@media only screen and (min-width : 768px) {
+				right: 14px;
+			}
+			top: 6px;
+			right: 132px;
+			width: 16px;
+			height: 17px;
 			color: transparent;
+			cursor: pointer;
 			display: block;
-			background:url(/img/search-ic.png) center no-repeat;
+			background:url(/img/search-loop.png) center no-repeat;
 		}
 	}
 }
