@@ -9,20 +9,20 @@
 <script src="https://api-maps.yandex.ru/2.1/?lang=tr_TR" type="text/javascript"></script>
 <script type="text/javascript">
     ymaps.ready(init);
-    var myMap, 
+    var myMap,
         myPlacemark;
 
-    function init(){ 
+    function init(){
         myMap = new ymaps.Map("map", {
-            center: [55.74017767405946,37.63463460185237],
+            center: [55.684503, 37.621947],
             zoom: 16,
             controls: []
         },
-        {suppressMapOpenBlock: true}); 
-        
-        myPlacemark = new ymaps.Placemark([55.74017767405946,37.63463460185237], {
-            hintContent: 'Озерковский переулок, 11',
-            balloonContent: 'Озерковский переулок, 11'
+        {suppressMapOpenBlock: true});
+
+        myPlacemark = new ymaps.Placemark([55.684503, 37.621947], {
+            hintContent: 'Варшавское шоссе, 26',
+            balloonContent: 'Варшавское шоссе, 26'
         }, {
           // Опции.
           // Необходимо указать данный тип макета.
