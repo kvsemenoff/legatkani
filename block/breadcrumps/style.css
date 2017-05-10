@@ -1,34 +1,26 @@
 .breadcrumps {
   display: block;
-  list-style: none; }
+  list-style: none;
+  text-align: center; }
 
 .breadcrumps__link {
   display: inline-block;
   font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 18px;
-  color: #0e8a5d;
+  font-size: 13px;
+  font-style: italic;
   letter-spacing: 0.2px; }
   .breadcrumps__link a {
     display: inline-block;
-    color: #0e8a5d;
-    padding: 0 7px;
-    text-decoration: none; }
+    text-decoration: none;
+    color: #7f2461; }
   .breadcrumps__link span {
     display: inline-block;
-    color: #666666;
-    padding-left: 5px; }
-  .breadcrumps__link i {
-    display: inline-block; }
+    color: #989797; }
 
 .breadcrumps__link_home a {
   background-image: url("../../img/home.png");
   background-repeat: no-repeat;
-  background-position: left bottom;
-  width: 20px;
-  height: 17px;
-  padding: 0 7px 0 0;
-  vertical-align: text-top; }
+  background-position: right center;
+  padding-right: 15px; }
 
 /*# sourceMappingURL=style.css.map */
