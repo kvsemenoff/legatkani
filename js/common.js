@@ -27,5 +27,36 @@ $(document).ready(function(){
 	}); 
 	// END Переключатель кол-ва товара в корзине (legatkani)
 
+
+
+
+
+
+	var owlcart = $(".slider-owl-carousel");
+	owlcart.owlCarousel({
+		loop:true,
+		nav:true, 
+		autoplay:false,
+		smartSpeed:1000,
+		margin:10,
+		mouseDrag:false,
+		touchDrag: false,
+		center:false, 			
+		navText:['<span class="prev-left"></span>','<span class="next-right"></span>'],
+		responsive:{
+			0:{
+				items:1
+			},
+			320:{
+				items:1  
+			},        
+			750:{
+				items:1
+			},
+			1200:{
+				items:1
+			}
+		}
+	});
 });
 

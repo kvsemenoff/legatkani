@@ -1,5 +1,4 @@
 .message_theme_rosa {
-  display: block;
   width: 100%;
   resize: none;
   color: #747474;
@@ -12,11 +11,10 @@
   outline: none;
   width: 100%;
   border: 1px solid #d1d0d0;
-  min-height: 140px;
+  height: 140px;
 }
 
 .input_theme_rosa {
-  display: block;
   max-width: 450px;
   width: 100%;
   background: #fff;
