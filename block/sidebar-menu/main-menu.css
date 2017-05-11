@@ -48,4 +48,7 @@
         .sidebar-menu__item li a {
           padding: 14px 0px 14px 31px; } }
 
+.active__sidebar {
+  background: #F2F2F2 url(../../img/strs.png) no-repeat left 8px center; }
+
 /*# sourceMappingURL=main-menu.css.map */
