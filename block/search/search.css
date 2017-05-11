@@ -9,12 +9,12 @@
 
 @media only screen and (min-width: 768px) {
   .search-wrap {
-    max-width: 220px;
+    max-width: 278px;
   }
 }
 
 .search-wrap input[type="text"] {
-  padding: 0 30px 0 24px;
+  padding: 0 30px 0 28px;
   background: #fff;
   line-height: 30px;
   height: 30px;
@@ -68,7 +68,7 @@
   border: none;
   position: absolute;
   top: 6px;
-  right: 132px;
+  right: 128px;
   width: 16px;
   height: 17px;
   color: transparent;

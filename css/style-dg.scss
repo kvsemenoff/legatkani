@@ -1,0 +1,64 @@
+.header-top {
+  padding: 8px 0 8px 0;
+  .col-xs-6 {
+    padding: 0;
+  }
+}
+.header_auth_list {
+  text-align: right;
+  li {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 12px 0 0;
+    &:last-child {
+      padding-right: 0;
+      &:after {
+        content: none;
+      }
+    }
+    &:after {
+      content: '';
+      width: 0px;
+      display: inline-block;
+      vertical-align: middle;
+      height: 15px;
+      border-right: 1px solid #dfdede;
+      margin-left: 10px;
+    }
+  }
+}
+.header_auth_list_link {
+  color: white;
+  font-family: "OpenSans", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+}
+.signin {
+  color: #7f2461;
+  font-family: "OpenSans", sans-serif;
+  font-size: 14px;
+  font-style: italic;
+}
+.favourite {
+  width: 24px;
+  height: 21px;
+  background: url('/img/fav.png') 0 0 no-repeat;
+  line-height: 20px;
+}
+.basket {
+  width: 30px;
+  height: 24px;
+  background: url('/img/basket.png') 0 0 no-repeat;
+  text-align: center;
+  padding-right: 4px;
+  line-height: 26px;
+}
+.auth {
+  width: 20px;
+  height: 22px;
+  background: url('/img/auth.png') 0 0 no-repeat;
+}
