@@ -1,7 +1,88 @@
-.search-wrap { text-transform: uppercase; position: relative; border-radius: 25px; overflow: hidden; float: right; width: 100%; max-width: 140px; background: #ededed; }
-@media only screen and (max-width: 1240px) { .search-wrap { max-width: 220px; } }
-@media only screen and (max-width: 700px) { .search-wrap { display: none; } }
-.search-wrap input[type="text"] { padding: 0 0 0 27px; background: #ededed; color: #919293; font-size: 15px; line-height: 45px; height: 45px; border: none; font-family: "GothamPro", arial, sans-serif; outline: none; text-transform: lowercase; width: 100%; }
-.search-wrap input[type="submit"] { outline: none; border: none; position: absolute; right: 0; top: 0; width: 45px; height: 45px; color: transparent; display: block; background: url(/img/search-ic.png) center no-repeat; }
+.search-wrap {
+  text-transform: uppercase;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  background: #fff;
+  max-width: 150px;
+}
 
-.search-wrap input[type="text"]:focus, .search-wrap input[type="text"]:active { color: #3c3c3c; }
+@media only screen and (min-width: 768px) {
+  .search-wrap {
+    max-width: 278px;
+  }
+}
+
+.search-wrap input[type="text"] {
+  padding: 0 30px 0 28px;
+  background: #fff;
+  line-height: 30px;
+  height: 30px;
+  color: #979696;
+  font-family: "OpenSansLight", sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  outline: none;
+  width: 100%;
+  border: none;
+  /* Firefox 19+ */
+  /* Firefox 18- */
+}
+
+@media only screen and (min-width: 768px) {
+  .search-wrap input[type="text"] {
+    border: 0.2px solid #e1e0e0;
+  }
+}
+
+.search-wrap input[type="text"]::-webkit-input-placeholder {
+  color: #979696;
+  font-family: "OpenSansLight", sans-serif;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.search-wrap input[type="text"]::-moz-placeholder {
+  color: #979696;
+  font-family: "OpenSansLight", sans-serif;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.search-wrap input[type="text"]:-moz-placeholder {
+  color: #979696;
+  font-family: "OpenSansLight", sans-serif;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.search-wrap input[type="text"]:-ms-input-placeholder {
+  color: #979696;
+  font-family: "OpenSansLight", sans-serif;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.search-wrap input[type="submit"] {
+  outline: none;
+  border: none;
+  position: absolute;
+  top: 6px;
+  right: 128px;
+  width: 16px;
+  height: 17px;
+  color: transparent;
+  cursor: pointer;
+  display: block;
+  background: url(/img/search-loop.png) center no-repeat;
+}
+
+@media only screen and (min-width: 768px) {
+  .search-wrap input[type="submit"] {
+    right: 14px;
+  }
+}
+
+.search-wrap input[type="text"]:focus, .search-wrap input[type="text"]:active {
+  color: #3c3c3c;
+}

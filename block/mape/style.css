@@ -1,1 +1,15 @@
-.map-img { height: 580px; }
+.map-img {
+  height: 380px;
+}
+
+@media screen and (min-width: 768px) {
+  .map-img {
+    height: 500px;
+  }
+}
+
+@media screen and (min-width: 1248px) {
+  .map-img {
+    height: 620px;
+  }
+}
