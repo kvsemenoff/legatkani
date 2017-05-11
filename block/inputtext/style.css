@@ -1,5 +1,4 @@
 .input_theme_rosa {
-  display: block;
   max-width: 450px;
   width: 100%;
   background: #fff;
@@ -11,7 +10,8 @@
   font-size: 14px;
   font-weight: 400;
   line-height: 22px;
-  padding: 15px 22px;
+  padding: 0 22px;
+  height: 54px;
   background: transparent;
   outline: none;
   width: 100%;
