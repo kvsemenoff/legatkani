@@ -1,19 +1,25 @@
 .logobox {
   display: inline-block; }
 
-.logobox__img img {
-  max-width: 100%;
-  height: auto; }
+.bethoven {
+  font-family: "Ludvig"; }
 
-.logobox__txt {
-  display: block;
-  text-align: right;
-  color: #333;
+.logobox__txt span {
+  display: inline-block;
+  color: #a57a1f;
   font-family: 'Open Sans', sans-serif;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 400;
-  line-height: 15px;
-  text-transform: uppercase;
-  padding-right: 10px; }
+  font-style: italic;
+  padding-left: 20px;
+  margin-top: -28px; }
+
+.logobox__txt_bottom span {
+  margin-top: 0;
+  padding-left: 9px;
+  font-size: 17px; }
+
+.logobox__img_bot {
+  padding-top: 10px; }
 
 /*# sourceMappingURL=style.css.map */
