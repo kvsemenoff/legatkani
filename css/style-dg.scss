@@ -386,11 +386,51 @@
   }
 }
 
+.lace-container {
+  @media screen and (min-width: 768px) {
+    padding: 0;
+  }
+}
 .lace {
+  .filter {
+    margin-top: 0;
+  }
+  padding-top: 45px;
   .showprice_link {
     font-size: 12px;
   }
-  .col-lg-3, .col-lg-9 {
+  .col-md-3, .col-md-9, .col-md-4 {
     padding: 0;
   }
+}
+.lace__header {
+  margin-bottom: 32px;
+}
+.lace__breadcrumbs {
+  margin-bottom: 50px;
+}
+.lace__sidebar {
+  .sidebar-menu {
+    padding-top: 45px;
+    padding-bottom: 25px;
+    position: static;
+  }
+  &:before {
+    content: '';
+    height: 17px;
+    display: block;
+    background: url('/img/lace-decor1.png') center center no-repeat;
+  }
+  &:after {
+    content: '';
+    height: 17px;
+    display: block;
+    background: url('/img/lace-decor2.png') center center no-repeat;
+  }
+}
+.lace__filter {
+  margin-bottom: 30px;
+}
+.lace__item {
+  text-align: center;
 }
