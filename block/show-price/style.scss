@@ -3,13 +3,16 @@
 }
 .showprice_link {
   color: #7f2461;
-  font-family: "OpenSans", sans-serif;
-  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
   font-style: italic;
-  text-decoration: none;
-  display: inline-block;
-  vertical-align: middle;
+  text-decoration: underline;
+  display: inline;
   line-height: 1.3;
+  font-weight: 600;
+  &:hover {
+    text-decoration: none;
+  }
   &:after {
     content: '';
     width: 9px;

@@ -42,6 +42,12 @@
 	<link rel="stylesheet" href="block/select/jquery.formstyler.css">
 	<link rel="stylesheet" href="block/select/style.css">
 	<link rel="stylesheet" href="block/table/style.css">
+	<link rel="stylesheet" href="block/show-price/style.css">
+	<link rel="stylesheet" href="block/tovar-img/style.css">
+	<link rel="stylesheet" href="block/tovar-item/style.css">
+	<link rel="stylesheet" href="block/filter/style.css">
+	<link rel="stylesheet" href="block/question/style.css">
+	<link rel="stylesheet" href="block/modal/style.css">
 	
 
 

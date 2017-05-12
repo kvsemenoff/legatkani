@@ -36,7 +36,7 @@
 
 .header_auth_list_link {
   color: white;
-  font-family: "OpenSans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 12px;
   font-weight: 400;
   line-height: 16px;
@@ -47,7 +47,7 @@
 
 .signin {
   color: #7f2461;
-  font-family: "OpenSans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   font-style: italic;
 }
@@ -72,4 +72,182 @@
   width: 20px;
   height: 22px;
   background: url("/img/auth.png") 0 0 no-repeat;
+}
+
+.map_overlay {
+  position: absolute;
+  width: 295px;
+  height: 180px;
+  background-color: white;
+  border: 0.48px solid #e8e8e8;
+  box-shadow: 4.6px 6.6px 22.6px 1.4px rgba(71, 71, 71, 0.14);
+  padding: 40px 30px 45px 20px;
+  top: 280px;
+  z-index: 9999;
+}
+
+@media screen and (min-width: 768px) {
+  .map_overlay {
+    width: 443px;
+    height: 165px;
+    top: 240px;
+    right: 35px;
+    padding: 50px 45px 50px 40px;
+  }
+}
+
+@media screen and (min-width: 1248px) {
+  .map_overlay {
+    top: 360px;
+    right: 70px;
+  }
+}
+
+.map-img .container {
+  position: relative;
+}
+
+.map_overlay__title {
+  color: #3d3d3d;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 22px;
+}
+
+.map_overlay__title span {
+  font-family: "Open Sans";
+}
+
+@media screen and (min-width: 768px) {
+  .map_overlay__title {
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .map_overlay__title span {
+    font-size: 20px;
+    font-weight: 600;
+    font-style: italic;
+    line-height: 30px;
+  }
+}
+
+.map_overlay__text {
+  color: #3d3d3d;
+  font-family: "Open Sans", sans-serif;
+}
+
+.map_overlay__text span {
+  color: #3d3d3d;
+  font-family: "Open Sans", sans-serif;
+  line-height: 18px;
+}
+
+@media screen and (min-width: 768px) {
+  .map_overlay__text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+  .map_overlay__text span {
+    display: block;
+  }
+}
+
+.map_overlay__close {
+  width: 14px;
+  height: 13px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.call {
+  padding-bottom: 70px;
+}
+
+@media screen and (min-width: 768px) {
+  .call {
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
+}
+
+@media screen and (min-width: 1248px) {
+  .call {
+    padding-top: 70px;
+    padding-bottom: 130px;
+  }
+}
+
+.call_head {
+  margin-bottom: 40px;
+}
+
+.call_head__title {
+  color: #393939;
+  font-family: "Playfair Display", sans-serif;
+  font-size: 24px;
+  font-style: italic;
+  line-height: 30px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .call_head__title {
+    font-size: 26px;
+    line-height: 22px;
+  }
+}
+
+.call_numbers {
+  padding-bottom: 50px;
+  background: url("/img/m-decor.png") bottom center no-repeat;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .call_numbers {
+    background: url("/img/decor.png") bottom center no-repeat;
+  }
+}
+
+.call_numbers__phone {
+  color: #3d3d3d;
+  font-family: "Open Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.call_numbers__phone:first-child {
+  margin-right: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .call_numbers__phone {
+    display: inline-block;
+  }
+}
+
+.call_feedback__text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  color: #393939;
+  font-weight: 400;
+  text-align: center;
+}
+
+.call_feedback {
+  max-width: 490px;
+  margin: auto;
+  margin-top: 35px;
+}
+
+.call_feedback__link {
+  color: #393939;
+  font-weight: 600;
+  font-style: italic;
+  text-decoration: underline;
 }

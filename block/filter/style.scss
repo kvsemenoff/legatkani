@@ -1,0 +1,353 @@
+
+
+.clear{
+	clear:both;
+}
+.cont{
+	padding: 0 15px;
+}
+.filter{
+	border-top: 1px solid #e8e8e8;	
+	max-width: 875px;
+	margin: 0 auto;
+	margin-top: 100px;
+	padding-left: 7px;
+	display: none;
+	@media only screen and (min-width : 800px) {
+		display: block;
+	}
+}
+.filter__menu{
+	display: inline-block;
+	float: left;
+	position: relative;
+	&:hover{
+		.filter__hover_menu{
+			opacity: 1;
+			display: block;
+			
+		}
+	}
+}
+
+.filter__link{
+	color: #7f2461;
+	font-family: "OpenSans", sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 52px;
+	text-transform: uppercase;
+	display: inline-block;	
+	text-decoration: none;
+	position: relative;	
+	&:after{
+		content: '';
+		width: 9px;
+		height: 6px;
+		margin-left: 6px;
+		display: inline-block;
+		vertical-align: middle;
+		background: url("../../img/galkamenu.png") no-repeat right center;
+	}
+	@media only screen and (min-width : 800px) {
+		padding-right: 20px;
+	}
+	@media only screen and (min-width : 1150px) {
+		padding-right: 34px;
+	}
+}
+
+.filter__hover_menu{
+	display: none;
+	opacity: 0;
+	background-color: #fff;
+	min-width: 170px;	
+	position: absolute;
+	padding: 7px 14px;
+	border: 1px solid #e8e8e8;	
+	z-index: 99;
+	transition:0.5s;	
+	a{
+		color: #7f2461;
+		font-family: "OpenSans", sans-serif;
+		font-size: 12px;
+		font-weight: 400;
+		line-height: 30px;
+		text-transform: uppercase;
+		display: block;		
+		text-decoration: none;
+	}
+}
+
+.filter__clear{
+	float: right;
+	a{
+		color: #1e1e1e;
+		font-family: "OpenSans", sans-serif;
+		font-size: 12px;
+		font-weight: 400;
+		line-height: 52px;
+		background: url("../../img/clearfilter.png") no-repeat left center;
+		padding-left: 20px;
+		padding-right: 8px;
+		text-decoration: none;
+	}
+}
+
+
+
+
+
+.filter_sort{
+	max-width: 842px;
+	margin: 0 auto;
+	background-color: #f6f6f6;	
+	font-family: "OpenSans", sans-serif;	
+	margin-top: 3px;
+	display: none;
+	@media only screen and (min-width : 800px) {
+		padding-left: 20px;
+		display: block;
+	}
+	@media only screen and (min-width : 1150px) {
+		padding-left: 30px;
+	}
+}
+.filter__vid{
+	display: inline-block;
+	// width: 130px;
+	// float: left;
+	vertical-align: bottom;
+	margin-top: 4px;
+	span{
+		color: black;
+		font-size: 10px;
+		font-weight: 400;
+		line-height: 48px;
+		text-transform: uppercase;
+		vertical-align: middle;
+		margin-right: 17px;
+	}
+	@media only screen and (min-width : 800px) {
+		width: 105px;
+	}
+	@media only screen and (min-width : 1150px) {
+		width: 130px;
+	}
+}
+.vid__table{
+	background: url("../../img/tableimg.png")no-repeat center;
+	width: 21px;
+	height: 21px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.vid__string{	
+	background: url("../../img/stringimg.png")no-repeat center;
+	width: 25px;
+	height: 21px;
+	display: inline-block;
+	opacity: 0.4;
+	vertical-align: middle;
+}
+
+
+.filter__sortbox{
+	max-width: 440px;
+	display: inline-block;
+	width: 100%;
+	// float: left;
+	vertical-align: bottom;
+	span{
+		color: black;
+		font-size: 10px;
+		font-weight: 400;
+		line-height: 48px;
+		text-transform: uppercase;
+		margin-right: 13px;
+	}
+	@media only screen and (min-width : 990px) {
+		max-width: 440px;
+	}	
+}
+.sort__price_sort{
+	color: #5b5b5b;
+	font-size: 12px;
+	font-style: italic;
+	line-height: 48px;
+	display: inline-block;
+	padding-right: 30px;	
+	text-decoration: none;
+	position: relative;
+	&:after{
+		content: "";
+		width: 9px;
+		height: 7px;
+		margin-left: 5px;
+		display: inline-block;
+		vertical-align: middle;
+		background: url("../../img/down.png")no-repeat right  center;
+	}
+	@media only screen and (min-width : 990px) {
+		padding-right: 55px;	
+	}
+}
+.sort__showprice{
+	display: inline-block;
+}
+
+
+.filter__onpage{
+	max-width:180px;
+	width: 100%;
+	display: inline-block;
+	float: right;
+	padding-top: 5px;
+	text-align: right;
+	padding-right: 15px;
+	@media only screen and (min-width : 1150px) {
+		max-width:193px;
+	}
+	span{
+		color: black;
+		font-size: 10px;
+		font-weight: 400;
+		line-height: 48px;
+		text-transform: uppercase;
+		margin-right: 7px;
+	}
+	a{
+		font-weight: 400;
+		line-height: 48px;
+		text-transform: uppercase;
+		color: #8f8f8f;
+		font-size: 12px;
+		text-decoration: none;
+		padding-right: 5px;
+	}
+	.filter__onpage__checked{		
+		color: black;
+	}
+}
+
+
+
+
+/* mobile filter*/
+
+.button__filer{
+	text-align: center;
+	background-color: #f6f6f6;
+	cursor: pointer;	
+	span{
+		background: url("../../img/galkamenu2.png")no-repeat right center;
+		color: #7f2461;
+		font-family: "OpenSans", sans-serif;	
+		font-size: 14px;
+		font-style: italic;
+		display: inline-block;
+		line-height: 52px;
+		padding-right: 12px;
+	}
+	@media only screen and (min-width : 800px) {
+		display: none;
+	}
+}
+
+.filer__accordion{
+	font-family: "OpenSans", sans-serif;	
+	text-align: center;
+	background-color: #f6f6f6;	
+	box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+	display: none;
+}
+.filer__accordion__price{
+	background-color: #fff;
+	.sort__price_sort{
+		line-height: 60px;
+		padding-right: 12px;
+		display: block;	
+		border-top: 1px solid #e4e4e4;
+	}
+	.showprice_link{
+		display: block;
+		line-height: 60px;
+		border-top: 1px solid #e4e4e4;
+	}
+}
+
+
+.filer__accordion_box{
+	
+}
+.filer__accordion_link{	
+	display: block;
+	line-height: 65px;
+	color: #7f2461;		
+	font-size: 12px;
+	font-weight: 400;
+	text-transform: uppercase;
+	text-decoration: none;
+	border-top: 1px solid #e4e4e4;
+	position: relative;
+	&:after{
+		content: '';
+		width: 9px;
+		height: 7px;
+		margin-left: 6px;
+		display: inline-block;
+		vertical-align: 2%;
+		background: url("../../img/show-arrow.png") 0 0 no-repeat;
+	}
+}
+.linkactivemob{
+	&:after{		
+		-o-transform:rotate(180deg);
+		-moz-transform:rotate(180deg);
+		-webkit-transform:rotate(180deg);
+		transform:rotate(180deg);
+	}
+}
+
+
+
+.filer__accordion_show{
+	display: none;
+	a{
+		display: block;		
+		text-decoration: none;
+		color: #7f2461;
+		font-size: 12px;
+		font-weight: 400;
+		line-height: 44px;
+		text-transform: uppercase;
+	}
+}
+
+.filer__accordion_hide{
+	color: #8f8f8f;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 55px;
+	display: block;
+	text-decoration: none;
+	padding-right: 15px;
+	span{
+		background: url("../../img/arrowup.png")no-repeat left center;
+		padding-left: 20px;
+	}
+}
+.filer__accordion_clearlink{
+	color: #1e1e1e;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 55px;
+	display: block;
+	text-decoration: none;	
+	padding-right: 15px;
+	span{
+		background: url(../../img/clearfilter.png) no-repeat left center;
+		padding-left: 20px;
+	}	
+}
+

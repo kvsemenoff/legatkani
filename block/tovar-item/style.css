@@ -110,20 +110,24 @@
 .tovar_item {
   width: 275px;
   display: inline-block;
-  vertical-align: top; }
+  vertical-align: top;
+  min-height: 410px; }
   @media only screen and (min-width: 800px) {
     .tovar_item {
       width: 245px; } }
   @media only screen and (min-width: 1150px) {
     .tovar_item {
       width: 275px; } }
+  .tovar_item:hover .button__basket {
+    display: inline-block; }
 
 .tovar_item__text {
   padding-top: 24px;
   text-align: center;
   font-family: "OpenSans", sans-serif; }
   .tovar_item__text .button__basket {
-    padding: 13px 17px 9px 37px; }
+    padding: 13px 17px 9px 37px;
+    display: none; }
     .tovar_item__text .button__basket span {
       background: url(../../img/korz.png) no-repeat left 2px top;
       padding-left: 40px;
