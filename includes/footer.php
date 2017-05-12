@@ -61,7 +61,6 @@
       </div>
     </div>
     <div class="footer__line">
-
     </div>
  		<!-- JS_BLOCK -->
  		<script src="libs/jquery/jquery-1.11.1.min.js"></script>
