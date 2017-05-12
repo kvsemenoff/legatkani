@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 <div class="newcontainer">
 	<div class="new_block">
@@ -96,3 +97,5 @@
 	</div>
 </div>
 
+=======
+>>>>>>> ed730ed6e85f24ce09e3af0869969a2a3f4ee98a
