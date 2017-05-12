@@ -169,8 +169,18 @@
 
 /*==========newphp========*/
 .newcontainer{
-
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 15px;
 }
 .new_block{
-	
+
+}
+.new_block__caption{
+	margin-bottom: 25px;
+	text-align: center;
+	font-size: 40px;
+}
+.tovar_img__toplent{
+	height: 47px;
 }
