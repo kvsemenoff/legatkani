@@ -36,7 +36,7 @@
 
 .header_auth_list_link {
   color: white;
-  font-family: "OpenSans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 12px;
   font-weight: 400;
   line-height: 16px;
@@ -47,7 +47,7 @@
 
 .signin {
   color: #7f2461;
-  font-family: "OpenSans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   font-style: italic;
 }
@@ -109,14 +109,14 @@
 
 .map_overlay__title {
   color: #3d3d3d;
-  font-family: "OpenSans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   font-weight: 600;
   line-height: 22px;
 }
 
 .map_overlay__title span {
-  font-family: "OpenSans";
+  font-family: "Open Sans";
 }
 
 @media screen and (min-width: 768px) {
@@ -134,12 +134,12 @@
 
 .map_overlay__text {
   color: #3d3d3d;
-  font-family: "OpenSans", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .map_overlay__text span {
   color: #3d3d3d;
-  font-family: "OpenSans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   line-height: 18px;
 }
 
@@ -166,6 +166,20 @@
   padding-bottom: 70px;
 }
 
+@media screen and (min-width: 768px) {
+  .call {
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
+}
+
+@media screen and (min-width: 1248px) {
+  .call {
+    padding-top: 70px;
+    padding-bottom: 130px;
+  }
+}
+
 .call_head {
   margin-bottom: 40px;
 }
@@ -179,15 +193,61 @@
   text-align: center;
 }
 
+@media screen and (min-width: 768px) {
+  .call_head__title {
+    font-size: 26px;
+    line-height: 22px;
+  }
+}
+
 .call_numbers {
   padding-bottom: 50px;
-  border-bottom: 2px solid #dcd2b9;
+  background: url("/img/m-decor.png") bottom center no-repeat;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .call_numbers {
+    background: url("/img/decor.png") bottom center no-repeat;
+  }
 }
 
 .call_numbers__phone {
   color: #3d3d3d;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-size: 22px;
   font-weight: 600;
   text-align: center;
+}
+
+.call_numbers__phone:first-child {
+  margin-right: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .call_numbers__phone {
+    display: inline-block;
+  }
+}
+
+.call_feedback__text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  color: #393939;
+  font-weight: 400;
+  text-align: center;
+}
+
+.call_feedback {
+  max-width: 490px;
+  margin: auto;
+  margin-top: 35px;
+}
+
+.call_feedback__link {
+  color: #393939;
+  font-weight: 600;
+  font-style: italic;
+  text-decoration: underline;
 }

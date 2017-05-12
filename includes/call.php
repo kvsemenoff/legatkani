@@ -12,8 +12,13 @@
     <div class="call_feedback">
       <p class="call_feedback__text">
         Вы также можете связаться с нами по e-mail: <a href="mailto:info@legatkani.ru">info@legatkani.ru</a>
-    или через <a href="#">форму обратной связи</a>
+    или через <a href="#" class="call_feedback__link">форму обратной связи</a>
       </p>
     </div>
+  </div>
+</div>
+<div class="container hidden-xs hidden-sm hidden-md">
+  <div class="social-like">
+    <img src="img/soc-img.png" alt="">
   </div>
 </div>
