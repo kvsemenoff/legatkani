@@ -55,8 +55,3 @@
 	</div>
 </div>
 
-<script>
-$(".burger").click(function(){
-	alert(1);
-});
-</script>

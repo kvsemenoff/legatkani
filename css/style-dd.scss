@@ -201,6 +201,7 @@
 // Меню
 .main-menu{
 	display: none;
+	z-index: 9999;
 	&__style{
 		text-align: center;
 		background:#fff;
@@ -235,5 +236,6 @@
 		left:13px;
 		top:-21px;
 		cursor: pointer;
+		z-index: 9999;
 	}
 }

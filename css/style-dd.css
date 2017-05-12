@@ -177,7 +177,8 @@
       display: inline-block; } }
 
 .main-menu {
-  display: none; }
+  display: none;
+  z-index: 9999; }
   .main-menu__style {
     text-align: center;
     background: #fff;
@@ -204,6 +205,7 @@
     position: absolute;
     left: 13px;
     top: -21px;
-    cursor: pointer; }
+    cursor: pointer;
+    z-index: 9999; }
 
 /*# sourceMappingURL=style-dd.css.map */
