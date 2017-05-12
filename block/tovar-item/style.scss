@@ -4,19 +4,19 @@
 	width: 275px;
 	transition:0.5s;
 	display: inline-block;	
-	&:hover{
-		.tovar_img__hover{		
-			opacity: 1;
-			a{
-				display: inline-block;
-			}
-		}
-	}
 	@media only screen and (min-width : 800px) {
-		width: 245px;
+		width: 243px;
 	}
 	@media only screen and (min-width : 1150px) {
 		width: 275px;
+		&:hover{
+			.tovar_img__hover{		
+				opacity: 1;
+				a{
+					display: inline-block;
+				}
+			}
+		}
 	}
 }
 .tovar_img__img{
@@ -65,8 +65,8 @@
 	&:after{
 		content: "";
 		position: absolute;
-		bottom:9px;
-		left:9px;
+		bottom:11px;//9
+		left:11px;
 		width: 72px;
 		height: 72px;
 		background: url("../../img/figur1.png") no-repeat center;
@@ -74,8 +74,8 @@
 	&:before{
 		content: "";
 		position: absolute;
-		bottom:9px;
-		right:9px;
+		bottom:11px;//9
+		right:11px;
 		width: 72px;
 		height: 72px;
 		background: url("../../img/figur2.png") no-repeat center;
@@ -89,7 +89,7 @@
 		height: 192px;
 	}
 	@media only screen and (min-width : 1150px) {
-		height: 219px;
+		height: 223px;//219
 	}
 }
 
@@ -127,32 +127,34 @@
 	vertical-align: top;
 	min-height: 410px;
 	@media only screen and (min-width : 800px) {
-		width: 245px;
+		width: 243px;
 	}
 	@media only screen and (min-width : 1150px) {
 		width: 275px;
-	}
-	&:hover{
-		.button__basket{
-			display: inline-block;
+		&:hover{
+			.button__basket{
+				display: inline-block;
+			}
 		}
 	}
+	
 }
 .tovar_item__text{
-	padding-top: 24px;
+	padding-top: 20px;
 	// padding-left: 12px;
 	text-align: center;
 	font-family: "OpenSans", sans-serif;
 	.button__basket{
 		padding: 13px 17px 9px 37px;
-		display: none;
+		
 		span{			
 			background: url(../../img/korz.png) no-repeat left 2px top;
 			padding-left: 40px;
 			padding-right: 40px;
 		}
-		@media only screen and (min-width : 1200px) {
+		@media only screen and (min-width : 1150px) {
 			margin-left: -11px;
+			display: none;
 		}
 	}
 }

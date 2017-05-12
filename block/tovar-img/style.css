@@ -3,16 +3,16 @@
   width: 275px;
   transition: 0.5s;
   display: inline-block; }
-  .tovar_img:hover .tovar_img__hover {
-    opacity: 1; }
-    .tovar_img:hover .tovar_img__hover a {
-      display: inline-block; }
   @media only screen and (min-width: 800px) {
     .tovar_img {
       width: 245px; } }
   @media only screen and (min-width: 1150px) {
     .tovar_img {
-      width: 275px; } }
+      width: 275px; }
+      .tovar_img:hover .tovar_img__hover {
+        opacity: 1; }
+        .tovar_img:hover .tovar_img__hover a {
+          display: inline-block; } }
 
 .tovar_img__img img {
   width: 100%;
@@ -96,7 +96,8 @@
     font-weight: 400;
     display: inline-block;
     padding-left: 15px;
-    letter-spacing: 0.7px; }
+    letter-spacing: 0.7px;
+    line-height: 21px; }
 
 .tovar_img__toplent_new {
   background: url("../../img/bgtovar.png") no-repeat left; }

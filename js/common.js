@@ -27,7 +27,14 @@ $(document).ready(function(){
 	});
 	// END Переключатель кол-ва товара в корзине (legatkani)
 
-
+	// Бургер (legatkani)
+	$(".burger").click(function(){
+		$(".main-menu__style").slideToggle(500);
+	});
+	$(".main-menu__closer").click(function(){
+		$(".main-menu__style").slideToggle(500);
+	});
+	// END бургер (legatkani)
 
 
 
