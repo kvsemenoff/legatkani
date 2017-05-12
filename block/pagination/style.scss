@@ -1,5 +1,4 @@
 .pagination{
-	display: block;
 	list-style: none;
 	text-align: right;
 }
@@ -9,15 +8,12 @@
   font-size: 14px;
   font-weight: 600;
   line-height: 22px;
-	letter-spacing: 0.2px;
   padding: 0 2px;
 	a{
-		display: inline-block;
 		text-decoration: none;
 		color: #7f2461;
 	}
 	span{
-		display: inline-block;
 		color: #797979;
 	}
 }
