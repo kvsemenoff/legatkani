@@ -16,11 +16,11 @@
 
 		<div class="header-bottom__box header-bottom__box2">
 			<div class="header-bottom__box_item1">
-				<span>+7 495 514-09-61</span><br/>
+				<span class="sp_tel">+7 495 514-09-61</span><br/>
 				<span>+7 495 514-09-62</span>
 			</div>
 			<div class="header-bottom__box_item2">
-				<span>+7 495 926-47-18</span><br/>
+				<span class="sp_tel">+7 495 926-47-18</span><br/>
 				<span>+7 495 926-47-19</span>
 			</div>
 			<div class="header-bottom__box_item3">
