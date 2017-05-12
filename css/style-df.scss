@@ -2,11 +2,35 @@
 
 }
 .sliderbox{
-	position: relative;
-	
+	position: relative;	
 }
+
+
+.slider-owl-carousel{
+	width: 100%;
+}
+.owl-dots{
+	position: absolute;
+	bottom: 10px;
+	left:50%;
+	text-align: center;
+	transform:translateX(-50%);
+	.owl-dot{				
+		width: 12px;
+		height: 12px;			
+		border: 2px solid #fff;
+		border-radius: 50%;
+		display: inline-block;
+		margin-right: 6px;
+	}
+	.active{
+		background-color:#fff;
+		left:40%;
+	}
+}
+
 .slider__img{
-	height: 245px;
+	height: 165px;
 	overflow: hidden;
 	position: relative;	
 	.sliderimg{
@@ -20,7 +44,12 @@
 			top:44%;
 		}
 	}
-
+	@media only screen and (min-width : 320px) {
+		height: 180px;
+	}
+	@media only screen and (min-width : 480px) {
+		height: 245px;
+	}
 	@media only screen and (min-width : 800px) {
 		height: 370px;
 	}
@@ -39,6 +68,7 @@
 	img{
 		position: absolute;
 		max-width: 100%;
+		width: auto !important;
 		height: auto;
 		top:0%;
 		right:-20%;	
@@ -137,3 +167,4 @@
 		}
 	}
 }
+
