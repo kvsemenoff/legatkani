@@ -115,13 +115,16 @@
   line-height: 22px;
 }
 
+.map_overlay__title span {
+  font-family: "OpenSans";
+}
+
 @media screen and (min-width: 768px) {
   .map_overlay__title {
     font-size: 16px;
     line-height: 30px;
   }
   .map_overlay__title span {
-    font-family: "OpenSans";
     font-size: 20px;
     font-weight: 600;
     font-style: italic;
