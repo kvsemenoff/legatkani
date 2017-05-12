@@ -168,19 +168,113 @@
 
 
 /*==========newphp========*/
-.newcontainer{
-	max-width: 1200px;
-	margin: 0 auto;
-	padding: 0 15px;
+
+
+.topborderbg{
+	background: url("../img/topshadow.jpg")no-repeat top center;
+}
+.paddingnone{
+	@media only screen and (min-width : 800px) {
+		padding-left: 0;
+		padding-right: 0;
+	}
 }
 .new_block{
+	text-align: center;
+	.tovar_item{		
+		margin-bottom: -4px;
+		@media only screen and (min-width : 800px) {
+			margin-right: 4px;
+		}
+		@media only screen and (min-width : 1024px) {
+			margin-right: 19px;
+		}
+	}
+	.tovar_item_last{
+		margin-right: 0;
+		display: none;
+		@media only screen and (min-width : 1200px) {
+			display: inline-block;
+		}
+	}
+}
 
+.new__button-theme{
+	margin-bottom: 55px;
+	position: relative;
+	padding: 9px 5px;
+	width: 162px;
+	&:before{
+		content: "";
+		position: absolute;
+		top:12px;
+		left:-65px;
+		width: 50px;
+		height: 9px;
+		background: url("../img/arrowbutton.png")no-repeat left;
+		@media only screen and (min-width : 800px) {
+			left:-165px;
+			width: 130px;
+		}
+	}
+	&:after{
+		content: "";
+		position: absolute;
+		top:12px;
+		right:-65px;
+		width: 50px;
+		height: 9px;
+		background: url("../img/arrowbutton.png")no-repeat left;
+		-o-transform:rotate(180deg);
+		-moz-transform:rotate(180deg);
+		-webkit-transform:rotate(180deg);
+		-ms-transform:rotate(180deg);
+		transform:rotate(180deg);
+		@media only screen and (min-width : 800px) {
+			right:-165px;
+			width: 130px;
+		}
+	}
+	@media only screen and (min-width : 1200px) {
+		padding: 8px 5px;
+		width: 162px;	
+		margin-bottom: 75px;
+	}
+}
+.tovar_img__img a {
+	display: inline-block;
 }
 .new_block__caption{
-	margin-bottom: 25px;
 	text-align: center;
-	font-size: 40px;
+	font-size: 26px;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	@media only screen and (min-width : 800px) {
+		margin-top: 55px;
+		font-size: 44px;
+	}
+	@media only screen and (min-width : 800px) {
+		margin-top: 65px;
+	}
 }
 .tovar_img__toplent{
 	height: 47px;
+	text-align: left;
+}
+.new_block__showye{
+	text-align: center;
+	margin-bottom: 37px;
+	.new_block__showye__link{
+		color: #7f2461;
+		font-size: 14px;
+		font-weight: 600;
+		font-style: italic;
+		text-decoration: underline;
+		display: inline-block;
+		background: url("../img/galkamenu2.png")no-repeat right center;
+		padding-right: 14px;
+		&:hover{
+			text-decoration: none;
+		}
+	}
 }
