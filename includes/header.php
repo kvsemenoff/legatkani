@@ -46,6 +46,8 @@
 	<link rel="stylesheet" href="block/tovar-img/style.css">
 	<link rel="stylesheet" href="block/tovar-item/style.css">
 	<link rel="stylesheet" href="block/filter/style.css">
+	<link rel="stylesheet" href="block/question/style.css">
+	<link rel="stylesheet" href="block/modal/style.css">
 	
 
 
