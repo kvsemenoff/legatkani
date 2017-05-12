@@ -516,6 +516,10 @@
   }
 }
 
+.lace-container {
+  border-bottom: 2px solid #e8e8e8;
+}
+
 @media screen and (min-width: 768px) {
   .lace-container {
     padding: 0;
@@ -524,6 +528,7 @@
 
 .lace {
   padding-top: 45px;
+  padding-bottom: 100px;
 }
 
 .lace .filter {
@@ -572,4 +577,16 @@
 
 .lace__item {
   text-align: center;
+}
+
+.lace__item .button__basket {
+  display: none;
+}
+
+.lace__item:hover .button__basket {
+  display: block;
+}
+
+.lace__pag {
+  margin-top: 35px;
 }

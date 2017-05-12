@@ -390,12 +390,14 @@
   @media screen and (min-width: 768px) {
     padding: 0;
   }
+  border-bottom: 2px solid #e8e8e8;
 }
 .lace {
   .filter {
     margin-top: 0;
   }
   padding-top: 45px;
+  padding-bottom: 100px;
   .showprice_link {
     font-size: 12px;
   }
@@ -433,4 +435,15 @@
 }
 .lace__item {
   text-align: center;
+  .button__basket {
+    display: none;
+  }
+  &:hover {
+    .button__basket {
+      display: block;
+    }
+  }
+}
+.lace__pag {
+  margin-top: 35px;
 }

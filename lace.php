@@ -205,12 +205,12 @@
 							</div>
 						</div>
 						<div class="lace__content">
-							<div class="col-md-4">
+							<div class="col-sm-6 col-md-4">
 								<div class="lace__item">
 									<div class="tovar_item">
 										<div class="tovar_img">
 											<div class="tovar_img__img">
-												<img src="../../img/tkan2.png" alt="">
+												<img src="img/tkan2.png" alt="">
 												<div class="tovar_img__hover">
 													<div class="tovar_img__border">
 														<a href="#">Подробнее ></a>
@@ -221,13 +221,265 @@
 										</div>
 										<div class="tovar_item__text">
 											<span class="tovar_item__nameproduct">Бархат</span>
-											<span class="tovar_item__price"><b>25 </b>у.е./м</span>
+											<span class="tovar_item__price"><b>520 </b>руб./м</span>
+										</div>
+										<a href="#" class="button button__basket"><span class="button__basket_txt">В корзину</span></a>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6 col-md-4">
+								<div class="lace__item">
+									<div class="tovar_item">
+										<div class="tovar_img">
+											<div class="tovar_img__img">
+												<img src="img/lace2.jpg" alt="">
+												<div class="tovar_img__hover">
+													<div class="tovar_img__border">
+														<a href="#">Подробнее ></a>
+													</div>
+												</div>
+											</div>
+											<div class="tovar_img__toplent tovar_img__toplent_new"><span>новинка</span></div>
+										</div>
+										<div class="tovar_item__text">
+											<span class="tovar_item__nameproduct">Кружево</span>
+											<span class="tovar_item__price"><b>650 </b>руб./м</span>
+										</div>
+										<a href="#" class="button button__basket"><span class="button__basket_txt">В корзину</span></a>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6 col-md-4">
+								<div class="lace__item">
+									<div class="tovar_item">
+										<div class="tovar_img">
+											<div class="tovar_img__img">
+												<img src="img/tkan3.png" alt="">
+												<div class="tovar_img__hover">
+													<div class="tovar_img__border">
+														<a href="#">Подробнее ></a>
+													</div>
+												</div>
+											</div>
+											<div class="tovar_img__toplent tovar_img__toplent_new"><span>новинка</span></div>
+										</div>
+										<div class="tovar_item__text">
+											<span class="tovar_item__nameproduct">Батист</span>
+											<span class="tovar_item__price"><b>710 </b>руб./м</span>
+										</div>
+										<a href="#" class="button button__basket"><span class="button__basket_txt">В корзину</span></a>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6 col-md-4">
+								<div class="lace__item">
+									<div class="tovar_item">
+										<div class="tovar_img">
+											<div class="tovar_img__img">
+												<img src="img/lace4.jpg" alt="">
+												<div class="tovar_img__hover">
+													<div class="tovar_img__border">
+														<a href="#">Подробнее ></a>
+													</div>
+												</div>
+											</div>
+											<div class="tovar_img__toplent tovar_img__toplent_sale"><span>распродажа</span></div>
+										</div>
+										<div class="tovar_item__text">
+											<span class="tovar_item__nameproduct">Кружево</span>
+											<span class="tovar_item__price"><b>650 </b>руб./м</span>
+										</div>
+										<a href="#" class="button button__basket"><span class="button__basket_txt">В корзину</span></a>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6 col-md-4">
+								<div class="lace__item">
+									<div class="tovar_item">
+										<div class="tovar_img">
+											<div class="tovar_img__img">
+												<img src="img/lace3.jpg" alt="">
+												<div class="tovar_img__hover">
+													<div class="tovar_img__border">
+														<a href="#">Подробнее ></a>
+													</div>
+												</div>
+											</div>
+											<div class="tovar_img__toplent tovar_img__toplent_sale"><span>распродажа</span></div>
+										</div>
+										<div class="tovar_item__text">
+											<span class="tovar_item__nameproduct">Батист</span>
+											<span class="tovar_item__price"><b>720 </b>руб./м</span>
+										</div>
+										<a href="#" class="button button__basket"><span class="button__basket_txt">В корзину</span></a>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6 col-md-4">
+								<div class="lace__item">
+									<div class="tovar_item">
+										<div class="tovar_img">
+											<div class="tovar_img__img">
+												<img src="img/lace5.jpg" alt="">
+												<div class="tovar_img__hover">
+													<div class="tovar_img__border">
+														<a href="#">Подробнее ></a>
+													</div>
+												</div>
+											</div>
+											<div class="tovar_img__toplent tovar_img__toplent_sale"><span>распродажа</span></div>
+										</div>
+										<div class="tovar_item__text">
+											<span class="tovar_item__nameproduct">Костюмная</span>
+											<span class="tovar_item__price"><b>410 </b>руб./м</span>
+										</div>
+										<a href="#" class="button button__basket"><span class="button__basket_txt">В корзину</span></a>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6 col-md-4">
+								<div class="lace__item">
+									<div class="tovar_item">
+										<div class="tovar_img">
+											<div class="tovar_img__img">
+												<img src="img/tkan2.png" alt="">
+												<div class="tovar_img__hover">
+													<div class="tovar_img__border">
+														<a href="#">Подробнее ></a>
+													</div>
+												</div>
+											</div>
+											<div class="tovar_img__toplent tovar_img__toplent_new"><span>новинка</span></div>
+										</div>
+										<div class="tovar_item__text">
+											<span class="tovar_item__nameproduct">Бархат</span>
+											<span class="tovar_item__price"><b>520 </b>руб./м</span>
+										</div>
+										<a href="#" class="button button__basket"><span class="button__basket_txt">В корзину</span></a>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6 col-md-4">
+								<div class="lace__item">
+									<div class="tovar_item">
+										<div class="tovar_img">
+											<div class="tovar_img__img">
+												<img src="img/lace2.jpg" alt="">
+												<div class="tovar_img__hover">
+													<div class="tovar_img__border">
+														<a href="#">Подробнее ></a>
+													</div>
+												</div>
+											</div>
+											<div class="tovar_img__toplent tovar_img__toplent_new"><span>новинка</span></div>
+										</div>
+										<div class="tovar_item__text">
+											<span class="tovar_item__nameproduct">Кружево</span>
+											<span class="tovar_item__price"><b>650 </b>руб./м</span>
+										</div>
+										<a href="#" class="button button__basket"><span class="button__basket_txt">В корзину</span></a>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6 col-md-4">
+								<div class="lace__item">
+									<div class="tovar_item">
+										<div class="tovar_img">
+											<div class="tovar_img__img">
+												<img src="img/lace6.jpg" alt="">
+												<div class="tovar_img__hover">
+													<div class="tovar_img__border">
+														<a href="#">Подробнее ></a>
+													</div>
+												</div>
+											</div>
+											<div class="tovar_img__toplent tovar_img__toplent_new"><span>новинка</span></div>
+										</div>
+										<div class="tovar_item__text">
+											<span class="tovar_item__nameproduct">Батист</span>
+											<span class="tovar_item__price"><b>710 </b>руб./м</span>
+										</div>
+										<a href="#" class="button button__basket"><span class="button__basket_txt">В корзину</span></a>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6 col-md-4">
+								<div class="lace__item">
+									<div class="tovar_item">
+										<div class="tovar_img">
+											<div class="tovar_img__img">
+												<img src="img/lace4.jpg" alt="">
+												<div class="tovar_img__hover">
+													<div class="tovar_img__border">
+														<a href="#">Подробнее ></a>
+													</div>
+												</div>
+											</div>
+											<div class="tovar_img__toplent tovar_img__toplent_sale"><span>распродажа</span></div>
+										</div>
+										<div class="tovar_item__text">
+											<span class="tovar_item__nameproduct">Кружево</span>
+											<span class="tovar_item__price"><b>650 </b>руб./м</span>
+										</div>
+										<a href="#" class="button button__basket"><span class="button__basket_txt">В корзину</span></a>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6 col-md-4">
+								<div class="lace__item">
+									<div class="tovar_item">
+										<div class="tovar_img">
+											<div class="tovar_img__img">
+												<img src="img/lace3.jpg" alt="">
+												<div class="tovar_img__hover">
+													<div class="tovar_img__border">
+														<a href="#">Подробнее ></a>
+													</div>
+												</div>
+											</div>
+											<div class="tovar_img__toplent tovar_img__toplent_sale"><span>распродажа</span></div>
+										</div>
+										<div class="tovar_item__text">
+											<span class="tovar_item__nameproduct">Батист</span>
+											<span class="tovar_item__price"><b>720 </b>руб./м</span>
+										</div>
+										<a href="#" class="button button__basket"><span class="button__basket_txt">В корзину</span></a>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6 col-md-4">
+								<div class="lace__item">
+									<div class="tovar_item">
+										<div class="tovar_img">
+											<div class="tovar_img__img">
+												<img src="img/lace5.jpg" alt="">
+												<div class="tovar_img__hover">
+													<div class="tovar_img__border">
+														<a href="#">Подробнее ></a>
+													</div>
+												</div>
+											</div>
+											<div class="tovar_img__toplent tovar_img__toplent_sale"><span>распродажа</span></div>
+										</div>
+										<div class="tovar_item__text">
+											<span class="tovar_item__nameproduct">Костюмная</span>
+											<span class="tovar_item__price"><b>410 </b>руб./м</span>
 										</div>
 										<a href="#" class="button button__basket"><span class="button__basket_txt">В корзину</span></a>
 									</div>
 								</div>
 							</div>
 						</div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="lace__pag">
+						<ul class="pagination">
+							<li class="pagination__link"><span>1</span></li>
+							<li class="pagination__link"><a href="/" class="pagination__nonactive">2</a></li>
+							<li class="pagination__link"><a href="/" class="pagination__nonactive">3</a></li>
+							<li class="pagination__link pagination__link_home"><a href="/" class="pagination__nonactive">Следующая</a></li>
+						</ul>
 					</div>
 				</div>
 			</div>
