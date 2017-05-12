@@ -1,19 +1,35 @@
 .logobox{
-	display: inline-block;
+	// display: inline-block;
+	position: relative;
+	width: 194px;
+	margin: 0 auto;
+	@media only screen and (min-width : 998px) {
+		width: unset;
+
+	}
 }
 .bethoven{
 	font-family: "Ludvig";
 }
 .logobox__txt{
+	margin-top: -21px;
+	@media only screen and (min-width : 998px) {
+		margin-top: -28px;
+		text-align: left;
+	}
 	span{
 		display: inline-block;
 		color: #a57a1f;
 		font-family: 'Open Sans', sans-serif;
-		font-size: 18px;
+		font-size: 13px;
 		font-weight: 400;
 		font-style: italic;
-		padding-left: 20px;
-		margin-top: -28px;
+		padding-left: 10px;
+		@media only screen and (min-width : 998px) {
+			padding-left: 20px;
+			font-size: 18px;
+		}
+		
 	}
 }
 .logobox__txt_bottom{

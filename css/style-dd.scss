@@ -1,0 +1,239 @@
+.no-padding{
+	padding-left: 0;
+	padding-right: 0;
+	position: relative;
+	width: 100%;
+	@media only screen and (min-width : 992px) {
+		width:970px; 
+	}
+	@media only screen and (min-width : 1200px) {
+		width:1170px; 
+	}
+}
+.header-bottom__style{
+	padding-top: 17px;
+	padding-bottom: 31px;
+	background:url(../img/hbg.jpg) no-repeat top center;
+	background-size:cover;
+	border-bottom: 1px solid #c3b68a; 
+}
+.burger{
+	position: absolute;
+	left: 10px;
+	top:10px;
+	cursor: pointer;
+	@media only screen and (min-width : 992px) {
+		display: none;
+	}
+}
+.header-bottom{
+	&__box:first-child{
+		border-bottom: 1px solid #ECECEC;
+		padding-bottom: 14px;
+		margin-bottom: 13px;
+		@media only screen and (min-width : 320px) {
+			border-bottom: none;
+		}
+	}
+	&__box:last-child{
+		padding-top: 15px;
+		padding-left: 15px;
+		padding-right: 16px;
+		@media only screen and (min-width : 320px) {
+			padding-left: 46px;
+		}
+		span{
+			font-size: 13px;
+			b{
+				font-size: 12px;
+				font-weight: 400;
+				color: #989797;
+			}
+		}
+	}
+	&__box3{
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-top: 26px;
+		@media only screen and (min-width : 320px) {
+			padding-left: 25px;
+		}
+		@media only screen and (min-width : 768px) {
+			padding-left: 0;
+			padding-top: 0;
+		}
+	}
+	@media only screen and (min-width : 768px) {
+		&__box1{
+			float: left;
+			width: 33%;
+			outline: 1px solid blue;
+			@media only screen and (min-width : 992px) {
+				width: 31%;
+			}
+		}
+		&__box2{
+			float: right;
+			width: 39%;
+			outline: 1px solid blue;
+			@media only screen and (min-width : 992px) {
+				padding-top: 35px;
+			}
+		}
+		&__box3{
+			float: left;
+			width: 27%;
+			outline: 1px solid blue;
+			@media only screen and (min-width : 992px) {
+				width: 29%;
+				padding-top: 41px;
+			}
+		}
+	}
+}
+.header-bottom__box{
+	text-align: center;
+	@media only screen and (min-width : 768px) {
+		text-align: left;
+	}
+	span{
+		display: inline-block;
+	}
+	&_item1{
+		display: inline-block;
+		background:url(../img/tel.png) no-repeat left top 10px;
+		padding-left: 33px;
+		padding-right: 26px;
+		span{
+			font-weight: 600;
+			font-size: 13px;
+		}
+		@media only screen and (min-width : 768px) {
+			background:url(../img/tel.png) no-repeat left top 19px;
+		}
+		@media only screen and (min-width : 992px) {
+			background:url(../img/tel.png) no-repeat left top 11px;
+			float: left;
+			width: 39%;
+			padding-right: 0;
+			span{
+				font-size: 14px;
+			}
+		}
+		@media only screen and (min-width : 1240px) {
+			margin-left: 27px;
+			width: 38%;
+		}
+	}
+	&_item2{
+		display: inline-block;
+		span{
+			font-weight: 600;
+			font-size: 13px;
+		}
+		@media only screen and (min-width : 992px) {
+			float: left;
+			width: 30%;
+			span{
+				font-size: 14px;
+			}
+		}
+		@media only screen and (min-width : 1240px) {
+			width: 25%;
+		}
+	}
+	&_item3{
+		text-align: left;
+		width: 200px;
+		margin: 0 auto;
+		a{
+			font-family: 'Open Sans', sans-serif;
+			font-size: 11px;
+			font-weight: 600;
+			text-decoration: underline;
+			text-transform: uppercase;
+			color: #921f6c;
+		}
+		@media only screen and (min-width : 768px) {
+			text-align: right;
+			width: 250px;
+		}
+		@media only screen and (min-width : 992px) {
+			float: left;
+			width: 31%;
+			padding-top: 7px;
+			a{
+				font-size: 12px;
+			}
+		}
+	}
+	&_item4{
+		display: inline-block;
+		background:url(../img/map.png) no-repeat left top 6px;
+		padding-left: 30px;
+		span{
+			color: #5a5a5a;
+			font-size: 12px;
+			@media only screen and (min-width : 768px) {
+				font-size: 14px;
+			}
+			b{
+				font-style: italic;
+				color: #989797;
+				font-size: 13px;
+				@media only screen and (min-width : 992px) {
+					padding-left: 27px;
+				}
+			}
+		}
+		@media only screen and (min-width : 768px) {
+			background:url(../img/map.png) no-repeat left top 19px;
+		}
+		@media only screen and (min-width : 992px) {
+			background:url(../img/map.png) no-repeat left top 8px;
+		}
+	}
+	@media only screen and (min-width : 768px) {
+		display: inline-block;
+	}
+}
+
+// Меню
+.main-menu{
+	display: none;
+	&__style{
+		text-align: center;
+		background:#fff;
+		padding: 32px 0px;
+		border-top: 1px solid #E5E5E5;
+		border-bottom: 1px solid #E5E5E5;
+		position: absolute;
+		width: 100%;
+		left:0;
+		top:32px;
+		ul{
+			li{
+				margin-bottom: 22px;
+				a{
+					font-size: 13px;
+					font-weight: 700;
+					display: inline-block;
+					text-transform: uppercase;
+					color: black;
+					&:hover{
+						color:#C58912;
+					}
+				}
+			}
+		}
+	}
+	&__ul{
+		position: relative;
+	}
+	&__closer{
+		position: absolute;
+		left:13px;
+		top:-21px;
+		cursor: pointer;
+	}
+}
