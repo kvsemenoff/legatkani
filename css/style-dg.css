@@ -353,6 +353,19 @@
 @media screen and (min-width: 768px) {
   .footer__socials {
     padding-bottom: 12px;
+    margin-right: 10px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .footer__socials {
+    margin-right: 45px;
+  }
+}
+
+@media screen and (min-width: 1248px) {
+  .footer__socials {
+    margin-right: 45px;
   }
 }
 
@@ -362,21 +375,8 @@
 
 @media screen and (min-width: 768px) {
   .footer__socials, .footer__map {
-    margin-right: 10px;
     vertical-align: bottom;
     display: inline-block;
-  }
-}
-
-@media screen and (min-width: 992px) {
-  .footer__socials, .footer__map {
-    margin-right: 45px;
-  }
-}
-
-@media screen and (min-width: 1248px) {
-  .footer__socials, .footer__map {
-    margin-right: 45px;
   }
 }
 

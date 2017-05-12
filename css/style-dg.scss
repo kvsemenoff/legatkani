@@ -269,21 +269,21 @@
   padding-bottom: 30px;
   @media screen and (min-width: 768px) {
     padding-bottom: 12px;
-  }
-  text-align: center;
-}
-.footer__socials, .footer__map {
-  display: block;
-  @media screen and (min-width: 768px) {
     margin-right: 10px;
-    vertical-align: bottom;
-    display: inline-block;
   }
   @media screen and (min-width: 992px) {
     margin-right: 45px;
   }
   @media screen and (min-width: 1248px) {
     margin-right: 45px;
+  }
+  text-align: center;
+}
+.footer__socials, .footer__map {
+  display: block;
+  @media screen and (min-width: 768px) {
+    vertical-align: bottom;
+    display: inline-block;
   }
 }
 .footer__map__made {
