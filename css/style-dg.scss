@@ -93,11 +93,13 @@
   font-size: 14px;
   font-weight: 600;
   line-height: 22px;
+  span {
+    font-family: "OpenSans";
+  }
   @media screen and (min-width: 768px) {
     font-size: 16px;
     line-height: 30px;
     span {
-      font-family: "OpenSans";
       font-size: 20px;
       font-weight: 600;
       font-style: italic;
