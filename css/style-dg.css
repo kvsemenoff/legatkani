@@ -515,3 +515,11 @@
     margin-bottom: 45px;
   }
 }
+
+.lace .showprice_link {
+  font-size: 12px;
+}
+
+.lace .col-lg-3, .lace .col-lg-9 {
+  padding: 0;
+}
