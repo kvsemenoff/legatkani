@@ -55,7 +55,7 @@ jQuery(document).ready(function() {
 			nav:true, 
 			autoplay:false,
 			smartSpeed:1000,
-			margin:0,
+			margin:25,
 			mouseDrag:false,
 			touchDrag: false,
 			center:false,     //если нужны обрезаные края
