@@ -272,36 +272,36 @@
 											<div class="form-inner clearfix">
 												<div class="left clearfix">
 													<div class="input input_theme_rosa">
-														<input type="text" class="input__control" placeholder="ФИО*" name="uname" required>
+														<input type="text" class="input__basket" placeholder="ФИО*" name="uname" required>
 													</div>
 													<div class="input input_theme_rosa">
-														<input type="tel" class="input__control js-phone" name="phone" placeholder="+7(___)___-__-__" required>
+														<input type="tel" class="input__basket js-phone" name="phone" placeholder="+7(___)___-__-__" required>
 													</div>
 													<div class="input input_theme_rosa">
-														<input type="email" class="input__control" placeholder="E-mail" name="email" required>
+														<input type="email" class="input__basket" placeholder="E-mail" name="email" required>
 													</div>
 													<div class="input input_theme_rosa">
-														<select class="form-select input__control" id="type">
+														<select class="form-select input__basket" id="type">
 															<option value="1">Выбрать менеджера</option>
 															<option value="2">Менеджер 1</option>
 															<option value="3">Менеджер 2</option>
 														</select>
 													</div>
 													<div class="input input_theme_rosa">
-														<select class="form-select input__control" id="type2">
+														<select class="form-select input__basket" id="type2">
 															<option value="1">Город доставки</option>
 															<option value="2">Город доставки 1</option>
 															<option value="3">Город доставки 2</option>
 														</select>
 													</div>
 													<div class="input input_theme_rosa">
-														<input type="text" class="input__control" placeholder="Адрес доставки" name="address" required>
+														<input type="text" class="input__basket" placeholder="Адрес доставки" name="address" required>
 													</div>
 													<div class="input input_grey input_theme_rosa">
-														<input type="parol" class="input__control" placeholder="Пароль*" name="parol" required>
+														<input type="parol" class="input__basket" placeholder="Пароль*" name="parol" required>
 													</div>
 													<div class="input input_grey input_theme_rosa">
-														<input type="parol" class="input__control" placeholder="Повторите пароль*" name="re_parol" required>
+														<input type="parol" class="input__basket" placeholder="Повторите пароль*" name="re_parol" required>
 													</div>
 												</div>
 												<div class="right">
@@ -322,16 +322,18 @@
 											<div class="form__info">
 												<p>Нажимая кнопку “Оформить заказ” вы соглашаетесь с условиями <a href="#">Пользовательского соглашения</a></p>
 												<p>Хотели бы Вы получать наши новости, акции, информацию о скидках?
-													<label class="checkbox__label checkbox__label_f">
-														<input class="checkbox" type="radio" name="checkbox-test" checked>
-														<span class="checkbox-custom"></span>
-														<span class="label_txt">Да</span>
-													</label>
-													<label class="checkbox__label">
-														<input class="checkbox" type="radio" name="checkbox-test" >
-														<span class="checkbox-custom"></span>
-														<span class="label_txt">Нет</span>
-													</label>
+													<span class="rb-wrap">
+														<label class="checkbox__label checkbox__label_f">
+															<input class="checkbox" type="radio" name="checkbox-test" checked>
+															<span class="checkbox-custom"></span>
+															<span class="label_txt">Да</span>
+														</label>
+														<label class="checkbox__label">
+															<input class="checkbox" type="radio" name="checkbox-test" >
+															<span class="checkbox-custom"></span>
+															<span class="label_txt">Нет</span>
+														</label>
+													</span>
 												</p>
 											</div>
 										</form>
@@ -340,7 +342,86 @@
 							</div>
 							<div class="tabs-content">
 								<div class="tab-content tab-1">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta ipsa qui aliquam quae recusandae a sint aliquid similique id consectetur esse magni tempore harum dolorem, illum voluptatem debitis, libero, laboriosam.</p>
+									<div class="form-wrap">
+										<form action="#">
+											<div class="form-inner clearfix">
+												<div class="left clearfix">
+													<div class="input input_theme_rosa">
+														<input type="text" class="input__basket" placeholder="Название компании*" name="company" required>
+													</div>
+													<div class="input input_theme_rosa">
+														<input type="text" class="input__basket" placeholder="ИНН" name="inn">
+													</div>
+													<div class="input input_theme_rosa">
+														<input type="text" class="input__basket" placeholder="КПП" name="kpp">
+													</div>
+													<div class="input input_theme_rosa">
+														<input type="text" class="input__basket" placeholder="Контактное лицо ФИО*" name="contact_name" required>
+													</div>
+													<div class="input input_theme_rosa">
+														<input type="tel" class="input__basket js-phone" name="phone" placeholder="+7(___)___-__-__" required>
+													</div>
+													<div class="input input_theme_rosa">
+														<input type="email" class="input__basket" placeholder="Ваш е-mail*" name="email" required>
+													</div>
+													<div class="input input_theme_rosa">
+														<select class="form-select input__basket" id="type">
+															<option value="1">Выбрать менеджера</option>
+															<option value="2">Менеджер 1</option>
+															<option value="3">Менеджер 2</option>
+														</select>
+													</div>
+													<div class="input input_theme_rosa">
+														<select class="form-select input__basket" id="type2">
+															<option value="1">Город доставки</option>
+															<option value="2">Город доставки 1</option>
+															<option value="3">Город доставки 2</option>
+														</select>
+													</div>
+													<div class="input input_theme_rosa">
+														<input type="text" class="input__basket" placeholder="Адрес доставки" name="address" required>
+													</div>
+													<div class="input input_grey input_theme_rosa">
+														<input type="parol" class="input__basket" placeholder="Пароль*" name="parol" required>
+													</div>
+													<div class="input input_grey input_theme_rosa">
+														<input type="parol" class="input__basket" placeholder="Повторите пароль*" name="re_parol" required>
+													</div>
+												</div>
+												<div class="right">
+													<div class="input input_theme_rosa">
+													  <textarea name="message" class="message message_big message_theme_rosa" placeholder="Ваш вопрос"></textarea>
+													</div>
+												</div>
+											</div>
+											<div class="form__total">
+												<div>
+													<span>Итого весь заказ:</span>
+													<i>10 975 руб.</i>
+													<div class="button-wrap">
+														<button class="button button__basket button__basket_buy2"><span class="button__basket_txt button__basket_buy2_txt">Оформить заказ</span></button>
+													</div>
+												</div>
+											</div>
+											<div class="form__info">
+												<p>Нажимая кнопку “Оформить заказ” вы соглашаетесь с условиями <a href="#">Пользовательского соглашения</a></p>
+												<p>Хотели бы Вы получать наши новости, акции, информацию о скидках?
+													<span class="rb-wrap">
+														<label class="checkbox__label checkbox__label_f">
+															<input class="checkbox" type="radio" name="checkbox-test" checked>
+															<span class="checkbox-custom"></span>
+															<span class="label_txt">Да</span>
+														</label>
+														<label class="checkbox__label">
+															<input class="checkbox" type="radio" name="checkbox-test" >
+															<span class="checkbox-custom"></span>
+															<span class="label_txt">Нет</span>
+														</label>
+													</span>
+												</p>
+											</div>
+										</form>
+									</div>
 								</div>
 							</div>
 						</div>

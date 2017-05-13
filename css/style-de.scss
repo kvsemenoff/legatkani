@@ -990,8 +990,14 @@
 		textarea{
 			height: 115px;
 		}
+		.message_big{
+			@media only screen and (min-width : 770px) {
+				height: 180px;
+			}
+		}
 		&_grey input{
 			background: #f8f7f7;
+			box-shadow: none;
 		}
 	}
 	.jq-selectbox__dropdown{
@@ -1018,12 +1024,18 @@
 		button{
 			border: none;
 		}
+		@media only screen and (max-width : 1100px) {
+			padding: 35px 0 60px;
+			i{
+				padding-left: 7px;
+			}
+		}
 	}
 	.form__info{
 		p{
 			font-size: 13px;
 			color: #525252;
-			padding-bottom: 40px;
+			padding-bottom: 20px;
 			a{
 				color: #6b6b6b;
 				text-decoration: underline;
@@ -1031,9 +1043,17 @@
 					text-decoration: none;
 				}
 			}
-			.checkbox__label_f{
-				margin-left: 25px;
+			.rb-wrap{
+				padding-top: 20px;
+				display: block;
+				@media only screen and (min-width : 670px) {
+				display: inline-block;
+					margin-left: 25px;
+				}
 			}
 		}
+	}
+	.checkbox__label{
+		margin-right: 35px;
 	}
 }
