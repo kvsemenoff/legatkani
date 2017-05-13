@@ -16,6 +16,7 @@
 					<li class="breadcrumps__link"><span>Кружево</span></li>
 				</ul>
 
+				<!-- galery -->
 
 				<div class="product__galery">
 					
@@ -76,6 +77,92 @@
 					<div class="clear"></div>
 				</div>
 
+				<!-- end galery -->
+				
+				<!-- tabs -->
+
+				<div class="product__tabs">
+					<div class="product__tabs-link">
+						<a href="product__txt1" class="product__tablink product__activeblink">описание</a>
+						<a href="product__txt2" class="product__tablink">условия работы</a>
+					</div>
+
+					<div class="product__tab-text">
+						<p class="product__tabtxt product__txt1">Каталог еженедельно пополняется новыми тканями европейских коллекций текущего сезона. Это позволяет поддерживать актуальный ассортимент модных и качественных полотен. За несколько лет работы нам удалось наладить прямые поступления тканей от производителя. Благодаря этому мы устанавливаем умеренный ценник.</p>
+						<p class="product__tabtxt product__txt2">Каталог2 еженедельно пополняется новыми тканями европейских коллекций текущего сезона. Это позволяет поддерживать актуальный ассортимент модных и качественных полотен. За несколько лет работы нам удалось наладить прямые поступления тканей от производителя. Благодаря этому мы устанавливаем умеренный ценник.</p>
+					</div>
+				</div>
+
+				<!-- end tabs -->
+				
+
+				<div class="topborderbg product__slider">
+					<div class="new_block">
+						<h1 class="h1 new_block__caption">Рекомендуем</h1>
+						<div class="new_block__showye"><a href="#" class="new_block__showye__link">Показать цены в У.Е.</a></div>
+						
+						<div class="product__owl-slider">
+							<div class="item">
+								<div class="tovar_item">
+									<div class="tovar_img">
+										<div class="tovar_img__img">
+											<a href="#"><img src="img/tkan6.jpg" alt=""></a>									
+										</div>								
+									</div>
+									<div class="tovar_item__text">
+										<span class="tovar_item__nameproduct">Бархат</span>
+										<span class="tovar_item__price"><b>520 </b>руб/м</span>
+										<a href="#" class="button button__basket"><span class="button__basket_txt">В корзину</span></a>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="tovar_item">
+									<div class="tovar_img">
+										<div class="tovar_img__img">
+											<a href="#"><img src="img/tkan8.jpg" alt=""></a>									
+										</div>								
+									</div>
+									<div class="tovar_item__text">
+										<span class="tovar_item__nameproduct">Кружево</span>
+										<span class="tovar_item__price"><b>650 </b>руб/м</span>
+										<a href="#" class="button button__basket"><span class="button__basket_txt">В корзину</span></a>
+									</div>
+								</div>
+							</div>
+							<div class="item">						
+								<div class="tovar_item">
+									<div class="tovar_img">
+										<div class="tovar_img__img">
+											<a href="#"><img src="img/tkan9.jpg" alt=""></a>									
+										</div>								
+									</div>
+									<div class="tovar_item__text">
+										<span class="tovar_item__nameproduct">Батист</span>
+										<span class="tovar_item__price"><b>710 </b>руб/м</span>
+										<a href="#" class="button button__basket"><span class="button__basket_txt">В корзину</span></a>
+									</div>
+								</div>
+							</div>
+							<div class="item">			
+								<div class="tovar_item tovar_item_last">
+									<div class="tovar_img">
+										<div class="tovar_img__img">
+											<a href="#"><img src="img/tkan10.jpg" alt=""></a>									
+										</div>								
+									</div>
+									<div class="tovar_item__text">
+										<span class="tovar_item__nameproduct">Костюмная</span>
+										<span class="tovar_item__price"><b>410 </b>руб/м</span>
+										<a href="#" class="button button__basket"><span class="button__basket_txt">В корзину</span></a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
 			</div>
 
 		</div>
@@ -87,42 +174,6 @@
 </body>
 </html>
 
-<script>
-	$('.product__numberinp').on("change keyup input click", function() {
-		if (this.value.match(/[^0-9]/g)) {
-			this.value = this.value.replace(/[^0-9]/g, '');
-		}
-	});
-	$('.product__metr-up').on('click', function () {
-		var inpnumber = $('.product__numberinp').val();
-		inpnumber = parseFloat(inpnumber);
-		if (inpnumber > 0) {
-			inpnumber++;
-		}
-		$('.product__numberinp').val(inpnumber);			
-	});
-	$('.product__metr-down').on('click', function () {
-		var inpnumber = $('.product__numberinp').val();
-		x = parseFloat(inpnumber);
-		if (inpnumber > 1) {
-			inpnumber--;
-		}
-		$('.product__numberinp').val(inpnumber);		
-	});
-
-
-	$('.product__img-choise img').on('click', function(evt) { 
-		evt.preventDefault();       		
-		var imgPath = $(this).attr('data-bigimg');         
-		var oldImage = $('.product__img img');              
-		var newImage = $('<img src="' + imgPath +'">' );	
-
-		$('.activeimg').removeClass('activeimg');
-		$(this).addClass('activeimg'); 	
-
-		$(this).parents('.product__leftbox').find('.product__img').html(newImage);		
-	});
-</script>
 
 
 
