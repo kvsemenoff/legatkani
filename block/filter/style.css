@@ -43,8 +43,8 @@
     background: url("../../img/galkamenu.png") no-repeat right center; }
   @media only screen and (min-width: 800px) {
     .filter__link {
-      padding-right: 20px; } }
-  @media only screen and (min-width: 1150px) {
+      padding-right: 18px; } }
+  @media only screen and (min-width: 1200px) {
     .filter__link {
       padding-right: 34px; } }
 
@@ -92,7 +92,7 @@
     .filter_sort {
       padding-left: 20px;
       display: block; } }
-  @media only screen and (min-width: 1150px) {
+  @media only screen and (min-width: 1200px) {
     .filter_sort {
       padding-left: 30px; } }
 
@@ -111,7 +111,7 @@
   @media only screen and (min-width: 800px) {
     .filter__vid {
       width: 105px; } }
-  @media only screen and (min-width: 1150px) {
+  @media only screen and (min-width: 1200px) {
     .filter__vid {
       width: 130px; } }
 
@@ -131,7 +131,7 @@
   vertical-align: middle; }
 
 .filter__sortbox {
-  max-width: 440px;
+  max-width: 410px;
   display: inline-block;
   width: 100%;
   vertical-align: bottom; }
@@ -142,7 +142,7 @@
     line-height: 48px;
     text-transform: uppercase;
     margin-right: 13px; }
-  @media only screen and (min-width: 990px) {
+  @media only screen and (min-width: 1200px) {
     .filter__sortbox {
       max-width: 440px; } }
 
@@ -163,7 +163,7 @@
     display: inline-block;
     vertical-align: middle;
     background: url("../../img/down.png") no-repeat right center; }
-  @media only screen and (min-width: 990px) {
+  @media only screen and (min-width: 1200px) {
     .sort__price_sort {
       padding-right: 55px; } }
 
@@ -178,7 +178,7 @@
   padding-top: 5px;
   text-align: right;
   padding-right: 15px; }
-  @media only screen and (min-width: 1150px) {
+  @media only screen and (min-width: 1200px) {
     .filter__onpage {
       max-width: 193px; } }
   .filter__onpage span {
