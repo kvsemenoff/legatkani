@@ -387,3 +387,72 @@
 		}
 	}
 }
+
+/* Страница одной новости
+==============================*/
+.news-page__brad{
+	padding: 52px 0px;
+}
+.news-page__block{
+	&_title{
+		text-align: center;
+		padding: 62px 0px;
+	}
+	&_plan{
+		text-align: center;
+		span{
+			display: inline-block;
+		}
+		&_title{
+			text-transform: uppercase;
+			font-weight: 700;
+			color: black;
+			margin-bottom: 26px;
+		}
+		&_theme{
+			background-color: #ebe9ea;
+			border-radius: 14px;
+			padding: 8px 18px;
+			margin-bottom: 8px;
+		}
+	}
+	&_time{
+		padding-bottom: 20px;
+		padding-top: 30px;
+		@media only screen and (min-width : 480px) {
+			float: left;
+			padding-bottom: 46px;
+			padding-top: 118px;
+		}
+	}
+	&_social{
+		padding-top: 30px;
+		padding-bottom: 20px;
+		@media only screen and (min-width : 480px) {
+			float: right;
+			padding-bottom: 46px;
+			padding-top: 118px;
+		}
+		&_item{
+			float: left;
+		}
+		&_item:first-child{
+			padding-top: 1px;
+			padding-right: 13px;
+			span{
+				color: black;
+			}
+		}
+	}
+	&_txt{
+		span{
+			font-weight: 700;
+			color: #3d3d3d;
+			display: inline-block;
+			padding-bottom: 17px;
+		}
+		p{
+			padding-bottom: 40px;
+		}
+	}
+}

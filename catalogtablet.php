@@ -6,7 +6,7 @@
 	</div>
 	<div class="n-content">
 		<div class="n-content-inner vertical-align">
-			<div class="lace">
+			
 				<div class="container lace-container">
 					<div class="col-sm-12 col-md-3">
 						<div class="lace__sidebar">
@@ -42,7 +42,7 @@
 					</div>
 					<div class="col-sm-12 col-md-9">
 						<div class="lace__header">
-							<h1 class="h1">Каталог тканей</h1>
+							<h1 class="h1 favorite__caption">Каталог тканей</h1>
 						</div>
 						<div class="lace__breadcrumbs">
 							<ul class="breadcrumps">
@@ -50,7 +50,7 @@
 								<li class="breadcrumps__link"><span>Каталог</span></li>
 							</ul>
 						</div>
-						<div class="lace__filter">
+						<div class="catalogspisok__filter">
 							
 
 							<div class="filter_sort">
@@ -422,7 +422,7 @@
 						</ul>
 					</div>
 				</div>
-			</div>
+			
 		</div>
 		<div class="n-footer">
 			<?php require_once('includes/footer.php'); ?>

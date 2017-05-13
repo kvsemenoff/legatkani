@@ -649,4 +649,106 @@
   -ms-transform: rotate(180deg);
   transform: rotate(180deg); }
 
+/*============ catalogspisok =============*/
+.catalogspisok__content {
+  text-align: center; }
+
+.catalogspisok__filter {
+  margin-bottom: 30px; }
+  .catalogspisok__filter .sort__showprice {
+    color: #7f2461;
+    font-size: 12px;
+    font-style: italic;
+    text-decoration: none;
+    font-weight: 400; }
+
+@media only screen and (min-width: 800px) {
+  .catalogspisok__mobtxt {
+    display: none; } }
+
+.catalogspisok__deskspisok {
+  display: none;
+  vertical-align: top; }
+  @media only screen and (min-width: 800px) {
+    .catalogspisok__deskspisok {
+      display: inline-block;
+      width: 64%; } }
+  @media only screen and (min-width: 1200px) {
+    .catalogspisok__deskspisok {
+      width: 67%; } }
+
+.catalogspisok__item {
+  max-width: 275px;
+  width: 100%;
+  display: inline-block; }
+  .catalogspisok__item .tovar_img {
+    display: inline-block; }
+    @media only screen and (min-width: 800px) {
+      .catalogspisok__item .tovar_img {
+        width: 245px; } }
+    @media only screen and (min-width: 1200px) {
+      .catalogspisok__item .tovar_img {
+        width: 275px; } }
+  .catalogspisok__item .tovar_item {
+    width: 275px;
+    min-height: 414px; }
+    @media only screen and (min-width: 800px) {
+      .catalogspisok__item .tovar_item {
+        width: 100%;
+        min-height: auto; } }
+  @media only screen and (min-width: 400px) {
+    .catalogspisok__item {
+      margin-right: 19px; } }
+  @media only screen and (min-width: 800px) {
+    .catalogspisok__item {
+      max-width: 100%;
+      width: 100%;
+      margin-bottom: 15px;
+      margin-right: 0px; } }
+
+.catalogspisok__tablebox {
+  max-width: 240px;
+  width: 100%;
+  display: inline-block;
+  padding: 30px 0 30px 33px;
+  text-align: left;
+  float: left; }
+
+.catalogspisok__capt {
+  color: #525252;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 34px; }
+
+.catalogspisok__table .firsttd, .catalogspisok__table .secondtd {
+  color: #525252;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 600;
+  display: inline-block;
+  margin-right: 7px; }
+.catalogspisok__table .secondtd {
+  font-weight: 400; }
+
+.catalogspisok__pricebox {
+  max-width: 205px;
+  width: 100%;
+  display: inline-block;
+  vertical-align: top;
+  float: right;
+  padding-top: 50px;
+  text-align: center;
+  margin-top: 16px; }
+  .catalogspisok__pricebox .tovar_item__price {
+    margin-bottom: 10px;
+    padding-left: 0; }
+
+.catalogspisok__pag {
+  padding: 30px 0;
+  margin-top: 35px;
+  border-top: 1px solid #e8e8e8; }
+  @media only screen and (min-width: 800px) {
+    .catalogspisok__pag {
+      padding: 30px 0 100px 0; } }
+
 /*# sourceMappingURL=style-df.css.map */
