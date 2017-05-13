@@ -25,6 +25,10 @@
 	@media only screen and (min-width : 992px) {
 		display: none;
 	}
+	.fa-bars{
+		font-size: 26px;
+		color:#1E0700;
+	}
 }
 .header-bottom{
 	&__box1{
@@ -154,6 +158,7 @@
 		}
 		@media only screen and (min-width : 768px) {
 			text-align: right;
+			width: 222px;
 		}
 		@media only screen and (min-width : 992px) {
 			float: left;
@@ -262,4 +267,192 @@
 .sp_tel{
 	display: inline-block;
 	padding-bottom: 5px;
+}
+
+/* Catalog main
+=================================*/
+.catalog-main{
+	.h2{
+		text-align: center;
+		padding: 29px 0px;
+		@media only screen and (min-width : 768px) {
+			padding: 46px 0px;
+		}
+	}
+	&__hidden{
+		display: none;
+		@media only screen and (min-width : 768px) {
+			display: block !important;
+		}
+	}
+	&__button-wrap{
+		text-align: center;
+		padding: 25px 0px;
+		@media only screen and (min-width : 768px) {
+			display: none;
+		}
+	}
+	&__button{
+		display: inline-block;
+		width: 161px;
+		height: 38px;
+		border: 2px solid #C1A16A;
+		margin: 0 auto;
+		font-weight: 600;
+		text-transform: uppercase;
+		color: #C1A16A;
+		font-size: 11px;
+		text-align: center;
+		font-family: 'Open Sans', sans-serif;
+		line-height: 33px;
+		position: relative;
+		&:after{
+			content:"";
+			position: absolute;
+			width: 8px;
+			height: 5px;
+			right: 25px;
+			top: 15px;
+			background:url(../img/strd.png);
+		}
+		&_2{
+			display: none;
+			&:after{
+				display: none;
+			}
+		}
+	}
+	&__item{
+		border-top: 1px solid #C1A16A;
+		border-bottom: 1px solid #C1A16A;
+		padding: 16px 0px;
+		position: relative;
+		@media only screen and (min-width : 768px) {
+			padding: 50px 0px;
+		}
+		&:before{
+			content:"";
+			position: absolute;
+			background:url(../img/lg1.jpg);
+			width: 72px;
+			height: 20px;
+			left: 50%;
+			top:-1%;
+			-webkit-transform: translate(-50%, -50%);
+			-moz-transform: translate(-50%, -50%);
+			-ms-transform: translate(-50%, -50%);
+			-o-transform: translate(-50%, -50%);
+			transform: translate(-50%, -50%);
+		}
+		&:after{
+			content:"";
+			position: absolute;
+			background:url(../img/lg2.jpg);
+			width: 72px;
+			height: 20px;
+			left: 50%;
+			bottom:-6%;
+			-webkit-transform: translate(-50%, -50%);
+			-moz-transform: translate(-50%, -50%);
+			-ms-transform: translate(-50%, -50%);
+			-o-transform: translate(-50%, -50%);
+			transform: translate(-50%, -50%);
+			@media only screen and (min-width : 768px) {
+				bottom:-9%;
+			}
+		}
+		li{
+			a{
+				display: block;
+				padding: 11px 31px;
+				text-transform: uppercase;
+				color: #2c2c2c;
+				font-weight: 600;
+				font-family: 'Open Sans', sans-serif;
+				text-decoration: none;
+				font-size: 12px;
+				letter-spacing: 1px;
+				&:hover{
+					background:#F2F2F2 url(../../img/strs.png) no-repeat left 8px center;
+				}
+			}
+		}	
+	}
+	&__ul{
+		@media only screen and (min-width : 768px) {
+			text-align: left;
+			-webkit-column-count: 4; 
+			-moz-column-count: 4; 
+			column-count: 4;
+		}
+	}
+}
+
+/* Страница одной новости
+==============================*/
+.news-page__brad{
+	padding: 52px 0px;
+}
+.news-page__block{
+	&_title{
+		text-align: center;
+		padding: 62px 0px;
+	}
+	&_plan{
+		text-align: center;
+		span{
+			display: inline-block;
+		}
+		&_title{
+			text-transform: uppercase;
+			font-weight: 700;
+			color: black;
+			margin-bottom: 26px;
+		}
+		&_theme{
+			background-color: #ebe9ea;
+			border-radius: 14px;
+			padding: 8px 18px;
+			margin-bottom: 8px;
+		}
+	}
+	&_time{
+		padding-bottom: 20px;
+		padding-top: 30px;
+		@media only screen and (min-width : 480px) {
+			float: left;
+			padding-bottom: 46px;
+			padding-top: 118px;
+		}
+	}
+	&_social{
+		padding-top: 30px;
+		padding-bottom: 20px;
+		@media only screen and (min-width : 480px) {
+			float: right;
+			padding-bottom: 46px;
+			padding-top: 118px;
+		}
+		&_item{
+			float: left;
+		}
+		&_item:first-child{
+			padding-top: 1px;
+			padding-right: 13px;
+			span{
+				color: black;
+			}
+		}
+	}
+	&_txt{
+		span{
+			font-weight: 700;
+			color: #3d3d3d;
+			display: inline-block;
+			padding-bottom: 17px;
+		}
+		p{
+			padding-bottom: 40px;
+		}
+	}
 }

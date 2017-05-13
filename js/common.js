@@ -29,12 +29,27 @@ $(document).ready(function(){
 
 	// Бургер (legatkani)
 	$(".burger").click(function(){
-		$(".main-menu__style").slideToggle(500);
+		$(".main-menu__style").slideDown(500);
+		$(".fa-bars").css("display", "none");
 	});
 	$(".main-menu__closer").click(function(){
-		$(".main-menu__style").slideToggle(500);
+		$(".main-menu__style").slideUp(500);
+		$(".fa-bars").css("display", "inline-block");
 	});
 	// END бургер (legatkani)
+
+	// Раскрывающийся каталог на главной
+	$(".catalog-main__button").click(function(){
+		$(".catalog-main__hidden").slideDown(500);
+		$(".catalog-main__button").css("display", "none");
+		$(".catalog-main__button_2").css("display", "block");
+	});
+	$(".catalog-main__button_2").click(function(){
+		$(".catalog-main__hidden").slideUp(500);
+		$(".catalog-main__button").css("display", "block");
+		$(".catalog-main__button_2").css("display", "none");
+	});
+	// END Раскрывающийся каталог на главной
 
 
 
@@ -65,4 +80,29 @@ $(document).ready(function(){
 			}
 		}
 	});
+
+	$('.js-phone').mask("+7(999)999-99-99?");
+	
+
+	$('.tabs-content > .tab-content').each(function(index){
+		if (index != 0) {
+			$(this).css('display','none');
+		};
+	});
+	$('.tab').click(function(){
+		$('.tab').removeClass('active');
+		$('.tabs-content').find('div').removeClass('active');
+		$('.tabs-content > .tab-content').css('display','none');
+		$(this).addClass('active');
+
+		for (var i = 0; i < 4; i++) {
+			if($('.tabs > .tab-' + i).hasClass('active')){
+				$('.tabs-content > .tab-' + i).addClass('active');
+		};
+		
+		$('.tabs-content > .active').css('display','block');
+		};
+	});
+
+
 });

@@ -70,6 +70,7 @@
  		<script src="js/responsiveTabs.js"></script>
  		<script src="js/jquery.maskedinput.min.js"></script>
  		<script src="js/fonts.js"></script>
- 		<script src="js/common.js"></script>
+    <script src="js/common.js"></script>
+ 		<script src="js/cart.js"></script>
     <script src="https://api-maps.yandex.ru/2.1/?lang=tr_TR" type="text/javascript"></script>
     <script src="js/script-dg.js"></script>
