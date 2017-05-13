@@ -25,9 +25,9 @@
 							<div class="tovar_img__toplent tovar_img__toplent_new"><span>новинка</span></div>
 						</div>	
 						<div class="product__img-choise">
-							<div><img src="img/galerysm1.jpg" alt="" data-bigimg="img/galerybig.jpg"></div>
+							<div><img src="img/galerysm1.jpg" class="activeimg" alt="" data-bigimg="img/galerybig.jpg"></div>
 							<div><img src="img/galerysm2.jpg" alt="" data-bigimg="img/galerybig.jpg"></div>
-							<div><img src="img/galerysm3.jpg" alt="" data-bigimg="img/galerysm3.jpg"></div>
+							<div><img src="img/galerysm3.jpg" alt="" data-bigimg="img/galerybig.jpg"></div>
 						</div>
 					</div>
 					<div class="product__rightbox">
@@ -63,7 +63,7 @@
 								<span>Итого: <b>3 750</b> руб.</span>
 							</div>
 						</div>
-
+						<div class="clear"></div>
 						<div class="product__buttons">
 							<a href="#" class="button button__news button__news_buy">
 								<span class="button__news_txt button__news_buy_txt">Заказать</span>
@@ -115,8 +115,12 @@
 		evt.preventDefault();       		
 		var imgPath = $(this).attr('data-bigimg');         
 		var oldImage = $('.product__img img');              
-		var newImage = $('<img src="' + imgPath +'">' ); 
-		$(this).parents('.product__leftbox').find('.product__img').html(newImage); 
+		var newImage = $('<img src="' + imgPath +'">' );	
+
+		$('.activeimg').removeClass('activeimg');
+		$(this).addClass('activeimg'); 	
+
+		$(this).parents('.product__leftbox').find('.product__img').html(newImage);		
 	});
 </script>
 
