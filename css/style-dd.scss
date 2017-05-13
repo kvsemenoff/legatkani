@@ -268,3 +268,107 @@
 	display: inline-block;
 	padding-bottom: 5px;
 }
+
+/* Catalog main
+=================================*/
+.catalog-main{
+	.h2{
+		text-align: center;
+		padding: 29px 0px;
+	}
+	&__hidden{
+		display: none;
+		@media only screen and (min-width : 768px) {
+			display: block;
+		}
+	}
+	&__button-wrap{
+		text-align: center;
+		padding: 25px 0px;
+		@media only screen and (min-width : 768px) {
+			display: none;
+		}
+	}
+	&__button{
+		display: inline-block;
+		width: 161px;
+		height: 38px;
+		border: 2px solid #C1A16A;
+		margin: 0 auto;
+		font-weight: 600;
+		text-transform: uppercase;
+		color: #C1A16A;
+		font-size: 11px;
+		text-align: center;
+		font-family: 'Open Sans', sans-serif;
+		line-height: 33px;
+		position: relative;
+		&:after{
+			content:"";
+			position: absolute;
+			width: 8px;
+			height: 5px;
+			right: 25px;
+			top: 15px;
+			background:url(../img/strd.png);
+		}
+	}
+	&__item{
+		border-top: 1px solid #C1A16A;
+		border-bottom: 1px solid #C1A16A;
+		padding: 16px 0px;
+		position: relative;
+		&:before{
+			content:"";
+			position: absolute;
+			background:url(../img/lg1.jpg);
+			width: 72px;
+			height: 20px;
+			left: 50%;
+			top:-1%;
+			-webkit-transform: translate(-50%, -50%);
+			-moz-transform: translate(-50%, -50%);
+			-ms-transform: translate(-50%, -50%);
+			-o-transform: translate(-50%, -50%);
+			transform: translate(-50%, -50%);
+		}
+		&:after{
+			content:"";
+			position: absolute;
+			background:url(../img/lg2.jpg);
+			width: 72px;
+			height: 20px;
+			left: 50%;
+			bottom:-7%;
+			-webkit-transform: translate(-50%, -50%);
+			-moz-transform: translate(-50%, -50%);
+			-ms-transform: translate(-50%, -50%);
+			-o-transform: translate(-50%, -50%);
+			transform: translate(-50%, -50%);
+		}
+		li{
+			a{
+				display: block;
+				padding: 11px 31px;
+				text-transform: uppercase;
+				color: #2c2c2c;
+				font-weight: 600;
+				font-family: 'Open Sans', sans-serif;
+				text-decoration: none;
+				font-size: 12px;
+				letter-spacing: 1px;
+				&:hover{
+					background:#F2F2F2 url(../../img/strs.png) no-repeat left 8px center;
+				}
+			}
+		}	
+	}
+	&__ul{
+		@media only screen and (min-width : 768px) {
+			text-align: left;
+			-webkit-column-count: 4; 
+			-moz-column-count: 4; 
+			column-count: 4;
+		}
+	}
+}
