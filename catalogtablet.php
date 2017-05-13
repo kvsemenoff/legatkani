@@ -6,8 +6,8 @@
 	</div>
 	<div class="n-content">
 		<div class="n-content-inner vertical-align">
-			<div class="lace">
-				<div class="container lace-container">
+			
+				<div class="container paddingnone">
 					<div class="col-sm-12 col-md-3">
 						<div class="lace__sidebar">
 							<div class="sidebar-menu sidebar-menu__style">
@@ -42,78 +42,16 @@
 					</div>
 					<div class="col-sm-12 col-md-9">
 						<div class="lace__header">
-							<h1 class="h1">Кружево</h1>
+							<h1 class="h1 favorite__caption">Каталог тканей</h1>
 						</div>
 						<div class="lace__breadcrumbs">
 							<ul class="breadcrumps">
-								<li class="breadcrumps__link breadcrumps__link_home"><a href="/" class="bread_menu__link_bg">Главная</a></li>
-								<li class="breadcrumps__link breadcrumps__link_home"><a href="/" class="bread_menu__link_bg">Каталог</a></li>
-								<li class="breadcrumps__link"><span>Кружево</span></li>
+								<li class="breadcrumps__link breadcrumps__link_home"><a href="/" class="bread_menu__link_bg">Главная</a></li>	
+								<li class="breadcrumps__link"><span>Каталог</span></li>
 							</ul>
 						</div>
 						<div class="catalogspisok__filter">
-							<ul class="filter">
-								<li class="filter__menu">
-									<a href="#" class="filter__link">тип ткани</a>
-									<ul class="filter__hover_menu">
-										<li><a href="#">шелк натуральный</a></li>
-										<li><a href="#">хлопок</a></li>
-										<li><a href="#">полиэстр</a></li>
-									</ul>
-								</li>
-								<li class="filter__menu">
-									<a href="#" class="filter__link">цвет</a>
-									<ul class="filter__hover_menu">
-										<li><a href="#">шелк натуральный</a></li>
-										<li><a href="#">хлопок</a></li>
-										<li><a href="#">полиэстр</a></li>
-									</ul>
-								</li>
-								<li class="filter__menu">
-									<a href="#" class="filter__link">вид дизайна</a>
-									<ul class="filter__hover_menu">
-										<li><a href="#">шелк натуральный</a></li>
-										<li><a href="#">хлопок</a></li>
-										<li><a href="#">полиэстр</a></li>
-									</ul>
-								</li>
-								<li class="filter__menu">
-									<a href="#" class="filter__link">состав</a>
-									<ul class="filter__hover_menu">
-										<li><a href="#">шелк натуральный</a></li>
-										<li><a href="#">хлопок</a></li>
-										<li><a href="#">полиэстр</a></li>
-									</ul>
-								</li>
-								<li class="filter__menu">
-									<a href="#" class="filter__link">ширина</a>
-									<ul class="filter__hover_menu">
-										<li><a href="#">шелк натуральный</a></li>
-										<li><a href="#">хлопок</a></li>
-										<li><a href="#">полиэстр</a></li>
-									</ul>
-								</li>
-								<li class="filter__menu">
-									<a href="#" class="filter__link">назанчение</a>
-									<ul class="filter__hover_menu">
-										<li><a href="#">шелк натуральный</a></li>
-										<li><a href="#">хлопок</a></li>
-										<li><a href="#">полиэстр</a></li>
-									</ul>
-								</li>
-								<li class="filter__menu">
-									<a href="#" class="filter__link">цена</a>
-									<ul class="filter__hover_menu">
-										<li><a href="#">шелк натуральный</a></li>
-										<li><a href="#">хлопок</a></li>
-										<li><a href="#">полиэстр</a></li>
-									</ul>
-								</li>
-								<li class="filter__clear">
-									<a href="#">Сбросить</a>
-								</li>
-							</ul>
-							<div class="clear"></div>
+							
 
 							<div class="filter_sort">
 								<div class="filter__vid">
@@ -138,6 +76,7 @@
 							<div class="button__filer">
 								<span>Фильтр</span>
 							</div>
+							
 							<div class="filer__accordion">
 								<div class="filer__accordion__price">
 									<a href="#" class="showprice_link">Показать цены в У.Е.</a>
@@ -203,6 +142,7 @@
 									<a href="#" class="filer__accordion_clearlink"><span>Сбросить</span></a>
 								</div>
 							</div>
+
 						</div>
 						<div class="lace__content">
 							<div class="col-sm-6 col-md-4">
@@ -239,7 +179,7 @@
 													</div>
 												</div>
 											</div>
-											<div class="tovar_img__toplent tovar_img__toplent_new"><span>новинка</span></div>
+											
 										</div>
 										<div class="tovar_item__text">
 											<span class="tovar_item__nameproduct">Кружево</span>
@@ -261,7 +201,7 @@
 													</div>
 												</div>
 											</div>
-											<div class="tovar_img__toplent tovar_img__toplent_new"><span>новинка</span></div>
+											
 										</div>
 										<div class="tovar_item__text">
 											<span class="tovar_item__nameproduct">Батист</span>
@@ -283,7 +223,7 @@
 													</div>
 												</div>
 											</div>
-											<div class="tovar_img__toplent tovar_img__toplent_sale"><span>распродажа</span></div>
+											
 										</div>
 										<div class="tovar_item__text">
 											<span class="tovar_item__nameproduct">Кружево</span>
@@ -305,7 +245,7 @@
 													</div>
 												</div>
 											</div>
-											<div class="tovar_img__toplent tovar_img__toplent_sale"><span>распродажа</span></div>
+											
 										</div>
 										<div class="tovar_item__text">
 											<span class="tovar_item__nameproduct">Батист</span>
@@ -327,7 +267,7 @@
 													</div>
 												</div>
 											</div>
-											<div class="tovar_img__toplent tovar_img__toplent_sale"><span>распродажа</span></div>
+											
 										</div>
 										<div class="tovar_item__text">
 											<span class="tovar_item__nameproduct">Костюмная</span>
@@ -349,7 +289,7 @@
 													</div>
 												</div>
 											</div>
-											<div class="tovar_img__toplent tovar_img__toplent_new"><span>новинка</span></div>
+											
 										</div>
 										<div class="tovar_item__text">
 											<span class="tovar_item__nameproduct">Бархат</span>
@@ -371,7 +311,7 @@
 													</div>
 												</div>
 											</div>
-											<div class="tovar_img__toplent tovar_img__toplent_new"><span>новинка</span></div>
+											
 										</div>
 										<div class="tovar_item__text">
 											<span class="tovar_item__nameproduct">Кружево</span>
@@ -393,7 +333,7 @@
 													</div>
 												</div>
 											</div>
-											<div class="tovar_img__toplent tovar_img__toplent_new"><span>новинка</span></div>
+											
 										</div>
 										<div class="tovar_item__text">
 											<span class="tovar_item__nameproduct">Батист</span>
@@ -415,7 +355,7 @@
 													</div>
 												</div>
 											</div>
-											<div class="tovar_img__toplent tovar_img__toplent_sale"><span>распродажа</span></div>
+											
 										</div>
 										<div class="tovar_item__text">
 											<span class="tovar_item__nameproduct">Кружево</span>
@@ -437,7 +377,7 @@
 													</div>
 												</div>
 											</div>
-											<div class="tovar_img__toplent tovar_img__toplent_sale"><span>распродажа</span></div>
+											
 										</div>
 										<div class="tovar_item__text">
 											<span class="tovar_item__nameproduct">Батист</span>
@@ -459,7 +399,7 @@
 													</div>
 												</div>
 											</div>
-											<div class="tovar_img__toplent tovar_img__toplent_sale"><span>распродажа</span></div>
+											
 										</div>
 										<div class="tovar_item__text">
 											<span class="tovar_item__nameproduct">Костюмная</span>
@@ -473,7 +413,7 @@
 					</div>
 				</div>
 				<div class="container">
-					<div class="lace__pag">
+					<div class="catalogspisok__pag">
 						<ul class="pagination">
 							<li class="pagination__link"><span>1</span></li>
 							<li class="pagination__link"><a href="/" class="pagination__nonactive">2</a></li>
@@ -482,7 +422,7 @@
 						</ul>
 					</div>
 				</div>
-			</div>
+			
 		</div>
 		<div class="n-footer">
 			<?php require_once('includes/footer.php'); ?>
