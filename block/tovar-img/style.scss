@@ -3,19 +3,20 @@
 	width: 275px;
 	transition:0.5s;
 	display: inline-block;	
-	&:hover{
-		.tovar_img__hover{		
-			opacity: 1;
-			a{
-				display: inline-block;
-			}
-		}
-	}
+	
 	@media only screen and (min-width : 800px) {
 		width: 245px;
 	}
 	@media only screen and (min-width : 1150px) {
 		width: 275px;
+		&:hover{
+			.tovar_img__hover{		
+				opacity: 1;
+				a{
+					display: inline-block;
+				}
+			}
+		}
 	}
 }
 .tovar_img__img{
@@ -107,6 +108,7 @@
 		display: inline-block;
 		padding-left: 15px;
 		letter-spacing: 0.7px;
+		line-height: 21px;
 	}
 }
 .tovar_img__toplent_new{

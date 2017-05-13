@@ -1,4 +1,25 @@
 $(document).ready(function(){
+  $(".button__filer").on('click', function(e){
+		e.preventDefault();
+		$('.filer__accordion').slideToggle();
+	});
+	$(".filer__accordion_hide").on('click', function(e){
+		e.preventDefault();
+		$('.filer__accordion').slideUp();
+	});
+
+	$(".filer__accordion_link").on('click', function(e){
+		e.preventDefault();
+		var answerId = $(this).attr("href");
+		answerId = '.' + answerId;
+		if( !$(this).hasClass("linkactivemob")){
+			$(".filer__accordion_show").slideUp();
+			$(".filer__accordion_link").removeClass("linkactivemob");
+		}
+		$(this).toggleClass("linkactivemob");
+		$(answerId).slideToggle();
+	});
+  
   ymaps.ready(init);
   var myMap,
       myPlacemark;
