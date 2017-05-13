@@ -43,7 +43,10 @@
 		max-width: 450px;
 		text-align: center;
 		margin: auto;
-		padding: 60px 0;
+		padding: 20px 0;
+		@media only screen and (min-width : 992px) {
+			padding: 60px 0;
+		}	
 	}
 	.question-line{
 		padding-bottom: 30px;
