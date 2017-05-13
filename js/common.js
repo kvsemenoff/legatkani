@@ -29,10 +29,12 @@ $(document).ready(function(){
 
 	// Бургер (legatkani)
 	$(".burger").click(function(){
-		$(".main-menu__style").slideToggle(500);
+		$(".main-menu__style").slideDown(500);
+		$(".fa-bars").css("display", "none");
 	});
 	$(".main-menu__closer").click(function(){
-		$(".main-menu__style").slideToggle(500);
+		$(".main-menu__style").slideUp(500);
+		$(".fa-bars").css("display", "inline-block");
 	});
 	// END бургер (legatkani)
 
