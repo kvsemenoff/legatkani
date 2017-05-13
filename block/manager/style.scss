@@ -1,0 +1,49 @@
+.manager{
+	&__img{
+		margin-top: 3px;
+		width: 80px;
+		height: 95px;
+		overflow: hidden;
+		float: left;
+		img{
+			display: block;
+			width: 100%;
+			height: auto;
+			min-height: 100%;
+		}
+	}
+	&__info{
+		margin-left: 92px;
+		color: #000;
+		span{
+			font-size: 12px;
+			display: block;
+			padding-bottom: 4px;
+		}
+		strong{
+			font-weight: 600;
+			text-transform: uppercase;
+			display: block;
+			padding-bottom: 1px;
+		}
+		i{
+			font-style: normal;
+			display: block;
+			font-size: 13px;
+			padding-bottom: 1px;
+		}
+	}
+	&__mail{
+		display: block;
+		color: #0b5cb7;
+		font-size: 13px;
+		text-decoration: none;
+	}
+	&__question{
+		font-weight: 600;
+		font-style: italic;
+		font-size: 13px;
+		color: #921f6c;
+		text-decoration: underline;
+	}
+}
