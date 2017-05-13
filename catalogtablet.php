@@ -7,7 +7,7 @@
 	<div class="n-content">
 		<div class="n-content-inner vertical-align">
 			
-				<div class="container lace-container">
+				<div class="container paddingnone">
 					<div class="col-sm-12 col-md-3">
 						<div class="lace__sidebar">
 							<div class="sidebar-menu sidebar-menu__style">
@@ -150,7 +150,7 @@
 									<div class="tovar_item">
 										<div class="tovar_img">
 											<div class="tovar_img__img">
-												<img src="img/tkan2.png" alt="">
+												<img src="img/tkan4.jpg" alt="">
 												<div class="tovar_img__hover">
 													<div class="tovar_img__border">
 														<a href="#">Подробнее ></a>
@@ -194,7 +194,7 @@
 									<div class="tovar_item">
 										<div class="tovar_img">
 											<div class="tovar_img__img">
-												<img src="img/tkan3.png" alt="">
+												<img src="img/tkan3.jpg" alt="">
 												<div class="tovar_img__hover">
 													<div class="tovar_img__border">
 														<a href="#">Подробнее ></a>
@@ -282,7 +282,7 @@
 									<div class="tovar_item">
 										<div class="tovar_img">
 											<div class="tovar_img__img">
-												<img src="img/tkan2.png" alt="">
+												<img src="img/tkan4.jpg" alt="">
 												<div class="tovar_img__hover">
 													<div class="tovar_img__border">
 														<a href="#">Подробнее ></a>
@@ -413,7 +413,7 @@
 					</div>
 				</div>
 				<div class="container">
-					<div class="lace__pag">
+					<div class="catalogspisok__pag">
 						<ul class="pagination">
 							<li class="pagination__link"><span>1</span></li>
 							<li class="pagination__link"><a href="/" class="pagination__nonactive">2</a></li>

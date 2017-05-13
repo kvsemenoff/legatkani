@@ -229,7 +229,27 @@
 
 					</div>
 				</div>
-
+				<div class="question-box">
+					<h2 class="h3 questuon-h3">Задайте вопрос!</h2>
+					<img src="img/question.png" alt="img" class="img-responsive question-line">
+					<form action="#" method="post">	
+						<div class="input input_theme_rosa	qustion-input-margin">
+							<input type="text" class="input__control" placeholder="Ваше имя" name="uname" required>
+						</div>
+						<div class="input input_theme_rosa	qustion-input-margin">
+							<input type="tel" class="input__control js-phone" name="phone" placeholder="+7(___)___-__-__" required>
+						</div>
+						<div class="input input_theme_rosa	qustion-input-margin">
+							<input type="email" class="input__control" placeholder="E-mail" name="email" required>
+						</div>
+						<div class="input input_theme_rosa	qustion-input-margin">
+							<textarea name="message" class="message message_theme_rosa" placeholder="Ваш вопрос"></textarea>
+						</div>
+						<div class="submit-after">
+							<input type="submit" name="submit" class="submit" value="Отправить">
+						</div>
+					</form>
+				</div>
 			</div>
 
 		</div>
