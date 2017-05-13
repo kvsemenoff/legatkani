@@ -47,7 +47,9 @@
 	}
 	.question-line{
 		padding-bottom: 30px;
+		display: inline-block;
 	}
 	.qustion-input-margin{
 		margin-bottom: 19px;
+		max-width: unset !important;
 	}
