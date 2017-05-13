@@ -40,3 +40,34 @@
 .curs__info b { color: #b58827; font-weight: 600; display: inline-block; padding-left: 3px; }
 
 .curs__table-title { font-size: 16px; color: #1f1f1f; font-weight: 600; display: block; padding-bottom: 18px; }
+
+.tech { padding: 20px 0; }
+.tech .all-h .h1 { text-align: left; }
+.tech .h1_slider-wrap h1 { text-align: left; }
+.tech .h1_slider-wrap h1 span { text-transform: none; color: #2f2f2f; font-size: 14px; }
+.tech .all-buttons { padding: 65px 0 20px; border-top: 1px solid #ccc; }
+.tech .all-buttons__title { display: block; font-size: 14px; color: #000; padding-bottom: 40px; }
+.tech .block-wrap { padding-bottom: 20px; }
+.tech a { margin-bottom: 15px; display: inline-block; }
+.tech .call_link { margin-bottom: 15px; display: inline-block; }
+.tech .call_link_dis { text-decoration: none; }
+.tech .header_auth_list_link { display: inline-block; margin: 0 20px 10px 0; }
+.tech .favourite_empty { background: url(../img/heart.png); background-size: cover; }
+.tech .favourite_full { background: url(../img/heart-full.png); background-size: cover; }
+.tech .signin { text-decoration: underline; display: inline-block; padding: 0 20px 15px 0; }
+.tech .signin_dis { text-decoration: none; }
+.tech .button__news { text-align: center; display: inline-block; margin: 0 0 20px 130px; background: #fff; border-color: #7f2461; }
+.tech .button__news span { color: #7f2461 !important; }
+.tech .button__news_dis { background: #7f2461; }
+.tech .button__news_dis span { color: #fff !important; }
+.tech .button__basket_dis { background: #93467c; }
+.tech .button__feedback { display: inline-block; text-decoration: underline; color: #393939; font-size: 16px; font-weight: 600; font-style: italic; }
+.tech .button__feedback_dis { text-decoration: none; }
+.tech .button__simple-link { text-transform: uppercase; font-size: 14px; color: #7f2461; font-weight: 600; width: 75px; text-align: right; text-decoration: underline; margin-right: 20px; }
+.tech .button__simple-link_dis { text-decoration: none; }
+.tech .button__news_buy { margin-left: 0; }
+.tech .button__news_buy_dis { background: #7f2461; }
+.tech .add-to { display: inline-block; text-align: center; padding-bottom: 20px; }
+.tech .add-to a { margin: 0; }
+.tech .add-to span { padding-top: 3px; color: #7f2461; font-size: 14px; font-style: italic; font-weight: 600; font-family: 'Playfair Display'; display: block; }
+.tech .demo-title { font-size: 16px; color: #000; padding-bottom: 15px; }

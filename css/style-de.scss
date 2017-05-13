@@ -161,3 +161,132 @@
 	display: block;
 	padding-bottom: 18px;
 }
+.tech{
+	padding: 20px 0;
+	.all-h .h1{
+		text-align: left;
+	}
+	.h1_slider-wrap h1{
+		text-align: left;
+	  span{
+			text-transform: none;
+			color: #2f2f2f;
+			font-size: 14px;
+		}
+	}
+	.all-buttons{
+		padding: 65px 0 20px;
+		border-top: 1px solid #ccc;
+	}
+	.all-buttons__title{
+		display: block;
+		font-size: 14px;
+		color: #000;
+		padding-bottom: 40px;
+	}
+	.block-wrap{
+		padding-bottom: 20px;
+	}
+	a{
+		margin-bottom: 15px;
+		display: inline-block;
+	}
+	.call_link{
+		margin-bottom: 15px;
+		display: inline-block;
+		&_dis{
+			text-decoration: none;
+		}
+	}
+	.header_auth_list_link{
+		display: inline-block;
+		margin: 0 20px 10px 0;
+	}
+	.favourite_empty{
+		background: url(../img/heart.png);
+		background-size: cover;
+	}
+	.favourite_full{
+		background: url(../img/heart-full.png);
+		background-size: cover;
+	}
+	.signin{
+		text-decoration: underline;
+		display: inline-block;
+		padding: 0 20px 15px 0;
+		&_dis{
+			text-decoration: none;
+		}
+	}
+	.button__news{
+		text-align: center;
+		display: inline-block;
+		margin: 0 0 20px 130px;
+		background: #fff;
+		border-color: #7f2461;
+		span{
+			color: #7f2461!important;
+		}
+		&_dis{
+			background: #7f2461;
+			span{
+				color: #fff!important;
+			}
+		}
+	}
+	.button__basket_dis{
+		background: #93467c;
+	}
+	.button__feedback{
+		display: inline-block;
+		text-decoration: underline;
+		color: #393939;
+		font-size: 16px;
+		font-weight: 600;
+		font-style: italic;
+		&_dis{
+			text-decoration: none;
+		}
+	}
+	.button__simple-link{
+		text-transform: uppercase;
+		font-size: 14px;
+		color: #7f2461;
+		font-weight: 600;
+		width: 75px;
+		text-align: right;
+		text-decoration: underline;
+		margin-right: 20px;
+		&_dis{
+			text-decoration: none;
+		}
+	}
+	.button__news_buy{
+		margin-left: 0;
+		&_dis{
+			background: #7f2461;
+		}
+	}
+	.add-to{
+		display: inline-block;
+		text-align: center;
+		padding-bottom: 20px;
+		a{
+			margin: 0;
+		}
+		span{
+			padding-top: 3px;
+			color: #7f2461;
+			font-size: 14px;
+			font-style:italic;
+			font-weight: 600;
+			font-family: 'Playfair Display';
+			display: block;
+		}
+	}
+	.demo-title{
+		font-size: 16px;
+		color: #000;
+		padding-bottom: 15px;
+	}
+}

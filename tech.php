@@ -2,81 +2,157 @@
 <div class="n-wrapper">
 	<div class="n-header">
 		<?php require_once('includes/header-top.php'); ?>
+		<?php require_once('includes/header_bottom.php'); ?>
 	</div>
 	<div class="n-content">
 		<div class="n-content-inner vertical-align">
-			<div class="container">
-				<div class="row">
-					<div class="tech-inner">
+			<div class="inner-de tech">
+				<div class="container">
+					<div class="row">
+						<div class="h1-wrap">
+							<h1 class="h1">Cтили</h1>
+						</div>
 						<div class="breadcrumps-wrap">
 							<ul class="breadcrumps">
-								<li class="breadcrumps__link breadcrumps__link_home"><a href="/" class="bread_menu__link_bg"></a><i>/</i></li>
-								<li class="breadcrumps__link"><a href="#">Цветы в коробках</a><i>/</i></li>
+								<li class="breadcrumps__link breadcrumps__link_home"><a href="/" class="bread_menu__link_bg">Главная</a></li>				
 								<li class="breadcrumps__link"><span>О нас</span></li>
 							</ul>
 						</div>
-						<div class="h1-wrap">
-							<h1 class="h1">Заголовок первого уровня, 34 pt</h1>
-						</div>
-						<p class="text">Магазин «Цветы и мечты» предоставляет своим клиентам прекрасную возможность по доступной стоимости приобрести прекрасные срезанные цветы - поштучно и в изысканных букетах.</p>
-						<p class="text">Наши флористы - увлечённые своим делом мастера, которые не просто умеют составлять цветочные композиции, но и любят создавать уникальные по красоте и изяществу букеты, способные восхитить и обрадовать любого человека.</p>
-						<p class="text">В зависимости от пола и возраста получателя и опираясь на пожелания заказчика, они создают прекрасные цветочные композиции в подарок ко Дню рождения и Восьмому марта, на юбилеи, свадьбы и выпускные, и просто без повода - чтобы порадовать и удивить любимого, близкого человека.</p>
-						<p class="text">В ассортименте магазина всегда представлен огромный выбор свежих срезанных цветов различных видов, а также готовые букеты, комнатные горшечные <br>растения, подарки и игрушки ручной работы, воздушные шары и керамика.</p>
-						<div class="q-wrap">
-							<div class="q">
-								<p>Каждый клиент найдёт у нас именно то, что он ищет. А если нет - мы создадим букет вашей мечты <br>
-								специально для вас! И при этом его стоимость приятно удивит вас своей доступностью.</p>
-								<p>В магазине действует сервис доставки, которым может воспользоваться каждый клиент. Просто позвоните нам, и <br>
-								мы сделаем всё, чтобы выполнить ваш заказ качественно и оперативно! </p>
+						<div class="all-h">
+							<div class="h1_slider-wrap">
+								<h1 class="slider__txtcaption">Заголовок h1 <span> для слайдера на главной</span></h1>
+							</div>
+							<br>
+							<div class="h1__tech-wrap">
+								<h1 class="h1">Заголовок h1</h1>
+							</div>
+							<div class="h2__tech-wrap">
+								<h1 class="h2">Заголовок h2</h1>
+							</div>
+							<div class="h3__tech-wrap">
+								<h1 class="h3">Заголовок h3</h1>
+							</div>
+							<div class="h4__tech-wrap">
+								<h1 class="h4">Заголовок h4</h1>
 							</div>
 						</div>
-						<div class="h2-wrap">
-							<h2 class="h2">Заголовок второго уровня, 28 pt</h2>
-						</div>
-						<p class="text">Магазин «Цветы и мечты» предоставляет своим клиентам прекрасную возможность по доступной стоимости приобрести прекрасные срезанные цветы - поштучно и в изысканных букетах.Наши флористы - увлечённые своим делом мастера, которые не просто умеют составлять цветочные композиции, но и любят создавать уникальные по красоте и изяществу букеты, способные восхитить и обрадовать любого человека.</p>
-						<div class="h3-wrap">
-							<h3 class="h3">Заголовок третьего уровня, 24 pt</h3>
-						</div>
-						<ul class="ul">
-							<li class="ul__li">Рыбные тексты также применяются для демонстрации различных видов шрифта и в разработке макетов. Как правило их содержание бессмысленно. </li>
-							<li class="ul__li">По причине своей функции текста-заполнителя для макетов нечитабельность рыбных текстов имеет особое <br>значение, так как человеческое восприятие имеет особенность, распознавать определенные образцы и повторения.</li>
-						</ul>
-						<div class="h4-wrap">
-							<h4 class="h4">Заголовок четвертого уровня, 20 pt</h4>
-						</div>
-						<ol class="ol">
-							<li class="ol__li "><i class="ol__num">1</i>Рыбные тексты также применяются для демонстрации различных видов шрифта и в разработке макетов. Как правило их содержание бессмысленно. </li>
-							<li class="ol__li "><i class="ol__num">2</i>По причине своей функции текста-заполнителя для макетов нечитабельность рыбных текстов имеет особое <br>значение, так как человеческое восприятие имеет особенность, распознавать определенные образцы и повторения.</li>
-						</ol>
-						<div class="table-wrap">
-							<table class="table">
-								<tr class="table__tr">
-									<th class="table__th">Наименование услуги</th>
-									<th class="table__th">Ед. измерения</th>
-									<th class="table__th">Цена (в рублях)</th>
-								</tr>
-								<tr class="table__tr">
-									<td class="table__td">Рыбным текстом называется текст, служащий для <br>временного наполнения макета в публикациях или </td>
-									<td class="table__td">заказать</td>
-									<td class="table__td">заказать</td>
-								</tr>
-								<tr class="table__tr">
-									<td class="table__td">Самый известный текст-«рыба», называемый Lorem ipsum, имеет свои корни в 16-том веке. Lorem ipsum был создан на псевдо-латыни, которая приблизительно соответствует <br>настоящей латыни. </td>
-									<td class="table__td">по предоплате</td>
-									<td class="table__td">по предоплате</td>
-								</tr>
-							</table>
+						<br><br><br><br>
+						<div class="all-buttons">
+							<p class="all-buttons__title">Кнопки в обычном состоянии / в активном или при наведении</p>
+							<div class="block-wrap">
+								<div>
+									<a href="#" class="call_link">Заказать звонок</a>
+								</div>
+								<div>
+									<a href="#" class="call_link call_link_dis">Заказать звонок</a>
+								</div>
+							</div>
+							<div class="block-wrap">
+								<div>
+									<a href="#" class="header_auth_list_link favourite">0</a>
+									<a href="#" class="header_auth_list_link basket">0</a>
+									<a href="#" class="header_auth_list_link favourite favourite_empty"></a>
+								</div>
+								<div>
+									<a href="#" class="header_auth_list_link favourite">2</a>
+									<a href="#" class="header_auth_list_link basket">2</a>
+									<a href="#" class="header_auth_list_link favourite favourite_full"></a>
+								</div>
+							</div>
+							<div class="block-wrap">
+						    <div class="wrap">
+					   		  <a href="#" class="signin signin_dis">Войти</a>
+						      <a href="#" class="signin signin_dis">Регистрация</a>
+						    </div>
+						   	<div class="wrap">
+					   		  <a href="#" class="signin">Войти</a>
+						    	<a href="#" class="signin">Регистрация</a>
+						   	</div>
+						  </div>
+						  <div class="block-wrap">
+						  	<a href="#" class="button button__news new__button-theme"><span class="button__news_txt">Все новинки</span></a>
+						  	<br>
+						 	 <a href="#" class="button button__news button__news_dis new__button-theme"><span class="button__news_txt">Все новинки</span></a>
+						  </div>
+						  <div class="block-wrap">
+								<a href="#" class="button button__basket"><span class="button__basket_txt">В корзину</span></a>
+								<br>
+								<a href="#" class="button button__basket button__basket_dis"><span class="button__basket_txt">В корзину</span></a>
+							</div>
+							<div class="block-wrap">
+								<a href="#" class="button__feedback">форму обратой связи</a>
+								<br>
+								<a href="#" class="button__feedback button__feedback_dis">форму обратой связи</a>
+							</div>
+							<div class="block-wrap">
+								<a href="#" class="button__simple-link">Новости</a>
+								<a href="#" class="button__simple-link button__simple-link_dis">Новости</a>
+								<br>
+								<a href="#" class="button__simple-link">Другое</a>
+								<a href="#" class="button__simple-link button__simple-link_dis">Другое</a>
+							</div>
+							<br>
+							<div class="block-wrap">
+								<a href="#" class="button button__news button__news_buy"><span class="button__news_txt button__news_buy_txt">Заказать</span></a>
+								<br>
+								<a href="#" class="button button__news button__news_buy button__news_dis"><span class="button__news_txt button__news_buy_txt">Заказать</span></a>
+							</div>
+							<div class="block-wrap">
+								<a href="#" class="showprice_link">Показать цены в У.Е.</a>
+								<br>
+								<a href="#" class="showprice_link">Показать цены в РУБ.</a>
+							</div>
+							<br><br>
+							<div class="block-wrap">
+								<div class="add-to">
+									<a href="#" class="header_auth_list_link favourite favourite_empty"></a>
+									<span>Доавить в закладки</span>
+								</div>
+								<br>
+								<div class="add-to">
+									<a href="#" class="header_auth_list_link favourite favourite_full"></a>
+									<span>Доавить в закладки</span>
+								</div>
+							</div>
+							<br><br>
+							<div class="block-wrap">
+								<a href="#" class="button button__basket button__basket_sub"><span class="button__basket_txt button__basket_sub_txt">Отправить</span></a>
+								<br>
+								<a href="#" class="button button__basket button__basket_dis button__basket_sub"><span class="button__basket_txt button__basket_sub_txt">Отправить</span></a>
+							</div>
+							<br><br>
+							<div class="block-wrap">
+								<a href="#" class="button button__basket button__basket_buy2"><span class="button__basket_txt button__basket_buy2_txt">Оформить заказ</span></a>
+								<br>
+								<a href="#" class="button button__basket button__basket_dis  button__basket_buy2"><span class="button__basket_txt button__basket_buy2_txt">Оформить заказ</span></a>
+							</div>
+							<br><br>
+							<div class="block-wrap">
+								<div class="demo-title">Пример цитирования</div>
+								<div class="q">
+									<p>"Это Более 8000 наименований в наличии на складе в Москве. Еженедельное поступление товара. Опытные менеджеры предложат необходимый ассортимент и удобную систему скидок. Доставка товара до транспортной компании осуществляется бесплатно."
+								</p>
+								</div>
+							</div>
+							<br><br>
+							<div class="block-wrap">
+								<div class="demo-title">Пример списка</div>
+								<ul class="ul">
+									<li class="ul__li">Красный</li>
+									<li class="ul__li">Черный</li>
+									<li class="ul__li">Синий</li>
+									<li class="ul__li">Зеленый</li>
+								</ul>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-	<div class="n-footer">
-		<?php require_once('includes/footer_top.php'); ?>
-		<?php require_once('includes/footer_bottom.php'); ?>
+		<div class="n-footer">
+			<?php require_once('includes/footer.php'); ?>
+		</div>
 	</div>
 </div>
-
 </body>
 </html>
