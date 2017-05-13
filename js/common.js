@@ -38,6 +38,19 @@ $(document).ready(function(){
 	});
 	// END бургер (legatkani)
 
+	// Раскрывающийся каталог на главной
+	$(".catalog-main__button").click(function(){
+		$(".catalog-main__hidden").slideDown(500);
+		$(".catalog-main__button").css("display", "none");
+		$(".catalog-main__button_2").css("display", "block");
+	});
+	$(".catalog-main__button_2").click(function(){
+		$(".catalog-main__hidden").slideUp(500);
+		$(".catalog-main__button").css("display", "block");
+		$(".catalog-main__button_2").css("display", "none");
+	});
+	// END Раскрывающийся каталог на главной
+
 
 
 

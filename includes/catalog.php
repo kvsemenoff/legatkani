@@ -34,6 +34,7 @@
 			</div>
 			<div class="catalog-main__button-wrap">
 				<a class="catalog-main__button" href="#">Показать все</a>
+				<a class="catalog-main__button catalog-main__button_2" href="#">скрыть</a>
 			</div>
 		</div>
 	</div>
