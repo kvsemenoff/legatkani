@@ -68,7 +68,8 @@
  		<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
  		<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
  		<script src="js/responsiveTabs.js"></script>
- 		<script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
+ 		<script src="js/jquery.formstyler.min.js"></script>
  		<script src="js/fonts.js"></script>
     <script src="js/common.js"></script>
  		<script src="js/cart.js"></script>

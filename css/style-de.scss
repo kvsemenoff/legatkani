@@ -927,6 +927,7 @@
 		text-align: right;
 		font-size: 18px;
 		margin-top: -10px;
+		margin-bottom: 85px;
 		span{
 			font-style: italic;
 			font-weight: 700;
@@ -940,6 +941,7 @@
 		}
 		@media only screen and (max-width : 500px) {
 			margin-top: -15px;
+			margin-bottom: 70px;
 		}
 	}
 }
@@ -954,7 +956,53 @@
 		padding-bottom: 45px;
 	}
 	.tab{
-		margin-left: 60px;
-		display: inline-block;
+		display: block;
+		float: left;
+	}
+	.left{
+		@media only screen and (min-width : 770px) {
+			float: left;
+			width: 65%;
+		}
+	}
+	.right{
+		@media only screen and (min-width : 770px) {
+			float: left;
+			width: 35%;
+		}
+		.input{
+			width: 100%;
+			float: none;
+			@media only screen and (min-width : 550px) {
+				max-width: 350px;
+			}
+		}
+	}
+	.input{
+		padding-bottom: 20px;
+		padding-right: 0;
+		@media only screen and (min-width : 550px) {
+			padding-right: 15px;
+			padding-bottom: 28px;
+			float: left;
+			width: 33.33%;
+		}
+		input{
+			line-height: 41px;
+			height: 43px;
+		}
+		textarea{
+			height: 115px;
+		}
+		&_grey input{
+			background: #f8f7f7;
+		}
+	}
+	.input__control{
+		height: 43px;
+		line-height: 41px;
+	}
+	.jq-selectbox__dropdown{
+		top: 41px;
 	}
 }

@@ -218,10 +218,22 @@
 @media only screen and (max-width: 770px) { .basket-list .item-total { padding: 25px 0 35px; } }
 @media only screen and (max-width: 500px) { .basket-list .item-total { padding: 15px 0 15px; }
   .basket-list .item-total span, .basket-list .item-total i { padding-bottom: 10px; } }
-.basket-list__total { color: #525252; text-align: right; font-size: 18px; margin-top: -10px; }
+.basket-list__total { color: #525252; text-align: right; font-size: 18px; margin-top: -10px; margin-bottom: 85px; }
 .basket-list__total span { font-style: italic; font-weight: 700; display: inline-block; }
 .basket-list__total i { display: inline-block; width: 110px; font-weight: 700; font-style: normal; }
-@media only screen and (max-width: 500px) { .basket-list__total { margin-top: -15px; } }
+@media only screen and (max-width: 500px) { .basket-list__total { margin-top: -15px; margin-bottom: 70px; } }
 
 .basket-order .order__title { font-size: 14px; color: #000; padding-bottom: 30px; font-weight: 600; }
-.basket-order .tab { width: 100%; max-width: 150px; display: inline-block; }
+.basket-order .tabs { padding-bottom: 45px; }
+.basket-order .tab { display: block; float: left; }
+@media only screen and (min-width: 770px) { .basket-order .left { float: left; width: 65%; } }
+@media only screen and (min-width: 770px) { .basket-order .right { float: left; width: 35%; } }
+.basket-order .right .input { width: 100%; float: none; }
+@media only screen and (min-width: 550px) { .basket-order .right .input { max-width: 350px; } }
+.basket-order .input { padding-bottom: 20px; padding-right: 0; }
+@media only screen and (min-width: 550px) { .basket-order .input { padding-right: 15px; padding-bottom: 28px; float: left; width: 33.33%; } }
+.basket-order .input input { line-height: 41px; height: 43px; }
+.basket-order .input textarea { height: 115px; }
+.basket-order .input_grey input { background: #f8f7f7; }
+.basket-order .input__control { height: 43px; line-height: 41px; }
+.basket-order .jq-selectbox__dropdown { top: 41px; }
