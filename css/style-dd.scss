@@ -25,6 +25,10 @@
 	@media only screen and (min-width : 992px) {
 		display: none;
 	}
+	.fa-bars{
+		font-size: 26px;
+		color:#1E0700;
+	}
 }
 .header-bottom{
 	&__box1{
@@ -154,6 +158,7 @@
 		}
 		@media only screen and (min-width : 768px) {
 			text-align: right;
+			width: 222px;
 		}
 		@media only screen and (min-width : 992px) {
 			float: left;

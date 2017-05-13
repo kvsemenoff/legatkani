@@ -1,17 +1,19 @@
 <div class="header-bottom header-bottom__style">
 	<div class="container no-padding">
 		<div class="burger">
-			<img src="img/burger.png" alt="">
+			<i class="fa fa-bars" aria-hidden="true"></i>
 		</div>
 		<div class="header-bottom__box header-bottom__box1">
-			<div class="logobox">
-				<div class="logobox__img">
-					<img class="img-responsive" src="../../img/logo.png" alt="">
+			<a href="#">
+				<div class="logobox">
+					<div class="logobox__img">
+						<img class="img-responsive" src="img/logo.png" alt="">
+					</div>
+					<div class="logobox__txt">
+						<span>Склад итальянских тканей</span>
+					</div>
 				</div>
-				<div class="logobox__txt">
-					<span>Склад итальянских тканей</span>
-				</div>
-			</div>
+			</a>
 		</div>
 
 		<div class="header-bottom__box header-bottom__box2">

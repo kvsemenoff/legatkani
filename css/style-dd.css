@@ -25,6 +25,9 @@
   @media only screen and (min-width: 992px) {
     .burger {
       display: none; } }
+  .burger .fa-bars {
+    font-size: 26px;
+    color: #1E0700; }
 
 .header-bottom__box1 {
   border-bottom: 1px solid #ECECEC;
@@ -138,7 +141,8 @@
       color: #921f6c; }
     @media only screen and (min-width: 768px) {
       .header-bottom__box_item3 {
-        text-align: right; } }
+        text-align: right;
+        width: 222px; } }
     @media only screen and (min-width: 992px) {
       .header-bottom__box_item3 {
         float: left;
