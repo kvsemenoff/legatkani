@@ -18,7 +18,32 @@
 								<li class="breadcrumps__link"><span>Корзина</span></li>
 							</ul>
 						</div>
-						
+					</div>
+				</div>
+				<div class="basket-list">
+					<div class="item">
+						<div class="container">
+							<div class="row">
+								<div class="item__img">
+									<img src="img/tkan.jpg" alt="">
+								</div>
+								<div class="item__descr">
+									<span>Ткань Жаккард</span>
+									<i>Арт. 25-54558</i>
+								</div>
+								<div class="item__proce-one">
+									<span>1500</span>
+									<i>Показать цену в У.Е.</i>
+								</div>
+								<div class="item__quan">
+									<div class="switch__number">
+										<input type="text" value="1" disabled="disabled" id="quantity"> 
+										<span class="switch__button switch__button_down">-</span> 
+										<span class="switch__button switch__button_up">+</span>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
