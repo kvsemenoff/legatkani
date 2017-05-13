@@ -223,8 +223,8 @@
 .basket-list__total i { display: inline-block; width: 110px; font-weight: 700; font-style: normal; }
 @media only screen and (max-width: 500px) { .basket-list__total { margin-top: -15px; margin-bottom: 70px; } }
 
-.basket-order .order__title { font-size: 14px; color: #000; padding-bottom: 30px; font-weight: 600; }
-.basket-order .tabs { padding-bottom: 45px; }
+.basket-order .order__title { font-size: 14px; color: #000; padding-bottom: 36px; font-weight: 600; }
+.basket-order .tabs { padding-bottom: 50px; }
 .basket-order .tab { display: block; float: left; }
 @media only screen and (min-width: 770px) { .basket-order .left { float: left; width: 65%; } }
 @media only screen and (min-width: 770px) { .basket-order .right { float: left; width: 35%; } }
@@ -232,8 +232,14 @@
 @media only screen and (min-width: 550px) { .basket-order .right .input { max-width: 350px; } }
 .basket-order .input { padding-bottom: 20px; padding-right: 0; }
 @media only screen and (min-width: 550px) { .basket-order .input { padding-right: 15px; padding-bottom: 28px; float: left; width: 33.33%; } }
-.basket-order .input input { line-height: 41px; height: 43px; }
 .basket-order .input textarea { height: 115px; }
 .basket-order .input_grey input { background: #f8f7f7; }
-.basket-order .input__control { height: 43px; line-height: 41px; }
 .basket-order .jq-selectbox__dropdown { top: 41px; }
+.basket-order .form__total { margin-top: -27px; text-align: right; }
+.basket-order .form__total > div > span { color: #525252; font-size: 18px; font-weight: 700; font-style: normal; padding-bottom: 35px; }
+.basket-order .form__total i { font-size: 18px; display: inline-block; padding-left: 20px; color: #525252; font-weight: 700; padding-bottom: 35px; }
+.basket-order .form__total button { border: none; }
+.basket-order .form__info p { font-size: 13px; color: #525252; padding-bottom: 40px; }
+.basket-order .form__info p a { color: #6b6b6b; text-decoration: underline; }
+.basket-order .form__info p a:hover { text-decoration: none; }
+.basket-order .form__info p .checkbox__label_f { margin-left: 25px; }

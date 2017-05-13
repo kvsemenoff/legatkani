@@ -310,6 +310,30 @@
 													</div>
 												</div>
 											</div>
+											<div class="form__total">
+												<div>
+													<span>Итого весь заказ:</span>
+													<i>10 975 руб.</i>
+													<div class="button-wrap">
+														<button class="button button__basket button__basket_buy2"><span class="button__basket_txt button__basket_buy2_txt">Оформить заказ</span></button>
+													</div>
+												</div>
+											</div>
+											<div class="form__info">
+												<p>Нажимая кнопку “Оформить заказ” вы соглашаетесь с условиями <a href="#">Пользовательского соглашения</a></p>
+												<p>Хотели бы Вы получать наши новости, акции, информацию о скидках?
+													<label class="checkbox__label checkbox__label_f">
+														<input class="checkbox" type="radio" name="checkbox-test" checked>
+														<span class="checkbox-custom"></span>
+														<span class="label_txt">Да</span>
+													</label>
+													<label class="checkbox__label">
+														<input class="checkbox" type="radio" name="checkbox-test" >
+														<span class="checkbox-custom"></span>
+														<span class="label_txt">Нет</span>
+													</label>
+												</p>
+											</div>
 										</form>
 									</div>
 								</div>

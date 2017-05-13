@@ -949,11 +949,11 @@
 	.order__title{
 		font-size: 14px;
 		color: #000;
-		padding-bottom: 30px;
+		padding-bottom: 36px;
 		font-weight: 600;
 	}
 	.tabs{
-		padding-bottom: 45px;
+		padding-bottom: 50px;
 	}
 	.tab{
 		display: block;
@@ -987,10 +987,6 @@
 			float: left;
 			width: 33.33%;
 		}
-		input{
-			line-height: 41px;
-			height: 43px;
-		}
 		textarea{
 			height: 115px;
 		}
@@ -998,11 +994,46 @@
 			background: #f8f7f7;
 		}
 	}
-	.input__control{
-		height: 43px;
-		line-height: 41px;
-	}
 	.jq-selectbox__dropdown{
 		top: 41px;
+	}
+	.form__total{
+		margin-top: -27px;
+		text-align: right;
+		& > div > span{
+			color: #525252;
+			font-size: 18px;
+			font-weight: 700;
+			font-style: normal;
+			padding-bottom: 35px;
+		}
+		i{
+			font-size: 18px;
+			display: inline-block;
+			padding-left: 20px;
+			color: #525252;
+			font-weight: 700;
+			padding-bottom: 35px;
+		}
+		button{
+			border: none;
+		}
+	}
+	.form__info{
+		p{
+			font-size: 13px;
+			color: #525252;
+			padding-bottom: 40px;
+			a{
+				color: #6b6b6b;
+				text-decoration: underline;
+				&:hover{
+					text-decoration: none;
+				}
+			}
+			.checkbox__label_f{
+				margin-left: 25px;
+			}
+		}
 	}
 }
