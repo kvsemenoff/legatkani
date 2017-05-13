@@ -681,3 +681,278 @@
 		}
 	}
 }
+.basket-list{
+	font-size: 14px;
+	color: #525252;
+	&__title{
+		color: #921f6c;
+		display: block;
+		text-align: center;
+		font-size: 24px;
+		font-style: italic;
+		font-family: 'Playfair Display';
+		padding-bottom: 18px;
+		@media only screen and (max-width : 770px) {
+			font-size: 18px;
+			padding-bottom: 10px;
+		}
+	}
+	.item{
+		padding: 24px 0 25px;
+		background: #f6f6f6;
+		margin-bottom: 3px;
+		.vertical-middle{
+			padding-top: 110px;
+			float: left;
+			text-align: center;
+			@media only screen and (max-width : 991px) {
+				padding-top: 10px;
+			}
+		}
+		&__img{
+	    width: 265px;
+ 		  height: 241px;
+			float: left;
+			position: relative;
+			img{
+				display: block;
+				width: 100%;
+				height: auto;
+				min-height: 100%;
+			}
+			.tovar_img__toplent_new{
+				background: url(../img/bgtovar3.png) left center no-repeat;
+			}
+			@media only screen and (max-width : 991px) {
+				display: none;
+				.tovar_img__toplent_new{
+					display: none;
+				}
+			}
+		}
+		&__descr{
+			width: 190px;
+			padding-top: 100px;
+			padding-left: 34px;
+			text-align: left!important;
+			span{
+				display: block;
+				font-size: 16px;
+				line-height: 24px;
+			}
+			i{
+				display: block;
+				color: #6b6b6b;
+				font-size: 12px;
+			}
+			@media only screen and (max-width : 1199px) {
+				width: 170px;
+				padding-left: 20px;
+			}
+			@media only screen and (max-width : 770px) {
+				width: 40%;
+			}
+			@media only screen and (max-width : 500px) {
+				padding-left: 0;
+				span{
+					font-size: 14px;
+					line-height: 18px;
+					padding-bottom: 2px;
+				}
+				i{
+					font-size: 11px;
+				}
+			}
+		}
+		&__price-one{
+			width: 256px;
+			position: relative;
+			span{
+				display: inline-block;
+			}
+			i{
+				display: inline-block;
+				padding-left: 15px;
+				font-style: italic;
+				font-size: 12px;
+				color: #7f2461;
+				cursor: pointer;
+			}
+			@media only screen and (max-width : 1199px) {
+				width: 135px;
+				i{
+					padding-left: 0;
+				}
+			}
+			@media only screen and (max-width : 770px) {
+				width: 25%;
+			}
+			@media only screen and (max-width : 500px) {
+				i{
+			    position: absolute;
+			    left: 10%;
+			    bottom: -27px;
+			    display: block;
+			    width: 100%;
+			    font-size: 11px;
+			    z-index: 10;
+			    width: 114px;
+				}
+			}
+		}
+		&__quan{
+			width: 100px;
+			.switch__number{
+				margin: 0 auto;
+			}
+			@media only screen and (max-width : 770px) {
+				padding-top: 0!important;
+			}
+			@media only screen and (max-width : 770px) {
+				width: 25%;
+			}
+			@media only screen and (max-width : 500px) {
+				.switch__number{
+					width: 75px;
+				}
+			}
+		}
+		&__price-all{
+			width: 115px;
+			@media only screen and (max-width : 770px) {
+				display: none;
+			}
+		}
+		&__sale{
+			width: 110px;
+			@media only screen and (max-width : 1199px) {
+				width: 75px;
+			}
+			@media only screen and (max-width : 770px) {
+				display: none;
+			}
+		}
+		&__price-order{
+			width: 95px;
+			@media only screen and (max-width : 770px) {
+				display: none;
+			}
+		}
+		&__delete{
+			width: 35px;
+			text-align: right!important;
+			button{
+				border: none;
+				width: 14px;
+				height: 13px;
+				outline: none;
+				background: url(../img/close-btn.png);
+			}
+			@media only screen and (max-width : 1199px) {
+				width: 15px;
+				float: right!important;
+			}
+			@media only screen and (max-width : 500px) {
+				width: 15px;
+			}
+		}
+	}
+	.item__title{
+		padding: 0;
+		background: none;
+		@media only screen and (max-width : 770px) {
+			display: none;
+		}
+		.item__img{
+			height: 20px;
+		}
+		.vertical-middle{
+			padding: 0;
+			text-align: left;
+			span{
+				text-transform: uppercase;
+				line-height: 32px;
+				font-size: 11px;
+			}
+		}
+		.item__descr{
+			padding: 0;
+			height: 20px;
+			float: left;
+		}
+		.item__price-one{
+			padding-left: 27px;
+		}
+		.item__quan{
+			text-align: center;
+		}
+		.item__sale{
+			text-align: center;
+		}
+	}
+	.item-total{
+		padding: 50px 0 34px;
+		text-align: right;
+		color: #525252;
+		font-size: 14px;
+		span{
+			font-weight: 600;
+			display: inline-block;
+			padding-bottom: 12px;
+			font-style: italic;
+		}
+		i{
+			padding-bottom: 12px;
+			display: inline-block;
+			width: 110px;
+		}
+		.total-row_bold{
+			padding-top: 3px;
+			i{
+				font-weight: 600;
+			}
+		}
+		@media only screen and (max-width : 770px) {
+			padding: 25px 0 35px;
+		}
+		@media only screen and (max-width : 500px) {
+			padding: 15px 0 15px;
+			span, i{
+				padding-bottom: 10px;
+			}
+		}
+	}
+	&__total{
+		color: #525252;
+		text-align: right;
+		font-size: 18px;
+		margin-top: -10px;
+		span{
+			font-style: italic;
+			font-weight: 700;
+			display: inline-block;
+		}
+		i{
+			display: inline-block;
+			width: 110px;
+			font-weight: 700;
+			font-style: normal;
+		}
+		@media only screen and (max-width : 500px) {
+			margin-top: -15px;
+		}
+	}
+}
+.basket-order{
+	.order__title{
+		font-size: 14px;
+		color: #000;
+		padding-bottom: 30px;
+		font-weight: 600;
+	}
+	.tab{
+		width: 100%;
+		max-width: 150px;
+		display: inline-block;
+	}
+}
