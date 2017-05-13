@@ -290,3 +290,174 @@
 		padding-bottom: 15px;
 	}
 }
+.sale-row{
+	@media only screen and (min-width : 770px) {
+		margin: 0 -11px;
+		padding-bottom: 45px;
+	}
+}
+.sale{
+	float: left;
+	width: 50%;
+	padding: 0 11px;
+	@media only screen and (max-width : 770px) {
+		width: 100%;
+		float: none;
+		margin: 0 auto 30px;
+		max-width: 400px;
+	}
+	.sale__img{
+		display: block;
+		height: 266px;
+		overflow: hidden;
+		position: relative;
+		background: #edebeb;
+		@media only screen and (max-width : 1000px) {
+			height: 200px;
+		}
+		@media only screen and (max-width : 770px) {
+			height: 140px;
+		}
+		img{
+			display: block;
+			width: 100%;
+			height: auto;
+			min-height: 100%;
+		}
+		&_border{
+			border-right: 1px solid #edebeb;
+		}
+		&::before{
+			content: "";
+			display: block;
+			background: transparent;
+			border: 1px solid #fff;
+			position: absolute;
+			top: 8px;
+			bottom: 8px;
+			left: 10px;
+			right: 10px;
+			z-index: 11;
+		}
+		&_bg::after{
+			content: "";
+			display: block;
+			background: #7d6dad;
+			position: absolute;
+			width: 340px;
+			height: 340px;
+			border-radius: 50%;
+			right: -70px;
+			top: 50%;
+			margin-top: -170px;
+			z-index: 5;
+			@media only screen and (max-width : 1000px) {
+				right: -100px;
+			}
+			@media only screen and (max-width : 770px) {
+				display: none;
+			}
+		}
+	}
+	.sale__info{
+		position: absolute;
+		z-index: 10;
+		top: 86px;
+		right: 30px;
+		span{
+			color: #454545;
+			font-size: 30px;
+			font-weight: 700;
+			display: block;
+			padding-bottom: 13px;
+			text-align: right;
+			@media only screen and (max-width : 1000px) {
+				font-size: 24px;
+			}
+			@media only screen and (max-width : 770px) {
+				font-size: 18px;
+			}
+		}
+		i{
+			display: block;
+			font-style: normal;
+			color: #181818;
+			font-size: 15px;
+			text-align: right;
+			@media only screen and (max-width : 770px) {
+				font-size: 11px;
+			}
+		}
+		@media only screen and (max-width : 770px) {
+			top: 45px;
+			right: 15px;
+		}
+		&_red{
+			top: 54px;
+  	  right: 59px;
+  	  @media only screen and (max-width : 770px) {
+				top: 30px;
+				right: 15px;
+			}
+			span{
+				color: #c20f1b;
+			}
+		}
+		&_white{
+			right: 35px;
+			top: 78px;
+			@media only screen and (max-width : 770px) {
+				top: 45px;
+				right: 15px;
+			}
+			span, i{
+				color: #fff;
+			}
+		}
+	}
+	.sale__text{
+		padding: 26px 0 0 10px;
+		@media only screen and (max-width : 770px) {
+			padding: 13px 0 0;
+		}
+		span{
+			display: block;
+			font-weight: 700;
+			text-transform: uppercase;
+			font-size: 16px;
+			color: #525252;
+			padding-bottom: 5px;
+			@media only screen and (max-width : 770px) {
+				font-size: 14px;
+			}
+		}
+		p{
+			color: #6b6b6b;
+			line-height: 25px;
+			font-size: 14px;
+			@media only screen and (max-width : 770px) {
+				font-size: 12px;
+				line-height: 18px;
+			}
+		}
+		.ul-wrap{
+			@media only screen and (max-width : 770px) {
+				display: none;
+			}
+		}
+		.ul{
+			float: left;
+			width: 228px;
+			padding-right: 8px;
+			&_center{
+				padding-top: 10px;
+				@media only screen and (max-width : 1000px) {
+					padding-top: 0;
+				}
+			}
+		}
+		li{
+			line-height: 30px;
+		}
+	}
+}
