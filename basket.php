@@ -275,7 +275,7 @@
 										</div>
 									</div>
 									<div class="tabs-content">
-										<div class="tab-content tab-1 active">
+										<div class="tab-content tab-1">
 											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta ipsa qui aliquam quae recusandae a sint aliquid similique id consectetur esse magni tempore harum dolorem, illum voluptatem debitis, libero, laboriosam.</p>
 										</div>
 									</div>
