@@ -145,7 +145,74 @@
 								</div>
 							</div>
 							<div class="item">			
-								<div class="tovar_item tovar_item_last">
+								<div class="tovar_item">
+									<div class="tovar_img">
+										<div class="tovar_img__img">
+											<a href="#"><img src="img/tkan10.jpg" alt=""></a>									
+										</div>								
+									</div>
+									<div class="tovar_item__text">
+										<span class="tovar_item__nameproduct">Костюмная</span>
+										<span class="tovar_item__price"><b>410 </b>руб/м</span>
+										<a href="#" class="button button__basket"><span class="button__basket_txt">В корзину</span></a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+				<div class="topborderbg bottomborderbg product__slider">
+					<div class="new_block">
+						<h1 class="h1 new_block__caption">Вы смотрели</h1>
+						<div class="new_block__showye"><a href="#" class="new_block__showye__link">Показать цены в У.Е.</a></div>
+						
+						<div class="product__owl-slider">
+							<div class="item">
+								<div class="tovar_item">
+									<div class="tovar_img">
+										<div class="tovar_img__img">
+											<a href="#"><img src="img/tkan6.jpg" alt=""></a>									
+										</div>								
+									</div>
+									<div class="tovar_item__text">
+										<span class="tovar_item__nameproduct">Бархат</span>
+										<span class="tovar_item__price"><b>520 </b>руб/м</span>
+										<a href="#" class="button button__basket"><span class="button__basket_txt">В корзину</span></a>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="tovar_item">
+									<div class="tovar_img">
+										<div class="tovar_img__img">
+											<a href="#"><img src="img/tkan8.jpg" alt=""></a>									
+										</div>								
+									</div>
+									<div class="tovar_item__text">
+										<span class="tovar_item__nameproduct">Кружево</span>
+										<span class="tovar_item__price"><b>650 </b>руб/м</span>
+										<a href="#" class="button button__basket"><span class="button__basket_txt">В корзину</span></a>
+									</div>
+								</div>
+							</div>
+							<div class="item">						
+								<div class="tovar_item">
+									<div class="tovar_img">
+										<div class="tovar_img__img">
+											<a href="#"><img src="img/tkan9.jpg" alt=""></a>									
+										</div>								
+									</div>
+									<div class="tovar_item__text">
+										<span class="tovar_item__nameproduct">Батист</span>
+										<span class="tovar_item__price"><b>710 </b>руб/м</span>
+										<a href="#" class="button button__basket"><span class="button__basket_txt">В корзину</span></a>
+									</div>
+								</div>
+							</div>
+							<div class="item">			
+								<div class="tovar_item">
 									<div class="tovar_img">
 										<div class="tovar_img__img">
 											<a href="#"><img src="img/tkan10.jpg" alt=""></a>									
