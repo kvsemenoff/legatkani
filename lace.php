@@ -254,7 +254,7 @@
 									<div class="tovar_item">
 										<div class="tovar_img">
 											<div class="tovar_img__img">
-												<img src="img/tkan3.jpg" alt="">
+												<img src="img/tkan6.jpg" alt="">
 												<div class="tovar_img__hover">
 													<div class="tovar_img__border">
 														<a href="#">Подробнее ></a>
