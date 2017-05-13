@@ -157,3 +157,4 @@
 .news__text a:hover i, .news__text a:hover span { color: #7f2461; }
 
 .news-page .pagination-wrap { border-top: 1px solid #e8e8e8; padding: 45px 0 20px; }
+@media only screen and (max-width: 770px) { .news-page .pagination-wrap { padding: 30px 0 20px; } }
