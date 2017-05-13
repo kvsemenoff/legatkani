@@ -249,36 +249,74 @@
 					<div class="row">
 						<div class="basket-order">
 							<p class="order__title">Оформление заказа</p>
-							<div class="tabs">
-								<div class="tabs-block">
-									<div class="tabs">
-										<div class="tab tab-0">
-											<label class="checkbox__label">
-												<input class="checkbox" type="radio" name="checkbox-test" checked>
-												<span class="checkbox-custom"></span>
-												<span class="label_txt">Физ лицо</span>
-											</label>
-										</div>
-										<div class="tab tab-1 active">
-											<label class="checkbox__label">
-												<input class="checkbox" type="radio" name="checkbox-test" >
-												<span class="checkbox-custom"></span>
-												<span class="label_txt">Юр лицо/ИП</span>
-											</label>
-										</div>
-									</div>
-									<div class="tabs-content">
-										<div class="tab-content tab-0">
-											<div class="tab-text">
-												<p>Монобукет из хризантем смело можно назвать самым универсальным подарком. Достаточно строгий с первого взгляда, он станет достойным презентом для мужчины. Но скромность хризантем обманчива, не зря они являются символом солнца, дающего жизнь и свет. Дам порадует классический образ букета, красота цветов и ненавязчивый аромат.</p>
+							<div class="tabs clearfix">
+								<div class="tab tab-0">
+									<label class="checkbox__label">
+										<input class="checkbox" type="radio" name="checkbox-test" checked>
+										<span class="checkbox-custom"></span>
+										<span class="label_txt">Физ лицо</span>
+									</label>
+								</div>
+								<div class="tab tab-1 active">
+									<label class="checkbox__label">
+										<input class="checkbox" type="radio" name="checkbox-test" >
+										<span class="checkbox-custom"></span>
+										<span class="label_txt">Юр лицо/ИП</span>
+									</label>
+								</div>
+							</div>
+							<div class="tabs-content">
+								<div class="tab-content tab-0">
+									<div class="form-wrap">
+										<form action="#">
+											<div class="form-inner clearfix">
+												<div class="left clearfix">
+													<div class="input input_theme_rosa">
+														<input type="text" class="input__control" placeholder="ФИО*" name="uname" required>
+													</div>
+													<div class="input input_theme_rosa">
+														<input type="tel" class="input__control js-phone" name="phone" placeholder="+7(___)___-__-__" required>
+													</div>
+													<div class="input input_theme_rosa">
+														<input type="email" class="input__control" placeholder="E-mail" name="email" required>
+													</div>
+													<div class="input input_theme_rosa">
+														<select class="form-select input__control" id="type">
+															<option value="1">Выбрать менеджера</option>
+															<option value="2">Менеджер 1</option>
+															<option value="3">Менеджер 2</option>
+														</select>
+													</div>
+													<div class="input input_theme_rosa">
+														<select class="form-select input__control" id="type2">
+															<option value="1">Город доставки</option>
+															<option value="2">Город доставки 1</option>
+															<option value="3">Город доставки 2</option>
+														</select>
+													</div>
+													<div class="input input_theme_rosa">
+														<input type="text" class="input__control" placeholder="Адрес доставки" name="address" required>
+													</div>
+													<div class="input input_grey input_theme_rosa">
+														<input type="parol" class="input__control" placeholder="Пароль*" name="parol" required>
+													</div>
+													<div class="input input_grey input_theme_rosa">
+														<input type="parol" class="input__control" placeholder="Повторите пароль*" name="re_parol" required>
+													</div>
+												</div>
+												<div class="right">
+													<div class="input input_theme_rosa">
+													  <textarea name="message" class="message message_theme_rosa" placeholder="Ваш вопрос"></textarea>
+													</div>
+												</div>
 											</div>
-										</div>
+										</form>
 									</div>
-									<div class="tabs-content">
-										<div class="tab-content tab-1">
-											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta ipsa qui aliquam quae recusandae a sint aliquid similique id consectetur esse magni tempore harum dolorem, illum voluptatem debitis, libero, laboriosam.</p>
-										</div>
-									</div>
+								</div>
+							</div>
+							<div class="tabs-content">
+								<div class="tab-content tab-1">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta ipsa qui aliquam quae recusandae a sint aliquid similique id consectetur esse magni tempore harum dolorem, illum voluptatem debitis, libero, laboriosam.</p>
 								</div>
 							</div>
 						</div>
