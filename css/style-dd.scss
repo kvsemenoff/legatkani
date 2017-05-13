@@ -275,11 +275,14 @@
 	.h2{
 		text-align: center;
 		padding: 29px 0px;
+		@media only screen and (min-width : 768px) {
+			padding: 46px 0px;
+		}
 	}
 	&__hidden{
 		display: none;
 		@media only screen and (min-width : 768px) {
-			display: block;
+			display: block !important;
 		}
 	}
 	&__button-wrap{
@@ -324,6 +327,9 @@
 		border-bottom: 1px solid #C1A16A;
 		padding: 16px 0px;
 		position: relative;
+		@media only screen and (min-width : 768px) {
+			padding: 50px 0px;
+		}
 		&:before{
 			content:"";
 			position: absolute;
@@ -345,12 +351,15 @@
 			width: 72px;
 			height: 20px;
 			left: 50%;
-			bottom:-7%;
+			bottom:-6%;
 			-webkit-transform: translate(-50%, -50%);
 			-moz-transform: translate(-50%, -50%);
 			-ms-transform: translate(-50%, -50%);
 			-o-transform: translate(-50%, -50%);
 			transform: translate(-50%, -50%);
+			@media only screen and (min-width : 768px) {
+				bottom:-9%;
+			}
 		}
 		li{
 			a{
