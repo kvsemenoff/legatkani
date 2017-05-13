@@ -540,3 +540,141 @@
 		}
 	}
 }
+.news-row{
+	padding-bottom: 41px;
+	margin: 0 -10px;
+	@media only screen and (max-width : 770px) {
+		padding-bottom: 0;
+	}
+}
+.news{
+	float: left;
+	width: 50%;
+	padding: 0 10px;
+	@media only screen and (max-width : 700px) {
+		width: 100%;
+		margin: 0 auto;
+		max-width: 400px;
+		float: none;
+	}
+	&__img-in{
+		display: block;
+		position: absolute;
+		left: 0;
+		top: 0;
+		bottom: 0;
+		right: 0;
+		&::before,
+		&::after{
+			content: "";
+			transition: 0.3s all ease;
+			position: absolute;
+			bottom: 15px;
+			left: 15px;
+			width: 72px;
+			height: 72px;
+			display: block;
+			background: url(../img/figur1.png);
+			z-index: -11;
+		}
+		&::after{
+			left: auto;
+			right: 15px;
+			background: url(../img/figur2.png);
+		}
+	}
+	&__img{
+		display: block;
+		height: 342px;
+		position: relative;
+		overflow: hidden;
+		@media only screen and (max-width : 1000px) {
+			height: 250px;
+		}
+		@media only screen and (max-width : 770px) {
+			height: 180px;
+		}
+		img{
+			display: block;
+			width: 100%;
+			height: auto;
+			min-height: 100%;
+			transition: 0.1s all ease;
+		}
+		span{
+			display: block;
+			text-align: center;
+			position: absolute;
+			width: 100%;
+			top: 160px;
+			font-size: 20px;
+			color: transparent;
+			font-style: italic;
+			transition: 0.3s all ease;
+		}
+		&::before{
+			content: "";
+			display: block;
+			position: absolute;
+			left: 10px;
+			right: 10px;
+			top: 10px;
+			bottom: 10px;
+			background: transparent;
+			border: 1px solid #fff;
+			z-index: 10;
+		}
+		&:hover{
+			&__img-in{
+				z-index: 10;
+			}
+			img{
+				opacity: 0.3;
+			}
+			span{
+				color: #525252;
+			}
+			.news__img-in::before,
+			.news__img-in::after{
+				z-index: 11;
+			}
+		}
+	}
+	&__text{
+		padding: 15px 10px;
+		@media only screen and (max-width : 770px) {
+			padding: 12px 0 30px;
+		}
+		a{
+			display: block;
+			font-size: 18px;
+			color: #525252;
+			font-weight: 700;
+			line-height: 30px;
+			text-transform: uppercase;
+			@media only screen and (max-width : 770px) {
+				font-size: 16px;
+				line-height: 22px;
+			}
+			i{
+				display: block;
+			}
+			span{
+				display: block;
+				font-size: 14px;
+				color: #6b6b6b;
+			}
+			&:hover{
+				i, span{
+					color: #7f2461;
+				}
+			}
+		}
+	}
+}
+.news-page{
+	.pagination-wrap{
+		border-top: 1px solid #e8e8e8;
+		padding: 45px 0 20px;
+	}
+}
