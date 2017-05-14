@@ -8,6 +8,8 @@
 	}
 	@media only screen and (min-width : 1200px) {
 		width:1170px; 
+		padding-left: 15px;
+		padding-right: 15px;
 	}
 }
 .header-bottom__style{
@@ -37,6 +39,10 @@
 		margin-bottom: 13px;
 		@media only screen and (min-width : 768px) {
 			border-bottom: none;
+		}
+		@media only screen and (min-width : 1240px) {
+			padding-bottom: 0px;
+			margin-bottom: 0px;
 		}
 	}
 	&__box:last-child{
@@ -72,21 +78,21 @@
 			float: left;
 			width: 33%;
 			@media only screen and (min-width : 992px) {
-				width: 31%;
+				width: 28%;
 			}
 		}
 		&__box2{
 			float: right;
-			width: 39%;
+			width: 42%;
 			@media only screen and (min-width : 992px) {
 				padding-top: 41px;
 			}
 		}
 		&__box3{
 			float: left;
-			width: 27%;
+			width: 25%;
 			@media only screen and (min-width : 992px) {
-				width: 29%;
+				width: 30%;
 				padding-top: 41px;
 			}
 		}

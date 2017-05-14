@@ -2,7 +2,6 @@
 
 <link rel="stylesheet" href="../../css/fonts.css">
 <link rel="stylesheet" href="../../css/reset.css">
-<link rel="stylesheet" href="../../js/common.js">
 
 <link rel="stylesheet" href="style.css">
 <br>
@@ -27,32 +26,7 @@
 </div> -->
 
 <script src="../../libs/jquery/jquery-1.11.1.min.js"></script>
-<script>
-	$(document).ready(function(){
-		var itemprice = $('.item-price').text();
-		$('#total').val(itemprice);
-
-		$(".switch__number .switch__button").on("click", function() {
-			var $button = $(this);
-			var oldValue = $button.parent().find("input").val();  
-			if ($button.text() == "+") {
-				var newVal = parseFloat(oldValue) + 1;
-			}  
-			else {
-				if (oldValue > 1) {
-					var newVal = parseFloat(oldValue) - 1;
-				} else {
-					newVal = 1;
-				}
-			}
-			$button.parent().find("input").val(newVal);
-
-			var quantity = $('#quantity').val();
-			var total = itemprice*quantity;
-			$('#total').val(total);
-		});
-	});
-</script>
+<script src="script.js"></script>
 
 
 

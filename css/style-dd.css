@@ -9,7 +9,9 @@
       width: 970px; } }
   @media only screen and (min-width: 1200px) {
     .no-padding {
-      width: 1170px; } }
+      width: 1170px;
+      padding-left: 15px;
+      padding-right: 15px; } }
 
 .header-bottom__style {
   padding-top: 17px;
@@ -37,6 +39,10 @@
   @media only screen and (min-width: 768px) {
     .header-bottom__box1 {
       border-bottom: none; } }
+  @media only screen and (min-width: 1240px) {
+    .header-bottom__box1 {
+      padding-bottom: 0px;
+      margin-bottom: 0px; } }
 .header-bottom__box:last-child {
   padding-top: 15px;
   padding-left: 15px;
@@ -67,21 +73,21 @@
     width: 33%; } }
   @media only screen and (min-width: 768px) and (min-width: 992px) {
     .header-bottom__box1 {
-      width: 31%; } }
+      width: 28%; } }
 @media only screen and (min-width: 768px) {
   .header-bottom__box2 {
     float: right;
-    width: 39%; } }
+    width: 42%; } }
   @media only screen and (min-width: 768px) and (min-width: 992px) {
     .header-bottom__box2 {
       padding-top: 41px; } }
 @media only screen and (min-width: 768px) {
   .header-bottom__box3 {
     float: left;
-    width: 27%; } }
+    width: 25%; } }
   @media only screen and (min-width: 768px) and (min-width: 992px) {
     .header-bottom__box3 {
-      width: 29%;
+      width: 30%;
       padding-top: 41px; } }
 
 .header-bottom__box {
