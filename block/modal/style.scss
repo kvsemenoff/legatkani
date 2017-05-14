@@ -25,6 +25,16 @@
 		box-shadow: 4.6px 6.6px 46.4px 7.6px rgba(0, 0, 0, 0.41);
 
 	}
+	.modal-close{
+		display: inline-block;
+		width: 18px;
+		height: 18px;
+		position: absolute;
+		top: 10px;
+		right: 20px;
+		cursor: pointer;
+		background: url("../../img/modal-close.png")no-repeat top right;
+	}
 	.icon-view{
 		position: absolute;
 		top: 0;

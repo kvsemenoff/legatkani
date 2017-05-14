@@ -22,6 +22,7 @@
 				</div>
 				<br><br>
 				<div class="js-window" id="js-form2">
+				<span class="modal-close"></span>
 					<h2 class="h3 modal-h3">подписаться<br>
 						на новости</h2>
 						<form action="#" method="post">	
