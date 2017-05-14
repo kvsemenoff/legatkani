@@ -83,6 +83,8 @@
   box-shadow: 4.6px 6.6px 22.6px 1.4px rgba(71, 71, 71, 0.14);
   padding: 40px 30px 45px 20px;
   top: 280px;
+  left: 50%;
+  margin-left: -150px;
   z-index: 9999;
 }
 
@@ -220,13 +222,12 @@
   text-align: center;
 }
 
-.call_numbers__phone:first-child {
-  margin-right: 40px;
-}
-
 @media screen and (min-width: 768px) {
   .call_numbers__phone {
     display: inline-block;
+  }
+  .call_numbers__phone:first-child {
+    margin-right: 40px;
   }
 }
 

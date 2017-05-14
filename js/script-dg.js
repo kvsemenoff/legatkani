@@ -19,7 +19,7 @@ $(document).ready(function(){
 		$(this).toggleClass("linkactivemob");
 		$(answerId).slideToggle();
 	});
-  
+
   ymaps.ready(init);
   var myMap,
       myPlacemark;
