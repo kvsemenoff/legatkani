@@ -9,7 +9,7 @@
 
 			<div class="container paddingnone">
 
-				<h2 class="h2 favorite__caption">Батист</h2>
+				<h1 class="h1 favorite__caption">Батист</h1>
 				<ul class="breadcrumps ">
 					<li class="breadcrumps__link breadcrumps__link_home"><a href="/" class="bread_menu__link_bg">Главная</a></li>	
 					<li class="breadcrumps__link breadcrumps__link_home"><a href="#" class="bread_menu__link_bg">Каталог</a></li>					
@@ -229,7 +229,27 @@
 
 					</div>
 				</div>
-
+				<div class="question-box">
+					<h2 class="h3 questuon-h3">Задайте вопрос!</h2>
+					<img src="img/question.png" alt="img" class="img-responsive question-line">
+					<form action="#" method="post">	
+						<div class="input input_theme_rosa	qustion-input-margin">
+							<input type="text" class="input__control" placeholder="Ваше имя" name="uname" required>
+						</div>
+						<div class="input input_theme_rosa	qustion-input-margin">
+							<input type="tel" class="input__control js-phone" name="phone" placeholder="+7(___)___-__-__" required>
+						</div>
+						<div class="input input_theme_rosa	qustion-input-margin">
+							<input type="email" class="input__control" placeholder="E-mail" name="email" required>
+						</div>
+						<div class="input input_theme_rosa	qustion-input-margin">
+							<textarea name="message" class="message message_theme_rosa" placeholder="Ваш вопрос"></textarea>
+						</div>
+						<div class="submit-after">
+							<input type="submit" name="submit" class="submit" value="Отправить">
+						</div>
+					</form>
+				</div>
 			</div>
 
 		</div>

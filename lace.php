@@ -51,7 +51,7 @@
 								<li class="breadcrumps__link"><span>Кружево</span></li>
 							</ul>
 						</div>
-						<div class="lace__filter">
+						<div class="catalogspisok__filter">
 							<ul class="filter">
 								<li class="filter__menu">
 									<a href="#" class="filter__link">тип ткани</a>
@@ -210,7 +210,7 @@
 									<div class="tovar_item">
 										<div class="tovar_img">
 											<div class="tovar_img__img">
-												<img src="img/tkan2.png" alt="">
+												<img src="img/tkan4.jpg" alt="">
 												<div class="tovar_img__hover">
 													<div class="tovar_img__border">
 														<a href="#">Подробнее ></a>
@@ -254,7 +254,7 @@
 									<div class="tovar_item">
 										<div class="tovar_img">
 											<div class="tovar_img__img">
-												<img src="img/tkan3.png" alt="">
+												<img src="img/tkan6.jpg" alt="">
 												<div class="tovar_img__hover">
 													<div class="tovar_img__border">
 														<a href="#">Подробнее ></a>
@@ -342,7 +342,7 @@
 									<div class="tovar_item">
 										<div class="tovar_img">
 											<div class="tovar_img__img">
-												<img src="img/tkan2.png" alt="">
+												<img src="img/tkan4.jpg" alt="">
 												<div class="tovar_img__hover">
 													<div class="tovar_img__border">
 														<a href="#">Подробнее ></a>

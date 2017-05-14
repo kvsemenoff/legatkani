@@ -24,6 +24,7 @@
 	<link rel="stylesheet" href="block/register-and-cart/style.css">
 	<link rel="stylesheet" href="block/logobox/style.css">
 	<link rel="stylesheet" href="block/category/style.css">
+	<link rel="stylesheet" href="block/counter/style.css">
 	<link rel="stylesheet" href="block/call/style.css">
 	<link rel="stylesheet" href="block/link/link.css">
 	<link rel="stylesheet" href="block/address/address.css">
@@ -33,6 +34,7 @@
 	<link rel="stylesheet" href="block/socials/socials.css">
 	<link rel="stylesheet" href="block/q/style.css">
 	<link rel="stylesheet" href="block/mape/style.css">
+	<link rel="stylesheet" href="block/manager/style.css">
 	<link rel="stylesheet" href="block/sidebar-menu/main-menu.css">
 	<link rel="stylesheet" href="block/header-contact/header-contact.css">
 	<link rel="stylesheet" href="block/buket/style.css">

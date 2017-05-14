@@ -6,8 +6,8 @@
 	</div>
 	<div class="n-content">
 		<div class="n-content-inner vertical-align">
-			<div class="lace">
-				<div class="container lace-container">
+			
+				<div class="container paddingnone">
 					<div class="col-sm-12 col-md-3">
 						<div class="lace__sidebar">
 							<div class="sidebar-menu sidebar-menu__style">
@@ -40,9 +40,9 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-sm-12 col-md-9">
+					<div class="col-sm-12 col-md-9 paddingnone2">
 						<div class="lace__header">
-							<h1 class="h1">Каталог тканей</h1>
+							<h1 class="h1 favorite__caption">Каталог тканей</h1>
 						</div>
 						<div class="lace__breadcrumbs">
 							<ul class="breadcrumps">
@@ -50,7 +50,7 @@
 								<li class="breadcrumps__link"><span>Каталог</span></li>
 							</ul>
 						</div>
-						<div class="lace__filter">
+						<div class="catalogspisok__filter">
 							
 
 							<div class="filter_sort">
@@ -145,12 +145,12 @@
 
 						</div>
 						<div class="lace__content">
-							<div class="col-sm-6 col-md-4">
+							<div class="col-sm-6 col-md-4 paddingnone2">
 								<div class="lace__item">
 									<div class="tovar_item">
 										<div class="tovar_img">
 											<div class="tovar_img__img">
-												<img src="img/tkan2.png" alt="">
+												<img src="img/tkan4.jpg" alt="">
 												<div class="tovar_img__hover">
 													<div class="tovar_img__border">
 														<a href="#">Подробнее ></a>
@@ -167,7 +167,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-sm-6 col-md-4">
+							<div class="col-sm-6 col-md-4 paddingnone2">
 								<div class="lace__item">
 									<div class="tovar_item">
 										<div class="tovar_img">
@@ -189,12 +189,12 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-sm-6 col-md-4">
+							<div class="col-sm-6 col-md-4 paddingnone2">
 								<div class="lace__item">
 									<div class="tovar_item">
 										<div class="tovar_img">
 											<div class="tovar_img__img">
-												<img src="img/tkan3.png" alt="">
+												<img src="img/tkan3.jpg" alt="">
 												<div class="tovar_img__hover">
 													<div class="tovar_img__border">
 														<a href="#">Подробнее ></a>
@@ -211,7 +211,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-sm-6 col-md-4">
+							<div class="col-sm-6 col-md-4 paddingnone2">
 								<div class="lace__item">
 									<div class="tovar_item">
 										<div class="tovar_img">
@@ -233,7 +233,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-sm-6 col-md-4">
+							<div class="col-sm-6 col-md-4 paddingnone2">
 								<div class="lace__item">
 									<div class="tovar_item">
 										<div class="tovar_img">
@@ -255,7 +255,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-sm-6 col-md-4">
+							<div class="col-sm-6 col-md-4 paddingnone2">
 								<div class="lace__item">
 									<div class="tovar_item">
 										<div class="tovar_img">
@@ -277,12 +277,12 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-sm-6 col-md-4">
+							<div class="col-sm-6 col-md-4 paddingnone2">
 								<div class="lace__item">
 									<div class="tovar_item">
 										<div class="tovar_img">
 											<div class="tovar_img__img">
-												<img src="img/tkan2.png" alt="">
+												<img src="img/tkan4.jpg" alt="">
 												<div class="tovar_img__hover">
 													<div class="tovar_img__border">
 														<a href="#">Подробнее ></a>
@@ -299,7 +299,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-sm-6 col-md-4">
+							<div class="col-sm-6 col-md-4 paddingnone2">
 								<div class="lace__item">
 									<div class="tovar_item">
 										<div class="tovar_img">
@@ -321,7 +321,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-sm-6 col-md-4">
+							<div class="col-sm-6 col-md-4 paddingnone2">
 								<div class="lace__item">
 									<div class="tovar_item">
 										<div class="tovar_img">
@@ -343,7 +343,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-sm-6 col-md-4">
+							<div class="col-sm-6 col-md-4 paddingnone2">
 								<div class="lace__item">
 									<div class="tovar_item">
 										<div class="tovar_img">
@@ -365,7 +365,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-sm-6 col-md-4">
+							<div class="col-sm-6 col-md-4 paddingnone2">
 								<div class="lace__item">
 									<div class="tovar_item">
 										<div class="tovar_img">
@@ -387,7 +387,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-sm-6 col-md-4">
+							<div class="col-sm-6 col-md-4 paddingnone2">
 								<div class="lace__item">
 									<div class="tovar_item">
 										<div class="tovar_img">
@@ -413,7 +413,7 @@
 					</div>
 				</div>
 				<div class="container">
-					<div class="lace__pag">
+					<div class="catalogspisok__pag">
 						<ul class="pagination">
 							<li class="pagination__link"><span>1</span></li>
 							<li class="pagination__link"><a href="/" class="pagination__nonactive">2</a></li>
@@ -422,7 +422,7 @@
 						</ul>
 					</div>
 				</div>
-			</div>
+			
 		</div>
 		<div class="n-footer">
 			<?php require_once('includes/footer.php'); ?>
