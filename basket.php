@@ -63,7 +63,7 @@
 								</div>
 								<div class="vertical-middle item__quan">
 									<div class="switch__number">
-										<input type="text" value="1" disabled="disabled" id="quantity"> 
+										<input type="text" value="1" disabled="disabled"> 
 										<span class="switch__button switch__button_down">-</span> 
 										<span class="switch__button switch__button_up">+</span>
 									</div>
@@ -99,7 +99,7 @@
 								</div>
 								<div class="vertical-middle item__quan">
 									<div class="switch__number">
-										<input type="text" value="1" disabled="disabled" id="quantity"> 
+										<input type="text" value="1" disabled="disabled"> 
 										<span class="switch__button switch__button_down">-</span> 
 										<span class="switch__button switch__button_up">+</span>
 									</div>
@@ -159,7 +159,7 @@
 								</div>
 								<div class="vertical-middle item__quan">
 									<div class="switch__number">
-										<input type="text" value="1" disabled="disabled" id="quantity"> 
+										<input type="text" value="1" disabled="disabled"> 
 										<span class="switch__button switch__button_down">-</span> 
 										<span class="switch__button switch__button_up">+</span>
 									</div>
@@ -198,7 +198,7 @@
 								</div>
 								<div class="vertical-middle item__quan">
 									<div class="switch__number">
-										<input type="text" value="1" disabled="disabled" id="quantity"> 
+										<input type="text" value="1" disabled="disabled"> 
 										<span class="switch__button switch__button_down">-</span> 
 										<span class="switch__button switch__button_up">+</span>
 									</div>
@@ -281,14 +281,14 @@
 														<input type="email" class="input__basket" placeholder="E-mail" name="email" required>
 													</div>
 													<div class="input input_theme_rosa">
-														<select class="form-select input__basket" id="type">
+														<select class="form-select input__basket">
 															<option value="1">Выбрать менеджера</option>
 															<option value="2">Менеджер 1</option>
 															<option value="3">Менеджер 2</option>
 														</select>
 													</div>
 													<div class="input input_theme_rosa">
-														<select class="form-select input__basket" id="type2">
+														<select class="form-select input__basket">
 															<option value="1">Город доставки</option>
 															<option value="2">Город доставки 1</option>
 															<option value="3">Город доставки 2</option>
@@ -365,14 +365,14 @@
 														<input type="email" class="input__basket" placeholder="Ваш е-mail*" name="email" required>
 													</div>
 													<div class="input input_theme_rosa">
-														<select class="form-select input__basket" id="type">
+														<select class="form-select input__basket">
 															<option value="1">Выбрать менеджера</option>
 															<option value="2">Менеджер 1</option>
 															<option value="3">Менеджер 2</option>
 														</select>
 													</div>
 													<div class="input input_theme_rosa">
-														<select class="form-select input__basket" id="type2">
+														<select class="form-select input__basket">
 															<option value="1">Город доставки</option>
 															<option value="2">Город доставки 1</option>
 															<option value="3">Город доставки 2</option>

@@ -73,7 +73,7 @@
 							</div>
 							<div class="sale">
 								<a href="#" class="sale__img">
-									<img src="" alt="">
+									<img src="img/sale-2.jpg" alt="">
 									<div class="sale__info sale__info_black">
 										<span></span>
 										<i></i>
@@ -88,7 +88,7 @@
 						<div class="sale-row clearfix">
 							<div class="sale">
 								<a href="#" class="sale__img">
-									<img src="" alt="">
+									<img src="img/sale-2.jpg" alt="">
 									<div class="sale__info sale__info_white">
 										<span></span>
 										<i></i>
@@ -101,7 +101,7 @@
 							</div>
 							<div class="sale">
 								<a href="#" class="sale__img">
-									<img src="" alt="">
+									<img src="img/sale-2.jpg" alt="">
 									<div class="sale__info sale__info_black">
 										<span></span>
 										<i></i>
