@@ -1271,6 +1271,9 @@
 	.main__links{
 		margin-top: 20px;
 		margin-bottom: 20px;
+		@media only screen and (min-width : 992px) {
+			float: left;
+		}
 	}
 	.main__link{
 		margin-top: 5px;
@@ -1324,6 +1327,7 @@
 		@media only screen and (min-width : 992px) {
 			float: right;
 			display: block;
+			margin-top: 10px;
 		}
 	}
 }
@@ -1445,25 +1449,35 @@
 			border-top: 0;
 			background: #fff;
 			padding: 0 25px;
-			z-index: 100;
+			z-index: 1000;
 		}
 		.manager-cart{
 			display: block;
 			padding: 30px 0 3px;
+			@media only screen and (max-width : 992px) {
+				padding: 15px 0 3px;
+			}
 			.img-wrap{
-				float: left;
 				height: 110px;
 				width: 95px;
 				overflow: hidden;
+				float: left;
 				img{
 					display: block;
 					width: 100%;
 					height: auto;
 					min-height: 100%;
 				}
+				@media only screen and (max-width : 992px) {
+					margin-bottom: 10px;
+					float: none;
+				}
 			}
 			.text-wrap{
 				margin-left: 123px;
+				@media only screen and (max-width : 992px) {
+					margin-left: 0;
+				}
 			}
 			.manager__name{
 				display: block;
@@ -1478,6 +1492,10 @@
 				color: #525252;
 				font-size: 14px;
 				padding-bottom: 10px;
+				@media only screen and (max-width : 992px) {
+					font-size: 11px;
+					padding-bottom: 5px;
+				}
 			}
 			.manager__text{
 				display: block;
@@ -1485,6 +1503,11 @@
 				font-size: 14px;
 				padding-bottom: 18px;
 				line-height: 22px;
+				@media only screen and (max-width : 992px) {
+					font-size: 11px;
+					padding-bottom: 5px;
+					line-height: 18px;
+				}
 			}
 			&:hover{
 				span, p{
