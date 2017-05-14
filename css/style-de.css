@@ -348,6 +348,7 @@
 @media only screen and (max-width: 991px) { .setting__forms { width: 400px; } }
 @media only screen and (max-width: 770px) { .setting__forms { width: 100%; float: none; padding-right: 0; } }
 .setting__forms .input { max-width: none; margin-bottom: 22px; }
+.setting__forms .input_grey { background: #f7f7f7; }
 .setting__forms .form__info { padding: 35px 0 13px 16px; }
 .setting__forms .form__info p { line-height: 22px; float: left; max-width: 280px; }
 @media only screen and (max-width: 992px) { .setting__forms .form__info p { float: none; } }

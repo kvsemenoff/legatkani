@@ -1439,6 +1439,9 @@
 	.input{
 		max-width: none;
 		margin-bottom: 22px;
+		&_grey{
+			background: #f7f7f7;
+		}
 	}
 	.form__info{
 		padding: 35px 0 13px 16px;
