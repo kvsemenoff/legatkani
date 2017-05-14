@@ -418,6 +418,9 @@
     padding-top: 45px;
     padding-bottom: 25px;
     position: static;
+    @media screen and (min-width: 992px) {
+      column-count: 1;
+    }
   }
   &:before {
     content: '';
@@ -437,12 +440,14 @@
 }
 .lace__item {
   text-align: center;
-  .button__basket {
-    display: none;
-  }
-  &:hover {
+  @media screen and (min-width: 1248px) {
     .button__basket {
-      display: block;
+      display: none;
+    }
+    &:hover {
+      .button__basket {
+        display: block;
+      }
     }
   }
 }
