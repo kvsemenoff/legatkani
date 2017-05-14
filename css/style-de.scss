@@ -1271,6 +1271,9 @@
 	.main__links{
 		margin-top: 20px;
 		margin-bottom: 20px;
+		@media only screen and (min-width : 992px) {
+			float: left;
+		}
 	}
 	.main__link{
 		margin-top: 5px;
@@ -1324,6 +1327,7 @@
 		@media only screen and (min-width : 992px) {
 			float: right;
 			display: block;
+			margin-top: 10px;
 		}
 	}
 }
