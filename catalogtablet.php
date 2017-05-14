@@ -40,7 +40,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-sm-12 col-md-9">
+					<div class="col-sm-12 col-md-9 paddingnone2">
 						<div class="lace__header">
 							<h1 class="h1 favorite__caption">Каталог тканей</h1>
 						</div>
@@ -145,7 +145,7 @@
 
 						</div>
 						<div class="lace__content">
-							<div class="col-sm-6 col-md-4">
+							<div class="col-sm-6 col-md-4 paddingnone2">
 								<div class="lace__item">
 									<div class="tovar_item">
 										<div class="tovar_img">
@@ -167,7 +167,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-sm-6 col-md-4">
+							<div class="col-sm-6 col-md-4 paddingnone2">
 								<div class="lace__item">
 									<div class="tovar_item">
 										<div class="tovar_img">
@@ -189,7 +189,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-sm-6 col-md-4">
+							<div class="col-sm-6 col-md-4 paddingnone2">
 								<div class="lace__item">
 									<div class="tovar_item">
 										<div class="tovar_img">
@@ -211,7 +211,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-sm-6 col-md-4">
+							<div class="col-sm-6 col-md-4 paddingnone2">
 								<div class="lace__item">
 									<div class="tovar_item">
 										<div class="tovar_img">
@@ -233,7 +233,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-sm-6 col-md-4">
+							<div class="col-sm-6 col-md-4 paddingnone2">
 								<div class="lace__item">
 									<div class="tovar_item">
 										<div class="tovar_img">
@@ -255,7 +255,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-sm-6 col-md-4">
+							<div class="col-sm-6 col-md-4 paddingnone2">
 								<div class="lace__item">
 									<div class="tovar_item">
 										<div class="tovar_img">
@@ -277,7 +277,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-sm-6 col-md-4">
+							<div class="col-sm-6 col-md-4 paddingnone2">
 								<div class="lace__item">
 									<div class="tovar_item">
 										<div class="tovar_img">
@@ -299,7 +299,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-sm-6 col-md-4">
+							<div class="col-sm-6 col-md-4 paddingnone2">
 								<div class="lace__item">
 									<div class="tovar_item">
 										<div class="tovar_img">
@@ -321,7 +321,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-sm-6 col-md-4">
+							<div class="col-sm-6 col-md-4 paddingnone2">
 								<div class="lace__item">
 									<div class="tovar_item">
 										<div class="tovar_img">
@@ -343,7 +343,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-sm-6 col-md-4">
+							<div class="col-sm-6 col-md-4 paddingnone2">
 								<div class="lace__item">
 									<div class="tovar_item">
 										<div class="tovar_img">
@@ -365,7 +365,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-sm-6 col-md-4">
+							<div class="col-sm-6 col-md-4 paddingnone2">
 								<div class="lace__item">
 									<div class="tovar_item">
 										<div class="tovar_img">
@@ -387,7 +387,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-sm-6 col-md-4">
+							<div class="col-sm-6 col-md-4 paddingnone2">
 								<div class="lace__item">
 									<div class="tovar_item">
 										<div class="tovar_img">
