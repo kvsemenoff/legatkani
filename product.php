@@ -9,7 +9,7 @@
 
 			<div class="container paddingnone">
 
-				<h2 class="h2 favorite__caption">Батист</h2>
+				<h1 class="h1 favorite__caption">Батист</h1>
 				<ul class="breadcrumps ">
 					<li class="breadcrumps__link breadcrumps__link_home"><a href="/" class="bread_menu__link_bg">Главная</a></li>	
 					<li class="breadcrumps__link breadcrumps__link_home"><a href="#" class="bread_menu__link_bg">Каталог</a></li>					
