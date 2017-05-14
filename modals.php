@@ -8,6 +8,7 @@
 		<div class="n-content-inner vertical-align">
 			<div class="fon">
 				<div class="js-window" id="js-form1">
+				<i class="fa fa-times icon-view" aria-hidden="true"></i>
 					<h2 class="h3 modal-h3">Обратный звонок</h2>
 					<form action="#" method="post">	
 						<div class="input input_theme_rosa	qustion-input-margin">
