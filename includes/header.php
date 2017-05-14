@@ -35,8 +35,8 @@
 	<link rel="stylesheet" href="block/q/style.css">
 	<link rel="stylesheet" href="block/question/style.css">
 	<link rel="stylesheet" href="block/search/search.css">
-	<link rel="stylesheet" href="block/select/style.css">
 	<link rel="stylesheet" href="block/select/jquery.formstyler.css">
+	<link rel="stylesheet" href="block/select/style.css">
 	<link rel="stylesheet" href="block/show-price/style.css">
 	<link rel="stylesheet" href="block/sidebar-menu/main-menu.css">
 	<link rel="stylesheet" href="block/socials/socials.css">

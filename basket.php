@@ -281,7 +281,7 @@
 														<input type="email" class="input__basket" placeholder="E-mail" name="email" required>
 													</div>
 													<div class="input input_theme_rosa">
-														<select class="form-select input__basket">
+														<select class="form-select input__basket" id="type">
 															<option value="1">Выбрать менеджера</option>
 															<option value="2">Менеджер 1</option>
 															<option value="3">Менеджер 2</option>
