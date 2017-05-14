@@ -456,3 +456,131 @@
 		}
 	}
 }
+
+/* Рассылка
+============================*/
+.email-box__style{
+	max-width: 600px;
+	margin: 0 auto;
+}
+.email-box{
+	&__top{
+		background:url(../img/bge.jpg) no-repeat top center;
+		background-size:cover;
+		padding-bottom: 10px;
+		position: relative;
+		img{
+			margin: 0 auto;
+		}
+		border-bottom: 13px solid #941F63;
+		@media only screen and (min-width : 768px) {
+			border-bottom: none;
+			&:after{
+				content: '';
+				position: absolute;
+				background:url(../img/lenta.png);
+				width: 628px;
+				height: 17px;
+				left: -14px;
+			}
+		}
+	}
+	&__middle{
+		padding: 0 12px;
+		.title{
+			font-family: 'Open Sans', sans-serif;
+			display: inline-block;
+			padding: 26px 0px 31px 15px;
+			font-size: 18px;
+			font-weight: 600;
+			font-style: italic;
+			color: #7f2461;
+		}
+		.title2{
+			display: inline-block;
+			padding-bottom: 8px;
+			font-family: 'Open Sans', sans-serif;
+			padding-left: 9px;
+			font-size: 16px;
+			font-weight: 700;
+			line-height: 25px;
+			text-transform: uppercase;
+		}
+		p{
+			padding-left: 8px;
+		}
+		&_img{
+			background:url(../img/em.jpg) no-repeat top center;
+			background-size:cover;
+			min-height: 266px;
+			text-align: right;
+			padding-right: 30px;
+			padding-top: 96px;
+			margin-top: 23px;
+			margin-bottom: 31px;
+			span{
+				display: inline-block;
+				padding-bottom: 20px;
+				font-family: 'Open Sans', sans-serif;
+				color: #454545;
+				font-size: 30px;
+				font-weight: 700;
+			}
+			p{
+				font-size: 15px;
+				font-weight: 400;
+				color: #181818;
+			}
+		}
+	}
+	&__bottom{
+		text-align: right;
+		padding-top: 60px;
+		p{
+			color: #b58827;
+			font-size: 15px;
+			font-weight: 600;
+			font-style: italic;
+		}
+	}
+	&__footer{
+		padding: 16px 14px 0px 14px;
+		text-align: center;
+		margin-top: 50px;
+		border-top:1px solid #E9E9E9;
+		&_item{
+			a{
+				font-size: 13px;
+				font-style: italic;
+				text-decoration: underline;
+				color: #959494;
+				padding-bottom: 16px;
+				display: inline-block;
+			}
+			ul{
+				li{
+					@media only screen and (min-width : 768px) {
+						display: inline-block;
+						margin-left: 20px;
+					}
+					a{
+						font-size: 13px;
+						font-style: italic;
+						color: #525252;
+						text-decoration: none;
+						padding-bottom: 16px;
+						display: inline-block;
+					}
+				}
+			}
+			@media only screen and (min-width : 768px) {
+				float: left;
+			}
+		}
+		&_item2{
+			@media only screen and (min-width : 768px) {
+				float: right;
+			}
+		}
+	}
+}
