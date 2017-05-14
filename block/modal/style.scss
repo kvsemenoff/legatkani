@@ -35,14 +35,7 @@
 		cursor: pointer;
 		background: url("../../img/modal-close.png")no-repeat top right;
 	}
-	.icon-view{
-		position: absolute;
-		top: 0;
-		right: 20px;
-		font-size: 30px !important; 
-		cursor: pointer;
-		color:black !important;
-	}
+
 	.modal-align{
 		text-align: left;
 	}
@@ -52,6 +45,8 @@
 	.modal-input{
 		height: 40px !important;
 		max-width: 420px !important;
+		padding: 0 18px;
+		&::-moz-placeholder { line-height: 40px }
 	}
 	.modal-across{
 		color: #7f2461;
