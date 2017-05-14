@@ -78,12 +78,40 @@
 											</div>
 										</div>
 									</div>
-									<div class="input input_theme_rosa">
-										<select class="form-select input__basket" id="type">
-											<option value="1">Выбрать другого менеджера</option>
-											<option value="2">Менеджер 1</option>
-											<option value="3">Менеджер 2</option>
-										</select>
+									<div class="manager-choose">
+										<span class="choose__btn">Выбрать другого менеджера</span>
+										<div class="managers-block">
+											<a href="#" class="manager-cart clearfix">
+												<div class="img-wrap">
+													<img src="img/manager.jpg" alt="">
+												</div>
+												<div class="text-wrap">
+													<span class="manager__name">Михайлова Кристина</span>
+													<span class="manager__status">Старший менеджер</span>
+													<p class="manager__text">Опыт работы более 10 лет, имеет дизайнерское образование. Учавствует в открытых трендовых мероприятиях.  Имеет диплом модельера.</p>
+												</div>
+											</a>
+											<a href="#" class="manager-cart clearfix">
+												<div class="img-wrap">
+													<img src="img/manager.jpg" alt="">
+												</div>
+												<div class="text-wrap">
+													<span class="manager__name">Евсютин Александр</span>
+													<span class="manager__status">Специалист по подбору тканей</span>
+													<p class="manager__text">Опыт работы более 10 лет, имеет дизайнерское образование. Учавствует в открытых трендовых мероприятиях.  Имеет диплом модельера.</p>
+												</div>
+											</a>
+											<a href="#" class="manager-cart clearfix">
+												<div class="img-wrap">
+													<img src="img/manager.jpg" alt="">
+												</div>
+												<div class="text-wrap">
+													<span class="manager__name">Миронова Анна</span>
+													<span class="manager__status">Старший менеджер</span>
+													<p class="manager__text">Опыт работы более 10 лет, имеет дизайнерское образование. Учавствует в открытых трендовых мероприятиях.  Имеет диплом модельера.</p>
+												</div>
+											</a>
+										</div>
 									</div>
 								</div>
 							</div>

@@ -82,6 +82,32 @@ $(document).ready(function(){
 	});
 
 	$('.js-phone').mask("+7(999)999-99-99?");
+
+	$('.choose__btn').click(function(){
+		if($(this).hasClass('active')){
+			$(this).removeClass('active');
+			$('.managers-block').css('display','none');
+		}
+		else{
+			$(this).addClass('active');
+			$('.managers-block').css('display','block');
+		}
+	});
+
+	$('.tab').click(function(){
+		$('.tab').removeClass('active');
+		$('.tabs-content').find('div').removeClass('active');
+		$('.tabs-content > .tab-content').css('display','none');
+		$(this).addClass('active');
+
+		for (var i = 0; i < 4; i++) {
+			if($('.tabs > .tab-' + i).hasClass('active')){
+				$('.tabs-content > .tab-' + i).addClass('active');
+		};
+		
+		$('.tabs-content > .active').css('display','block');
+		};
+	});
 	
 
 	$('.tabs-content > .tab-content').each(function(index){

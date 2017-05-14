@@ -1406,9 +1406,92 @@
 		font-size: 14px;
 		line-height: 22px;
 	}
-	.input{
-		max-width: none;
-		margin-top: 23px;
+	.manager-choose{
+		padding: 0 25px;
+		background: #fff;
+		margin-top: 25px;
+		position: relative;
+		border: 1px solid #d0d0d0;
+		.choose__btn{
+			color: #6b6b6b;
+			font-size: 14px;
+			line-height: 41px;
+			height: 41px;
+			cursor: pointer;
+			position: relative;
+			display: block;
+			&::before{
+				content: "";
+				width: 9px;
+				height: 6px;
+				background: url(../img/down.png);
+				position: absolute;
+				margin-top: -3px;
+				top: 50%;
+				right: 0;
+			}
+			&.active::before{
+				transform: rotate(180deg);
+			}
+		}
+		.managers-block{
+			display: none;
+			padding-bottom: 47px;
+			position: absolute;
+			top: 41px;
+			left: -1px;
+			right: -1px;
+			border: 1px solid #d0d0d0;
+			border-top: 0;
+			background: #fff;
+			padding: 0 25px;
+			z-index: 100;
+		}
+		.manager-cart{
+			display: block;
+			padding: 30px 0 3px;
+			.img-wrap{
+				float: left;
+				height: 110px;
+				width: 95px;
+				overflow: hidden;
+				img{
+					display: block;
+					width: 100%;
+					height: auto;
+					min-height: 100%;
+				}
+			}
+			.text-wrap{
+				margin-left: 123px;
+			}
+			.manager__name{
+				display: block;
+				text-transform: uppercase;
+				font-weight: 600;
+				font-size: 14px;
+				padding-bottom: 10px;
+				color: #000;
+			}
+			.manager__status{
+				display: block;
+				color: #525252;
+				font-size: 14px;
+				padding-bottom: 10px;
+			}
+			.manager__text{
+				display: block;
+				color: #525252;
+				font-size: 14px;
+				padding-bottom: 18px;
+				line-height: 22px;
+			}
+			&:hover{
+				span, p{
+					color: #7f2461;
+				}
+			}
+		}
 	}
 	@media only screen and (max-width : 1199px) {
 		width: 500px;
