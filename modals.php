@@ -66,7 +66,7 @@
 							<div class="input input_theme_rosa	qustion-input-margin">
 								<input type="tel" class="input__control modal-input" placeholder="+7(___)___-__-__" name="phone" required>
 							</div>
-							<div class="input input_theme_rosa">
+							<div class="input">
 							<select class="form-select input__control qustion-input-margin modal-input modal-align" id="type">
 									<option value="">Город доставки</option>
 									<option value="">Москва</option>
