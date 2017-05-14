@@ -111,6 +111,26 @@
 													<p class="manager__text">Опыт работы более 10 лет, имеет дизайнерское образование. Учавствует в открытых трендовых мероприятиях.  Имеет диплом модельера.</p>
 												</div>
 											</a>
+											<a href="#" class="manager-cart clearfix">
+												<div class="img-wrap">
+													<img src="img/manager.jpg" alt="">
+												</div>
+												<div class="text-wrap">
+													<span class="manager__name">Миронова Анна</span>
+													<span class="manager__status">Старший менеджер</span>
+													<p class="manager__text">Опыт работы более 10 лет, имеет дизайнерское образование. Учавствует в открытых трендовых мероприятиях.  Имеет диплом модельера.</p>
+												</div>
+											</a>
+											<a href="#" class="manager-cart clearfix">
+												<div class="img-wrap">
+													<img src="img/manager.jpg" alt="">
+												</div>
+												<div class="text-wrap">
+													<span class="manager__name">Миронова Анна</span>
+													<span class="manager__status">Старший менеджер</span>
+													<p class="manager__text">Опыт работы более 10 лет, имеет дизайнерское образование. Учавствует в открытых трендовых мероприятиях.  Имеет диплом модельера.</p>
+												</div>
+											</a>
 										</div>
 									</div>
 								</div>
@@ -182,6 +202,5 @@
 			<?php require_once('includes/footer.php'); ?>
 		</div>
 	</div>
-</div>
 </body>
 </html>
