@@ -44,7 +44,7 @@
 								<input type="email" class="input__control modal-input modal-auth" placeholder="Ваш e-mail" name="email" required>
 							</div>
 							<div class="input input_theme_rosa	qustion-input-margin">
-								<input type="text" class="input__control modal-input modal-auth" placeholder="Ваш пароль" name="password" required>
+								<input type="password" class="input__control modal-input modal-auth" placeholder="Ваш пароль" name="password" required>
 							</div>
 							<a href="#" class="modal-across">Напомнить пароль через E-mail</a>
 							<input type="submit" name="submit" class="submit modal-submit submit-sign" value="Войти">
