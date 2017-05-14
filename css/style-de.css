@@ -338,11 +338,11 @@
 @media only screen and (max-width: 991px) { .setting__manager .left { display: none; } }
 @media only screen and (min-width: 992px) { .setting__manager .right { margin-left: 96px; } }
 .setting__manager p { font-size: 14px; line-height: 22px; }
-.setting__manager .manager-choose { border: 1px solid #d0d0d0; padding: 0 25px; background: #fff; margin-top: 25px; }
+.setting__manager .manager-choose { padding: 0 25px; background: #fff; margin-top: 25px; position: relative; border: 1px solid #d0d0d0; }
 .setting__manager .manager-choose .choose__btn { color: #6b6b6b; font-size: 14px; line-height: 41px; height: 41px; cursor: pointer; position: relative; display: block; }
 .setting__manager .manager-choose .choose__btn::before { content: ""; width: 9px; height: 6px; background: url(../img/down.png); position: absolute; margin-top: -3px; top: 50%; right: 0; }
 .setting__manager .manager-choose .choose__btn.active::before { transform: rotate(180deg); }
-.setting__manager .manager-choose .managers-block { display: none; padding-bottom: 47px; }
+.setting__manager .manager-choose .managers-block { display: none; padding-bottom: 47px; position: absolute; top: 41px; left: -1px; right: -1px; border: 1px solid #d0d0d0; border-top: 0; background: #fff; padding: 0 25px; z-index: 100; }
 .setting__manager .manager-choose .manager-cart { display: block; padding: 30px 0 3px; }
 .setting__manager .manager-choose .manager-cart .img-wrap { float: left; height: 110px; width: 95px; overflow: hidden; }
 .setting__manager .manager-choose .manager-cart .img-wrap img { display: block; width: 100%; height: auto; min-height: 100%; }
