@@ -558,6 +558,12 @@
   position: static;
 }
 
+@media screen and (min-width: 992px) {
+  .lace__sidebar .sidebar-menu {
+    column-count: 1;
+  }
+}
+
 .lace__sidebar:before {
   content: '';
   height: 17px;
@@ -580,12 +586,13 @@
   text-align: center;
 }
 
-.lace__item .button__basket {
-  display: none;
-}
-
-.lace__item:hover .button__basket {
-  display: block;
+@media screen and (min-width: 1248px) {
+  .lace__item .button__basket {
+    display: none;
+  }
+  .lace__item:hover .button__basket {
+    display: block;
+  }
 }
 
 .lace__pag {
