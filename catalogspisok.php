@@ -42,7 +42,7 @@
 						</div>
 					</div>
 
-					<div class="col-sm-12 col-md-9">
+					<div class="col-sm-12 col-md-9 paddingnone2">
 						
 							<h1 class="h1 favorite__caption">Каталог тканей</h1>
 						

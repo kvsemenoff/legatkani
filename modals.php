@@ -1,13 +1,14 @@
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="../../css/style.css">
-<link rel="stylesheet" href="../h3/style.css">
-<link rel="stylesheet" href="../inputtext/style.css">
-<link rel="stylesheet" href="../textarea/style.css">
-<link rel="stylesheet" href="../button/style.css">
-<link rel="stylesheet" href="../question/style.css">
-
+<?php require_once('includes/header.php'); ?>
+<div class="n-wrapper">
+	<div class="n-header">
+		<?php require_once('includes/header-top.php'); ?>
+		<?php require_once('includes/header_bottom.php'); ?>
+	</div>
+	<div class="n-content">
+		<div class="n-content-inner vertical-align">
 			<div class="fon">
 				<div class="js-window" id="js-form1">
+				<i class="fa fa-times icon-view" aria-hidden="true"></i>
 					<h2 class="h3 modal-h3">Обратный звонок</h2>
 					<form action="#" method="post">	
 						<div class="input input_theme_rosa	qustion-input-margin">
@@ -86,6 +87,11 @@
 						</form>
 					</div>
 				</div>
-	
-
-	<script src="../../js/fonts.js"></script>
+			</div>
+		</div>
+		<div class="n-footer">
+			<?php require_once('includes/footer.php'); ?>
+		</div>
+	</div>
+</body>
+</html>

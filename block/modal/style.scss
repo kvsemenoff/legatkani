@@ -16,13 +16,25 @@
 		display: inline-block;
 	}
 	#js-form1, #js-form2, #js-form3, #js-form4{
-		max-width: 340px;
+		position: relative;
+		max-width: 420px;
 		margin: 0 auto;
 		background: #fff;
 		text-align: center;
-		padding: 40px;
+		padding: 60px 40px;
 		box-shadow: 4.6px 6.6px 46.4px 7.6px rgba(0, 0, 0, 0.41);
 
+	}
+	.icon-view{
+		position: absolute;
+		top: 0;
+		right: 20px;
+		font-size: 30px !important; 
+		cursor: pointer;
+		color:black !important;
+	}
+	.modal-align{
+		text-align: left;
 	}
 	.modal-auth{
 		background-color: #f5f4f4 !important;
