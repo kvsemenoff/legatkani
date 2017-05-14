@@ -300,3 +300,58 @@
 .composition-in .composition-order .order__re a { color: #921f6c; font-size: 14px; font-weight: 600; font-style: italic; text-decoration: underline; }
 .composition-in .composition-order .order__re a:hover { text-decoration: none; }
 @media only screen and (min-width: 550px) { .composition-in .composition-order { float: left; } }
+
+.main-page .user__name { display: block; color: #93467c; font-size: 26px; font-weight: 600; font-style: italic; margin-top: -13px; padding-bottom: 23px; padding-left: 15px; text-transform: capitalize; border-bottom: 1px solid #e8e8e8; }
+@media only screen and (max-width: 770px) { .main-page .user__name { font-size: 24px; } }
+.main-page .main__links { margin-top: 20px; margin-bottom: 20px; }
+.main-page .main__link { margin-top: 5px; margin-right: 1px; text-transform: uppercase; text-align: center; background: #f2f2f2; transition: 0.3s all ease; display: inline-block; }
+.main-page .main__link a { font-size: 12px; display: block; line-height: 54px; padding: 0 32px; color: #000; }
+@media only screen and (max-width: 1200px) { .main-page .main__link a { padding: 0 20px; font-size: 11px; line-height: 43px; letter-spacing: -0.5px; } }
+.main-page .main__link_active { background: #93467c; }
+.main-page .main__link_active a { color: #fff; }
+.main-page .main__link:hover { background: #93467c; }
+.main-page .main__link:hover a { color: #fff; }
+@media only screen and (min-width: 992px) { .main-page .main__link { float: left; } }
+@media only screen and (max-width: 400px) { .main-page .main__link { float: left; display: block; width: 50%; margin-right: 0; border-right: 3px solid #fff; }
+  .main-page .main__link a { padding: 0; } }
+.main-page .manager { display: none; }
+@media only screen and (min-width: 992px) { .main-page .manager { float: right; display: block; } }
+
+.main__settings { padding: 48px 0 0; }
+@media only screen and (max-width: 770px) { .main__settings { padding: 20px 0 0; } }
+
+.settings__title { display: block; font-weight: 600; font-size: 16px; color: #000; padding: 0 0 15px 8px; }
+@media only screen and (max-width: 770px) { .settings__title { font-size: 14px; } }
+
+.setting__manager { float: right; width: 640px; margin-bottom: 30px; }
+.setting__manager-in { padding: 37px 20px 50px 32px; background: #f6f6f6; }
+@media only screen and (max-width: 770px) { .setting__manager-in { margin: 0 -15px; padding: 25px 15px 35px; } }
+.setting__manager .manager { float: none; display: block !important; }
+@media only screen and (min-width: 992px) { .setting__manager .manager__img { width: 155px; height: 181px; } }
+@media only screen and (min-width: 992px) { .setting__manager .manager__info { margin-left: 198px; padding-top: 6px; } }
+.setting__manager .info-row { padding-bottom: 30px; }
+@media only screen and (max-width: 770px) { .setting__manager .info-row { padding-bottom: 5px; }
+  .setting__manager .info-row strong { font-size: 11px; }
+  .setting__manager .info-row span, .setting__manager .info-row em, .setting__manager .info-row a, .setting__manager .info-row p { font-size: 12px; }
+  .setting__manager .info-row p { line-height: 19px; } }
+.setting__manager .left { float: left; color: #525252; font-size: 13px; font-weight: 700; display: block; width: 96px; }
+@media only screen and (max-width: 991px) { .setting__manager .left { display: none; } }
+@media only screen and (min-width: 992px) { .setting__manager .right { margin-left: 96px; } }
+.setting__manager p { font-size: 14px; line-height: 22px; }
+.setting__manager .input { max-width: none; margin-top: 23px; }
+@media only screen and (max-width: 1199px) { .setting__manager { width: 500px; } }
+@media only screen and (max-width: 991px) { .setting__manager { width: 342px; } }
+@media only screen and (max-width: 770px) { .setting__manager { width: 100%; float: none; } }
+
+.setting__forms { float: left; width: 530px; padding-right: 33px; }
+@media only screen and (max-width: 1199px) { .setting__forms { width: 470px; } }
+@media only screen and (max-width: 991px) { .setting__forms { width: 400px; } }
+@media only screen and (max-width: 770px) { .setting__forms { width: 100%; float: none; padding-right: 0; } }
+.setting__forms .input { max-width: none; margin-bottom: 22px; }
+.setting__forms .input_grey { background: #f7f7f7; }
+.setting__forms .form__info { padding: 35px 0 13px 16px; }
+.setting__forms .form__info p { line-height: 22px; float: left; max-width: 280px; }
+@media only screen and (max-width: 992px) { .setting__forms .form__info p { float: none; } }
+.setting__forms .form__info .rb-wrap { float: right; width: 140px; padding-top: 15px; }
+@media only screen and (max-width: 992px) { .setting__forms .form__info .rb-wrap { float: none; } }
+.setting__forms .form__button { text-align: center; }

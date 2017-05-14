@@ -298,10 +298,10 @@
 														<input type="text" class="input__basket" placeholder="Адрес доставки" name="address" required>
 													</div>
 													<div class="input input_grey input_theme_rosa">
-														<input type="parol" class="input__basket" placeholder="Пароль*" name="parol" required>
+														<input type="password" class="input__basket" placeholder="Пароль*" name="parol" required>
 													</div>
 													<div class="input input_grey input_theme_rosa">
-														<input type="parol" class="input__basket" placeholder="Повторите пароль*" name="re_parol" required>
+														<input type="password" class="input__basket" placeholder="Повторите пароль*" name="re_parol" required>
 													</div>
 												</div>
 												<div class="right">
@@ -382,10 +382,10 @@
 														<input type="text" class="input__basket" placeholder="Адрес доставки" name="address" required>
 													</div>
 													<div class="input input_grey input_theme_rosa">
-														<input type="parol" class="input__basket" placeholder="Пароль*" name="parol" required>
+														<input type="password" class="input__basket" placeholder="Пароль*" name="parol" required>
 													</div>
 													<div class="input input_grey input_theme_rosa">
-														<input type="parol" class="input__basket" placeholder="Повторите пароль*" name="re_parol" required>
+														<input type="password" class="input__basket" placeholder="Повторите пароль*" name="re_parol" required>
 													</div>
 												</div>
 												<div class="right">
