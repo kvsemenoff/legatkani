@@ -39,9 +39,10 @@
 }
 .signin {
   color: #7f2461;
-  font-family: "Open Sans", sans-serif;
+  font-family: "OpenSans", sans-serif;
   font-size: 14px;
   font-style: italic;
+  font-weight: 500;
 }
 .favourite {
   width: 24px;
@@ -288,6 +289,7 @@
     display: inline-block;
   }
 }
+
 .footer__map__made {
   margin-top: 35px;
 }
