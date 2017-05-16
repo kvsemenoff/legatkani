@@ -266,7 +266,7 @@
 								</div>
 							</div>
 							<div class="tabs-content">
-								<div class="tab-content tab-0">
+								<div class="tab-content tab-0 active">
 									<div class="form-wrap">
 										<form action="#">
 											<div class="form-inner clearfix">
