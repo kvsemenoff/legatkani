@@ -27,13 +27,13 @@
 								<h1 class="h1">Заголовок h1</h1>
 							</div>
 							<div class="h2__tech-wrap">
-								<h1 class="h2">Заголовок h2</h1>
+								<h2 class="h2">Заголовок h2</h2>
 							</div>
 							<div class="h3__tech-wrap">
-								<h1 class="h3">Заголовок h3</h1>
+								<h3 class="h3">Заголовок h3</h3>
 							</div>
 							<div class="h4__tech-wrap">
-								<h1 class="h4">Заголовок h4</h1>
+								<h4 class="h4">Заголовок h4</h4>
 							</div>
 						</div>
 						<br><br><br><br>

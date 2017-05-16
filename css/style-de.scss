@@ -157,13 +157,13 @@
 			float: left;
 			width: 130px;
 			letter-spacing: -0.5px;
+			font-style: italic;
 			@media only screen and (max-width : 700px) {
 				font-size: 12px; 
 				width: 90px;
 			}
 			i{
 				display: inline-block;
-				font-style: normal;
 			}
 		}
 		p{
@@ -242,6 +242,9 @@
 }
 .tech{
 	padding: 20px 0;
+	.favourite_empty{
+		height: 23px;
+	}
 	.all-h .h1{
 		text-align: left;
 	}
@@ -1205,6 +1208,7 @@
 				font-size: 12px;
 				text-decoration: underline;
 				color: #921f6c;
+				text-transform: uppercase;
 				&:hover{
 					text-decoration: none;
 				}
