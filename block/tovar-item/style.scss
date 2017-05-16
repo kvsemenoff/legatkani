@@ -132,7 +132,7 @@
 	@media only screen and (min-width : 1150px) {
 		width: 275px;
 		&:hover{
-			.button__basket{
+			.hovereffect{
 				display: inline-block;
 			}
 		}
@@ -144,7 +144,7 @@
 	// padding-left: 12px;
 	text-align: center;
 	font-family: "OpenSans", sans-serif;
-	.button__basket{
+	.hovereffect{
 		padding: 13px 17px 9px 37px;
 		
 		span{			

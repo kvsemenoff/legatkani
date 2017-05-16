@@ -118,21 +118,21 @@
   @media only screen and (min-width: 1150px) {
     .tovar_item {
       width: 275px; }
-      .tovar_item:hover .button__basket {
+      .tovar_item:hover .hovereffect {
         display: inline-block; } }
 
 .tovar_item__text {
   padding-top: 20px;
   text-align: center;
   font-family: "OpenSans", sans-serif; }
-  .tovar_item__text .button__basket {
+  .tovar_item__text .hovereffect {
     padding: 13px 17px 9px 37px; }
-    .tovar_item__text .button__basket span {
+    .tovar_item__text .hovereffect span {
       background: url(../../img/korz.png) no-repeat left 2px top;
       padding-left: 40px;
       padding-right: 40px; }
     @media only screen and (min-width: 1150px) {
-      .tovar_item__text .button__basket {
+      .tovar_item__text .hovereffect {
         margin-left: -11px;
         display: none; } }
 
