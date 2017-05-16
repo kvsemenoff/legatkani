@@ -290,7 +290,7 @@
 @media only screen and (min-width: 550px) { .composition-in .manager { float: right; } }
 .composition-in .composition-order { margin-top: -8px; }
 .composition-in .composition-order .order__back { padding-bottom: 20px; }
-.composition-in .composition-order .order__back a { display: inline-block; font-weight: 600; font-size: 12px; text-decoration: underline; color: #921f6c; }
+.composition-in .composition-order .order__back a { display: inline-block; font-weight: 600; font-size: 12px; text-decoration: underline; color: #921f6c; text-transform: uppercase; }
 .composition-in .composition-order .order__back a:hover { text-decoration: none; }
 .composition-in .composition-order .order__back i { width: 9px; height: 5px; margin-right: 2px; display: inline-block; transform: rotate(180deg); background: url(../img/home.png); }
 .composition-in .composition-order .order__line { color: #525252; }
