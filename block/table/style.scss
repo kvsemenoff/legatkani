@@ -59,6 +59,9 @@ footer, header, hgroup, menu, nav, section {
 		&_txt{
 			display: table-cell;
 			padding-left: 37px;
+			@media only screen and (min-width : 1240px) {
+				padding-left: 84px;
+			}
 			span{
 				font-family: 'Open Sans', sans-serif;
 				font-size: 14px;
@@ -67,14 +70,23 @@ footer, header, hgroup, menu, nav, section {
 		&_txt2{
 			text-align: right;
 			padding-right: 37px;
+			@media only screen and (min-width : 1240px) {
+				padding-right: 231px;
+			}
 		}
 		&_main{
 			&_txt1{
 				padding-left: 55px;
+				@media only screen and (min-width : 1240px) {
+					padding-left: 171px;
+				}
 			}
 			&_txt2{
 				color: #557230;
 				padding-right: 55px;
+				@media only screen and (min-width : 1240px) {
+					padding-right: 200px;
+				}
 			}
 		}
 		&_main1{
@@ -92,6 +104,33 @@ footer, header, hgroup, menu, nav, section {
 	}
 	@media only screen and (min-width : 468px) {
 		display: block;
+	}
+	.table__item_first{
+		.table__item_txt{
+			@media only screen and (min-width : 1240px) {
+				width: 40%;
+				padding-right: 20px;
+				text-align: right;
+			}
+		}
+		.table__item_txt2{
+			@media only screen and (min-width : 1240px) {
+				width: 50%;
+				padding-right: 152px;
+			}
+		}
+	}
+	.table__item_main{
+		.table__item_main_txt1{
+			@media only screen and (min-width : 1240px) {
+				padding-left: 195px;
+			}
+		}
+		.table__item_main_txt2{
+			@media only screen and (min-width : 1240px) {
+				padding-right: 168px;
+			}
+		}
 	}
 }
 @media only screen and (min-width : 468px) {

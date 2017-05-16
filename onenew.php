@@ -28,11 +28,11 @@
 							<span class="news-page__block_plan_theme">Список брендовых ателье</span>
 						</div>
 						<div class="news-page__block_time">12.05.2017</div>
-						<div class="news-page__block_social">
+				<!-- 		<div class="news-page__block_social">
 							<div class="news-page__block_social_item"><span>Поделиться:</span></div>
 							<div class="news-page__block_social_item"><img src="img/s5.jpg" alt=""></div>
 							<div class="clearfix"></div>
-						</div>
+						</div> -->
 						<div class="clearfix"></div>
 
 						<div class="news-page__block_txt">
@@ -56,6 +56,31 @@
 
 							</p>
 						</div>
+
+						<div class="az-center2">
+							<div class="az-center-txt">	
+								<span>Оцените</span>
+							</div>
+							<div class="az-stars az-center-txt">
+								<input type="radio" name="radio1" id="a0" class="radio0">
+								<input type="radio" name="radio1" id="a1" class="radio1">
+								<input type="radio" name="radio1" id="a2" class="radio2">
+								<input type="radio" name="radio1" id="a3" class="radio3">
+								<input type="radio" name="radio1" id="a4" class="radio4">
+								<input type="radio" name="radio1" id="a5" class="radio5">
+								<label for="a0" class="az-none"></label>
+								<label for="a1" class="label1"></label>
+								<label for="a2" class="label2"></label>
+								<label for="a3" class="label3"></label>
+								<label for="a4" class="label4"></label>
+								<label for="a5" class="label5"></label>
+							</div>
+							<div class="az-center-txt">
+								<span>4.67/5 из 3</span>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						<div class="clearfix"></div>
 
 					</div>
 				</div>

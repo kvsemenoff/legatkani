@@ -22,8 +22,11 @@
 .burger{
 	position: absolute;
 	left: 10px;
-	top:10px;
+	top:20px;
 	cursor: pointer;
+	@media only screen and (min-width : 768px) {
+		top:36px;
+	}
 	@media only screen and (min-width : 992px) {
 		display: none;
 	}
@@ -181,14 +184,20 @@
 		padding-left: 30px;
 		span{
 			color: #5a5a5a;
-			font-size: 12px;
+			font-size: 11px;
+			@media only screen and (min-width : 480px) {
+				font-size: 12px;
+			}
 			@media only screen and (min-width : 768px) {
 				font-size: 14px;
 			}
 			b{
 				font-style: italic;
 				color: #989797;
-				font-size: 13px;
+				font-size: 11px;
+				@media only screen and (min-width : 480px) {
+					font-size: 13px;
+				}
 				@media only screen and (min-width : 1240px) {
 					padding-left: 27px;
 				}
@@ -402,7 +411,13 @@
 .news-page__block{
 	&_title{
 		text-align: center;
-		padding: 62px 0px;
+		padding: 62px 0px 51px;
+		.h2{
+			@media only screen and (min-width : 1200px) {
+				font-size: 43px;
+				line-height: 39px;
+			}
+		}
 	}
 	&_plan{
 		text-align: center;
@@ -413,13 +428,15 @@
 			text-transform: uppercase;
 			font-weight: 700;
 			color: black;
-			margin-bottom: 26px;
+			margin-bottom: 18px;
+			font-size: 12px;
 		}
 		&_theme{
 			background-color: #ebe9ea;
 			border-radius: 14px;
-			padding: 8px 18px;
-			margin-bottom: 8px;
+			padding: 4px 18px;
+			margin-bottom: 13px;
+			font-size: 13px;
 		}
 	}
 	&_time{
@@ -428,7 +445,7 @@
 		@media only screen and (min-width : 480px) {
 			float: left;
 			padding-bottom: 46px;
-			padding-top: 118px;
+			padding-top: 81px;
 		}
 	}
 	&_social{
@@ -514,6 +531,7 @@
 		}
 		p{
 			padding-left: 8px;
+			line-height: 25px;
 		}
 		&_img{
 			background:url(../img/em.jpg) no-repeat top center;
@@ -547,6 +565,7 @@
 			font-size: 15px;
 			font-weight: 600;
 			font-style: italic;
+			line-height: 22px;
 		}
 	}
 	&__footer{
@@ -588,5 +607,69 @@
 				float: right;
 			}
 		}
+	}
+}
+
+/* Звезды Рейтинга
+===========================*/
+.az-center2{
+	margin-top:3px;
+	margin-bottom:160px;
+	float: right;
+	.az-center-txt{
+		float: left;
+		padding-left: 13px;
+	}
+	.az-stars{
+		display: inline-block;
+		font-size: 0px;
+		padding-top: 1px;
+		input[type="radio"]{
+			display: none;
+		}
+		.az-none{
+			display: none;
+		}
+		.label1, .label2, .label3, .label4, .label5{
+			margin-left:2px;
+			width: 15px !important;
+			height: 15px;
+			display: inline-block;
+			background: url(../img/star-grey.png) no-repeat top center;
+			cursor: pointer;
+		}
+		.radio1:checked ~ label,
+		.radio2:checked ~ label,
+		.radio3:checked ~ label,
+		.radio4:checked ~ label,
+		.radio5:checked ~ label{
+			background: url(../img/star-yellow.png) no-repeat top center;
+		}
+		.radio1:checked ~ .label1 ~ label,
+		.radio2:checked ~ .label2 ~ label,
+		.radio3:checked ~ .label3 ~ label,
+		.radio4:checked ~ .label4 ~ label,
+		.radio5:checked ~ .label5 ~ label{
+			background: url(../img/star-grey.png) no-repeat top center;
+		}
+
+	}
+	.az-stars:hover{
+		label{
+			background: url(../img/star-yellow.png) no-repeat top center !important;
+		}
+		.label1:hover ~ label,
+		.label2:hover ~ label,
+		.label3:hover ~ label,
+		.label4:hover ~ label,
+		.label5:hover ~ label{
+			background: url(../img/star-grey.png) no-repeat top center !important;
+		}
+	}
+	span{
+		font-family: 'Open Sans', sans-serif;
+		font-size: 13px;
+		color: #010101;
+		display: block;
 	}
 }

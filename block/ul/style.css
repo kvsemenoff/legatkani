@@ -1,10 +1,12 @@
-.ul li {
-  list-style: none;
-  background: url(../../img/sirc.png) no-repeat left center;
-  padding-left: 16px;
-  font-weight: 400;
-  font-family: 'Open Sans', sans-serif;
-  color: #3d3d3d;
-  font-size: 14px; }
+.ul {
+  padding-left: 10px; }
+  .ul li {
+    list-style: none;
+    background: url(../../img/sirc.png) no-repeat left center;
+    padding-left: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #3d3d3d;
+    font-size: 14px; }
 
 /*# sourceMappingURL=style.css.map */

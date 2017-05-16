@@ -52,17 +52,29 @@ q:before, q:after {
   .table__item_txt {
     display: table-cell;
     padding-left: 37px; }
+    @media only screen and (min-width: 1240px) {
+      .table__item_txt {
+        padding-left: 84px; } }
     .table__item_txt span {
       font-family: 'Open Sans', sans-serif;
       font-size: 14px; }
   .table__item_txt2 {
     text-align: right;
     padding-right: 37px; }
+    @media only screen and (min-width: 1240px) {
+      .table__item_txt2 {
+        padding-right: 231px; } }
   .table__item_main_txt1 {
     padding-left: 55px; }
+    @media only screen and (min-width: 1240px) {
+      .table__item_main_txt1 {
+        padding-left: 171px; } }
   .table__item_main_txt2 {
     color: #557230;
     padding-right: 55px; }
+    @media only screen and (min-width: 1240px) {
+      .table__item_main_txt2 {
+        padding-right: 200px; } }
   .table__item_main1 {
     background: #F6F6F6; }
   .table__item_main2 {
@@ -75,6 +87,21 @@ q:before, q:after {
   @media only screen and (min-width: 468px) {
     .table__2 {
       display: block; } }
+  @media only screen and (min-width: 1240px) {
+    .table__2 .table__item_first .table__item_txt {
+      width: 40%;
+      padding-right: 20px;
+      text-align: right; } }
+  @media only screen and (min-width: 1240px) {
+    .table__2 .table__item_first .table__item_txt2 {
+      width: 50%;
+      padding-right: 152px; } }
+  @media only screen and (min-width: 1240px) {
+    .table__2 .table__item_main .table__item_main_txt1 {
+      padding-left: 195px; } }
+  @media only screen and (min-width: 1240px) {
+    .table__2 .table__item_main .table__item_main_txt2 {
+      padding-right: 168px; } }
 
 @media only screen and (min-width: 468px) {
   .table {
