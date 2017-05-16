@@ -1,7 +1,7 @@
-<div class="footer">
+<div class="footer footer__page">
   <div class="container">
     <div class="col-xs-12 col-sm-6 col-lg-6 footer__left">
-      <div class="footer__logo-block">
+      <div class="footer__logo-block footer__logo-block__page">
         <a href="#">
             <div class="logobox">
                <div class="logobox__txt logobox__txt_bottom">
@@ -18,7 +18,7 @@
   </div>
 </div>
 <div class="col-xs-12 col-sm-6 col-lg-6 footer__right">
-  <div class="footer__socials hidden-xs">
+  <div class="footer__socials footer__socials__page hidden-xs">
     <div class="social social__style">
        <ul>
           <li><a href="#"><img src="img/vk.png" alt=""></a></li>
@@ -29,20 +29,7 @@
       </ul>
   </div>
 </div>
-<div class="footer__map">
-<div class="footer__map__structure">
-  <ul class="footer__map__structure_list structure_list_left hidden-xs">
-    <li class="footer__map__structure_item"><a class="footer__map__structure_link" href="#">Новости</a></li>
-    <li class="footer__map__structure_item"><a class="footer__map__structure_link" href="#">Другое</a></li>
-</ul>
-<ul class="footer__map__structure_list structure_list_right">
-    <li class="footer__map__structure_item"><a class="footer__map__structure_link" href="#">Карта сайта</a></li>
-    <li class="footer__map__structure_item"><a class="footer__map__structure_link" href="#">Новости</a></li>
-    <li class="footer__map__structure_item"><a class="footer__map__structure_link" href="#">Статьи</a></li>
-</ul>
-</div>
-</div>
-<div class="footer__socials hidden-sm hidden-md hidden-lg">
+<div class="footer__socials  footer__socials__page hidden-sm hidden-md hidden-lg">
 <div class="social social__style">
    <ul>
       <li><a href="#"><img src="img/vk.png" alt=""></a></li>
@@ -53,16 +40,16 @@
   </ul>
 </div>
 </div>
-<p class="hidden-sm hidden-md hidden-lg footer__logo-block_copy">
+<p class="hidden-sm hidden-md hidden-lg  footer__logo-block_copy">
 © «Lega Tessile», 2008–2017г. Все права защищены
 </p>
-<div class="footer__map__made">
+<div class="footer__map__made footer__map__made__page">
 <p class="footer__map__made_text">Сделано в компании <a href="#">“Ютекс Проект”</a></p>
 </div>
 </div>
 </div>
 </div>
-<div class="footer__line">
+<div class="footer__line footer__line__page">
 </div>
 <!-- JS_BLOCK -->
 <script src="libs/jquery/jquery-1.11.1.min.js"></script>

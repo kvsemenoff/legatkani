@@ -228,6 +228,23 @@
     background-color: #7f2461;
   }
 }
+.footer__page {
+  padding-top: 50px;
+  @media screen and (min-width: 768px) {
+    padding-top: 20px;
+  }
+}
+.footer__line__page {
+  height: 20px;
+  @media screen and (min-width: 1248px) {
+    height: 6px;
+  }
+}
+.footer__logo-block__page {
+  @media screen and (min-width: 768px) {
+    margin-top: 20px;
+  }
+}
 .footer__left {
   @media screen and (min-width: 768px) {
     width: 322px;
@@ -282,6 +299,19 @@
   }
   text-align: center;
 }
+.footer__socials__page {
+  margin-right: 0;
+  margin-top: 30px;
+  padding-bottom: 20px;
+  @media screen and (min-width: 768px) {
+    margin-top: 40px;
+    padding-bottom: 30px;
+  }
+  @media screen and (min-width: 1248px) {
+    margin-top: 60px;
+    padding-bottom: 0px;
+  }
+}
 .footer__socials, .footer__map {
   display: block;
   @media screen and (min-width: 768px) {
@@ -292,6 +322,11 @@
 
 .footer__map__made {
   margin-top: 35px;
+}
+.footer__map__made__page {
+  @media screen and (min-width: 1248px) {
+    margin-top: 45px;
+  }
 }
 .footer__map__made_text {
   color: #272727;
@@ -440,18 +475,13 @@
 .lace__filter {
   margin-bottom: 30px;
 }
+.button__basket {
+  display: block;
+  width: 201px;
+  margin: auto;
+}
 .lace__item {
   text-align: center;
-  @media screen and (min-width: 1248px) {
-    .button__basket {
-      display: none;
-    }
-    &:hover {
-      .button__basket {
-        display: block;
-      }
-    }
-  }
 }
 .lace__pag {
   margin-top: 35px;
