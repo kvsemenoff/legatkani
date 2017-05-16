@@ -364,7 +364,15 @@
   font-size: 13px;
   font-weight: 400;
   text-align: center;
+  width: 200px;
+  margin: auto;
   margin-top: 9px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__logo-block_copy {
+    width: unset;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -643,6 +651,18 @@
 
 .lace__item {
   text-align: center;
+}
+
+@media screen and (min-width: 1248px) {
+  .lace__item .button__basket {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1248px) {
+  .lace__item:hover .button__basket {
+    display: inline-block;
+  }
 }
 
 .lace__pag {
