@@ -22,16 +22,16 @@
 						<div class="main__nav clearfix">
 							<div class="main__links clearfix">
 								<div class="main__link">
-									<a href="#">Текущие заказы</a>
+									<span>Текущие заказы</span>
 								</div>
 								<div class="main__link">
-									<a href="#">Выполненные заказы</a>
+									<span>Выполненные заказы</span>
 								</div>
 								<div class="main__link main__link_active">
-									<a href="#">Личные данные</a>
+									<span>Личные данные</span>
 								</div>
 								<div class="main__link">
-									<a href="#">Задать вопрос</a>
+									<span>Задать вопрос</span>
 								</div>
 							</div>
 							<div class="manager clearfix">
