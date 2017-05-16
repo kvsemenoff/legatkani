@@ -24,7 +24,12 @@
 		}
 	}
 }
-
+.catalog__sidebar{
+	margin-top: 45px;
+	.sidebar-menu{
+		padding-top: 25px;
+	}
+}
 
 .slider__img{
 	height: 165px;
@@ -203,10 +208,11 @@
 	.tovar_item{		
 		margin-bottom: -4px;
 		@media only screen and (min-width : 800px) {
-			margin-right: 4px;
+			margin-right: 4px;			
 		}
 		@media only screen and (min-width : 1024px) {
 			margin-right: 19px;
+
 		}
 	}
 	.tovar_item_last{
@@ -297,7 +303,14 @@
 		}
 	}
 }
-
+.new__buttonbox{
+	margin-top: 45px;
+	margin-bottom: 10px;
+	@media only screen and (min-width : 800px) {
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+}
 
 
 
@@ -367,9 +380,10 @@
 }
 .favorite__block{
 	text-align: center;
-	// @media only screen and (min-width : 1200px) {
-	// 	text-align: left;
-	// }
+	@media only screen and (min-width : 1200px) {
+		text-align: left;
+		padding-left: 10px;
+	}
 }
 
 

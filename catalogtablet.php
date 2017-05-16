@@ -9,7 +9,7 @@
 			
 				<div class="container paddingnone">
 					<div class="col-sm-12 col-md-3">
-						<div class="lace__sidebar">
+						<div class="lace__sidebar catalog__sidebar">
 							<div class="sidebar-menu sidebar-menu__style">
 								<ul class="sidebar-menu__item">
 									<li><a href="#">новинки</a></li>
@@ -41,9 +41,9 @@
 						</div>
 					</div>
 					<div class="col-sm-12 col-md-9 paddingnone2">
-						<div class="lace__header">
+						
 							<h1 class="h1 favorite__caption">Каталог тканей</h1>
-						</div>
+						
 						<div class="lace__breadcrumbs">
 							<ul class="breadcrumps">
 								<li class="breadcrumps__link breadcrumps__link_home"><a href="/" class="bread_menu__link_bg">Главная</a></li>	
