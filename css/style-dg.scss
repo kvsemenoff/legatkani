@@ -39,9 +39,10 @@
 }
 .signin {
   color: #7f2461;
-  font-family: "Open Sans", sans-serif;
+  font-family: "OpenSans", sans-serif;
   font-size: 14px;
   font-style: italic;
+  font-weight: 500;
 }
 .favourite {
   width: 24px;
@@ -227,6 +228,23 @@
     background-color: #7f2461;
   }
 }
+.footer__page {
+  padding-top: 50px;
+  @media screen and (min-width: 768px) {
+    padding-top: 20px;
+  }
+}
+.footer__line__page {
+  height: 20px;
+  @media screen and (min-width: 1248px) {
+    height: 6px;
+  }
+}
+.footer__logo-block__page {
+  @media screen and (min-width: 768px) {
+    margin-top: 20px;
+  }
+}
 .footer__left {
   @media screen and (min-width: 768px) {
     width: 322px;
@@ -262,7 +280,12 @@
   font-size: 13px;
   font-weight: 400;
   text-align: center;
+  width: 200px;
+  margin: auto;
   margin-top: 9px;
+  @media screen and (min-width: 768px) {
+    width: unset;
+  }
   @media screen and (min-width: 992px) {
     text-align: left;
   }
@@ -281,6 +304,19 @@
   }
   text-align: center;
 }
+.footer__socials__page {
+  margin-right: 0;
+  margin-top: 30px;
+  padding-bottom: 20px;
+  @media screen and (min-width: 768px) {
+    margin-top: 40px;
+    padding-bottom: 30px;
+  }
+  @media screen and (min-width: 1248px) {
+    margin-top: 60px;
+    padding-bottom: 0px;
+  }
+}
 .footer__socials, .footer__map {
   display: block;
   @media screen and (min-width: 768px) {
@@ -288,8 +324,14 @@
     display: inline-block;
   }
 }
+
 .footer__map__made {
   margin-top: 35px;
+}
+.footer__map__made__page {
+  @media screen and (min-width: 1248px) {
+    margin-top: 45px;
+  }
 }
 .footer__map__made_text {
   color: #272727;
@@ -438,15 +480,22 @@
 .lace__filter {
   margin-bottom: 30px;
 }
+.button__basket {
+  display: block;
+  width: 201px;
+  margin: auto;
+}
 .lace__item {
   text-align: center;
   @media screen and (min-width: 1248px) {
     .button__basket {
       display: none;
     }
-    &:hover {
+  }
+  &:hover {
+    @media screen and (min-width: 1248px) {
       .button__basket {
-        display: block;
+        display: inline-block;
       }
     }
   }

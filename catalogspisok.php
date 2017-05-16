@@ -10,7 +10,7 @@
 				<div class="container paddingnone">
 
 					<div class="col-sm-12 col-md-3">
-						<div class="lace__sidebar">
+						<div class="lace__sidebar catalog__sidebar">
 							<div class="sidebar-menu sidebar-menu__style">
 								<ul class="sidebar-menu__item">
 									<li><a href="#">новинки</a></li>

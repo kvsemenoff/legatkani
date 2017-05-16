@@ -205,7 +205,7 @@
 							</div>
 						</div>
 						<div class="lace__content">
-							<div class="col-sm-6 col-md-4">
+							<div class="col-sm-4 col-md-4">
 								<div class="lace__item">
 									<div class="tovar_item">
 										<div class="tovar_img">
@@ -227,7 +227,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-sm-6 col-md-4">
+							<div class="col-sm-4 col-md-4">
 								<div class="lace__item">
 									<div class="tovar_item">
 										<div class="tovar_img">
@@ -249,7 +249,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-sm-6 col-md-4">
+							<div class="col-sm-4 col-md-4">
 								<div class="lace__item">
 									<div class="tovar_item">
 										<div class="tovar_img">
@@ -271,7 +271,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-sm-6 col-md-4">
+							<div class="col-sm-4 col-md-4">
 								<div class="lace__item">
 									<div class="tovar_item">
 										<div class="tovar_img">
@@ -293,7 +293,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-sm-6 col-md-4">
+							<div class="col-sm-4 col-md-4">
 								<div class="lace__item">
 									<div class="tovar_item">
 										<div class="tovar_img">
@@ -315,7 +315,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-sm-6 col-md-4">
+							<div class="col-sm-4 col-md-4">
 								<div class="lace__item">
 									<div class="tovar_item">
 										<div class="tovar_img">
@@ -337,7 +337,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-sm-6 col-md-4">
+							<div class="col-sm-4 col-md-4">
 								<div class="lace__item">
 									<div class="tovar_item">
 										<div class="tovar_img">
@@ -359,7 +359,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-sm-6 col-md-4">
+							<div class="col-sm-4 col-md-4">
 								<div class="lace__item">
 									<div class="tovar_item">
 										<div class="tovar_img">
@@ -381,7 +381,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-sm-6 col-md-4">
+							<div class="col-sm-4 col-md-4">
 								<div class="lace__item">
 									<div class="tovar_item">
 										<div class="tovar_img">
@@ -403,7 +403,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-sm-6 col-md-4">
+							<div class="col-sm-4 col-md-4">
 								<div class="lace__item">
 									<div class="tovar_item">
 										<div class="tovar_img">
@@ -425,7 +425,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-sm-6 col-md-4">
+							<div class="col-sm-4 col-md-4">
 								<div class="lace__item">
 									<div class="tovar_item">
 										<div class="tovar_img">
@@ -447,7 +447,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-sm-6 col-md-4">
+							<div class="col-sm-4 col-md-4">
 								<div class="lace__item">
 									<div class="tovar_item">
 										<div class="tovar_img">
