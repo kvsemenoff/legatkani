@@ -37,7 +37,7 @@
 						</div>
 						<div class="product__leftchar">
 							<span>Артикул:</span>
-							<span>Цена:</span>
+							<span class="product__leftchar-price">Цена:</span>
 							<span>Ширина:</span>
 							<span>Состав:</span>
 							<span>Цвет:</span>
