@@ -38,9 +38,9 @@
 @media only screen and (max-width: 700px) { .testimonial__date { float: none; font-size: 12px; } }
 .testimonial__text { color: #5c5c5c; font-size: 14px; line-height: 22px; padding-bottom: 34px; }
 @media only screen and (max-width: 700px) { .testimonial__text { font-size: 12px; } }
-.testimonial__answer span { color: #7f2461; font-size: 14px; display: inline-block; padding-right: 5px; line-height: 18px; float: left; width: 130px; letter-spacing: -0.5px; }
+.testimonial__answer span { color: #7f2461; font-size: 14px; display: inline-block; padding-right: 5px; line-height: 18px; float: left; width: 130px; letter-spacing: -0.5px; font-style: italic; }
 @media only screen and (max-width: 700px) { .testimonial__answer span { font-size: 12px; width: 90px; } }
-.testimonial__answer span i { display: inline-block; font-style: normal; }
+.testimonial__answer span i { display: inline-block; }
 .testimonial__answer p { color: #5c5c5c; font-size: 14px; line-height: 18px; margin-left: 130px; }
 @media only screen and (max-width: 700px) { .testimonial__answer p { font-size: 12px; margin-left: 90px; } }
 
@@ -62,6 +62,7 @@
 .curs__table-title { font-size: 16px; color: #1f1f1f; font-weight: 600; display: block; padding-bottom: 18px; }
 
 .tech { padding: 20px 0; }
+.tech .favourite_empty { height: 23px; }
 .tech .all-h .h1 { text-align: left; }
 .tech .h1_slider-wrap h1 { text-align: left; }
 .tech .h1_slider-wrap h1 span { text-transform: none; color: #2f2f2f; font-size: 14px; }
