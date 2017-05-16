@@ -226,6 +226,7 @@
 @media screen and (min-width: 768px) {
   .call_numbers__phone {
     display: inline-block;
+    margin-bottom: 20px;
   }
   .call_numbers__phone:first-child {
     margin-right: 40px;
