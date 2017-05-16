@@ -61,7 +61,7 @@
       color: #989797; }
 .header-bottom__box3 {
   padding-left: 7px;
-  padding-right: 15px;
+  padding-right: 13px;
   padding-top: 26px; }
   @media only screen and (min-width: 320px) {
     .header-bottom__box3 {
@@ -171,6 +171,9 @@
         .header-bottom__box_item4 span {
           font-size: 12px; } }
       @media only screen and (min-width: 768px) {
+        .header-bottom__box_item4 span {
+          font-size: 13px; } }
+      @media only screen and (min-width: 992px) {
         .header-bottom__box_item4 span {
           font-size: 14px; } }
       .header-bottom__box_item4 span b {
