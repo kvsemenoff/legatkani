@@ -740,7 +740,11 @@
 
 /* product slider */
 
-
+.product__owl-slider{
+	.tovar_img__hover{
+		background-image:none;
+	}
+}
 .product__owl-slider{
 	.owl-dots{
 		position: absolute;
