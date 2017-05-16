@@ -517,6 +517,12 @@
     .email-box__footer_item2 {
       float: right; } }
 
+.header-bottom__nonemob {
+  display: none; }
+  @media only screen and (min-width: 768px) {
+    .header-bottom__nonemob {
+      display: block; } }
+
 /* ╨Ч╨▓╨╡╨╖╨┤╤Л ╨а╨╡╨╣╤В╨╕╨╜╨│╨░
 ===========================*/
 .az-center2 {

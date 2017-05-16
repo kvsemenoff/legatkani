@@ -609,7 +609,12 @@
 		}
 	}
 }
-
+.header-bottom__nonemob{
+	display: none;
+	@media only screen and (min-width : 768px) {
+		display: block;
+	}
+}
 /* Звезды Рейтинга
 ===========================*/
 .az-center2{
