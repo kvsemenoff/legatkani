@@ -143,18 +143,19 @@
 @media only screen and (max-width: 1000px) { .news__img { height: 250px; } }
 @media only screen and (max-width: 770px) { .news__img { height: 180px; } }
 .news__img img { display: block; width: 100%; height: auto; min-height: 100%; transition: 0.1s all ease; }
-.news__img span { display: block; text-align: center; position: absolute; width: 100%; top: 160px; font-size: 20px; color: transparent; font-style: italic; transition: 0.3s all ease; }
+.news__img span { display: block; text-align: center; position: absolute; width: 100%; top: 50%; margin-top: -13px; font-size: 20px; color: transparent; font-style: italic; transition: 0.3s all ease; }
 .news__img::before { content: ""; display: block; position: absolute; left: 10px; right: 10px; top: 10px; bottom: 10px; background: transparent; border: 1px solid #fff; z-index: 10; }
-.news__img:hover__img-in { z-index: 10; }
-.news__img:hover img { opacity: 0.3; }
-.news__img:hover span { color: #525252; }
-.news__img:hover .news__img-in::before, .news__img:hover .news__img-in::after { z-index: 11; }
+@media only screen and (min-width: 770px) { .news__img:hover__img-in { z-index: 10; }
+  .news__img:hover img { opacity: 0.3; }
+  .news__img:hover span { color: #525252; }
+  .news__img:hover .news__img-in::before, .news__img:hover .news__img-in::after { z-index: 11; } }
 .news__text { padding: 15px 10px; }
 @media only screen and (max-width: 770px) { .news__text { padding: 12px 0 30px; } }
 .news__text a { display: block; font-size: 18px; color: #525252; font-weight: 700; line-height: 30px; text-transform: uppercase; }
 @media only screen and (max-width: 770px) { .news__text a { font-size: 16px; line-height: 22px; } }
 .news__text a i { display: block; }
-.news__text a span { display: block; font-size: 14px; color: #6b6b6b; }
+.news__text a span { display: block; font-size: 14px; color: #6b6b6b; font-weight: 400; }
+@media only screen and (max-width: 770px) { .news__text a span { padding: 8px 0 0; } }
 .news__text a:hover i, .news__text a:hover span { color: #7f2461; }
 
 .news-page .pagination-wrap { border-top: 1px solid #e8e8e8; padding: 45px 0 20px; }
@@ -162,7 +163,7 @@
 
 .basket-list { font-size: 14px; color: #525252; }
 .basket-list__title { color: #921f6c; display: block; text-align: center; font-size: 24px; font-style: italic; font-family: 'Playfair Display'; padding-bottom: 18px; }
-@media only screen and (max-width: 770px) { .basket-list__title { font-size: 18px; padding-bottom: 10px; } }
+@media only screen and (max-width: 770px) { .basket-list__title { font-size: 18px; padding-bottom: 10px; margin-top: 45px; } }
 .basket-list .item { padding: 24px 0 25px; background: #f6f6f6; margin-bottom: 3px; }
 .basket-list .item .vertical-middle { padding-top: 110px; float: left; text-align: center; }
 @media only screen and (max-width: 991px) { .basket-list .item .vertical-middle { padding-top: 10px; } }
@@ -177,7 +178,7 @@
 @media only screen and (max-width: 1199px) { .basket-list .item__descr { width: 170px; padding-left: 20px; } }
 @media only screen and (max-width: 770px) { .basket-list .item__descr { width: 40%; } }
 @media only screen and (max-width: 500px) { .basket-list .item__descr { padding-left: 0; }
-  .basket-list .item__descr span { font-size: 14px; line-height: 18px; padding-bottom: 2px; }
+  .basket-list .item__descr span { font-size: 14px; line-height: 18px; padding-bottom: 2px; letter-spacing: -0.5px; }
   .basket-list .item__descr i { font-size: 11px; } }
 .basket-list .item__price-one { width: 256px; position: relative; }
 .basket-list .item__price-one span { display: inline-block; }
@@ -219,7 +220,7 @@
 @media only screen and (max-width: 770px) { .basket-list .item-total { padding: 25px 0 35px; } }
 @media only screen and (max-width: 500px) { .basket-list .item-total { padding: 15px 0 15px; }
   .basket-list .item-total span, .basket-list .item-total i { padding-bottom: 10px; } }
-.basket-list__total { color: #525252; text-align: right; font-size: 18px; margin-top: -10px; margin-bottom: 85px; }
+.basket-list__total { color: #525252; text-align: right; font-size: 18px; margin-top: -10px; margin-bottom: 85px; letter-spacing: -0.5px; }
 .basket-list__total span { font-style: italic; font-weight: 700; display: inline-block; }
 .basket-list__total i { display: inline-block; width: 110px; font-weight: 700; font-style: normal; }
 @media only screen and (max-width: 500px) { .basket-list__total { margin-top: -15px; margin-bottom: 70px; } }
@@ -249,6 +250,8 @@
 .basket-order .form__info p .rb-wrap { padding-top: 20px; display: block; }
 @media only screen and (min-width: 670px) { .basket-order .form__info p .rb-wrap { display: inline-block; margin-left: 25px; } }
 .basket-order .checkbox__label { margin-right: 35px; }
+
+.basket-page .container { padding: 0 8px; }
 
 .basket-list_composition .item { padding: 0 23px; }
 .basket-list_composition .item__img { width: 97px; height: 87px; margin-top: 13px; }
