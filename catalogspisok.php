@@ -7,7 +7,7 @@
 	<div class="n-content">
 		<div class="n-content-inner vertical-align">
 			
-			<div class="container paddingnone">
+			<div class="container catalogpaddingnone">
 
 				<div class="col-sm-12 col-md-3 catalog__paddings">
 					<div class="lace__sidebar catalog__sidebar">
