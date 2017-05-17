@@ -51,6 +51,11 @@ $(document).ready(function(){
 	});
 	// END Раскрывающийся каталог на главной
 
+	// Раскрывающийся список в каталоге
+	$(".button__catalog, .but-spisok").click(function(){
+		$(".sidebar-menu").slideToggle(500);
+	});
+	// END Раскрывающийся список в каталоге
 
 
 
@@ -108,9 +113,9 @@ $(document).ready(function(){
 		for (var i = 0; i < 4; i++) {
 			if($('.tabs > .tab-' + i).hasClass('active')){
 				$('.tabs-content > .tab-' + i).addClass('active');
-		};
-		
-		$('.tabs-content > .active').css('display','block');
+			};
+
+			$('.tabs-content > .active').css('display','block');
 		};
 
 		if ($('.main__link_question').hasClass('active')) {
@@ -124,9 +129,9 @@ $(document).ready(function(){
 	});
 
 	(function($) {
-	  $(function() {
-	   $('select').styler();
-	  });
-	 })(jQuery);
+		$(function() {
+			$('select').styler();
+		});
+	})(jQuery);
 
 });

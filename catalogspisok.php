@@ -11,7 +11,9 @@
 
 				<div class="col-sm-12 col-md-3">
 					<div class="lace__sidebar catalog__sidebar">
+
 						<div class="but-spisok_b">
+						
 							<a class="button__catalog" href="#">
 								<div class="burger__spisok">
 									<i class="fa fa-bars" aria-hidden="true"></i>

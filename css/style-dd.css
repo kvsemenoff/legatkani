@@ -588,6 +588,9 @@
   width: 170px;
   margin: 0 auto;
   padding: 16px 0px; }
+  @media only screen and (min-width: 992px) {
+    .but-spisok_b {
+      display: none; } }
 
 .but-spisok {
   text-align: center; }

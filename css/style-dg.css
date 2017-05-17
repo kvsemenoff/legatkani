@@ -429,7 +429,8 @@
   margin-bottom: 17px; }
   @media screen and (min-width: 992px) {
     .lace__sidebar .sidebar-menu {
-      column-count: 1; } }
+      column-count: 1;
+      padding-top: 7px; } }
 .lace__sidebar:before {
   content: '';
   height: 17px;
