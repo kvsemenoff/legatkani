@@ -5,6 +5,7 @@
 .sidebar-menu {
   position: absolute;
   text-align: center;
+  display: none;
   width: 100%;
   border-top: 1px solid #e4e4e4;
   border-bottom: 1px solid #e4e4e4;
@@ -19,6 +20,7 @@
       column-count: 4; } }
   @media only screen and (min-width: 998px) {
     .sidebar-menu {
+      display: block;
       -webkit-column-count: 1;
       -moz-column-count: 1;
       column-count: 1;

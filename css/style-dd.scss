@@ -681,3 +681,39 @@
 		display: block;
 	}
 }
+.burger__spisok, .but-spisok{
+	float: left;
+}
+.burger__spisok{
+	padding-right: 16px;
+	.fa{
+		color:#C1A16A !important;
+	}
+}
+.but-spisok_b{
+	width: 170px;
+	margin: 0 auto;
+	padding: 16px 0px;
+}
+.but-spisok{
+	text-align: center;
+	.dd-but_cat{
+		display: inline-block;
+		text-align: center;
+		font-size: 14px;
+		font-weight: 600;
+		color: #b7a06d;
+		text-transform: uppercase;
+		position: relative;
+		margin-bottom: 16px;
+		&:after{
+			content: "";
+			position: absolute;
+			background:url(../img/strd.png);
+			width: 8px;
+			height: 5px;
+			right: -14px;
+			top:8px;
+		}
+	}
+}
