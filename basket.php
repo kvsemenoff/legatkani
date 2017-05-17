@@ -2,7 +2,7 @@
 <div class="n-wrapper">
 	<div class="n-header">
 		<?php require_once('includes/header-top.php'); ?>
-		<?php require_once('includes/header_bottom.php'); ?>
+		<?php require_once('includes/header_bottom2.php'); ?>
 	</div>
 	<div class="n-content">
 		<div class="n-content-inner vertical-align">
@@ -266,7 +266,7 @@
 								</div>
 							</div>
 							<div class="tabs-content">
-								<div class="tab-content tab-0">
+								<div class="tab-content tab-0 active">
 									<div class="form-wrap">
 										<form action="#">
 											<div class="form-inner clearfix">

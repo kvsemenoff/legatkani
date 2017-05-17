@@ -2,7 +2,7 @@
 <div class="n-wrapper">
 	<div class="n-header">
 		<?php require_once('includes/header-top.php'); ?>
-		<?php require_once('includes/header_bottom.php'); ?>
+		<?php require_once('includes/header_bottom2.php'); ?>
 	</div>
 	<div class="n-content">
 		<div class="n-content-inner vertical-align">
@@ -37,7 +37,7 @@
 						</div>
 						<div class="product__leftchar">
 							<span>Артикул:</span>
-							<span>Цена:</span>
+							<span class="product__leftchar-price">Цена:</span>
 							<span>Ширина:</span>
 							<span>Состав:</span>
 							<span>Цвет:</span>
@@ -106,7 +106,12 @@
 								<div class="tovar_item">
 									<div class="tovar_img">
 										<div class="tovar_img__img">
-											<a href="#"><img src="img/tkan6.jpg" alt=""></a>									
+											<a href="#"><img src="img/tkan6.jpg" alt=""></a>
+											<div class="tovar_img__hover">
+												<div class="tovar_img__border">
+													<a href="#">Подробнее ></a>
+												</div>
+											</div>									
 										</div>								
 									</div>
 									<div class="tovar_item__text">
@@ -120,7 +125,12 @@
 								<div class="tovar_item">
 									<div class="tovar_img">
 										<div class="tovar_img__img">
-											<a href="#"><img src="img/tkan8.jpg" alt=""></a>									
+											<a href="#"><img src="img/tkan8.jpg" alt=""></a>
+											<div class="tovar_img__hover">
+												<div class="tovar_img__border">
+													<a href="#">Подробнее ></a>
+												</div>
+											</div>									
 										</div>								
 									</div>
 									<div class="tovar_item__text">
@@ -134,7 +144,12 @@
 								<div class="tovar_item">
 									<div class="tovar_img">
 										<div class="tovar_img__img">
-											<a href="#"><img src="img/tkan9.jpg" alt=""></a>									
+											<a href="#"><img src="img/tkan9.jpg" alt=""></a>
+											<div class="tovar_img__hover">
+												<div class="tovar_img__border">
+													<a href="#">Подробнее ></a>
+												</div>
+											</div>									
 										</div>								
 									</div>
 									<div class="tovar_item__text">
@@ -148,7 +163,12 @@
 								<div class="tovar_item">
 									<div class="tovar_img">
 										<div class="tovar_img__img">
-											<a href="#"><img src="img/tkan10.jpg" alt=""></a>									
+											<a href="#"><img src="img/tkan10.jpg" alt=""></a>
+											<div class="tovar_img__hover">
+												<div class="tovar_img__border">
+													<a href="#">Подробнее ></a>
+												</div>
+											</div>									
 										</div>								
 									</div>
 									<div class="tovar_item__text">
@@ -173,7 +193,12 @@
 								<div class="tovar_item">
 									<div class="tovar_img">
 										<div class="tovar_img__img">
-											<a href="#"><img src="img/tkan6.jpg" alt=""></a>									
+											<a href="#"><img src="img/tkan6.jpg" alt=""></a>
+											<div class="tovar_img__hover">
+												<div class="tovar_img__border">
+													<a href="#">Подробнее ></a>
+												</div>
+											</div>									
 										</div>								
 									</div>
 									<div class="tovar_item__text">
@@ -187,7 +212,12 @@
 								<div class="tovar_item">
 									<div class="tovar_img">
 										<div class="tovar_img__img">
-											<a href="#"><img src="img/tkan8.jpg" alt=""></a>									
+											<a href="#"><img src="img/tkan8.jpg" alt=""></a>
+											<div class="tovar_img__hover">
+												<div class="tovar_img__border">
+													<a href="#">Подробнее ></a>
+												</div>
+											</div>									
 										</div>								
 									</div>
 									<div class="tovar_item__text">
@@ -201,7 +231,12 @@
 								<div class="tovar_item">
 									<div class="tovar_img">
 										<div class="tovar_img__img">
-											<a href="#"><img src="img/tkan9.jpg" alt=""></a>									
+											<a href="#"><img src="img/tkan9.jpg" alt=""></a>
+											<div class="tovar_img__hover">
+												<div class="tovar_img__border">
+													<a href="#">Подробнее ></a>
+												</div>
+											</div>									
 										</div>								
 									</div>
 									<div class="tovar_item__text">
@@ -215,7 +250,12 @@
 								<div class="tovar_item">
 									<div class="tovar_img">
 										<div class="tovar_img__img">
-											<a href="#"><img src="img/tkan10.jpg" alt=""></a>									
+											<a href="#"><img src="img/tkan10.jpg" alt=""></a>
+											<div class="tovar_img__hover">
+												<div class="tovar_img__border">
+													<a href="#">Подробнее ></a>
+												</div>
+											</div>									
 										</div>								
 									</div>
 									<div class="tovar_item__text">

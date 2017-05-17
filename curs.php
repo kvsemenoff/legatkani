@@ -2,7 +2,7 @@
 <div class="n-wrapper">
 	<div class="n-header">
 		<?php require_once('includes/header-top.php'); ?>
-		<?php require_once('includes/header_bottom.php'); ?>
+		<?php require_once('includes/header_bottom2.php'); ?>
 	</div>
 	<div class="n-content">
 		<div class="n-content-inner vertical-align">
@@ -31,7 +31,7 @@
 								</div>
 								<div class="table__item table__item_main table__item_main1">
 									<div class="table__item_txt table__item_main_txt1"><span>1.5</span></div>
-									<div class="table__item_txt table__item_txt2 table__item_main_txt2"><span>96.50</span></div>
+									<div class="table__item_txt table__item_txt2 table__item_main_txt2"><span>96.5</span></div>
 								</div>
 								<div class="table__item table__item_main table__item_main2">
 									<div class="table__item_txt table__item_main_txt1"><span>2</span></div>
@@ -86,6 +86,7 @@
 									<div class="table__item_txt table__item_txt2 table__item_main_txt2"><span>800</span></div>
 								</div>
 							</div>
+							
 							<div class="table table__2">
 								<div class="table__item table__item_first">
 									<div class="table__item_txt"><span>Цена в <b>У.Е.</b></span></div>
@@ -94,7 +95,7 @@
 								<div class="border__left">
 									<div class="table__item table__item_main table__item_main1">
 										<div class="table__item_txt table__item_main_txt1"><span>1.5</span></div>
-										<div class="table__item_txt table__item_txt2 table__item_main_txt2"><span>96.50</span></div>
+										<div class="table__item_txt table__item_txt2 table__item_main_txt2"><span>96.5</span></div>
 									</div>
 									<div class="table__item table__item_main table__item_main2">
 										<div class="table__item_txt table__item_main_txt1"><span>2</span></div>

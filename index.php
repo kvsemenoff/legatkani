@@ -14,7 +14,7 @@
 			<?php require_once('includes/map.php'); ?>
 		</div>
 		<div class="n-footer">
-			<?php require_once('includes/footer.php'); ?>
+			<?php require_once('includes/footer-main.php'); ?>
 		</div>
 	</div>
 </div>

@@ -1,10 +1,7 @@
-.test-wrap {
-  width: 294px;
-  padding-top: 20px; }
-
 .sidebar-menu {
   position: absolute;
   text-align: center;
+  display: none;
   width: 100%;
   border-top: 1px solid #e4e4e4;
   border-bottom: 1px solid #e4e4e4;
@@ -19,6 +16,7 @@
       column-count: 4; } }
   @media only screen and (min-width: 998px) {
     .sidebar-menu {
+      display: block;
       -webkit-column-count: 1;
       -moz-column-count: 1;
       column-count: 1;
@@ -27,12 +25,12 @@
       box-shadow: none;
       position: relative;
       padding: 0; } }
-  .sidebar-menu__item li {
+  .sidebar-menu ul li {
     padding: 0 14px; }
     @media only screen and (min-width: 768px) {
-      .sidebar-menu__item li {
+      .sidebar-menu ul li {
         padding: 0; } }
-    .sidebar-menu__item li a {
+    .sidebar-menu ul li a {
       display: block;
       padding: 14px 0px;
       text-transform: uppercase;
@@ -42,10 +40,10 @@
       text-decoration: none;
       font-size: 12px;
       letter-spacing: 1px; }
-      .sidebar-menu__item li a:hover {
+      .sidebar-menu ul li a:hover {
         background: #F2F2F2 url(../../img/strs.png) no-repeat left 8px center; }
       @media only screen and (min-width: 768px) {
-        .sidebar-menu__item li a {
+        .sidebar-menu ul li a {
           padding: 14px 0px 14px 31px; } }
 
 .active__sidebar {

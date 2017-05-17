@@ -2,88 +2,39 @@
 
 <link rel="stylesheet" href="../../css/fonts.css">
 <link rel="stylesheet" href="../../css/reset.css">
-<link rel="stylesheet" href="../buket/style.css">
 <link rel="stylesheet" href="main-menu.css">
-<meta name="viewport" content="width=device-width, initial-scale=1">
 
-<div class="test-wrap">
-	<div class="sidebar-menu sidebar-menu__style">
-		<ul class="sidebar-menu__item">
-			<li><a href="#">новинки</a></li>
-			<li><a href="#">распродажа</a></li>
-			<li><a href="#">ожидается</a></li>
-			<li><a href="#">плательно-блузочная</a></li>
-			<li><a href="#">плащевая</a></li>
-			<li><a href="#">плиссе</a></li>
-			<li><a href="#">подклад</a></li>
-			<li><a href="#">сток</a></li>
-			<li><a href="#">кружево</a></li>
-			<li><a href="#">хлопок</a></li>
-			<li><a href="#">шелк натуральный</a></li>
-			<li><a href="#">шанель</a></li>
-			<li><a href="#">inkjet (принт)</a></li>
-			<li><a href="#">атлас-стрейч</a></li>
-			<li><a href="#">бархат</a></li>
-			<li><a href="#">вискоза</a></li>
-			<li><a href="#">джинса с вышивкой</a></li>
-			<li><a href="#">дубленка</a></li>
-			<li><a href="#">жаккард</a></li>
-			<li><a href="#">костюмная</a></li>
-			<li><a href="#">кружево</a></li>
-			<li><a href="#">курточная</a></li>
-			<li><a href="#">лен</a></li>
-			<li><a href="#">мех</a></li>
-		</ul>
-	</div>
-</div>
-<!-- <div class="bouquet js-bouquet">
-	<div class="bouquet__burger">
-		<span></span>
-		<span></span>
-		<span></span>
-	</div>
-	<span class="bouquet__txt">Букеты</span>
+
+<div class="sidebar-menu">
+	<ul>
+		<li><a href="#">новинки</a></li>
+		<li><a href="#">распродажа</a></li>
+		<li><a href="#">ожидается</a></li>
+		<li><a href="#">плательно-блузочная</a></li>
+		<li><a href="#">плащевая</a></li>
+		<li><a href="#">плиссе</a></li>
+		<li><a href="#">подклад</a></li>
+		<li><a href="#">сток</a></li>
+		<li><a href="#">кружево</a></li>
+		<li><a href="#">хлопок</a></li>
+		<li><a href="#">шелк натуральный</a></li>
+		<li><a href="#">шанель</a></li>
+		<li><a href="#">inkjet (принт)</a></li>
+		<li><a href="#">атлас-стрейч</a></li>
+		<li><a href="#">бархат</a></li>
+		<li><a href="#">вискоза</a></li>
+		<li><a href="#">джинса с вышивкой</a></li>
+		<li><a href="#">дубленка</a></li>
+		<li><a href="#">жаккард</a></li>
+		<li><a href="#">костюмная</a></li>
+		<li><a href="#">кружево</a></li>
+		<li><a href="#">курточная</a></li>
+		<li><a href="#">лен</a></li>
+		<li><a href="#">мех</a></li>
+	</ul>
 </div>
 
-<ul class="main-menu">
-	<li><a href="#" class="main-menu__link">Просто цветы</a></li>
-	<li><a href="#" class="main-menu__link">Акции </a></li>
-	<li><a href="#" class="main-menu__link">Скидки</a></li>
-	<li><a href="#" class="main-menu__link">Контакты</a></li>
-	<li><a href="#" class="main-menu__link">Оплата</a></li>
-	<li><a href="#" class="main-menu__link">Доставка</a></li>
-</ul>
 
 
-<br>
-<div class="bouquet main-menu__button js-main-menu">
-	<div class="bouquet__burger main-menu__burger">
-		<span></span>
-		<span></span>
-		<span></span>
-	</div>
-	<span class="bouquet__txt main-menu__txt">Меню</span>
-</div>
-
-<div class="main-menu_mobile">
-	<div class="menu-bouquet__accordeon__close"></div>
-	<a href="#" class="main-menu__link_mobile">Просто цветы</a>
-	<a href="#" class="main-menu__link_mobile">Акции </a>
-	<a href="#" class="main-menu__link_mobile">Скидки</a>
-	<a href="#" class="main-menu__link_mobile">Контакты</a>
-	<a href="#" class="main-menu__link_mobile">Оплата</a>
-	<a href="#" class="main-menu__link_mobile">Доставка</a>
-</div> -->
 
 
-<script src="../../libs/jquery/jquery-1.11.1.min.js"></script>
-<script>	
-	$('.js-main-menu').on('click', function() {		
-		$('.main-menu_mobile').slideToggle();
-		$('html,body').toggleClass('overlay');
-	});
-	$('.menu-bouquet__accordeon__close').on('click', function() {
-		$('.main-menu_mobile').slideUp();
-		$('html,body').removeClass('overlay');
-	});	
-</script>

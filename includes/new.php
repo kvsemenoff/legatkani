@@ -77,7 +77,7 @@
 			</div>
 		</div>
 		
-		<div><a href="#" class="button button__news new__button-theme"><span class="button__news_txt">Все новинки</span></a></div>
+		<div class="new__buttonbox"><a href="#" class="button button__news new__button-theme"><span class="button__news_txt">Все новинки</span></a></div>
 	</div>
 </div>
 
@@ -159,7 +159,7 @@
 			</div>
 		</div>
 		
-		<div><a href="#" class="button button__news new__button-theme"><span class="button__news_txt">Вся распродажа</span></a></div>
+		<div class="new__buttonbox"><a href="#" class="button button__news new__button-theme"><span class="button__news_txt">Вся распродажа</span></a></div>
 	</div>
 </div>
 
@@ -243,6 +243,6 @@
 			</div>
 		</div>
 		
-		<div><a href="#" class="button button__news new__button-theme"><span class="button__news_txt">Все ожидаемое</span></a></div>
+		<div class="new__buttonbox"><a href="#" class="button button__news new__button-theme"><span class="button__news_txt">Все ожидаемое</span></a></div>
 	</div>
 </div>
