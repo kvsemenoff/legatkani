@@ -22,6 +22,14 @@
   background: url(../img/hbg.jpg) no-repeat top center;
   background-size: cover;
   border-bottom: 1px solid #c3b68a; }
+  @media only screen and (min-width: 768px) {
+    .header-bottom__style {
+      padding-top: 35px;
+      padding-bottom: 12px; } }
+  @media only screen and (min-width: 992px) {
+    .header-bottom__style {
+      padding-top: 17px;
+      padding-bottom: 31px; } }
 
 .burger {
   position: absolute;

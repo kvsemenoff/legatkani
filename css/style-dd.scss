@@ -19,6 +19,14 @@
 .header-bottom__style{
 	padding-top: 17px;
 	padding-bottom: 31px;
+	@media only screen and (min-width : 768px) {
+		padding-top: 35px;
+		padding-bottom: 12px;
+	}
+	@media only screen and (min-width : 992px) {
+		padding-top: 17px;
+		padding-bottom: 31px;
+	}
 	background:url(../img/hbg.jpg) no-repeat top center;
 	background-size:cover;
 	border-bottom: 1px solid #c3b68a; 

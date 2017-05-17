@@ -68,13 +68,13 @@ q:before, q:after {
     padding-left: 55px; }
     @media only screen and (min-width: 1240px) {
       .table__item_main_txt1 {
-        padding-left: 171px; } }
+        padding-left: 111px; } }
   .table__item_main_txt2 {
     color: #557230;
     padding-right: 55px; }
     @media only screen and (min-width: 1240px) {
       .table__item_main_txt2 {
-        padding-right: 200px; } }
+        padding-right: 258px; } }
   .table__item_main1 {
     background: #F6F6F6; }
   .table__item_main2 {
