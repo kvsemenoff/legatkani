@@ -9,7 +9,7 @@
 			
 			<div class="container paddingnone">
 
-				<div class="col-sm-12 col-md-3">
+				<div class="col-sm-12 col-md-3 catalog__paddings">
 					<div class="lace__sidebar catalog__sidebar">
 
 						<div class="but-spisok_b">

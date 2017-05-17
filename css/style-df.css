@@ -25,6 +25,16 @@
   .catalog__sidebar .sidebar-menu {
     padding-top: 25px; }
 
+.catalog__paddings {
+  padding-left: 0;
+  padding-right: 0;
+  margin: 0 -15px; }
+  @media only screen and (min-width: 768px) {
+    .catalog__paddings {
+      margin: 0px;
+      padding-left: 15px;
+      padding-right: 15px; } }
+
 .slider__img {
   height: 165px;
   overflow: hidden;
