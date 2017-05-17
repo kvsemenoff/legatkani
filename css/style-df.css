@@ -607,7 +607,8 @@
   margin-top: 40px;
   text-align: center; }
   .product__buttons a {
-    vertical-align: top; }
+    vertical-align: top;
+    display: inline-block; }
   .product__buttons .button__news {
     padding: 11px 43px;
     margin: 35px 0 17px 0px; }
