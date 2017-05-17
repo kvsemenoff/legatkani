@@ -4,6 +4,9 @@
   padding-right: 0;
   position: relative;
   width: 100%; }
+  @media only screen and (min-width: 800px) {
+    .no-padding {
+      padding-left: 30px; } }
   @media only screen and (min-width: 992px) {
     .no-padding {
       width: 970px; } }
