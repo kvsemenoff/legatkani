@@ -56,11 +56,14 @@ footer, header, hgroup, menu, nav, section {
 				}
 			}
 		}
+		&_fl{
+			padding-left: 114px;
+		}
 		&_txt{
 			display: table-cell;
 			padding-left: 37px;
 			@media only screen and (min-width : 1240px) {
-				padding-left: 150px;
+				// padding-left: 150px;
 			}
 			span{
 				font-family: 'Open Sans', sans-serif;
@@ -78,7 +81,7 @@ footer, header, hgroup, menu, nav, section {
 			&_txt1{
 				padding-left: 55px;
 				@media only screen and (min-width : 1240px) {
-					padding-left: 111px;
+					padding-left: 178px;
 				}
 			}
 			&_txt2{

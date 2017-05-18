@@ -49,12 +49,11 @@ q:before, q:after {
       font-weight: 400; }
       .table__item_first span b {
         font-weight: 700; }
+  .table__item_fl {
+    padding-left: 114px; }
   .table__item_txt {
     display: table-cell;
     padding-left: 37px; }
-    @media only screen and (min-width: 1240px) {
-      .table__item_txt {
-        padding-left: 150px; } }
     .table__item_txt span {
       font-family: 'Open Sans', sans-serif;
       font-size: 14px; }
@@ -68,7 +67,7 @@ q:before, q:after {
     padding-left: 55px; }
     @media only screen and (min-width: 1240px) {
       .table__item_main_txt1 {
-        padding-left: 111px; } }
+        padding-left: 178px; } }
   .table__item_main_txt2 {
     color: #557230;
     padding-right: 55px; }

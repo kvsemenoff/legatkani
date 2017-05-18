@@ -99,8 +99,13 @@
 		&__box2{
 			float: right;
 			width: 42%;
+			@media only screen and (min-width : 800px) {
+				width: 36%;
+				padding-top: 10px;
+			}
 			@media only screen and (min-width : 992px) {
 				padding-top: 41px;
+				width: 42%;
 			}
 		}
 		&__box3{
@@ -181,6 +186,9 @@
 			text-align: right;
 			width: 222px;
 		}
+		@media only screen and (min-width : 800px) {
+			width: 262px;
+		}
 		@media only screen and (min-width : 992px) {
 			float: left;
 			width: 31%;
@@ -194,6 +202,14 @@
 		display: inline-block;
 		background:url(../img/map.png) no-repeat left top 6px;
 		padding-left: 30px;
+		@media only screen and (min-width : 800px) {
+			margin-left: 30px;
+			width: 174px;
+		}
+		@media only screen and (min-width : 1240px) {
+			margin-left: 0;
+			width: unset;
+		}
 		span{
 			color: #5a5a5a;
 			font-size: 11px;

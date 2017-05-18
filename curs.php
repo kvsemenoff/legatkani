@@ -25,7 +25,7 @@
 						<div class="curs__table">
 							<span class="curs__table-title">Таблица перевода валют в рубли</span>
 							<div class="table table__1">
-								<div class="table__item table__item_first">
+								<div class="table__item table__item_first table__item_fl">
 									<div class="table__item_txt"><span>Цена в <b>У.Е.</b></span></div>
 									<div class="table__item_txt table__item_txt2"><span>Цена в <b>РУБ.</b></span></div>
 								</div>
