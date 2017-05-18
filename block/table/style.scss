@@ -60,7 +60,7 @@ footer, header, hgroup, menu, nav, section {
 			display: table-cell;
 			padding-left: 37px;
 			@media only screen and (min-width : 1240px) {
-				padding-left: 84px;
+				padding-left: 150px;
 			}
 			span{
 				font-family: 'Open Sans', sans-serif;
@@ -71,7 +71,7 @@ footer, header, hgroup, menu, nav, section {
 			text-align: right;
 			padding-right: 37px;
 			@media only screen and (min-width : 1240px) {
-				padding-right: 231px;
+				padding-right: 161px;
 			}
 		}
 		&_main{
@@ -85,7 +85,7 @@ footer, header, hgroup, menu, nav, section {
 				color: #557230;
 				padding-right: 55px;
 				@media only screen and (min-width : 1240px) {
-					padding-right: 258px;
+					padding-right: 186px;
 				}
 			}
 		}
