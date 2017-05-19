@@ -9,7 +9,20 @@
 			<div class="lace">
 				<div class="container lace-container">
 					<div class="col-sm-12 col-md-3">
-						<div class="lace__sidebar">
+						<div class="lace__sidebar catalog__sidebar">
+							<div class="but-spisok_b">
+
+								<a class="button__catalog" href="#">
+									<div class="burger__spisok">
+										<i class="fa fa-bars" aria-hidden="true"></i>
+									</div>
+									<div class="but-spisok">
+										<a class="dd-but_cat" href="#">Каталог тканей</a>
+									</div>
+								</a>
+
+							</div>
+							<div class="clearfix"></div>
 							<div class="sidebar-menu sidebar-menu__style">
 								<ul class="sidebar-menu__item">
 									<li><a href="#">новинки</a></li>
@@ -51,6 +64,7 @@
 								<li class="breadcrumps__link"><span>Кружево</span></li>
 							</ul>
 						</div>
+
 						<div class="catalogspisok__filter">
 							<ul class="filter">
 								<li class="filter__menu">

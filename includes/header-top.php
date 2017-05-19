@@ -22,7 +22,7 @@
             <li class="hidden-sm hidden-md hidden-lg">
               <a href="#" class="header_auth_list_link auth"></a>
             </li>
-            <li>
+            <li class="fav__li">
               <a href="#" class="header_auth_list_link favourite">0</a>
             </li>
             <li>
