@@ -463,14 +463,17 @@ span {
 .lace-container {
   @media screen and (min-width: 768px) {
     padding: 0;
-}
+  }
 border-bottom: 2px solid #e8e8e8;
 }
 .lace {
   .filter {
     margin-top: 0;
 }
-padding-top: 45px;
+padding-top: 35px;
+@media screen and (min-width: 992px) {
+  padding-top: 45px;
+}
 padding-bottom: 100px;
 .showprice_link {
     font-size: 12px;
@@ -486,6 +489,10 @@ padding-bottom: 100px;
   margin-bottom: 50px;
 }
 .lace__sidebar {
+  margin-bottom: 10px;
+  @media screen and (min-width: 992px) {
+    margin-bottom: 0;
+  }
   .sidebar-menu {
     padding-top: 45px;
     padding-bottom: 25px;

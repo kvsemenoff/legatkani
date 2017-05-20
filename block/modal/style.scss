@@ -62,10 +62,16 @@
 	.modal-input{
 		height: 40px !important;
 		max-width: 420px !important;
-		padding: 0 18px;
+		padding: 0 18px !important;
 		&::-moz-placeholder { line-height: 40px }
 	}
+	.modal-input-select{
+		height: 40px;
+	}
 	.modal-across{
+		&:hover{
+			text-decoration: underline;
+		}
 		color: #7f2461;
 		font-size: 14px;
 		font-weight: 400;

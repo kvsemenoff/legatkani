@@ -64,8 +64,7 @@
   border: 1px solid #d1d0d0;
   /* Firefox 19+ */
   /* Firefox 18- */
-  line-height: 42px !important;
-  height: 42px !important;
+  height: 41px !important;
 }
 
 .input__basket::-webkit-input-placeholder {
