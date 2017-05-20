@@ -67,11 +67,11 @@ $(document).ready(function(){
 	
 	// $(".checkbox").("checked");
 
-	$('.checkbox').change(function(){
-		if($(this).is(":checked")){
-			alert(1);
-		}
-	});
+	// $('.checkbox').change(function(){
+	// 	if($(this).is(":checked")){
+	// 		$(".checkbox-custom").css("border", "none");
+	// 	}
+	// });
 
 
 
