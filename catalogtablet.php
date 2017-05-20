@@ -66,10 +66,7 @@
 					</div>
 				</div>
 				<div class="col-sm-12 col-md-9 paddingnone2">
-					
-					
-
-
+				
 					<div class="catalogspisok__filter">
 						
 							<ul class="filter">
