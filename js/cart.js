@@ -56,8 +56,8 @@ jQuery(document).ready(function() {
 			autoplay:false,
 			smartSpeed:1000,
 			margin:25,
-			mouseDrag:false,
-			touchDrag: false,
+			mouseDrag:true,
+			touchDrag: true,
 			center:false,     //если нужны обрезаные края
 			navText:['<span class="productleft"></span>','<span class="productright"></span>'],
 			responsive:

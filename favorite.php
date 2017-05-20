@@ -35,7 +35,7 @@
 								<div class="tovar_item__text">
 									<span class="tovar_item__nameproduct">Бархат</span>
 									<span class="tovar_item__price"><b>520 </b>руб/м</span>
-									<a href="#" class="button button__basket"><span class="button__basket_txt">В корзину</span></a>
+									<a href="#" class="button button__basket hovereffect"><span class="button__basket_txt">В корзину</span></a>
 								</div>
 							</div>
 							<div class="tovar_item favorite__tovar_item">
@@ -53,7 +53,7 @@
 								<div class="tovar_item__text">
 									<span class="tovar_item__nameproduct">Кружево</span>
 									<span class="tovar_item__price"><b>650 </b>руб/м</span>
-									<a href="#" class="button button__basket"><span class="button__basket_txt">В корзину</span></a>
+									<a href="#" class="button button__basket hovereffect"><span class="button__basket_txt">В корзину</span></a>
 								</div>
 							</div>	
 							<div class="tovar_item favorite__tovar_item">
@@ -71,7 +71,7 @@
 								<div class="tovar_item__text">
 									<span class="tovar_item__nameproduct">Батист</span>
 									<span class="tovar_item__price"><b>710 </b>руб/м</span>
-									<a href="#" class="button button__basket"><span class="button__basket_txt">В корзину</span></a>
+									<a href="#" class="button button__basket hovereffect"><span class="button__basket_txt">В корзину</span></a>
 								</div>
 							</div>	
 							<div class="tovar_item favorite__tovar_item">
@@ -89,7 +89,7 @@
 								<div class="tovar_item__text">
 									<span class="tovar_item__nameproduct">Кружево</span>
 									<span class="tovar_item__price"><b>650 </b>руб/м</span>
-									<a href="#" class="button button__basket"><span class="button__basket_txt">В корзину</span></a>
+									<a href="#" class="button button__basket hovereffect"><span class="button__basket_txt">В корзину</span></a>
 								</div>
 							</div>	
 							<div class="tovar_item favorite__tovar_item">
@@ -107,7 +107,7 @@
 								<div class="tovar_item__text">
 									<span class="tovar_item__nameproduct">Бархат</span>
 									<span class="tovar_item__price"><b>520 </b>руб/м</span>
-									<a href="#" class="button button__basket"><span class="button__basket_txt">В корзину</span></a>
+									<a href="#" class="button button__basket hovereffect"><span class="button__basket_txt">В корзину</span></a>
 								</div>
 							</div>
 							<div class="tovar_item favorite__tovar_item">
@@ -125,7 +125,7 @@
 								<div class="tovar_item__text">
 									<span class="tovar_item__nameproduct">Кружево</span>
 									<span class="tovar_item__price"><b>650 </b>руб/м</span>
-									<a href="#" class="button button__basket"><span class="button__basket_txt">В корзину</span></a>
+									<a href="#" class="button button__basket hovereffect"><span class="button__basket_txt">В корзину</span></a>
 								</div>
 							</div>	
 							<div class="tovar_item favorite__tovar_item">
@@ -143,7 +143,7 @@
 								<div class="tovar_item__text">
 									<span class="tovar_item__nameproduct">Батист</span>
 									<span class="tovar_item__price"><b>710 </b>руб/м</span>
-									<a href="#" class="button button__basket"><span class="button__basket_txt">В корзину</span></a>
+									<a href="#" class="button button__basket hovereffect"><span class="button__basket_txt">В корзину</span></a>
 								</div>
 							</div>				
 

@@ -858,7 +858,7 @@
 				width: 14px;
 				height: 13px;
 				outline: none;
-				background: url(../img/close-btn.png);
+				background: url(../img/close-btn.png) no-repeat;
 			}
 			@media only screen and (max-width : 1199px) {
 				width: 15px;
@@ -886,6 +886,7 @@
 				line-height: 32px;
 				font-size: 11px;
 				color: #000;
+				font-weight: 600;
 			}
 		}
 		.item__descr{
