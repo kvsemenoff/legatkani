@@ -102,6 +102,8 @@
 		&__box2{
 			float: right;
 			width: 42%;
+			box-sizing:border-box;
+			-moz-box-sizing: border-box;
 			@media only screen and (min-width : 800px) {
 				width: 36%;
 				padding-top: 10px;
@@ -114,6 +116,7 @@
 		&__box3{
 			float: left;
 			width: 25%;
+			
 			@media only screen and (min-width : 992px) {
 				width: 30%;
 				padding-top: 41px;
@@ -184,18 +187,35 @@
 			text-decoration: underline;
 			text-transform: uppercase;
 			color: #921f6c;
+			&:hover{
+				text-decoration: none;
+			}
 		}
 		@media only screen and (min-width : 768px) {
 			text-align: right;
-			width: 222px;
+			// width: 222px;
+			width: 100%;
+			padding-right: 43px;
 		}
 		@media only screen and (min-width : 800px) {
-			width: 262px;
+			// width: 262px;
+			// margin-right: 0;
+			padding-right: 0px;
+		}
+		@media only screen and (min-width : 870px) {
+			padding-right: 24px;
+		}
+		@media only screen and (min-width : 900px) {
+			padding-right: 44px;
+		}
+		@media only screen and (min-width : 970px) {
+			padding-right: 60px;
 		}
 		@media only screen and (min-width : 992px) {
 			float: left;
 			width: 31%;
 			padding-top: 7px;
+			padding-right: 0;
 			a{
 				font-size: 12px;
 			}
@@ -326,6 +346,9 @@
 		padding: 29px 0px;
 		@media only screen and (min-width : 768px) {
 			padding: 46px 0px;
+		}
+		@media only screen and (min-width : 1240px) {
+			font-size: 43px;
 		}
 	}
 	&__hidden{
@@ -647,6 +670,11 @@
 	display: none;
 	@media only screen and (min-width : 768px) {
 		display: block;
+	}
+}
+.sidebar-menu{
+	@media only screen and (min-width : 992px) {
+		display: block !important;
 	}
 }
 /* Звезды Рейтинга
