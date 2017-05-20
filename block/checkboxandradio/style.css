@@ -33,6 +33,7 @@
   right: 2px;
   bottom: 2px;
   left: 0px;
+  border: none !important;
   background: url(../../img/cheked.png) no-repeat; }
 
 /*# sourceMappingURL=style.css.map */
