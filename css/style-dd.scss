@@ -80,7 +80,7 @@
 		padding-left: 7px;		
 		padding-top: 26px;
 		@media only screen and (min-width : 320px) {
-			padding-left: 38px;
+			// padding-left: 38px;
 		}
 		@media only screen and (min-width : 768px) {
 			padding-left: 0;
@@ -193,23 +193,16 @@
 		}
 		@media only screen and (min-width : 768px) {
 			text-align: right;
-			// width: 222px;
-			width: 100%;
-			padding-right: 43px;
+			width: 222px;
 		}
 		@media only screen and (min-width : 800px) {
-			// width: 262px;
-			// margin-right: 0;
-			padding-right: 0px;
-		}
-		@media only screen and (min-width : 870px) {
-			padding-right: 24px;
+			width: 266px;
 		}
 		@media only screen and (min-width : 900px) {
-			padding-right: 44px;
+			width: 233px;
 		}
-		@media only screen and (min-width : 970px) {
-			padding-right: 60px;
+		@media only screen and (min-width : 960px) {
+			width: 212px;
 		}
 		@media only screen and (min-width : 992px) {
 			float: left;
@@ -236,7 +229,7 @@
 		span{
 			color: #5a5a5a;
 			font-size: 11px;
-			@media only screen and (min-width : 480px) {
+			@media only screen and (min-width : 320px) {
 				font-size: 12px;
 			}
 			@media only screen and (min-width : 768px) {
@@ -344,6 +337,7 @@
 	.h2{
 		text-align: center;
 		padding: 29px 0px;
+		font-size: 28px;
 		@media only screen and (min-width : 768px) {
 			padding: 46px 0px;
 		}
