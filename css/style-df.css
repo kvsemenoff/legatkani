@@ -20,10 +20,24 @@
       background-color: #fff;
       left: 40%; }
 
+.captionandbreadcrumbs {
+  width: 100%; }
+  .captionandbreadcrumbs .lace__breadcrumbs {
+    margin-bottom: 0; }
+  @media only screen and (min-width: 992px) {
+    .captionandbreadcrumbs {
+      width: 75%;
+      float: right; }
+      .captionandbreadcrumbs .lace__breadcrumbs {
+        margin-bottom: 50px; } }
+
 .catalog__sidebar {
-  margin-top: 45px; }
+  margin-top: 30px; }
   .catalog__sidebar .sidebar-menu {
     padding-top: 25px; }
+  @media only screen and (min-width: 992px) {
+    .catalog__sidebar {
+      margin-top: 45px; } }
 
 .catalog__paddings {
   padding-left: 0;
