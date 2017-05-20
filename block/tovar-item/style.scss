@@ -1,14 +1,14 @@
 
 .tovar_img{
 	position: relative;
-	width: 275px;
+	// width: 275px;
 	transition:0.5s;
 	display: inline-block;	
 	@media only screen and (min-width : 800px) {
-		width: 243px;
+		// width: 243px;
 	}
 	@media only screen and (min-width : 1150px) {
-		width: 275px;
+		// width: 275px;
 		&:hover{
 			.tovar_img__hover{		
 				opacity: 1;
@@ -56,7 +56,7 @@
 	a{
 		padding-top: 35%;
 		color: #525252;
-		font-family: "PlayfairDisplay";
+		font-family: 'Playfair Display', serif;
 		font-size: 20px;
 		font-style: italic;
 		text-decoration: none;		
@@ -128,9 +128,11 @@
 	min-height: 414px;
 	@media only screen and (min-width : 800px) {
 		width: 243px;
+		padding: 0 7px;
 	}
 	@media only screen and (min-width : 1150px) {
 		width: 275px;
+		padding: 0;
 		&:hover{
 			.hovereffect{
 				display: inline-block;

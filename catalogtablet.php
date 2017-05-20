@@ -65,26 +65,88 @@
 					</div>
 					<div class="catalogspisok__filter">
 						
-
-						<div class="filter_sort">
-							<div class="filter__vid">
-								<span>вид:</span>
-								<a href="#" class="vid__table"></a>
-								<a href="#" class="vid__string"></a>
-							</div>
-							<div class="filter__sortbox">
-								<span>сортировать:</span>
-								<a href="#" class="sort__price_sort">Цена по возрастанию</a>
-								<a href="#" class="showprice_link sort__showprice">Показать цены в У.Е.</a>
-							</div>
-							<div class="filter__onpage">
-								<span>на странице: </span>
-								<a href="#" class="filter__onpage__checked">20</a>
-								<a href="#">40</a>
-								<a href="#">60</a>
-							</div>
+							<ul class="filter">
+								<li class="filter__menu">
+									<a href="#" class="filter__link">тип ткани</a>
+									<ul class="filter__hover_menu">
+										<li><a href="#">шелк натуральный</a></li>
+										<li><a href="#">хлопок</a></li>
+										<li><a href="#">полиэстр</a></li>
+									</ul>
+								</li>
+								<li class="filter__menu">
+									<a href="#" class="filter__link">цвет</a>
+									<ul class="filter__hover_menu">
+										<li><a href="#">шелк натуральный</a></li>
+										<li><a href="#">хлопок</a></li>
+										<li><a href="#">полиэстр</a></li>
+									</ul>
+								</li>
+								<li class="filter__menu">
+									<a href="#" class="filter__link">вид дизайна</a>
+									<ul class="filter__hover_menu">
+										<li><a href="#">шелк натуральный</a></li>
+										<li><a href="#">хлопок</a></li>
+										<li><a href="#">полиэстр</a></li>
+									</ul>
+								</li>
+								<li class="filter__menu">
+									<a href="#" class="filter__link">состав</a>
+									<ul class="filter__hover_menu">
+										<li><a href="#">шелк натуральный</a></li>
+										<li><a href="#">хлопок</a></li>
+										<li><a href="#">полиэстр</a></li>
+									</ul>
+								</li>
+								<li class="filter__menu">
+									<a href="#" class="filter__link">ширина</a>
+									<ul class="filter__hover_menu">
+										<li><a href="#">шелк натуральный</a></li>
+										<li><a href="#">хлопок</a></li>
+										<li><a href="#">полиэстр</a></li>
+									</ul>
+								</li>
+								<li class="filter__menu">
+									<a href="#" class="filter__link">назанчение</a>
+									<ul class="filter__hover_menu">
+										<li><a href="#">шелк натуральный</a></li>
+										<li><a href="#">хлопок</a></li>
+										<li><a href="#">полиэстр</a></li>
+									</ul>
+								</li>
+								<li class="filter__menu">
+									<a href="#" class="filter__link">цена</a>
+									<ul class="filter__hover_menu">
+										<li><a href="#">шелк натуральный</a></li>
+										<li><a href="#">хлопок</a></li>
+										<li><a href="#">полиэстр</a></li>
+									</ul>
+								</li>
+								<li class="filter__clear">
+									<a href="#">Сбросить</a>
+								</li>
+							</ul>
 							<div class="clear"></div>
-						</div>
+
+							<div class="filter_sort">
+								<div class="filter__vid">
+									<span>вид:</span>
+									<a href="#" class="vid__table"></a>
+									<a href="#" class="vid__string"></a>
+								</div>
+								<div class="filter__sortbox">
+									<span>сортировать:</span>
+									<a href="#" class="sort__price_sort">Цена по возрастанию</a>
+									<a href="#" class="showprice_link sort__showprice">Показать цены в У.Е.</a>
+								</div>
+								<div class="filter__onpage">
+									<span>на странице: </span>
+									<a href="#" class="filter__onpage__checked">20</a>
+									<a href="#">40</a>
+									<a href="#">60</a>
+								</div>
+								<div class="clear"></div>
+							</div>
 
 						<div class="button__filer">
 							<span>Фильтр</span>
