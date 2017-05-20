@@ -6,3 +6,4 @@
 .manager__info i { font-style: normal; display: block; font-size: 13px; padding-bottom: 1px; }
 .manager__mail { display: block; color: #0b5cb7; font-size: 13px; text-decoration: none; }
 .manager__question { font-weight: 600; font-style: italic; font-size: 13px; color: #921f6c; text-decoration: underline; }
+.manager__question:hover { text-decoration: none; }

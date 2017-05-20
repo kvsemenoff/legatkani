@@ -45,5 +45,8 @@
 		font-size: 13px;
 		color: #921f6c;
 		text-decoration: underline;
+		&:hover{
+			text-decoration: none;
+		}
 	}
 }

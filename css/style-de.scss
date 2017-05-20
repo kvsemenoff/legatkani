@@ -831,7 +831,7 @@
 		}
 		&__price-all{
 			width: 115px;
-			@media only screen and (max-width : 770px) {
+			@media only screen and (max-width : 685px) {
 				display: none;
 			}
 		}
@@ -840,13 +840,13 @@
 			@media only screen and (max-width : 1199px) {
 				width: 75px;
 			}
-			@media only screen and (max-width : 770px) {
+			@media only screen and (max-width : 685px) {
 				display: none;
 			}
 		}
 		&__price-order{
 			width: 95px;
-			@media only screen and (max-width : 770px) {
+			@media only screen and (max-width : 685px) {
 				display: none;
 			}
 		}
@@ -1095,12 +1095,13 @@
 		&__title{
 			margin-bottom: 0;
 			.vertical-middle{
-				padding: 0;
+				padding: 0!important;
 				height: auto;
 			}
 		}
 		&__descr{
 			width: 203px;
+			padding-top: 28px!important;
 		}
 		&__price-one{
 			width: 241px;
@@ -1128,7 +1129,7 @@
 				width: 150px;
 			}
 		}
-		@media only screen and (max-width : 1199px) {
+		@media only screen and (max-width : 991px) {
 			&__descr{
 				width: 203px;
 			}
@@ -1145,13 +1146,35 @@
 				width: 120px;
 			}
 		}
+		@media only screen and (max-width : 770px) {
+			padding: 0 10px;
+			&__descr{
+				width: 153px;
+				padding-left: 0;
+			}
+			&__price-one{
+				width: 120px;
+			}
+			&__price-all{
+				width: 120px;
+			}
+			&__sale{
+				width: 120px;
+			}
+			&__price-order{
+				width: 120px;
+			}
+		}
 	}
-	@media only screen and (max-width : 770px) {
+	@media only screen and (max-width : 685px) {
 		display: none;
 	}
 }
 .basket-list_composition-mini{
 	background: #f6f6f6;
+	margin: 0 auto;
+	max-width: 350px;
+	width: 100%;
 	.item{
 		padding: 0;
 		margin-bottom: 0;
@@ -1193,7 +1216,7 @@
 		width: 45%;
 		padding-top: 20px;
 	}
-	@media only screen and (min-width : 769px) {
+	@media only screen and (min-width : 686px) {
 		display: none;
 	}
 }
@@ -1639,6 +1662,7 @@
 			color: #000;
 			font-size: 11px;
 			padding: 10px 0;
+			font-weight: 600;
 			@media only screen and (max-width : 992px) {
 				font-size: 9px;
 			}
@@ -1680,7 +1704,7 @@
 			padding-bottom: 15px;
 		}
 	}
-	.manager{
+	.manager-middle{
 		display: block!important;
 		float: none;
 		margin-bottom: 42px;

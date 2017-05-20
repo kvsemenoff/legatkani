@@ -341,7 +341,7 @@
 						<div class="tabs-content">
 							<div class="tab-content tab-3">
 								<span class="tab-content__title">Задайте вопрос своему персональному менеджеру:</span>
-								<div class="manager clearfix">
+								<div class="manager manager-middle clearfix">
 									<div class="manager__img">
 										<img src="img/manager.jpg" alt="">
 									</div>
