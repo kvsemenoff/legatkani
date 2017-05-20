@@ -8,6 +8,18 @@
 		<div class="n-content-inner vertical-align">
 			
 			<div class="container catalogpaddingnone">
+
+					<div class="captionandbreadcrumbs">
+						<h1 class="h1 favorite__caption">Каталог тканей</h1>
+						
+						<div class="lace__breadcrumbs">
+							<ul class="breadcrumps">
+								<li class="breadcrumps__link breadcrumps__link_home"><a href="/" class="bread_menu__link_bg">Главная</a></li>	
+								<li class="breadcrumps__link"><span>Каталог</span></li>
+							</ul>
+						</div>
+					</div>
+
 				<div class="col-sm-12 col-md-3 catalog__paddings">
 					<div class="lace__sidebar catalog__sidebar">
 						<div class="but-spisok_b">
@@ -54,15 +66,7 @@
 					</div>
 				</div>
 				<div class="col-sm-12 col-md-9 paddingnone2">
-					
-					<h1 class="h1 favorite__caption">Каталог тканей</h1>
-					
-					<div class="lace__breadcrumbs">
-						<ul class="breadcrumps">
-							<li class="breadcrumps__link breadcrumps__link_home"><a href="/" class="bread_menu__link_bg">Главная</a></li>	
-							<li class="breadcrumps__link"><span>Каталог</span></li>
-						</ul>
-					</div>
+				
 					<div class="catalogspisok__filter">
 						
 							<ul class="filter">
