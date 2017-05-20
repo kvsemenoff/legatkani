@@ -21,16 +21,7 @@
 						<div class="news-page__block_title">
 							<h1 class="h2">Модные вещи из итальянской ткани<br/> знаменитого дизайнера</h1>
 						</div>
-						<label class="checkbox__label">
-	<input class="checkbox" type="radio" name="checkbox-test" checked>
-	<span class="checkbox-custom"></span>
-	<span class="label_txt">Физ лицо</span>
-</label>
-<label class="checkbox__label">
-	<input class="checkbox" type="radio" name="checkbox-test" >
-	<span class="checkbox-custom"></span>
-	<span class="label_txt">Юр лицо/ИП</span>
-</label>
+
 						<div class="news-page__block_plan">
 							<span class="news-page__block_plan_title">план статьи:</span> <br/>
 							<a href="#" class="news-page__block_plan_theme">Тенденции 2016</a> <br/>
