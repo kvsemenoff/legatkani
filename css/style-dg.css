@@ -666,14 +666,26 @@
   content: '';
   height: 17px;
   display: block;
-  background: url("/img/lace-decor1.png") center center no-repeat;
+  background: url("/img/tab-decor1.png") center center no-repeat;
+}
+
+@media screen and (min-width: 992px) {
+  .lace__sidebar:before {
+    background: url("/img/lace-decor1.png") center center no-repeat;
+  }
 }
 
 .lace__sidebar:after {
   content: '';
   height: 17px;
   display: block;
-  background: url("/img/lace-decor2.png") center center no-repeat;
+  background: url("/img/tab-decor2.png") center center no-repeat;
+}
+
+@media screen and (min-width: 992px) {
+  .lace__sidebar:after {
+    background: url("/img/lace-decor2.png") center center no-repeat;
+  }
 }
 
 .lace__filter {

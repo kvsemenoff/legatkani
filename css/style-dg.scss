@@ -495,20 +495,26 @@ padding-bottom: 100px;
     @media screen and (min-width: 992px) {
       column-count: 1;
       padding-top: 7px;
+    }
+}
+  &:before {
+      content: '';
+      height: 17px;
+      display: block;
+      background: url('/img/tab-decor1.png') center center no-repeat;
+      @media screen and (min-width: 992px) {
+        background: url('/img/lace-decor1.png') center center no-repeat;
+      }
   }
-}
-&:before {
-    content: '';
-    height: 17px;
-    display: block;
-    background: url('/img/lace-decor1.png') center center no-repeat;
-}
-&:after {
-    content: '';
-    height: 17px;
-    display: block;
-    background: url('/img/lace-decor2.png') center center no-repeat;
-}
+  &:after {
+      content: '';
+      height: 17px;
+      display: block;
+      background: url('/img/tab-decor2.png') center center no-repeat;
+      @media screen and (min-width: 992px) {
+        background: url('/img/lace-decor2.png') center center no-repeat;
+      }
+  }
 }
 
 .lace__filter {
