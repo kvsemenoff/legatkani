@@ -9,6 +9,16 @@
 			<div class="lace">
 				<div class="container lace-container">
 					<div class="col-sm-12 col-md-3">
+						<div class="lace__header hidden-md hidden-lg">
+							<h1 class="h1">Кружево</h1>
+						</div>
+						<div class="lace__breadcrumbs hidden-md hidden-lg">
+							<ul class="breadcrumps">
+								<li class="breadcrumps__link breadcrumps__link_home"><a href="/" class="bread_menu__link_bg">Главная</a></li>
+								<li class="breadcrumps__link breadcrumps__link_home"><a href="/" class="bread_menu__link_bg">Каталог</a></li>
+								<li class="breadcrumps__link"><span>Кружево</span></li>
+							</ul>
+						</div>
 						<div class="lace__sidebar catalog__sidebar">
 							<div class="but-spisok_b">
 
@@ -54,10 +64,10 @@
 						</div>
 					</div>
 					<div class="col-sm-12 col-md-9">
-						<div class="lace__header">
+						<div class="lace__header hidden-xs hidden-sm">
 							<h1 class="h1">Кружево</h1>
 						</div>
-						<div class="lace__breadcrumbs">
+						<div class="lace__breadcrumbs hidden-xs hidden-sm">
 							<ul class="breadcrumps">
 								<li class="breadcrumps__link breadcrumps__link_home"><a href="/" class="bread_menu__link_bg">Главная</a></li>
 								<li class="breadcrumps__link breadcrumps__link_home"><a href="/" class="bread_menu__link_bg">Каталог</a></li>

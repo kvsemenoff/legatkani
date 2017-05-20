@@ -623,12 +623,18 @@
 }
 
 .lace {
-  padding-top: 45px;
+  padding-top: 35px;
   padding-bottom: 100px;
 }
 
 .lace .filter {
   margin-top: 0;
+}
+
+@media screen and (min-width: 992px) {
+  .lace {
+    padding-top: 45px;
+  }
 }
 
 .lace .showprice_link {
@@ -645,6 +651,16 @@
 
 .lace__breadcrumbs {
   margin-bottom: 50px;
+}
+
+.lace__sidebar {
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 992px) {
+  .lace__sidebar {
+    margin-bottom: 0;
+  }
 }
 
 .lace__sidebar .sidebar-menu {
