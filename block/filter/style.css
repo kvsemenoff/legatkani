@@ -8,7 +8,6 @@
   border-top: 1px solid #e8e8e8;
   max-width: 875px;
   margin: 0 auto;
-  margin-top: 100px;
   padding-left: 7px;
   display: none; }
   @media only screen and (min-width: 800px) {
@@ -90,10 +89,12 @@
   @media only screen and (min-width: 800px) {
     .filter_sort {
       padding-left: 20px;
-      display: block; } }
+      display: block;
+      max-width: 875px; } }
   @media only screen and (min-width: 1200px) {
     .filter_sort {
-      padding-left: 30px; } }
+      padding-left: 30px;
+      max-width: none; } }
 
 .filter__vid {
   display: inline-block;
