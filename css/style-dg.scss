@@ -36,6 +36,9 @@
   text-align: center;
   display: inline-block;
   vertical-align: middle;
+  &:hover {
+    text-decoration: underline;
+  }
 }
 .signin {
   color: #7f2461;
@@ -49,6 +52,22 @@
   height: 21px;
   background: url('/img/fav.png') 0 0 no-repeat;
   line-height: 20px;
+  margin-top: 2px;
+  &:hover {
+    text-decoration: none;
+  }
+}
+.fav__li {
+  &:after {
+    content: '';
+    width: 0px;
+    display: inline-block;
+    vertical-align: middle;
+    height: 15px;
+    border-right: 1px solid #dfdede;
+    margin-left: 10px;
+    margin-top: 5px;
+  }
 }
 .basket {
   width: 30px;
@@ -56,7 +75,11 @@
   background: url('/img/basket.png') 0 0 no-repeat;
   text-align: center;
   padding-right: 4px;
-  line-height: 26px;
+  line-height: 25px;
+  margin-top: 2px;
+  &:hover {
+    text-decoration: none;
+  }
 }
 .auth {
   width: 20px;
@@ -79,11 +102,11 @@
     height: 165px;
     top: 240px;
     right: 35px;
-    padding: 50px 45px 50px 40px;
+    padding: 35px 45px 50px 40px;
 }
 @media screen and (min-width: 1248px) {
     top: 360px;
-    right: 70px;
+    left: 65%;
 }
 z-index: 9999;
 }
@@ -201,6 +224,9 @@ z-index: 9999;
   font-weight: 600;
   font-style: italic;
   text-decoration: underline;
+  &:hover {
+    text-decoration: none;
+  }
 }
 
 
@@ -386,6 +412,9 @@ a {
   font-weight: 600;
   line-height: 28px;
   text-transform: uppercase;
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 
@@ -481,6 +510,7 @@ padding-bottom: 100px;
     background: url('/img/lace-decor2.png') center center no-repeat;
 }
 }
+
 .lace__filter {
   margin-bottom: 30px;
 }

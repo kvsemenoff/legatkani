@@ -91,11 +91,11 @@
   padding: 10px 0px; }
   .tovar_img__toplent span {
     color: white;
-    font-family: "OpenSans", sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: 400;
     display: inline-block;
-    padding-left: 15px;
+    padding-left: 12px;
     letter-spacing: 0.7px; }
 
 .tovar_img__toplent_new {
@@ -124,7 +124,7 @@
 .tovar_item__text {
   padding-top: 20px;
   text-align: center;
-  font-family: "OpenSans", sans-serif; }
+  font-family: 'Open Sans', sans-serif; }
   .tovar_item__text .hovereffect {
     padding: 13px 17px 9px 37px; }
     .tovar_item__text .hovereffect span {

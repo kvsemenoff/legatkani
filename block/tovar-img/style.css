@@ -91,13 +91,13 @@
   padding: 10px 0px; }
   .tovar_img__toplent span {
     color: white;
-    font-family: "OpenSans", sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: 400;
     display: inline-block;
     padding-left: 15px;
     letter-spacing: 0.7px;
-    line-height: 21px; }
+    line-height: 20px; }
 
 .tovar_img__toplent_new {
   background: url("../../img/bgtovar.png") no-repeat left; }
