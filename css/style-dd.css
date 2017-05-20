@@ -91,7 +91,9 @@
 @media only screen and (min-width: 768px) {
   .header-bottom__box2 {
     float: right;
-    width: 42%; } }
+    width: 42%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box; } }
   @media only screen and (min-width: 768px) and (min-width: 800px) {
     .header-bottom__box2 {
       width: 36%;
@@ -165,18 +167,31 @@
       text-decoration: underline;
       text-transform: uppercase;
       color: #921f6c; }
+      .header-bottom__box_item3 a:hover {
+        text-decoration: none; }
     @media only screen and (min-width: 768px) {
       .header-bottom__box_item3 {
         text-align: right;
-        width: 222px; } }
+        width: 100%;
+        padding-right: 43px; } }
     @media only screen and (min-width: 800px) {
       .header-bottom__box_item3 {
-        width: 262px; } }
+        padding-right: 0px; } }
+    @media only screen and (min-width: 870px) {
+      .header-bottom__box_item3 {
+        padding-right: 24px; } }
+    @media only screen and (min-width: 900px) {
+      .header-bottom__box_item3 {
+        padding-right: 44px; } }
+    @media only screen and (min-width: 970px) {
+      .header-bottom__box_item3 {
+        padding-right: 60px; } }
     @media only screen and (min-width: 992px) {
       .header-bottom__box_item3 {
         float: left;
         width: 31%;
-        padding-top: 7px; }
+        padding-top: 7px;
+        padding-right: 0; }
         .header-bottom__box_item3 a {
           font-size: 12px; } }
   .header-bottom__box_item4 {
@@ -290,6 +305,9 @@
   @media only screen and (min-width: 768px) {
     .catalog-main .h2 {
       padding: 46px 0px; } }
+  @media only screen and (min-width: 1240px) {
+    .catalog-main .h2 {
+      font-size: 43px; } }
 .catalog-main__hidden {
   display: none; }
   @media only screen and (min-width: 768px) {
@@ -552,6 +570,10 @@
   @media only screen and (min-width: 768px) {
     .header-bottom__nonemob {
       display: block; } }
+
+@media only screen and (min-width: 992px) {
+  .sidebar-menu {
+    display: block !important; } }
 
 /* ╨Ч╨▓╨╡╨╖╨┤╤Л ╨а╨╡╨╣╤В╨╕╨╜╨│╨░
 ===========================*/
