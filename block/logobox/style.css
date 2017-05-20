@@ -4,7 +4,7 @@
   margin: 0 auto; }
   @media only screen and (min-width: 998px) {
     .logobox {
-      width: unset; } }
+      width: 100%; } }
 
 .bethoven {
   font-family: "Ludvig"; }

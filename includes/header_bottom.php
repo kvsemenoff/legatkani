@@ -7,11 +7,12 @@
 			<a href="#">
 				<div class="logobox">
 					<div class="logobox__img">
-						<img class="img-responsive" src="img/logo.png" alt="">
+						<!-- <img class="img-responsive" src="img/logo.png" alt=""> -->
+						<img class="img-responsive" src="img/ln.png" alt="">
 					</div>
-					<div class="logobox__txt">
+					<!-- <div class="logobox__txt">
 						<span>Склад итальянских тканей</span>
-					</div>
+					</div> -->
 				</div>
 			</a>
 		</div>
