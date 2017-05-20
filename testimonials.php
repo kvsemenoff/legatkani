@@ -14,7 +14,7 @@
 						</div>
 						<div class="breadcrumps-wrap">
 							<ul class="breadcrumps">
-								<li class="breadcrumps__link breadcrumps__link_home"><a href="/" class="bread_menu__link_bg">Главная</a></li>				
+								<li class="breadcrumps__link breadcrumps__link_home"><a href="/" class="bread_menu__link_bg">Главная</a></li>
 								<li class="breadcrumps__link"><span>Отзывы</span></li>
 							</ul>
 						</div>
@@ -98,13 +98,13 @@
 								<div class="form-inner clearfix">
 									<div class="form-left">
 										<div class="input-wrap">
-											<input type="text" class="input__control" placeholder="Ваше имя" name="uname" required>
+											<input type="text" class="input__basket" placeholder="Ваше имя" name="uname" required>
 										</div>
 										<div class="input-wrap">
-											<input type="tel" class="input__control js-phone" name="phone" placeholder="+7(___)___-__-__" required>
+											<input type="tel" class="input__basket js-phone" name="phone" placeholder="+7(___)___-__-__" required>
 										</div>
 										<div class="input-wrap">
-											<input type="email" class="input__control" placeholder="E-mail" name="email" required>
+											<input type="email" class="input__basket" placeholder="E-mail" name="email" required>
 										</div>
 									</div>
 									<div class="form-right">

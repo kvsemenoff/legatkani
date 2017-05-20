@@ -1,2 +1,98 @@
-.modal-p{font-size:18px;font-weight:400;line-height:30px;color:#333;padding-bottom:100px;padding-top:50px}.submit-padding{padding:0 10px}.modal-margin{margin-right:20px}.fon{background:gray;padding:40px 0}.modal-h3{font-size:31px !important;letter-spacing:0.01em;margin-bottom:50px;text-transform:uppercase;line-height:30px !important}.modal-submit{margin-top:30px !important;font-size:14px !important;font-family:'Open Sans', sans-serif !important;display:inline-block}#js-form1,#js-form2,#js-form3,#js-form4,#js-form5{position:relative;max-width:420px;margin:0 auto;background:#fff;text-align:center;padding:60px 40px;box-shadow:4.6px 6.6px 46.4px 7.6px rgba(0,0,0,0.41)}#js-form5{padding-bottom:80px}.modal-close{display:inline-block;width:18px;height:18px;position:absolute;top:10px;right:20px;cursor:pointer;background:url("../../img/modal-close.png") no-repeat top right}.modal-align{text-align:left}.modal-auth{background-color:#f5f4f4 !important}.modal-input{height:40px !important;max-width:420px !important;padding:0 18px}.modal-input::-moz-placeholder{line-height:40px}.modal-across{color:#7f2461;font-size:14px;font-weight:400;line-height:26px;display:inline-block;text-decoration:none;font-family:'Open Sans', sans-serif;padding-top:10px}.submit-sign{padding:0 92px !important}.submit-podpis{padding:0 60px !important}
-/*# sourceMappingURL=style.css.map */
+.modal-p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #333;
+  padding-bottom: 100px;
+  padding-top: 50px;
+}
+
+.submit-padding {
+  padding: 0 10px;
+}
+
+.modal-margin {
+  margin-right: 20px;
+}
+
+.fon {
+  background: gray;
+  padding: 40px 0;
+}
+
+.modal-h3 {
+  font-size: 31px !important;
+  letter-spacing: 0.01em;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  line-height: 30px !important;
+}
+
+.modal-submit {
+  margin-top: 30px !important;
+  font-size: 14px !important;
+  font-family: 'Open Sans', sans-serif !important;
+  display: inline-block;
+}
+
+#js-form1, #js-form2, #js-form3, #js-form4, #js-form5 {
+  position: relative;
+  max-width: 420px;
+  margin: 0 auto;
+  background: #fff;
+  text-align: center;
+  padding: 60px 40px;
+  box-shadow: 4.6px 6.6px 46.4px 7.6px rgba(0, 0, 0, 0.41);
+}
+
+#js-form5 {
+  padding-bottom: 80px;
+}
+
+.modal-close {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  cursor: pointer;
+  background: url("../../img/modal-close.png") no-repeat top right;
+}
+
+.modal-align {
+  text-align: left;
+}
+
+.modal-auth {
+  background-color: #f5f4f4 !important;
+}
+
+.modal-input {
+  height: 40px !important;
+  max-width: 420px !important;
+  padding: 0 18px !important;
+}
+
+.modal-input::-moz-placeholder {
+  line-height: 40px;
+}
+
+.modal-across {
+  color: #7f2461;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  display: inline-block;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 10px;
+}
+
+.submit-sign {
+  padding: 0 92px !important;
+}
+
+.submit-podpis {
+  padding: 0 60px !important;
+}

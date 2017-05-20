@@ -62,7 +62,7 @@
 	.modal-input{
 		height: 40px !important;
 		max-width: 420px !important;
-		padding: 0 18px;
+		padding: 0 18px !important;
 		&::-moz-placeholder { line-height: 40px }
 	}
 	.modal-across{
