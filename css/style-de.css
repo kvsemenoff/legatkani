@@ -200,7 +200,7 @@
 .basket-list .item__price-order { width: 95px; }
 @media only screen and (max-width: 770px) { .basket-list .item__price-order { display: none; } }
 .basket-list .item__delete { width: 35px; text-align: right !important; }
-.basket-list .item__delete button { border: none; width: 14px; height: 13px; outline: none; background: url(../img/close-btn.png); }
+.basket-list .item__delete button { border: none; width: 14px; height: 13px; outline: none; background: url(../img/close-btn.png) no-repeat; }
 @media only screen and (max-width: 1199px) { .basket-list .item__delete { width: 15px; float: right !important; } }
 @media only screen and (max-width: 500px) { .basket-list .item__delete { width: 15px; } }
 .basket-list .item__title { padding: 0; background: none; }
