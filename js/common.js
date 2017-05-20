@@ -68,7 +68,7 @@ $(document).ready(function(){
 	// $(".checkbox").("checked");
 
 	$('.checkbox').change(function(){
-		if($(this).is("checked")){
+		if($(this).is(":checked")){
 			alert(1);
 		}
 	});
