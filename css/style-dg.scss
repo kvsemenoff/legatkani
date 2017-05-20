@@ -520,10 +520,12 @@ padding-bottom: 100px;
 .lace__filter {
   margin-bottom: 30px;
 }
-.button__basket {
-  display: block;
-  width: 201px;
-  margin: auto;
+.lace__item {
+  .button__basket {
+    display: block;
+    width: 201px;
+    margin: auto;
+  }
 }
 .lace__item {
   text-align: center;
