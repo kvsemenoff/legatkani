@@ -463,7 +463,10 @@
 	&_title{
 		text-align: center;
 		padding: 62px 0px 51px;
+
 		.h2{
+			font-size: 30px;
+			line-height: 27px;
 			@media only screen and (min-width : 1200px) {
 				font-size: 43px;
 				line-height: 39px;
@@ -474,6 +477,15 @@
 		text-align: center;
 		span{
 			display: inline-block;
+		}
+		a{
+			font-family: 'Open Sans', sans-serif;
+			display: inline-block;
+			font-weight: 400;
+			color:#696969;
+			&:hover{
+				color:#941F63;
+			}
 		}
 		&_title{
 			text-transform: uppercase;
@@ -505,8 +517,12 @@
 		@media only screen and (min-width : 480px) {
 			float: right;
 			padding-bottom: 46px;
-			padding-top: 118px;
+			padding-top: 85px;
 		}
+		@media only screen and (min-width : 1240px) {
+			padding-top: 85px;
+		}
+
 		&_item{
 			float: left;
 		}

@@ -49,8 +49,9 @@ q:before, q:after {
       font-weight: 400; }
       .table__item_first span b {
         font-weight: 700; }
-  .table__item_fl {
-    padding-left: 114px; }
+  @media only screen and (min-width: 1240px) {
+    .table__item_fl {
+      padding-left: 114px; } }
   .table__item_txt {
     display: table-cell;
     padding-left: 37px; }

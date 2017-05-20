@@ -17,22 +17,22 @@
 				<div class="news-page">
 					<div class="news-page__block">
 
-						<img class="img-responsive" src="img/n1.jpg" alt="">
+						<img class="img-responsive" src="img/n4.jpg" alt="">
 						<div class="news-page__block_title">
 							<h1 class="h2">Модные вещи из итальянской ткани<br/> знаменитого дизайнера</h1>
 						</div>
 						<div class="news-page__block_plan">
-							<span class="news-page__block_plan_title">план статьи:</span><br/>
-							<span class="news-page__block_plan_theme">Тенденции 2016</span><br/>
-							<span class="news-page__block_plan_theme">Старое на новое в новом сезоне</span><br/>
-							<span class="news-page__block_plan_theme">Список брендовых ателье</span>
+							<span class="news-page__block_plan_title">план статьи:</span> <br/>
+							<a href="#" class="news-page__block_plan_theme">Тенденции 2016</a> <br/>
+							<a href="#" class="news-page__block_plan_theme">Старое на новое в новом сезоне</a> <br/>
+							<a href="#" class="news-page__block_plan_theme">Список брендовых ателье</a>
 						</div>
 						<div class="news-page__block_time">12.05.2017</div>
-				<!-- 		<div class="news-page__block_social">
+						<div class="news-page__block_social">
 							<div class="news-page__block_social_item"><span>Поделиться:</span></div>
 							<div class="news-page__block_social_item"><img src="img/s5.jpg" alt=""></div>
 							<div class="clearfix"></div>
-						</div> -->
+						</div> 
 						<div class="clearfix"></div>
 
 						<div class="news-page__block_txt">

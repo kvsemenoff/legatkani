@@ -57,7 +57,10 @@ footer, header, hgroup, menu, nav, section {
 			}
 		}
 		&_fl{
-			padding-left: 114px;
+			// padding-left: 114px;
+			@media only screen and (min-width : 1240px) {
+				padding-left: 114px;
+			}
 		}
 		&_txt{
 			display: table-cell;
