@@ -207,7 +207,7 @@
 @media only screen and (max-width: 770px) { .basket-list .item__title { display: none; } }
 .basket-list .item__title .item__img { height: 20px; }
 .basket-list .item__title .vertical-middle { padding: 0; text-align: left; }
-.basket-list .item__title .vertical-middle span { text-transform: uppercase; line-height: 32px; font-size: 11px; color: #000; }
+.basket-list .item__title .vertical-middle span { text-transform: uppercase; line-height: 32px; font-size: 11px; color: #000; font-weight: 600; }
 .basket-list .item__title .item__descr { padding: 0; height: 20px; float: left; }
 .basket-list .item__title .item__price-one { padding-left: 27px; }
 .basket-list .item__title .item__quan { text-align: center; }
