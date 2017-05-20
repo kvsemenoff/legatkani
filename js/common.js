@@ -54,7 +54,7 @@ $(document).ready(function(){
 	// END Раскрывающийся каталог на главной
 
 	// Раскрывающийся список в каталоге
-	$(".button__catalog, .but-spisok").click(function(evt){
+	$(".but-spisok_b").click(function(evt){
 		evt.preventDefault();
 		$(".sidebar-menu").slideToggle(500);
 	});

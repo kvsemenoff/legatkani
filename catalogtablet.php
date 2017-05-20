@@ -24,14 +24,14 @@
 					<div class="lace__sidebar catalog__sidebar">
 						<div class="but-spisok_b">
 							
-							<a class="button__catalog" href="#">
+							<div class="button__catalog">
 								<div class="burger__spisok">
 									<i class="fa fa-bars" aria-hidden="true"></i>
 								</div>
 								<div class="but-spisok">
 									<a class="dd-but_cat" href="#">Каталог тканей</a>
 								</div>
-							</a>
+							</div>
 
 						</div>
 						<div class="clearfix"></div>
