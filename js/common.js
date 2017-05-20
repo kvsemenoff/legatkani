@@ -60,6 +60,19 @@ $(document).ready(function(){
 	});
 	// END Раскрывающийся список в каталоге
 
+	// $(".checkbox__label").click(function(){
+	// 	// i.preventDefault();
+	// 	$("..checkbox-custom").css("border", "none");
+	// });
+	
+	// $(".checkbox").prop("checked");
+
+	
+if($('.chekbox').prop('checked')) {
+  alert("Флажок установлен");
+} esle {
+  console.log("Флажок не установлен");
+}
 
 
 	var owlcart = $(".slider-owl-carousel");
