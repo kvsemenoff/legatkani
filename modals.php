@@ -71,7 +71,7 @@
 								<input type="tel" class="input__control modal-input" placeholder="+7(___)___-__-__" name="phone" required>
 							</div>
 							<div class="input">
-							<select class="form-select input__control qustion-input-margin modal-input modal-align" 
+							<select class="form-select input__control qustion-input-margin modal-input-select modal-align" 
 							id="type">
 									<option value="">Город доставки</option>
 									<option value="">Москва</option>
@@ -89,6 +89,13 @@
 							</div>
 							<input type="submit" name="submit" class="submit modal-submit" value="Зарегистрироваться">
 						</form>
+					</div>
+						<br><br>
+					<div class="js-window" id="js-form5">
+					<span class="modal-close"></span>
+						<p class="modal-p">Вы уверенны, что хотите сменить своего менеджера?</p>
+						<a href="#" class="button button__basket button__basket_buy2 modal-margin"><span class="button__basket_txt button__basket_buy2_txt submit-padding">Да</span></a>
+						<a href="#" class="button button__basket button__basket_buy2 "><span class="button__basket_txt button__basket_buy2_txt submit-padding">Нет</span></a>
 					</div>
 				</div>
 			</div>

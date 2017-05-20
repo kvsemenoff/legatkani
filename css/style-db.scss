@@ -1,3 +1,4 @@
+
 .stock{
 	&_view{
 		background: url("../img/stock-fon.png")no-repeat bottom center;
@@ -23,8 +24,8 @@
 		padding-left: 15px;
 		padding-right: 15px; 
 		@media only screen and (min-width : 992px) {
-		padding-left: unset;
-		padding-right: unset; 
+			padding-left: unset;
+			padding-right: unset; 
 		}
 	}
 	&__text{
