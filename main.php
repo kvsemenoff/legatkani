@@ -296,7 +296,7 @@
 										<input type="tel" class="input__basket js-phone" name="phone" placeholder="+7 (465)465-45-45" required>
 									</div>
 									<div class="input input_theme_rosa">
-										<input type="email" class="input__basket" placeholder="legatkani@gmail.com* name="email" required>
+										<input type="email" class="input__basket" placeholder="legatkani@gmail.com*" name="email" required>
 									</div>
 									<div class="input input_theme_rosa">
 										<select class="form-select input__basket" id="type2">
@@ -410,5 +410,6 @@
 			<?php require_once('includes/footer.php'); ?>
 		</div>
 	</div>
+</div>
 </body>
 </html>
