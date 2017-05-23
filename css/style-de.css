@@ -878,7 +878,11 @@
 .basket-order .form__info p {
   font-size: 13px;
   color: #525252;
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+  line-height: 31px; }
+  @media only screen and (min-width: 800px) {
+    .basket-order .form__info p {
+      line-height: normal; } }
   .basket-order .form__info p a {
     color: #6b6b6b;
     text-decoration: underline; }
