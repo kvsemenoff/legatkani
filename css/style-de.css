@@ -3,6 +3,12 @@
   @media only screen and (max-width: 700px) {
     .inner-de {
       padding: 20px 0; } }
+  @media only screen and (min-width: 770px) {
+    .inner-de {
+      padding: 36px 0 15px; } }
+  @media only screen and (min-width: 1200px) {
+    .inner-de {
+      padding: 36px 0 95px; } }
   @media only screen and (max-width: 770px) {
     .inner-de .row {
       margin: 0; } }
