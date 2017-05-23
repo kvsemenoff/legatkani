@@ -14,8 +14,8 @@
 						</div>
 						<div class="breadcrumps-wrap">
 							<ul class="breadcrumps">
-								<li class="breadcrumps__link breadcrumps__link_home"><a href="/" class="bread_menu__link_bg">Главная</a></li>				
-								<li class="breadcrumps__link breadcrumps__link_home"><a href="/" class="bread_menu__link_bg">Личнй кабинет</a></li>				
+								<li class="breadcrumps__link breadcrumps__link_home"><a href="/" class="bread_menu__link_bg">Главная</a></li>
+								<li class="breadcrumps__link breadcrumps__link_home"><a href="/" class="bread_menu__link_bg">Личнй кабинет</a></li>
 								<li class="breadcrumps__link"><span>Состав заказа</span></li>
 							</ul>
 						</div>
@@ -77,7 +77,7 @@
 						<div class="basket-list basket-list_composition">
 							<div class="item item__title clearfix">
 								<div class="item__img"></div>
-								<div class="item__descr vertical-middle">
+								<div class="item__descr vertical-middle item__descr_top">
 									<span>Наименование</span>
 								</div>
 								<div class="vertical-middle item__price-one">

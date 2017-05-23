@@ -3,12 +3,6 @@
 	@media only screen and (max-width : 700px) {
 		padding: 20px 0;
 	}
-	@media only screen and (min-width : 770px) {
-		padding: 36px 0 15px;
-	}
-	@media only screen and (min-width : 1200px) {
-		padding: 36px 0 95px;
-	}
 	.row{
 		@media only screen and (max-width : 770px) {
 			margin: 0;
@@ -255,7 +249,7 @@
 	}
 	.h1_slider-wrap h1{
 		text-align: left;
-		span{
+	  span{
 			text-transform: none;
 			color: #2f2f2f;
 			font-size: 14px;
@@ -481,8 +475,8 @@
 		}
 		&_red{
 			top: 54px;
-			right: 59px;
-			@media only screen and (max-width : 770px) {
+  	  right: 59px;
+  	  @media only screen and (max-width : 770px) {
 				top: 30px;
 				right: 15px;
 			}
@@ -636,7 +630,7 @@
 		&:hover{
 			@media only screen and (min-width : 770px) {
 				&__img-in{
-					z-index: 10;
+						z-index: 10;
 				}
 				img{
 					opacity: 0.3;
@@ -726,8 +720,8 @@
 			}
 		}
 		&__img{
-			width: 265px;
-			height: 241px;
+	    width: 265px;
+ 		  height: 241px;
 			float: left;
 			position: relative;
 			img{
@@ -806,14 +800,14 @@
 			}
 			@media only screen and (max-width : 500px) {
 				i{
-					position: absolute;
-					left: 10%;
-					bottom: -27px;
-					display: block;
-					width: 100%;
-					font-size: 11px;
-					z-index: 10;
-					width: 114px;
+			    position: absolute;
+			    left: 10%;
+			    bottom: -27px;
+			    display: block;
+			    width: 100%;
+			    font-size: 11px;
+			    z-index: 10;
+			    width: 114px;
 				}
 			}
 		}
@@ -1008,7 +1002,7 @@
 			width: 33.33%;
 		}
 		textarea{
-			height: 110px;
+			height: 115px;
 		}
 		.message_big{
 			@media only screen and (min-width : 770px) {
@@ -1056,10 +1050,6 @@
 			font-size: 13px;
 			color: #525252;
 			padding-bottom: 20px;
-			line-height: 31px;
-			@media only screen and (min-width : 800px) {
-				line-height: normal;
-			}
 			a{
 				color: #6b6b6b;
 				text-decoration: underline;
@@ -1094,7 +1084,7 @@
 		}
 		.vertical-middle{
 			padding-top: 50px;
-			text-align: center!important;
+			text-align: center;
 			border-right: 3px solid #fff;
 			height: 115px;
 			&:last-child{
@@ -1177,6 +1167,15 @@
 	}
 	@media only screen and (max-width : 685px) {
 		display: none;
+	}
+}
+.basket-list .item__descr_top {
+	text-align: center !important;
+	span {
+		margin-right: 60px;
+		@media screen and (min-width: 1248px) {
+			margin-right: 35px;
+		}
 	}
 }
 .basket-list_composition-mini{
@@ -1799,7 +1798,7 @@
 		}
 		&_delete{
 			padding-top: 14px;
-			span{
+			 span{
 				background: url(../img/close-btn-fiol.png) left center no-repeat;
 			}
 		}
