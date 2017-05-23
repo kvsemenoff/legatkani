@@ -13,7 +13,7 @@
 			.tovar_img__hover{		
 				opacity: 1;
 				a{
-					display: inline-block;
+					display: block;
 				}
 			}
 		}
@@ -37,10 +37,7 @@
 	width: 100%;
 	height: 235px;
 	background-color: rgba(#fff, 0.7);
-	text-align: center;
-	background-image: url("../../img/heart.png");
-	background-repeat: no-repeat;
-	background-position: center bottom 37%; 
+	text-align: center;	
 	transition:0.4s;
 	display: block;
 	@media only screen and (min-width : 800px) {
@@ -53,7 +50,7 @@
 		width: 100%;
 		height: 235px;
 	}
-	a{
+	.tovar_img__lookmore{
 		padding-top: 35%;
 		color: #525252;
 		font-family: 'Playfair Display', serif;
@@ -61,6 +58,19 @@
 		font-style: italic;
 		text-decoration: none;		
 		display: none;
+	}
+	.tovar_img__heart{
+		width: 27px;
+		height: 24px;
+		display: none;
+		margin: 0 auto;
+		padding-top: 50px;//25
+		background-image: url("../../img/heart.png");
+		background-repeat: no-repeat;
+		background-position: center;
+		&:hover{			
+			background-image: url("../../img/heart-full.png");
+		} 
 	}
 	&:after{
 		content: "";
@@ -125,7 +135,7 @@
 	width: 275px;
 	display: inline-block;
 	vertical-align: top;
-	min-height: 414px;
+	min-height: 420px;
 	@media only screen and (min-width : 768px) {
 		width: 243px;
 		padding: 0 7px;
@@ -147,8 +157,7 @@
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
 	.hovereffect{
-		padding: 13px 17px 9px 37px;
-		
+		padding: 13px 17px 9px 37px;		
 		span{			
 			background: url(../../img/korz.png) no-repeat left 2px top;
 			padding-left: 40px;

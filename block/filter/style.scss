@@ -29,7 +29,9 @@
 		}
 	}
 }
-
+a:active, a:focus{
+	outline: none;
+}
 .filter__link{
 	color: #7f2461;
 	font-family: "OpenSans", sans-serif;
@@ -39,6 +41,7 @@
 	text-transform: uppercase;
 	display: inline-block;	
 	text-decoration: none;
+	outline: none;
 	position: relative;	
 	&:after{
 		content: '';

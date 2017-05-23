@@ -1,3 +1,6 @@
+a:active, a:focus {
+  outline: none; }
+
 .sliderbox {
   position: relative; }
 

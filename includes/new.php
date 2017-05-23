@@ -10,7 +10,8 @@
 					<a href="#"><img src="img/tkan.jpg" alt=""></a>
 					<div class="tovar_img__hover">
 						<div class="tovar_img__border">
-							<a href="#">Подробнее ></a>
+							<a href="#" class="tovar_img__lookmore">Подробнее ></a>
+							<a href="#" class="tovar_img__heart"></a>
 						</div>			
 					</div>
 				</div>
@@ -28,7 +29,8 @@
 					<a href="#"><img src="img/tkan1.jpg" alt=""></a>
 					<div class="tovar_img__hover">
 						<div class="tovar_img__border">
-							<a href="#">Подробнее ></a>
+							<a href="#" class="tovar_img__lookmore">Подробнее ></a>
+							<a href="#" class="tovar_img__heart"></a>
 						</div>			
 					</div>
 				</div>
@@ -46,8 +48,9 @@
 					<a href="#"><img src="img/tkan2.jpg" alt=""></a>
 					<div class="tovar_img__hover">
 						<div class="tovar_img__border">
-							<a href="#">Подробнее ></a>
-						</div>			
+							<a href="#" class="tovar_img__lookmore">Подробнее ></a>
+							<a href="#" class="tovar_img__heart"></a>
+						</div>		
 					</div>
 				</div>
 				<div class="tovar_img__toplent tovar_img__toplent_new"><span>новинка</span></div>
@@ -64,7 +67,8 @@
 					<a href="#"><img src="img/tkan3.jpg" alt=""></a>
 					<div class="tovar_img__hover">
 						<div class="tovar_img__border">
-							<a href="#">Подробнее ></a>
+							<a href="#" class="tovar_img__lookmore">Подробнее ></a>
+							<a href="#" class="tovar_img__heart"></a>
 						</div>			
 					</div>
 				</div>
@@ -92,8 +96,9 @@
 					<a href="#"><img src="img/tkan4.jpg" alt=""></a>
 					<div class="tovar_img__hover">
 						<div class="tovar_img__border">
-							<a href="#">Подробнее ></a>
-						</div>			
+							<a href="#" class="tovar_img__lookmore">Подробнее ></a>
+							<a href="#" class="tovar_img__heart"></a>
+						</div>		
 					</div>
 				</div>
 				<div class="tovar_img__toplent tovar_img__toplent_sale"><span>распродажа</span></div>
@@ -110,8 +115,9 @@
 					<a href="#"><img src="img/tkan5.jpg" alt=""></a>
 					<div class="tovar_img__hover">
 						<div class="tovar_img__border">
-							<a href="#">Подробнее ></a>
-						</div>			
+							<a href="#" class="tovar_img__lookmore">Подробнее ></a>
+							<a href="#" class="tovar_img__heart"></a>
+						</div>		
 					</div>
 				</div>
 				<div class="tovar_img__toplent tovar_img__toplent_sale"><span>распродажа</span></div>
@@ -128,7 +134,8 @@
 					<a href="#"><img src="img/tkan6.jpg" alt=""></a>
 					<div class="tovar_img__hover">
 						<div class="tovar_img__border">
-							<a href="#">Подробнее ></a>
+							<a href="#" class="tovar_img__lookmore">Подробнее ></a>
+							<a href="#" class="tovar_img__heart"></a>
 						</div>			
 					</div>
 				</div>
@@ -146,7 +153,8 @@
 					<a href="#"><img src="img/tkan7.jpg" alt=""></a>
 					<div class="tovar_img__hover">
 						<div class="tovar_img__border">
-							<a href="#">Подробнее ></a>
+							<a href="#" class="tovar_img__lookmore">Подробнее ></a>
+							<a href="#" class="tovar_img__heart"></a>
 						</div>			
 					</div>
 				</div>
@@ -176,7 +184,8 @@
 					<a href="#"><img src="img/tkan6.jpg" alt=""></a>
 					<div class="tovar_img__hover">
 						<div class="tovar_img__border">
-							<a href="#">Подробнее ></a>
+							<a href="#" class="tovar_img__lookmore">Подробнее ></a>
+							<a href="#" class="tovar_img__heart"></a>
 						</div>			
 					</div>
 				</div>
@@ -194,7 +203,8 @@
 					<a href="#"><img src="img/tkan8.jpg" alt=""></a>
 					<div class="tovar_img__hover">
 						<div class="tovar_img__border">
-							<a href="#">Подробнее ></a>
+							<a href="#" class="tovar_img__lookmore">Подробнее ></a>
+							<a href="#" class="tovar_img__heart"></a>
 						</div>			
 					</div>
 				</div>
@@ -212,7 +222,8 @@
 					<a href="#"><img src="img/tkan9.jpg" alt=""></a>
 					<div class="tovar_img__hover">
 						<div class="tovar_img__border">
-							<a href="#">Подробнее ></a>
+							<a href="#" class="tovar_img__lookmore">Подробнее ></a>
+							<a href="#" class="tovar_img__heart"></a>
 						</div>			
 					</div>
 				</div>
@@ -230,7 +241,8 @@
 					<a href="#"><img src="img/tkan10.jpg" alt=""></a>
 					<div class="tovar_img__hover">
 						<div class="tovar_img__border">
-							<a href="#">Подробнее ></a>
+							<a href="#" class="tovar_img__lookmore">Подробнее ></a>
+							<a href="#" class="tovar_img__heart"></a>
 						</div>			
 					</div>
 				</div>
