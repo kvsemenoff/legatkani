@@ -127,7 +127,7 @@ a:active, a:focus{
 	span{
 		color: black;
 		font-size: 10px;
-		font-weight: 400;
+		font-weight: 600;
 		line-height: 48px;
 		text-transform: uppercase;
 		vertical-align: middle;
@@ -156,7 +156,6 @@ a:active, a:focus{
 	vertical-align: middle;
 }
 
-
 .filter__sortbox{
 	max-width: 410px;
 	display: inline-block;
@@ -166,7 +165,7 @@ a:active, a:focus{
 	span{
 		color: black;
 		font-size: 10px;
-		font-weight: 400;
+		font-weight: 600;
 		line-height: 48px;
 		text-transform: uppercase;
 		margin-right: 13px;
@@ -216,7 +215,7 @@ a:active, a:focus{
 	span{
 		color: black;
 		font-size: 10px;
-		font-weight: 400;
+		font-weight: 600;
 		line-height: 48px;
 		text-transform: uppercase;
 		margin-right: 7px;
@@ -232,6 +231,7 @@ a:active, a:focus{
 	}
 	.filter__onpage__checked{		
 		color: black;
+		font-weight: 600;
 	}
 }
 
