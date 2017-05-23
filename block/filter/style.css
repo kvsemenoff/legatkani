@@ -107,7 +107,7 @@ a:active, a:focus {
   .filter__vid span {
     color: black;
     font-size: 10px;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 48px;
     text-transform: uppercase;
     vertical-align: middle;
@@ -142,7 +142,7 @@ a:active, a:focus {
   .filter__sortbox span {
     color: black;
     font-size: 10px;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 48px;
     text-transform: uppercase;
     margin-right: 13px; }
@@ -188,7 +188,7 @@ a:active, a:focus {
   .filter__onpage span {
     color: black;
     font-size: 10px;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 48px;
     text-transform: uppercase;
     margin-right: 7px; }
@@ -201,7 +201,8 @@ a:active, a:focus {
     text-decoration: none;
     padding-right: 5px; }
   .filter__onpage .filter__onpage__checked {
-    color: black; }
+    color: black;
+    font-weight: 600; }
 
 /* mobile filter*/
 .button__filer {
