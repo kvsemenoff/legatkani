@@ -495,7 +495,7 @@
 .sale {
   float: left;
   width: 50%;
-  padding: 0 11px;
+  padding: 0;
 }
 
 @media only screen and (max-width: 770px) {
@@ -504,6 +504,12 @@
     float: none;
     margin: 0 auto 30px;
     max-width: 400px;
+  }
+}
+
+@media screen and (min-width: 771px) {
+  .sale {
+    padding: 0 11px;
   }
 }
 
