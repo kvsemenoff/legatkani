@@ -57,7 +57,10 @@ q:before, q:after {
     padding-left: 37px; }
     .table__item_txt span {
       font-family: 'Open Sans', sans-serif;
-      font-size: 14px; }
+      font-size: 12px; }
+      @media only screen and (min-width: 320px) {
+        .table__item_txt span {
+          font-size: 14px; } }
   .table__item_txt2 {
     text-align: right;
     padding-right: 37px; }
@@ -103,7 +106,7 @@ q:before, q:after {
     .table__2 .table__item_main .table__item_main_txt2 {
       padding-right: 168px; } }
 
-@media only screen and (min-width: 468px) {
+@media only screen and (min-width: 768px) {
   .table {
     width: 50%;
     float: left; } }

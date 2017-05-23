@@ -127,6 +127,9 @@
       .header-bottom__box_item1 {
         background: url(../img/tel.png) no-repeat left top 19px;
         height: 44px; } }
+    @media only screen and (min-width: 800px) {
+      .header-bottom__box_item1 {
+        background: url(../img/tel.png) no-repeat left top 15px; } }
     @media only screen and (min-width: 992px) {
       .header-bottom__box_item1 {
         background: url(../img/tel.png) no-repeat left top 10px;
@@ -224,9 +227,16 @@
     @media only screen and (min-width: 768px) {
       .header-bottom__box_item4 {
         background: url(../img/map.png) no-repeat left top 19px; } }
+    @media only screen and (min-width: 800px) {
+      .header-bottom__box_item4 {
+        background: url(../img/map.png) no-repeat left top 25px; } }
     @media only screen and (min-width: 992px) {
       .header-bottom__box_item4 {
-        background: url(../img/map.png) no-repeat left top 8px; } }
+        background: url(../img/map.png) no-repeat left top 11px;
+        width: 70%; } }
+    @media only screen and (min-width: 1240px) {
+      .header-bottom__box_item4 {
+        width: 100%; } }
   @media only screen and (min-width: 768px) {
     .header-bottom__box {
       display: inline-block; } }

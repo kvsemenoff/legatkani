@@ -2,8 +2,7 @@
 	padding-left: 0;
 	padding-right: 0;
 	position: relative;
-	width: 100%;
-	
+	width: 100%;	
 	@media only screen and (min-width : 800px) {
 		padding-left: 30px;
 	}
@@ -145,6 +144,9 @@
 			background:url(../img/tel.png) no-repeat left top 19px;
 			height: 44px;
 		}
+		@media only screen and (min-width : 800px) {
+			background:url(../img/tel.png) no-repeat left top 15px;
+		}
 		@media only screen and (min-width : 992px) {
 			background:url(../img/tel.png) no-repeat left top 10px;
 			float: left;
@@ -253,8 +255,15 @@
 		@media only screen and (min-width : 768px) {
 			background:url(../img/map.png) no-repeat left top 19px;
 		}
+		@media only screen and (min-width : 800px) {
+			background:url(../img/map.png) no-repeat left top 25px;
+		}
 		@media only screen and (min-width : 992px) {
-			background:url(../img/map.png) no-repeat left top 8px;
+			background:url(../img/map.png) no-repeat left top 11px;
+			width: 70%;
+		}
+		@media only screen and (min-width : 1240px) {
+			width: 100%;
 		}
 	}
 	@media only screen and (min-width : 768px) {
