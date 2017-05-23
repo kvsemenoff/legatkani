@@ -19,7 +19,7 @@
             <li class="hidden-xs">
               <a href="#" class="header_auth_list_link signin">Регистрация</a>
             </li>
-            <li class="hidden-sm hidden-md hidden-lg">
+            <li class="hidden-sm hidden-md hidden-lg authorize">
               <a href="#" class="header_auth_list_link auth"></a>
             </li>
             <li class="fav__li">

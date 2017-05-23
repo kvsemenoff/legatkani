@@ -1181,7 +1181,6 @@
 	}
 	.item-in{
 		margin: 0 auto;
-		max-width: 320px;
 	}
 	.item__mob{
 		float: left;
@@ -1373,6 +1372,9 @@
 	}
 	.showprice__wrap{
 		padding-bottom: 40px;
+	}
+	.form__info .checkbox__label{
+		margin-right: 20px;
 	}
 }
 .tab-content{

@@ -158,8 +158,8 @@
 		padding-right: 175px;
 		padding-top: 15px;
 		top: 44%;
-		left: 50%;//46	
-		max-width: 650px;
+		left: 50%;	
+		max-width: 700px;//650
 	}
 	@media only screen and (min-width : 1024px) {
 		padding-right: 0px;
@@ -176,9 +176,21 @@
 	text-transform: uppercase;
 	margin-bottom: 12px;
 	margin-top: 25px;
+	position: relative;
+	&:after{
+		content: "";
+		position: absolute;
+		bottom: -5px;
+		left:51%;
+		transform:translateX(-50%);
+		width: 50px;
+		height: 1px;
+		background-color: #2f2f2f;
+	}
 	@media only screen and (min-width : 800px) {
 		font-size: 40px;
 		margin-top: 57px;
+		&:after{ width: 97px; }
 	}
 	@media only screen and (min-width : 1200px) {
 		font-size: 50px;
