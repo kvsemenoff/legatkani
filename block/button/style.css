@@ -6,23 +6,32 @@
   -webkit-transition: 0.5s;
   -moz-transition: 0.5s;
   -o-transition: 0.5s;
-  transition: 0.5s; }
-  .button__news_txt {
-    color: #7f2461;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 12px;
-    font-weight: 600;
-    text-transform: uppercase; }
-  .button__news:hover {
-    border: 2px solid #7f2461;
-    background: #941F63; }
-    .button__news:hover .button__news_txt {
-      color: #fff; }
-  .button__news_buy_txt {
-    font-family: 'Playfair Display', serif;
-    font-style: italic;
-    text-transform: unset;
-    font-size: 14px; }
+  transition: 0.5s;
+}
+
+.button__news_txt {
+  color: #7f2461;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.button__news:hover {
+  border: 2px solid #7f2461;
+  background: #941F63;
+}
+
+.button__news:hover .button__news_txt {
+  color: #fff;
+}
+
+.button__news_buy_txt {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  text-transform: unset;
+  font-size: 14px;
+}
 
 .button__basket {
   padding: 9px 53px 12px 38px;
@@ -32,42 +41,59 @@
   -webkit-transition: 0.5s;
   -moz-transition: 0.5s;
   -o-transition: 0.5s;
-  transition: 0.5s; }
-  .button__basket_txt {
-    display: inline-block;
-    background: url(../../img/korz.png) no-repeat left center;
-    height: 24px;
-    padding-left: 42px;
-    padding-top: 2px;
-    color: #fff;
-    font-family: 'Playfair Display', serif;
-    font-style: italic; }
-  .button__basket:after {
-    position: absolute;
-    content: '';
-    background: url(../../img/shadow.png);
-    width: 201px;
-    height: 16px;
-    bottom: -16px;
-    left: 0; }
-  .button__basket:hover {
-    background: #A8447F; }
-  .button__basket_sub {
-    padding: 11px 50px; }
-    .button__basket_sub_txt {
-      background: none;
-      padding: 0; }
-    .button__basket_sub:after {
-      background: url(../../img/shadow2.png);
-      width: 181px;
-      height: 13px;
-      bottom: -13px; }
-  .button__basket_buy2 {
-    padding: 11px 50px; }
-    .button__basket_buy2_txt {
-      background: none;
-      padding: 0; }
-    .button__basket_buy2:after {
-      display: none; }
+  transition: 0.5s;
+}
 
-/*# sourceMappingURL=style.css.map */
+.button__basket_txt {
+  display: inline-block;
+  background: url(../../img/korz.png) no-repeat left center;
+  height: 24px;
+  padding-left: 42px;
+  padding-top: 2px;
+  color: #fff;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+}
+
+.button__basket:after {
+  position: absolute;
+  content: '';
+  background: url(../../img/shadow.png);
+  width: 201px;
+  height: 16px;
+  bottom: -16px;
+  left: 0;
+}
+
+.button__basket:hover {
+  background: #A8447F;
+}
+
+.button__basket_sub {
+  padding: 11px 27px;
+}
+
+.button__basket_sub_txt {
+  background: none;
+  padding: 0;
+}
+
+.button__basket_sub:after {
+  background: url(../../img/shadow2.png);
+  width: 181px;
+  height: 13px;
+  bottom: -13px;
+}
+
+.button__basket_buy2 {
+  padding: 11px 50px;
+}
+
+.button__basket_buy2_txt {
+  background: none;
+  padding: 0;
+}
+
+.button__basket_buy2:after {
+  display: none;
+}

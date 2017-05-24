@@ -1,7 +1,10 @@
 .breadcrumps{
 	display: block;
 	list-style: none;
-	text-align: center;
+	text-align: center;	
+	overflow: hidden;
+	white-space: nowrap;
+	padding: 0 15px;
 }
 .breadcrumps__link{
 	display: inline-block;
@@ -9,6 +12,7 @@
 	font-size: 13px;
 	font-style: italic;	
 	letter-spacing: 0.2px;
+	vertical-align: top;
 	a{
 		display: inline-block;		
 		text-decoration: none;
@@ -24,4 +28,25 @@
 	background-repeat: no-repeat;
 	background-position: right center;
 	padding-right:15px;
+}
+
+.breadcrumps__link:last-child{	
+	display: inline-block;
+	text-align: left;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	max-width: 100px;
+	span{
+		width: 100%;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		display: inline-block;
+	}
+	@media only screen and (min-width : 575px) {
+		width: auto;	
+		text-align: center;
+		max-width: none;	
+	}
 }

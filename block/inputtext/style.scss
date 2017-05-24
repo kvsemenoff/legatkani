@@ -3,9 +3,15 @@
   width: 100%;
   background: #fff;
 }
+textarea {
+  &:focus {
+    border-color: #000;
+    color: #000;
+  }
+}
 .input__control{
 	color: #747474;
-	font-family: "OpenSans", sans-serif;
+	font-family: "Open Sans", sans-serif;
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 54px;
@@ -17,38 +23,41 @@
 	border: 1px solid #d1d0d0;
 	&::-webkit-input-placeholder {
 		color: #747474;
-		font-family: "OpenSans", sans-serif;;
+		font-family: "Open Sans", sans-serif;;
 		font-size: 14px;
 		font-weight: 400;
 		line-height: 22px;
 }
 	&::-moz-placeholder          {
 		color: #747474;
-		font-family: "OpenSans", sans-serif;;
+		font-family: "Open Sans", sans-serif;;
 		font-size: 14px;
 		font-weight: 400;
 		line-height: 40px;
 	}/* Firefox 19+ */
 	&:-moz-placeholder           {
 		color: #747474;
-		font-family: "OpenSans", sans-serif;;
+		font-family: "Open Sans", sans-serif;;
 		font-size: 14px;
 		font-weight: 400;
 		line-height: 22px;
 	}/* Firefox 18- */
 	&:-ms-input-placeholder      {
 		color: #747474;
-		font-family: "OpenSans", sans-serif;;
+		font-family: "Open Sans", sans-serif;;
 		font-size: 14px;
 		font-weight: 400;
 		line-height: 22px;
 	}
+  &::-ms-clear {
+     display: none;
+  }
 }
 
 .input__basket {
-  color: #747474;
+  color: #000;
 	font-family: "OpenSans", sans-serif;
-	font-size: 14px;
+	font-size: 15px;
 	font-weight: 400;
 	padding: 10px 22px;
 	background: transparent;
@@ -83,5 +92,11 @@
 		font-weight: 400;
 		line-height: 22px;
 	}
+  &::-ms-clear {
+     display: none;
+  }
+  &:focus {
+    border-color: #000;
+  }
   height: 41px !important;
 }

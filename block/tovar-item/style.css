@@ -6,7 +6,7 @@
     .tovar_img:hover .tovar_img__hover {
       opacity: 1; }
       .tovar_img:hover .tovar_img__hover a {
-        display: inline-block; } }
+        display: block; } }
 
 .tovar_img__img img {
   width: 100%;
@@ -25,9 +25,6 @@
   height: 235px;
   background-color: rgba(255, 255, 255, 0.7);
   text-align: center;
-  background-image: url("../../img/heart.png");
-  background-repeat: no-repeat;
-  background-position: center bottom 37%;
   transition: 0.4s;
   display: block; }
   @media only screen and (min-width: 800px) {
@@ -40,7 +37,7 @@
       max-width: 262px;
       width: 100%;
       height: 235px; } }
-  .tovar_img__hover a {
+  .tovar_img__hover .tovar_img__lookmore {
     padding-top: 35%;
     color: #525252;
     font-family: 'Playfair Display', serif;
@@ -48,6 +45,17 @@
     font-style: italic;
     text-decoration: none;
     display: none; }
+  .tovar_img__hover .tovar_img__heart {
+    width: 27px;
+    height: 24px;
+    display: none;
+    margin: 0 auto;
+    padding-top: 50px;
+    background-image: url("../../img/heart.png");
+    background-repeat: no-repeat;
+    background-position: center; }
+    .tovar_img__hover .tovar_img__heart:hover {
+      background-image: url("../../img/heart-full.png"); }
   .tovar_img__hover:after {
     content: "";
     position: absolute;
@@ -96,7 +104,7 @@
   background: url("../../img/bgtovar.png") no-repeat left; }
 
 .tovar_img__toplent_sale {
-  background: url("../../img/bgtovar2.png") no-repeat left; }
+  background: url("../../img/bgtovarred.png") no-repeat left; }
 
 .tovar_img__toplent_expect {
   background: url("../../img/bgtovar3.png") no-repeat left; }
@@ -105,7 +113,7 @@
   width: 275px;
   display: inline-block;
   vertical-align: top;
-  min-height: 414px; }
+  min-height: 420px; }
   @media only screen and (min-width: 768px) {
     .tovar_item {
       width: 243px;

@@ -22,6 +22,9 @@
     opacity: 1;
     display: block; }
 
+a:active, a:focus {
+  outline: none; }
+
 .filter__link {
   color: #7f2461;
   font-family: "OpenSans", sans-serif;
@@ -31,6 +34,7 @@
   text-transform: uppercase;
   display: inline-block;
   text-decoration: none;
+  outline: none;
   position: relative; }
   .filter__link:after {
     content: '';
@@ -103,7 +107,7 @@
   .filter__vid span {
     color: black;
     font-size: 10px;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 48px;
     text-transform: uppercase;
     vertical-align: middle;
@@ -138,7 +142,7 @@
   .filter__sortbox span {
     color: black;
     font-size: 10px;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 48px;
     text-transform: uppercase;
     margin-right: 13px; }
@@ -184,7 +188,7 @@
   .filter__onpage span {
     color: black;
     font-size: 10px;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 48px;
     text-transform: uppercase;
     margin-right: 7px; }
@@ -197,7 +201,8 @@
     text-decoration: none;
     padding-right: 5px; }
   .filter__onpage .filter__onpage__checked {
-    color: black; }
+    color: black;
+    font-weight: 600; }
 
 /* mobile filter*/
 .button__filer {

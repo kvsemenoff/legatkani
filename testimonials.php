@@ -114,7 +114,7 @@
 									</div>
 								</div>
 								<div class="button-wrap">
-									<button class="button button__basket button__basket_sub"><span class="button__basket_txt button__basket_sub_txt">Отправить</span></button>
+									<button class="button button__basket button__basket_sub testimonials__btn"><span class="button__basket_txt button__basket_sub_txt">Отправить</span></button>
 								</div>
 							</form>
 						</div>

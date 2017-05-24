@@ -14,7 +14,7 @@
 						</div>
 						<div class="breadcrumps-wrap">
 							<ul class="breadcrumps">
-								<li class="breadcrumps__link breadcrumps__link_home"><a href="/" class="bread_menu__link_bg">Главная</a></li>				
+								<li class="breadcrumps__link breadcrumps__link_home"><a href="/" class="bread_menu__link_bg">Главная</a></li>
 								<li class="breadcrumps__link"><span>Корзина</span></li>
 							</ul>
 						</div>
@@ -63,8 +63,8 @@
 								</div>
 								<div class="vertical-middle item__quan">
 									<div class="switch__number">
-										<input type="text" value="1" disabled="disabled"> 
-										<span class="switch__button switch__button_down">-</span> 
+										<input type="text" value="1" disabled="disabled">
+										<span class="switch__button switch__button_down">-</span>
 										<span class="switch__button switch__button_up">+</span>
 									</div>
 								</div>
@@ -99,8 +99,8 @@
 								</div>
 								<div class="vertical-middle item__quan">
 									<div class="switch__number">
-										<input type="text" value="1" disabled="disabled"> 
-										<span class="switch__button switch__button_down">-</span> 
+										<input type="text" value="1" disabled="disabled">
+										<span class="switch__button switch__button_down">-</span>
 										<span class="switch__button switch__button_up">+</span>
 									</div>
 								</div>
@@ -159,8 +159,8 @@
 								</div>
 								<div class="vertical-middle item__quan">
 									<div class="switch__number">
-										<input type="text" value="1" disabled="disabled"> 
-										<span class="switch__button switch__button_down">-</span> 
+										<input type="text" value="1" disabled="disabled">
+										<span class="switch__button switch__button_down">-</span>
 										<span class="switch__button switch__button_up">+</span>
 									</div>
 								</div>
@@ -198,8 +198,8 @@
 								</div>
 								<div class="vertical-middle item__quan">
 									<div class="switch__number">
-										<input type="text" value="1" disabled="disabled"> 
-										<span class="switch__button switch__button_down">-</span> 
+										<input type="text" value="1" disabled="disabled">
+										<span class="switch__button switch__button_down">-</span>
 										<span class="switch__button switch__button_up">+</span>
 									</div>
 								</div>
@@ -305,7 +305,7 @@
 													</div>
 												</div>
 												<div class="right">
-													<div class="input input_theme_rosa">
+													<div class="input input_theme_rosa basket__textarea">
 													  <textarea name="message" class="message message_theme_rosa" placeholder="Ваш вопрос"></textarea>
 													</div>
 												</div>

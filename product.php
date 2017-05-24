@@ -109,7 +109,8 @@
 											<a href="#"><img src="img/tkan6.jpg" alt=""></a>
 											<div class="tovar_img__hover">
 												<div class="tovar_img__border">
-													<a href="#">Подробнее ></a>
+													<a href="#" class="tovar_img__lookmore">Подробнее ></a>
+													<a href="#" class="tovar_img__heart"></a>
 												</div>
 											</div>									
 										</div>								
@@ -128,7 +129,8 @@
 											<a href="#"><img src="img/tkan8.jpg" alt=""></a>
 											<div class="tovar_img__hover">
 												<div class="tovar_img__border">
-													<a href="#">Подробнее ></a>
+													<a href="#" class="tovar_img__lookmore">Подробнее ></a>
+													<a href="#" class="tovar_img__heart"></a>
 												</div>
 											</div>									
 										</div>								
@@ -147,7 +149,8 @@
 											<a href="#"><img src="img/tkan9.jpg" alt=""></a>
 											<div class="tovar_img__hover">
 												<div class="tovar_img__border">
-													<a href="#">Подробнее ></a>
+													<a href="#" class="tovar_img__lookmore">Подробнее ></a>
+													<a href="#" class="tovar_img__heart"></a>
 												</div>
 											</div>									
 										</div>								
@@ -166,7 +169,8 @@
 											<a href="#"><img src="img/tkan10.jpg" alt=""></a>
 											<div class="tovar_img__hover">
 												<div class="tovar_img__border">
-													<a href="#">Подробнее ></a>
+													<a href="#" class="tovar_img__lookmore">Подробнее ></a>
+													<a href="#" class="tovar_img__heart"></a>
 												</div>
 											</div>									
 										</div>								
@@ -196,7 +200,8 @@
 											<a href="#"><img src="img/tkan6.jpg" alt=""></a>
 											<div class="tovar_img__hover">
 												<div class="tovar_img__border">
-													<a href="#">Подробнее ></a>
+													<a href="#" class="tovar_img__lookmore">Подробнее ></a>
+													<a href="#" class="tovar_img__heart"></a>
 												</div>
 											</div>									
 										</div>								
@@ -215,7 +220,8 @@
 											<a href="#"><img src="img/tkan8.jpg" alt=""></a>
 											<div class="tovar_img__hover">
 												<div class="tovar_img__border">
-													<a href="#">Подробнее ></a>
+													<a href="#" class="tovar_img__lookmore">Подробнее ></a>
+													<a href="#" class="tovar_img__heart"></a>
 												</div>
 											</div>									
 										</div>								
@@ -234,7 +240,8 @@
 											<a href="#"><img src="img/tkan9.jpg" alt=""></a>
 											<div class="tovar_img__hover">
 												<div class="tovar_img__border">
-													<a href="#">Подробнее ></a>
+													<a href="#" class="tovar_img__lookmore">Подробнее ></a>
+													<a href="#" class="tovar_img__heart"></a>
 												</div>
 											</div>									
 										</div>								
@@ -253,7 +260,8 @@
 											<a href="#"><img src="img/tkan10.jpg" alt=""></a>
 											<div class="tovar_img__hover">
 												<div class="tovar_img__border">
-													<a href="#">Подробнее ></a>
+													<a href="#" class="tovar_img__lookmore">Подробнее ></a>
+													<a href="#" class="tovar_img__heart"></a>
 												</div>
 											</div>									
 										</div>								
