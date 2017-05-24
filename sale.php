@@ -6,7 +6,7 @@
 	</div>
 	<div class="n-content">
 		<div class="n-content-inner vertical-align">
-			<div class="inner-de sale-block">
+			<div class="inner-de inner-sale sale-block">
 				<div class="container">
 					<div class="row">
 						<div class="h1-wrap">
@@ -14,7 +14,7 @@
 						</div>
 						<div class="breadcrumps-wrap">
 							<ul class="breadcrumps">
-								<li class="breadcrumps__link breadcrumps__link_home"><a href="/" class="bread_menu__link_bg">Главная</a></li>				
+								<li class="breadcrumps__link breadcrumps__link_home"><a href="/" class="bread_menu__link_bg">Главная</a></li>
 								<li class="breadcrumps__link"><span>О нас</span></li>
 							</ul>
 						</div>

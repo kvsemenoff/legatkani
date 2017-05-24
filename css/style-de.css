@@ -30,6 +30,18 @@
   font-weight: 600;
 }
 
+@media only screen and (min-width: 770px) {
+  .inner-sale {
+    padding: 36px 0 10px;
+  }
+}
+
+@media only screen and (min-width: 1248px) {
+  .inner-sale {
+    padding: 36px 0 95px;
+  }
+}
+
 .google-online {
   height: 495px;
   background: #ccc;
@@ -699,6 +711,7 @@
   .sale .sale__text p {
     font-size: 12px;
     line-height: 18px;
+    padding-right: 10px;
   }
 }
 
@@ -1299,10 +1312,24 @@
   }
 }
 
+@media only screen and (min-width: 1200px) {
+  .basket-order .left {
+    float: left;
+    width: 70%;
+  }
+}
+
 @media only screen and (min-width: 770px) {
   .basket-order .right {
     float: left;
     width: 35%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .basket-order .right {
+    float: left;
+    width: 30%;
   }
 }
 
@@ -1414,6 +1441,18 @@
 
 .basket-order .checkbox__label {
   margin-right: 35px;
+}
+
+@media only screen and (min-width: 768px) {
+  .tab-0 .input {
+    padding-bottom: 33px;
+  }
+}
+
+@media only screen and (min-width: 770px) {
+  .basket__textarea {
+    padding-right: 0 !important;
+  }
 }
 
 .basket-page .container {
@@ -2454,4 +2493,8 @@
 .questions-block .button-wrap button {
   border: none;
   width: auto;
+}
+
+.testimonials__btn {
+  padding: 11px 52px;
 }

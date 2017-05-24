@@ -21,6 +21,14 @@
 		font-weight: 600;
 	}
 }
+.inner-sale {
+	@media only screen and (min-width : 770px) {
+		padding: 36px 0 10px;
+	}
+	@media only screen and (min-width : 1248px) {
+		padding: 36px 0 95px;
+	}
+}
 .google-online{
 	height: 495px;
 	background: #ccc;
@@ -522,6 +530,7 @@
 			@media only screen and (max-width : 770px) {
 				font-size: 12px;
 				line-height: 18px;
+				padding-right: 10px;
 			}
 		}
 		.ul-wrap{
@@ -962,6 +971,7 @@
 		}
 	}
 }
+
 .basket-order{
 	.order__title{
 		font-size: 14px;
@@ -981,11 +991,19 @@
 			float: left;
 			width: 65%;
 		}
+		@media only screen and (min-width : 1200px) {
+			float: left;
+			width: 70%;
+		}
 	}
 	.right{
 		@media only screen and (min-width : 770px) {
 			float: left;
 			width: 35%;
+		}
+		@media only screen and (min-width : 1200px) {
+			float: left;
+			width: 30%;
 		}
 		.input{
 			width: 100%;
@@ -1072,6 +1090,18 @@
 	}
 	.checkbox__label{
 		margin-right: 35px;
+	}
+}
+.tab-0 {
+	.input {
+		@media only screen and (min-width : 768px) {
+			padding-bottom: 33px;
+		}
+	}
+}
+.basket__textarea {
+	@media only screen and (min-width : 770px) {
+		padding-right: 0 !important;
 	}
 }
 .basket-page .container{
@@ -1867,4 +1897,7 @@
 			width: auto;
 		}
 	}
+}
+.testimonials__btn {
+	padding: 11px 52px;
 }

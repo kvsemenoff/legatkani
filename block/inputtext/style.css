@@ -6,7 +6,7 @@
 
 .input__control {
   color: #747474;
-  font-family: "OpenSans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 54px;
@@ -22,7 +22,7 @@
 
 .input__control::-webkit-input-placeholder {
   color: #747474;
-  font-family: "OpenSans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 22px;
@@ -30,7 +30,7 @@
 
 .input__control::-moz-placeholder {
   color: #747474;
-  font-family: "OpenSans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 40px;
@@ -38,7 +38,7 @@
 
 .input__control:-moz-placeholder {
   color: #747474;
-  font-family: "OpenSans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 22px;
@@ -46,15 +46,19 @@
 
 .input__control:-ms-input-placeholder {
   color: #747474;
-  font-family: "OpenSans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 22px;
 }
 
+.input__control::-ms-clear {
+  display: none;
+}
+
 .input__basket {
   color: #000;
-  font-family: "Open Sans", sans-serif;
+  font-family: "OpenSans", sans-serif;
   font-size: 15px;
   font-weight: 400;
   padding: 10px 22px;
@@ -97,4 +101,8 @@
   font-size: 14px;
   font-weight: 400;
   line-height: 22px;
+}
+
+.input__basket::-ms-clear {
+  display: none;
 }
