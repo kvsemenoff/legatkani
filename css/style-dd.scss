@@ -700,8 +700,11 @@
 ===========================*/
 .az-center2{
 	margin-top:3px;
-	margin-bottom:160px;
+	margin-bottom:50px;
 	float: right;
+	@media only screen and (min-width : 992px) {
+		margin-bottom: 136px;
+	}
 	.az-center-txt{
 		float: left;
 		padding-left: 13px;
