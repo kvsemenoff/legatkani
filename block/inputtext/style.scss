@@ -89,5 +89,8 @@
   &::-ms-clear {
      display: none;
   }
+  &:focus {
+    border-color: #000;
+  }
   height: 41px !important;
 }

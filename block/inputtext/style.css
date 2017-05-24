@@ -106,3 +106,7 @@
 .input__basket::-ms-clear {
   display: none;
 }
+
+.input__basket:focus {
+  border-color: #000;
+}
