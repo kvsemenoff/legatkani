@@ -1,3 +1,4 @@
+
 .inner-de{
 	padding: 36px 0 95px;
 	@media only screen and (max-width : 700px) {
@@ -19,6 +20,12 @@
 	}
 	strong{
 		font-weight: 600;
+	}
+}
+.basket-page {
+	padding: 36px 0 150px;
+	@media only screen and (max-width : 770px) {
+		padding: 20px 0 60px 0;
 	}
 }
 .inner-sale {
@@ -257,7 +264,7 @@
 	}
 	.h1_slider-wrap h1{
 		text-align: left;
-	  span{
+		span{
 			text-transform: none;
 			color: #2f2f2f;
 			font-size: 14px;
@@ -486,8 +493,8 @@
 		}
 		&_red{
 			top: 54px;
-  	  right: 59px;
-  	  @media only screen and (max-width : 770px) {
+			right: 59px;
+			@media only screen and (max-width : 770px) {
 				top: 30px;
 				right: 15px;
 			}
@@ -642,7 +649,7 @@
 		&:hover{
 			@media only screen and (min-width : 770px) {
 				&__img-in{
-						z-index: 10;
+					z-index: 10;
 				}
 				img{
 					opacity: 0.3;
@@ -723,6 +730,10 @@
 		padding: 24px 0 25px;
 		background: #f6f6f6;
 		margin-bottom: 3px;
+		height: 110px;
+		@media only screen and (min-width : 500px) {
+			height: auto;
+		}
 		.vertical-middle{
 			padding-top: 110px;
 			float: left;
@@ -732,8 +743,8 @@
 			}
 		}
 		&__img{
-	    width: 265px;
- 		  height: 241px;
+			width: 265px;
+			height: 241px;
 			float: left;
 			position: relative;
 			img{
@@ -800,6 +811,7 @@
 				font-size: 12px;
 				color: #7f2461;
 				cursor: pointer;
+				font-weight: 400;
 			}
 			@media only screen and (max-width : 1199px) {
 				width: 135px;
@@ -812,14 +824,14 @@
 			}
 			@media only screen and (max-width : 500px) {
 				i{
-			    position: absolute;
-			    left: 10%;
-			    bottom: -27px;
-			    display: block;
-			    width: 100%;
-			    font-size: 11px;
-			    z-index: 10;
-			    width: 114px;
+					position: absolute;
+					left: 10%;
+					bottom: -27px;
+					display: block;
+					width: 100%;
+					font-size: 11px;
+					z-index: 10;
+					width: 114px;
 				}
 			}
 		}
@@ -841,7 +853,7 @@
 			}
 		}
 		&__price-all{
-			width: 115px;
+			width: 120px; //115px;
 			@media only screen and (max-width : 685px) {
 				display: none;
 			}
@@ -897,7 +909,7 @@
 				line-height: 32px;
 				font-size: 11px;
 				color: #000;
-				font-weight: 600;
+				font-weight: 400;				
 			}
 		}
 		.item__descr{
@@ -1070,7 +1082,9 @@
 		p{
 			font-size: 13px;
 			color: #525252;
-			padding-bottom: 20px;
+			@media only screen and (max-width : 700px) {
+				padding-bottom: 60px;
+			}
 			a{
 				color: #6b6b6b;
 				text-decoration: underline;
@@ -1831,7 +1845,7 @@
 		}
 		&_delete{
 			padding-top: 14px;
-			 span{
+			span{
 				background: url(../img/close-btn-fiol.png) left center no-repeat;
 			}
 		}
