@@ -4,7 +4,8 @@
   text-align: center;
   overflow: hidden;
   white-space: nowrap;
-  padding: 0 15px; }
+  padding: 0 15px;
+  text-overflow: ellipsis; }
 
 .breadcrumps__link {
   display: inline-block;
@@ -28,14 +29,22 @@
   padding-right: 15px; }
 
 .breadcrumps__link:last-child {
+  display: inline-block;
+  text-align: left;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  width: 50%;
-  text-align: left; }
-  @media only screen and (min-width: 550px) {
+  max-width: 100px; }
+  .breadcrumps__link:last-child span {
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block; }
+  @media only screen and (min-width: 575px) {
     .breadcrumps__link:last-child {
       width: auto;
-      text-align: center; } }
+      text-align: center;
+      max-width: none; } }
 
 /*# sourceMappingURL=style.css.map */
