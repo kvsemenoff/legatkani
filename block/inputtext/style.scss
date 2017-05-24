@@ -3,6 +3,12 @@
   width: 100%;
   background: #fff;
 }
+textarea {
+  &:focus {
+    border-color: #000;
+    color: #000;
+  }
+}
 .input__control{
 	color: #747474;
 	font-family: "Open Sans", sans-serif;
