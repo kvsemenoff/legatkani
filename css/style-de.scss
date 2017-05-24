@@ -765,9 +765,11 @@
 		}
 		&__descr{
 			width: 190px;
-			padding-top: 100px;
 			padding-left: 34px;
 			text-align: left!important;
+			@media only screen and (min-width : 992px) {
+				padding-top: 100px!important;
+			}
 			span{
 				display: block;
 				font-size: 16px;
@@ -801,6 +803,9 @@
 		&__price-one{
 			width: 256px;
 			position: relative;
+			@media only screen and (max-width : 1200px) and (min-width : 992px) {
+				padding-top: 100px!important;
+			}
 			span{
 				display: inline-block;
 			}
@@ -837,6 +842,9 @@
 		}
 		&__quan{
 			width: 100px;
+			@media only screen and (min-width : 992px) {
+				padding-top: 102px!important;
+			}
 			.switch__number{
 				margin: 0 auto;
 			}
@@ -901,15 +909,19 @@
 		.item__img{
 			height: 20px;
 		}
+		.item__descr{
+			padding: 0!important;
+		}
 		.vertical-middle{
-			padding: 0;
+			padding-top: 0!important;
 			text-align: left;
 			span{
 				text-transform: uppercase;
 				line-height: 32px;
 				font-size: 11px;
 				color: #000;
-				font-weight: 400;				
+				font-weight: 600;				
+				letter-spacing: -0.7px;
 			}
 		}
 		.item__descr{
