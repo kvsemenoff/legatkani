@@ -245,7 +245,7 @@
 .basket-order .input { padding-bottom: 20px; padding-right: 0; }
 @media only screen and (min-width: 550px) { .basket-order .input { padding-right: 15px; padding-bottom: 28px; float: left; width: 33.33%; } }
 .basket-order .input textarea { height: 115px; }
-@media only screen and (min-width: 770px) { .basket-order .input .message_big { height: 180px; } }
+@media only screen and (min-width: 770px) { .basket-order .input .message_big { height: 179px; } }
 .basket-order .input_grey input { background: #f8f7f7; box-shadow: none; }
 .basket-order .jq-selectbox__dropdown { top: 41px; }
 .basket-order .form__total { margin-top: -27px; text-align: right; }

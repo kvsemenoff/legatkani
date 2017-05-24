@@ -389,7 +389,7 @@
 													</div>
 												</div>
 												<div class="right">
-													<div class="input input_theme_rosa">
+													<div class="input input_theme_rosa basket__textarea">
 													  <textarea name="message" class="message message_big message_theme_rosa" placeholder="Ваш вопрос"></textarea>
 													</div>
 												</div>
