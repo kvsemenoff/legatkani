@@ -4,8 +4,7 @@
   text-align: center;
   overflow: hidden;
   white-space: nowrap;
-  padding: 0 15px;
-  text-overflow: ellipsis; }
+  padding: 0 15px; }
 
 .breadcrumps__link {
   display: inline-block;
