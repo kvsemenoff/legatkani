@@ -1,64 +1,111 @@
 .header-top {
-  padding: 8px 0 8px 0;
-  .col-xs-6 {
-    padding: 0;
-}
-}
-.header_auth_list {
-  text-align: right;
-  li {
-    display: inline-block;
-    vertical-align: middle;
-    padding: 0 12px 0 0;
-    &:last-child {
-      padding-right: 0;
-      &:after {
-        content: none;
+    padding: 8px 0 8px 0;
+    .col-xs-6 {
+        padding: 0;
     }
 }
-&:after {
-  content: '';
-  width: 0px;
-  display: inline-block;
-  vertical-align: middle;
-  height: 15px;
-  border-right: 1px solid #dfdede;
-  margin-left: 10px;
+.header_auth{
+    text-align: right;
+    display: -webkit-flex;
+    display: flex; 
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 2px;
 }
+.header_auth_item{
+    display: block;
+    position: relative;
 }
+.header_auth_item:after{
+    position: absolute;
+    content: "";
+    width: 0px;
+    display: block;
+    height: 15px;
+    background: #dfdede;
 }
-.header_auth_list_link {
-  color: white;
-  font-family: "Open Sans", sans-serif;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 16px;
-  text-align: center;
-  display: inline-block;
-  vertical-align: middle;
-  &:hover {
-    text-decoration: underline;
-  }
+.header_auth_item:last-child{
+    margin-right: 0px;   
 }
-.signin {
-  color: #7f2461;
-  font-family: "OpenSans", sans-serif;
-  font-size: 14px;
-  font-style: italic;
-  font-weight: 500;
+.header_auth_item:first-child{
+    margin-right: 33px;
 }
-.favourite {
-  width: 24px;
-  height: 21px;
-  background: url('/img/fav.png') 0 0 no-repeat;
-  line-height: 21px;
-  margin-top: 5px;
-  &:hover {
-    text-decoration: none;
-  }
+.header_auth_item:first-child:after{
+    width: 1px;
+    top: 1px;
+    right: -18px;
+}
+.header_auth_item:nth-child(2){
+    margin-right: 35px;
+}
+.header_auth_item:nth-child(2):after{
+    width: 1px;
+    top: 1px;
+    right: -19px;
+}
+.header_auth_item:nth-child(3){
+    margin-right: 35px;
+}
+.header_auth_item:nth-child(3):after{
+    width: 1px;
+    top: 1px;
+    right: -19px;
+}
+.header_auth_item:nth-child(4){
+    margin-right: 35px;
+}
+.header_auth_item:nth-child(4):after{
+    width: 1px;
+    margin-top: -2px;
+    right: -19px;
+}
+.header_auth_item:after{
+    
+}
+.header_auth_item:nth-child(4)::after{
+    top: 5px;
 }
 
-.fav__li {
+.header_auth_item:last-child:after{
+    width: 0px;
+}
+.header_auth_link{
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+    &:hover{
+        text-decoration: none;
+    }
+}
+.signin{
+    display: block;
+    color: #7f2461;
+    font-family: "OpenSans", sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 500;
+}
+.signin:hover{
+    text-decoration: underline;
+}
+.favourite {
+    display:block;
+    width: 24px;
+    height: 21px;
+    background: url('../img/fav.png') no-repeat top center;
+    text-align: center;
+    margin-top: 2px;
+    a{
+        display: inline-block;
+        color: #fff;
+        text-decoration: none;
+    }
+    a:hover{
+        text-decoration: none;
+    }
+}
+
+.fav__li1{
   &:after {
     content: '';
     width: 0px;
@@ -71,27 +118,24 @@
   }
 }
 .basket {
-  width: 30px;
-  height: 24px;
-  background: url('/img/basket.png') 0 0 no-repeat;
-  text-align: center;
-  padding-right: 4px;
-  line-height: 25px;
-  margin-top: 2px;
-  &:hover {
-    text-decoration: none;
-  }
+    display: block;
+    width: 30px;
+    height: 24px;
+    background: url('../img/basket.png') 0 0 no-repeat;
+    text-align: center;
+    a{
+        display: inline-block;
+        margin-left: -4px;
+        margin-top: 4px;
+        color: #fff;
+        text-decoration: none;
+    }
+    a:hover{
+        text-decoration: none;
+    }
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-   .favourite {
-    line-height: 18px;
-   }
-   .basket {
-     line-height: 22px;
-   }
-   .fav__li:after {
-       margin-top: 3px;
-   }
+  
 }
 .authorize {
   &:after {
@@ -99,10 +143,11 @@
   }
 }
 .auth {
-  width: 20px;
-  height: 22px;
-  background: url('/img/auth.png') 0 0 no-repeat;
-  margin-top: 6px;
+    display: block;
+    width: 20px;
+    height: 22px;
+    background: url('../img/auth.png') 0 0 no-repeat;
+  //margin-top: 6px;
 }
 .map_overlay {
   position: absolute;
