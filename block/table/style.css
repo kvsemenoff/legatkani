@@ -83,28 +83,28 @@ q:before, q:after {
   .table__item_main2 {
     background: #fff; }
 
-.table__2 {
+.table__2 .border__left {
+  border-left: 3px solid white; }
+.table__2 .table__item_first {
   display: none; }
-  .table__2 .border__left {
-    border-left: 3px solid white; }
   @media only screen and (min-width: 992px) {
-    .table__2 {
-      display: block; } }
-  @media only screen and (min-width: 1240px) {
-    .table__2 .table__item_first .table__item_txt {
-      width: 40%;
-      padding-right: 20px;
-      text-align: right; } }
-  @media only screen and (min-width: 1240px) {
-    .table__2 .table__item_first .table__item_txt2 {
-      width: 50%;
-      padding-right: 152px; } }
-  @media only screen and (min-width: 1240px) {
-    .table__2 .table__item_main .table__item_main_txt1 {
-      padding-left: 195px; } }
-  @media only screen and (min-width: 1240px) {
-    .table__2 .table__item_main .table__item_main_txt2 {
-      padding-right: 168px; } }
+    .table__2 .table__item_first {
+      display: table; } }
+@media only screen and (min-width: 1240px) {
+  .table__2 .table__item_first .table__item_txt {
+    width: 40%;
+    padding-right: 20px;
+    text-align: right; } }
+@media only screen and (min-width: 1240px) {
+  .table__2 .table__item_first .table__item_txt2 {
+    width: 50%;
+    padding-right: 152px; } }
+@media only screen and (min-width: 1240px) {
+  .table__2 .table__item_main .table__item_main_txt1 {
+    padding-left: 195px; } }
+@media only screen and (min-width: 1240px) {
+  .table__2 .table__item_main .table__item_main_txt2 {
+    padding-right: 168px; } }
 
 @media only screen and (min-width: 992px) {
   .table {

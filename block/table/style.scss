@@ -107,13 +107,19 @@ footer, header, hgroup, menu, nav, section {
 	}
 }
 .table__2{
-	display: none;
+	// display: none;
 	.border__left{
 		border-left: 3px solid white;
 	}
-	@media only screen and (min-width : 992px) {
-		display: block;
+	.table__item_first{
+		display: none;
+		@media only screen and (min-width : 992px) {
+			display: table;
+		}
 	}
+	// @media only screen and (min-width : 992px) {
+	// 	display: block;
+	// }
 	.table__item_first{
 		.table__item_txt{
 			@media only screen and (min-width : 1240px) {
