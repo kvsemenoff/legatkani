@@ -1161,6 +1161,7 @@
 		&__descr{
 			width: 203px;
 			padding-top: 28px!important;
+			
 		}
 		&__price-one{
 			width: 241px;
@@ -1229,6 +1230,11 @@
 		display: none;
 	}
 }
+.itemnameproduct .item__descr:nth-child(2){
+	padding-top: 33px !important;
+}
+
+
 .basket-list .item__descr_top {
 	text-align: center !important;
 	span {

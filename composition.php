@@ -93,7 +93,7 @@
 									<span>Сумма заказа</span>
 								</div>
 							</div>
-							<div class="item clearfix">
+							<div class="item clearfix itemnameproduct">
 								<div class="item__img">
 									<img src="img/tkan.jpg" alt="">
 								</div>
