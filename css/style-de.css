@@ -1296,7 +1296,9 @@
       border-top: 0;
       background: #fff;
       padding: 0 25px;
-      z-index: 1000; }
+      z-index: 1000;
+      height: 522px;
+      overflow-y: scroll; }
     .setting__manager .manager-choose .manager-cart {
       display: block;
       padding: 30px 0 3px; }
