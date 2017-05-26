@@ -10,7 +10,7 @@
 				<div class="js-window" id="js-form1">
 				<span class="modal-close"></span>
 					<h2 class="h3 modal-h3">Обратный звонок</h2>
-					<form action="#" method="post">	
+					<form action="#" method="post">
 						<div class="input input_theme_rosa	qustion-input-margin">
 							<input type="text" class="input__control modal-input" placeholder="Имя" name="uname" required>
 						</div>
@@ -25,7 +25,7 @@
 				<span class="modal-close"></span>
 					<h2 class="h3 modal-h3">подписаться<br>
 						на новости</h2>
-						<form action="#" method="post">	
+						<form action="#" method="post">
 							<div class="input input_theme_rosa	qustion-input-margin">
 								<input type="text" class="input__control modal-input" placeholder="Ваше Имя" name="uname" required>
 							</div>
@@ -39,7 +39,7 @@
 					<div class="js-window" id="js-form3">
 					<span class="modal-close"></span>
 						<h2 class="h3 modal-h3">Авторизация</h2>
-						<form action="#" method="post">	
+						<form action="#" method="post">
 							<div class="input input_theme_rosa	qustion-input-margin">
 								<input type="email" class="input__control modal-input modal-auth" placeholder="Ваш e-mail" name="email" required>
 							</div>
@@ -54,7 +54,7 @@
 					<div class="js-window" id="js-form4">
 					<span class="modal-close"></span>
 						<h2 class="h3 modal-h3">регистрация</h2>
-						<form action="#" method="post">	
+						<form action="#" method="post">
 							<div class="input input_theme_rosa	qustion-input-margin">
 								<input type="text" class="input__control modal-input" placeholder="Фамилия*" name="firstname" required>
 							</div>
@@ -68,10 +68,10 @@
 								<input type="email" class="input__control modal-input" placeholder="E-mail*" name="email" required>
 							</div>
 							<div class="input input_theme_rosa	qustion-input-margin">
-								<input type="tel" class="input__control modal-input" placeholder="+7(___)___-__-__" name="phone" required>
+								<input type="tel" class="input__control modal-input js-phone" placeholder="+7(___)___-__-__" name="phone" required>
 							</div>
 							<div class="input">
-							<select class="form-select input__control qustion-input-margin modal-input-select modal-align" 
+							<select class="form-select input__control qustion-input-margin modal-input-select modal-align"
 							id="type">
 									<option value="">Город доставки</option>
 									<option value="">Москва</option>

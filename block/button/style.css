@@ -73,6 +73,10 @@
   padding: 11px 27px;
 }
 
+.button__basket_sub:active, .button__basket_sub:focus {
+  outline: none !important;
+}
+
 .button__basket_sub_txt {
   background: none;
   padding: 0;

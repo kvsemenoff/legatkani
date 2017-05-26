@@ -63,6 +63,9 @@
 	}
 	&_sub{
 		padding: 11px 27px;
+		&:active, &:focus {
+			outline: none !important;
+		}
 		&_txt{
 			background:none;
 			padding: 0;
