@@ -33,13 +33,16 @@
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  max-width: 100px; }
+  max-width: 50px; }
   .breadcrumps__link:last-child span {
     width: 100%;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
     display: inline-block; }
+  @media only screen and (min-width: 350px) {
+    .breadcrumps__link:last-child {
+      max-width: 100px; } }
   @media only screen and (min-width: 575px) {
     .breadcrumps__link:last-child {
       width: auto;
