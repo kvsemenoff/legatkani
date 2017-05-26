@@ -24,7 +24,6 @@
 @media only screen and (min-width: 770px) {
   .inner-sale {
     padding: 36px 0 10px; } }
-
 @media only screen and (min-width: 1248px) {
   .inner-sale {
     padding: 36px 0 95px; } }
@@ -379,8 +378,7 @@
       position: absolute;
       width: 340px;
       height: 340px;
-      -webkit-border-radius: 50%;
-              border-radius: 50%;
+      border-radius: 50%;
       right: -70px;
       top: 50%;
       margin-top: -170px;
@@ -505,7 +503,6 @@
     right: 0; }
     .news__img-in::before, .news__img-in::after {
       content: "";
-      -webkit-transition: 0.3s all ease;
       transition: 0.3s all ease;
       position: absolute;
       bottom: 15px;
@@ -535,7 +532,6 @@
       width: 100%;
       height: auto;
       min-height: 100%;
-      -webkit-transition: 0.1s all ease;
       transition: 0.1s all ease; }
     .news__img span {
       display: block;
@@ -547,7 +543,6 @@
       font-size: 20px;
       color: transparent;
       font-style: italic;
-      -webkit-transition: 0.3s all ease;
       transition: 0.3s all ease; }
     .news__img::before {
       content: "";
@@ -852,41 +847,34 @@
   color: #000;
   padding-bottom: 36px;
   font-weight: 600; }
-
 .basket-order .tabs {
   padding-bottom: 50px; }
-
 .basket-order .tab {
   display: block;
-  float: left; }
-
+  float: left;
+  margin-right: 35px; }
 @media only screen and (min-width: 770px) {
   .basket-order .left {
     float: left;
     width: 65%; } }
-
 @media only screen and (min-width: 1200px) {
   .basket-order .left {
     float: left;
     width: 70%; } }
-
 @media only screen and (min-width: 770px) {
   .basket-order .right {
     float: left;
     width: 35%; } }
-
 @media only screen and (min-width: 1200px) {
   .basket-order .right {
     float: left;
     width: 30%; } }
-
 .basket-order .right .input {
   width: 100%;
   float: none; }
   @media only screen and (min-width: 550px) {
     .basket-order .right .input {
       max-width: 350px; } }
-
 .basket-order .input {
   padding-bottom: 20px;
   padding-right: 0; }
@@ -903,12 +891,9 @@
       height: 179px; } }
   .basket-order .input_grey input {
     background: #f8f7f7;
-    -webkit-box-shadow: none;
-            box-shadow: none; }
-
+    box-shadow: none; }
 .basket-order .jq-selectbox__dropdown {
   top: 41px; }
-
 .basket-order .form__total {
   margin-top: -27px;
   text-align: right; }
@@ -932,7 +917,6 @@
       padding: 35px 0 60px; }
       .basket-order .form__total i {
         padding-left: 7px; } }
-
 .basket-order .form__info p {
   font-size: 13px;
   color: #525252; }
@@ -951,9 +935,8 @@
       .basket-order .form__info p .rb-wrap {
         display: inline-block;
         margin-left: 25px; } }
-
 .basket-order .checkbox__label {
-  margin-right: 35px; }
+  margin-right: 0px; }
 
 @media only screen and (min-width: 768px) {
   .tab-0 .input {
@@ -1029,7 +1012,6 @@
         width: 120px; }
       .basket-list_composition .item__price-order {
         width: 120px; } }
-
 @media only screen and (max-width: 685px) {
   .basket-list_composition {
     display: none; } }
@@ -1093,7 +1075,6 @@
   @media only screen and (min-width: 550px) {
     .composition-in .manager {
       float: right; } }
-
 .composition-in .composition-order {
   margin-top: -8px; }
   .composition-in .composition-order .order__back {
@@ -1112,9 +1093,7 @@
       height: 5px;
       margin-right: 2px;
       display: inline-block;
-      -webkit-transform: rotate(180deg);
-          -ms-transform: rotate(180deg);
-              transform: rotate(180deg);
+      transform: rotate(180deg);
       background: url(../img/home.png); }
   .composition-in .composition-order .order__line {
     color: #525252; }
@@ -1157,21 +1136,18 @@
   @media only screen and (max-width: 770px) {
     .main-page .user__name {
       font-size: 24px; } }
-
 .main-page .main__links {
   margin-top: 20px;
   margin-bottom: 20px; }
   @media only screen and (min-width: 992px) {
     .main-page .main__links {
       float: left; } }
-
 .main-page .main__link {
   margin-top: 5px;
   margin-right: 1px;
   text-transform: uppercase;
   text-align: center;
   background: #f2f2f2;
-  -webkit-transition: 0.3s all ease;
   transition: 0.3s all ease;
   display: inline-block; }
   .main-page .main__link span {
@@ -1207,7 +1183,6 @@
       border-right: 3px solid #fff; }
       .main-page .main__link span {
         padding: 0; } }
-
 .main-page .manager {
   display: none; }
   @media only screen and (min-width: 992px) {
@@ -1215,10 +1190,8 @@
       float: right;
       display: block;
       margin-top: 10px; } }
-
 .main-page .showprice__wrap {
   padding-bottom: 40px; }
-
 .main-page .form__info .checkbox__label {
   margin-right: 20px; }
 
@@ -1311,9 +1284,7 @@
         top: 50%;
         right: 0; }
       .setting__manager .manager-choose .choose__btn.active::before {
-        -webkit-transform: rotate(180deg);
-            -ms-transform: rotate(180deg);
-                transform: rotate(180deg); }
+        transform: rotate(180deg); }
     .setting__manager .manager-choose .managers-block {
       display: none;
       padding-bottom: 47px;
@@ -1452,11 +1423,9 @@
     @media only screen and (max-width: 500px) {
       .order__table .table-row .table-cell:nth-child(2), .order__table .table-row .table-cell:nth-child(3), .order__table .table-row .table-cell:nth-child(5) {
         display: none; } }
-
 @media only screen and (max-width: 770px) {
   .order__table .table-row_title {
     display: none; } }
-
 .order__table .table-row_title .table-cell {
   text-transform: uppercase;
   text-align: center;
@@ -1467,7 +1436,6 @@
   @media only screen and (max-width: 992px) {
     .order__table .table-row_title .table-cell {
       font-size: 9px; } }
-
 .order__table .table-row_grey {
   display: table; }
   .order__table .table-row_grey .table-cell {
@@ -1498,7 +1466,6 @@
     .tab-content__title {
       font-size: 14px;
       padding-bottom: 15px; } }
-
 .tab-content .manager-middle {
   display: block !important;
   float: none;
@@ -1628,3 +1595,5 @@
 
 .testimonials__btn {
   padding: 11px 52px; }
+
+/*# sourceMappingURL=style-de.css.map */

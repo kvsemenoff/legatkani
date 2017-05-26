@@ -1009,6 +1009,7 @@
 	.tab{
 		display: block;
 		float: left;
+		margin-right: 35px;
 	}
 	.left{
 		@media only screen and (min-width : 770px) {
@@ -1115,7 +1116,7 @@
 		}
 	}
 	.checkbox__label{
-		margin-right: 35px;
+		margin-right: 0px;
 	}
 }
 .tab-0 {
