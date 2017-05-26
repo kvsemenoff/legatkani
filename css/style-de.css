@@ -653,9 +653,6 @@
       width: 190px;
       padding-left: 34px;
       text-align: left !important; }
-      @media only screen and (min-width: 992px) {
-        .basket-list .item__descr {
-          padding-top: 100px !important; } }
       .basket-list .item__descr span {
         display: block;
         font-size: 16px;
@@ -684,9 +681,6 @@
     .basket-list .item__price-one {
       width: 256px;
       position: relative; }
-      @media only screen and (max-width: 1200px) and (min-width: 992px) {
-        .basket-list .item__price-one {
-          padding-top: 100px !important; } }
       .basket-list .item__price-one span {
         display: inline-block; }
       .basket-list .item__price-one i {
@@ -1039,7 +1033,7 @@
     float: left;
     border-right: 3px solid #fff;
     text-align: center;
-    height: 75px;
+    height: 110px;
     padding-top: 35px; }
     .basket-list_composition-mini .item__mob span {
       color: #525252;

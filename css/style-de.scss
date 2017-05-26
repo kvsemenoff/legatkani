@@ -768,7 +768,7 @@
 			padding-left: 34px;
 			text-align: left!important;
 			@media only screen and (min-width : 992px) {
-				padding-top: 100px!important;
+				// padding-top: 100px!important;
 			}
 			span{
 				display: block;
@@ -804,7 +804,7 @@
 			width: 256px;
 			position: relative;
 			@media only screen and (max-width : 1200px) and (min-width : 992px) {
-				padding-top: 100px!important;
+				// padding-top: 100px!important;
 			}
 			span{
 				display: inline-block;
@@ -1255,7 +1255,7 @@
 		float: left;
 		border-right: 3px solid #fff;
 		text-align: center;
-		height: 75px;
+		height: 110px;
 		padding-top: 35px;
 		span{
 			color: #525252;
