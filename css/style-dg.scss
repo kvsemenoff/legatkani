@@ -90,6 +90,7 @@
 }
 .favourite {
     display:block;
+    flex-shrink: 0;
     width: 24px;
     height: 21px;
     background: url('../img/fav.png') no-repeat top center;
@@ -119,6 +120,7 @@
 }
 .basket {
     display: block;
+    flex-shrink: 0;
     width: 30px;
     height: 24px;
     background: url('../img/basket.png') 0 0 no-repeat;
@@ -146,8 +148,9 @@
     display: block;
     width: 20px;
     height: 22px;
+    flex-shrink: 0;
     background: url('../img/auth.png') 0 0 no-repeat;
-  //margin-top: 6px;
+    margin-top: 2px;
 }
 .map_overlay {
   position: absolute;
