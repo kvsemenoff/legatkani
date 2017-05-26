@@ -9,8 +9,7 @@
   position: relative;
   width: 15px;
   height: 15px;
-  border: 0.48px solid #cfcfcf;
-  background: none;
+  background: url(../../img/el.png) no-repeat;
   border-radius: 10em;
   margin-top: 0px;
   cursor: pointer;
