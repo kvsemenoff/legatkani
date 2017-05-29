@@ -32,7 +32,7 @@
 }
 .header_auth_item:first-child:after{
     width: 1px;
-    top: 1px;
+    top: 2px;
     right: -18px;
 }
 .header_auth_item:nth-child(2){
@@ -40,7 +40,7 @@
 }
 .header_auth_item:nth-child(2):after{
     width: 1px;
-    top: 1px;
+    top: 2px;
     right: -19px;
 }
 .header_auth_item:nth-child(3){
@@ -56,14 +56,11 @@
 }
 .header_auth_item:nth-child(4):after{
     width: 1px;
-    margin-top: -2px;
-    right: -19px;
+    top: 3px;
+    right: -17px;
 }
 .header_auth_item:after{
     
-}
-.header_auth_item:nth-child(4)::after{
-    top: 5px;
 }
 
 .header_auth_item:last-child:after{
