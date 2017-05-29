@@ -7,7 +7,7 @@
 .header_auth{
     text-align: right;
     display: -webkit-flex;
-    display: flex; 
+    display: flex;
     justify-content: flex-end;
     align-items: center;
     padding-top: 2px;
@@ -25,7 +25,7 @@
     background: #dfdede;
 }
 .header_auth_item:last-child{
-    margin-right: 0px;   
+    margin-right: 0px;
 }
 .header_auth_item:first-child{
     margin-right: 33px;
@@ -60,7 +60,7 @@
     right: -17px;
 }
 .header_auth_item:after{
-    
+
 }
 
 .header_auth_item:last-child:after{
@@ -102,6 +102,9 @@
         color: #fff;
         text-decoration: none;
         margin-top: 1px;
+        @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+            margin-top: 2px;
+        }
     }
     a:hover{
         text-decoration: none;
@@ -139,7 +142,7 @@
     }
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  
+
 }
 .authorize {
   &:after {
