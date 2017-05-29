@@ -1,16 +1,18 @@
 .no-padding{
-	padding-left: 0;
+	@media only screen and (max-width : 767px) {
+		padding-left: 0;
+	}
 	padding-right: 0;
 	position: relative;
-	width: 100%;	
+	width: 100%;
 	@media only screen and (min-width : 800px) {
 		padding-left: 30px;
 	}
 	@media only screen and (min-width : 992px) {
-		width:970px; 
+		width:970px;
 	}
 	@media only screen and (min-width : 1200px) {
-		width:1170px; 
+		width:1170px;
 		padding-left: 15px;
 		padding-right: 15px;
 	}
@@ -28,7 +30,7 @@
 	}
 	background:url(../img/hbg.jpg) no-repeat top center;
 	background-size:cover;
-	border-bottom: 1px solid #c3b68a; 
+	border-bottom: 1px solid #c3b68a;
 }
 .burger{
 	position: absolute;
@@ -76,7 +78,7 @@
 		}
 	}
 	&__box3{
-		padding-left: 7px;		
+		padding-left: 7px;
 		padding-top: 26px;
 		@media only screen and (min-width : 320px) {
 			// padding-left: 38px;
@@ -115,7 +117,7 @@
 		&__box3{
 			float: left;
 			width: 25%;
-			
+
 			@media only screen and (min-width : 992px) {
 				width: 30%;
 				padding-top: 41px;
@@ -451,13 +453,13 @@
 					background:#F2F2F2 url(../../img/strs.png) no-repeat left 8px center;
 				}
 			}
-		}	
+		}
 	}
 	&__ul{
 		@media only screen and (min-width : 768px) {
 			text-align: left;
-			-webkit-column-count: 4; 
-			-moz-column-count: 4; 
+			-webkit-column-count: 4;
+			-moz-column-count: 4;
 			column-count: 4;
 		}
 	}
