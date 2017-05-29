@@ -983,8 +983,9 @@ a:active, a:focus{
 		}
 	}
 	.tovar_item{
-		width: 275px;
-		min-height: 414px;
+		// width: 275px;
+		width: 100%;
+		min-height: 414px;		
 		@media only screen and (min-width : 800px) {			
 			width: 100%;
 			min-height: auto;
@@ -993,11 +994,14 @@ a:active, a:focus{
 	@media only screen and (min-width : 400px) {
 		margin-right: 19px;
 	}
+	@media only screen and (min-width : 768px) {
+		width: 33%;
+		margin-right: 0px;
+	}
 	@media only screen and (min-width : 800px) {
 		max-width: 100%;
 		width: 100%;
-		margin-bottom: 15px;
-		margin-right: 0px;
+		margin-bottom: 15px;		
 	}
 }
 
