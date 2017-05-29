@@ -96,10 +96,15 @@
     background: url('../img/fav.png') no-repeat top center;
     text-align: center;
     margin-top: 2px;
+    position: relative;
     a{
         display: inline-block;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, 0);
         color: #fff;
         text-decoration: none;
+        margin-top: 1px;
     }
     a:hover{
         text-decoration: none;

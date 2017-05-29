@@ -89,11 +89,16 @@
   height: 21px;
   background: url("../img/fav.png") no-repeat top center;
   text-align: center;
-  margin-top: 2px; }
+  margin-top: 2px;
+  position: relative; }
   .favourite a {
     display: inline-block;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
     color: #fff;
-    text-decoration: none; }
+    text-decoration: none;
+    margin-top: 1px; }
   .favourite a:hover {
     text-decoration: none; }
 
