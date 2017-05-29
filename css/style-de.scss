@@ -387,22 +387,25 @@
 	}
 }
 .sale-row{
-	@media only screen and (min-width : 770px) {
-		margin: 0 -11px;
+	@media only screen and (min-width : 768px) {
+		margin: 0 -2px;
 		padding-bottom: 45px;
+	}
+	@media only screen and (min-width : 790px) {
+		margin: 0 -11px;
 	}
 }
 .sale{
 	float: left;
 	width: 50%;
 	padding: 0;
-	@media only screen and (max-width : 770px) {
+	@media only screen and (max-width : 768px) {
 		width: 100%;
 		float: none;
 		margin: 0 auto 30px;
 		max-width: 400px;
 	}
-	@media screen and (min-width: 771px) {
+	@media screen and (min-width: 768px) {
 		padding: 0 11px;
 	}
 	.sale__img{
@@ -414,7 +417,7 @@
 		@media only screen and (max-width : 1000px) {
 			height: 200px;
 		}
-		@media only screen and (max-width : 770px) {
+		@media only screen and (max-width : 768px) {
 			height: 140px;
 		}
 		img{
@@ -453,7 +456,7 @@
 			@media only screen and (max-width : 1000px) {
 				right: -100px;
 			}
-			@media only screen and (max-width : 770px) {
+			@media only screen and (max-width : 768px) {
 				display: none;
 			}
 		}
@@ -473,7 +476,7 @@
 			@media only screen and (max-width : 1000px) {
 				font-size: 24px;
 			}
-			@media only screen and (max-width : 770px) {
+			@media only screen and (max-width : 768px) {
 				font-size: 18px;
 			}
 		}
@@ -483,18 +486,18 @@
 			color: #181818;
 			font-size: 15px;
 			text-align: right;
-			@media only screen and (max-width : 770px) {
+			@media only screen and (max-width : 768px) {
 				font-size: 11px;
 			}
 		}
-		@media only screen and (max-width : 770px) {
+		@media only screen and (max-width : 768px) {
 			top: 45px;
 			right: 15px;
 		}
 		&_red{
 			top: 54px;
 			right: 59px;
-			@media only screen and (max-width : 770px) {
+			@media only screen and (max-width : 768px) {
 				top: 30px;
 				right: 15px;
 			}
@@ -505,7 +508,7 @@
 		&_white{
 			right: 35px;
 			top: 78px;
-			@media only screen and (max-width : 770px) {
+			@media only screen and (max-width : 768px) {
 				top: 45px;
 				right: 15px;
 			}
@@ -516,7 +519,7 @@
 	}
 	.sale__text{
 		padding: 26px 0 0 10px;
-		@media only screen and (max-width : 770px) {
+		@media only screen and (max-width : 768px) {
 			padding: 13px 10px 0;
 		}
 		span{
@@ -526,7 +529,7 @@
 			font-size: 16px;
 			color: #525252;
 			padding-bottom: 5px;
-			@media only screen and (max-width : 770px) {
+			@media only screen and (max-width : 768px) {
 				font-size: 14px;
 			}
 		}
@@ -534,14 +537,14 @@
 			color: #6b6b6b;
 			line-height: 25px;
 			font-size: 14px;
-			@media only screen and (max-width : 770px) {
+			@media only screen and (max-width : 768px) {
 				font-size: 12px;
 				line-height: 18px;
 				padding-right: 10px;
 			}
 		}
 		.ul-wrap{
-			@media only screen and (max-width : 770px) {
+			@media only screen and (max-width : 768px) {
 				display: none;
 			}
 		}
@@ -1572,7 +1575,7 @@
 			padding: 0 25px;
 			z-index: 1000;
 			height: 522px;
-    		overflow-y: scroll;
+			overflow-y: scroll;
 		}
 		.manager-cart{
 			display: block;
