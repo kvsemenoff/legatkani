@@ -287,9 +287,9 @@ gulp.task('browser-sync', function() {
 gulp.task('scripts_to_minify', function(){
 	var fileContent = fs.readFileSync("product/js/scripts.min.js", "utf8");
 
-  gulp.src('product/includes/footer.php')
+  gulp.src(['product/includes/footer.php', 'product/includes/footer-main.php'])
 
-    .pipe(replace(new RegExp('<!-- scripts start -->(.|[\r|\n])*?<!-- scripts end -->', 'g'), function() { return '<script>\r\n'+fileContent+'\r\n</script>' } ))
+    .pipe(replace(new RegExp('<!-- scripts start -->(.|[\r|\n])*?<!-- scripts end -->', 'gm'), function() { return '<script>\r\n'+fileContent+'\r\n</script>' } ))
     .pipe(gulp.dest('product/includes/'));
 });
 

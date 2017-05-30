@@ -51,7 +51,9 @@
 </div>
 <div class="footer__line footer__line__page">
 </div>
-<!-- JS_BLOCK -->
+
+<script src="https://api-maps.yandex.ru/2.1/?lang=tr_TR" type="text/javascript"></script>
+<!-- scripts start -->
 <script src="libs/jquery/jquery-1.11.1.min.js"></script>
 <script src="libs/owl.carousel/owl.carousel.js"></script>
 <script src="libs/fancybox/jquery.fancybox.pack.js"></script>
@@ -60,5 +62,5 @@
 <script src="js/fonts.js"></script>
 <script src="js/common.js"></script>
 <script src="js/cart.js"></script>
-<script src="https://api-maps.yandex.ru/2.1/?lang=tr_TR" type="text/javascript"></script>
 <script src="js/script-dg.js"></script>
+<!-- scripts end -->
